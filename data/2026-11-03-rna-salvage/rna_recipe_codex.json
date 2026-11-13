@@ -1,0 +1,21 @@
+{
+  "author": "codex",
+  "date": "2026-11-03",
+  "accessions": [
+    "NR_145819.1",
+    "NR_023374.1"
+  ],
+  "lengths_nt": [
+    13351,
+    1869,
+    5223,
+    121,
+    0,
+    0,
+    1869,
+    5344
+  ],
+  "spacers_nt": 6259,
+  "provenance": "Selected RefSeq sequence lengths, not a measured neuronal rate or universal rDNA allele. Existing pre47S state treated as effective pre-rRNA unit of NR_145819.1, named45S by RefSeq; earliest47S cleavage/end differences unresolved. All four base classes pooled; chemical modifications omitted.",
+  "sha256": "8e73c20e6fda13f12e14fcb8a6147b58977dcdcd56035d1c878de244949d3288"
+}

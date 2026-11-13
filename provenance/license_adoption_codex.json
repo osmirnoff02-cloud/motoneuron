@@ -1,0 +1,13 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "version": "0.1.1-prepublication",
+  "owner_authorization": "User explicitly selected AGPLv3 and approved the previously proposed mission; requested local folder and archive update without publication.",
+  "spdx": "AGPL-3.0-only",
+  "license_source": "https://www.gnu.org/licenses/agpl-3.0.txt",
+  "license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+  "license_bytes": 34523,
+  "mission_is_additional_license_condition": false,
+  "human_rightsholder_name": "Not yet provided; no identity inferred.",
+  "published": false
+}

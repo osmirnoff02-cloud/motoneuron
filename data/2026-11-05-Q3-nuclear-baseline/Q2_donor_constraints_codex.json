@@ -1,0 +1,10 @@
+{
+  "source": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace_codex.npz",
+  "sha256": "8e889c6d5cbebe4b5931566a9d082d709e2bc5c3ab317cd637c67a969ff78016",
+  "healthy_human_calibrated": false,
+  "source_differential_KCNQ_conductance_nS": 0.0,
+  "nuclear_fraction": 0.6733782240461704,
+  "initial_free40": 0.9831076049313244,
+  "final_free40": 0.7366731519257326,
+  "derived_initiation_gain": 1.3345234618112376
+}

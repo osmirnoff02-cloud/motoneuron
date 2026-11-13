@@ -1,0 +1,223 @@
+{
+  "author": "codex",
+  "date": "2026-11-13",
+  "rows": [
+    {
+      "source": "J13_load36_C05_repeated_0.001_checkpoint_codex.json",
+      "candidate": "C05",
+      "compartments": [
+        {
+          "compartment": "soma",
+          "K_delta_uM": -1078.6272583324171,
+          "Na_delta_uM": 7.930750763769538,
+          "Cl_delta_uM": 119.51837659148259,
+          "monovalent_charge_delta_uM": -1190.2148841601302,
+          "stored_Ca_charge_delta_mobile_uM": 1.3370430658521921,
+          "excess_PMCA_Ca_export_mobile_uM": 594.47769190096,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 1188.95538380192,
+          "capacitive_charge_delta_mobile_uM": 0.06911087552233669,
+          "residual_without_countercharge_uM": -1188.9469519698002,
+          "residual_with_hypothetical_countercharge_uM": 0.008431832119787097,
+          "axial_Ca_charge_bookkeeping_correction_uM": -0.008431834308783703,
+          "residual_with_countercharge_and_axial_Ca_uM": -2.1889966055066434e-09,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        },
+        {
+          "compartment": "process",
+          "K_delta_uM": -1243.5163128988352,
+          "Na_delta_uM": 4.234695868943163,
+          "Cl_delta_uM": 120.42564005373242,
+          "monovalent_charge_delta_uM": -1359.7072570836244,
+          "stored_Ca_charge_delta_mobile_uM": 0.0005574174008620738,
+          "excess_PMCA_Ca_export_mobile_uM": 679.8434138435215,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 1359.686827687043,
+          "capacitive_charge_delta_mobile_uM": 0.22102911407081002,
+          "residual_without_countercharge_uM": -1359.9277287802945,
+          "residual_with_hypothetical_countercharge_uM": -0.24090109325141704,
+          "axial_Ca_charge_bookkeeping_correction_uM": 0.24090108745277738,
+          "residual_with_countercharge_and_axial_Ca_uM": -5.798639651777293e-09,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        }
+      ],
+      "weighted_residual_without_uM": -1194.7291068888842,
+      "weighted_residual_with_countercharge_uM": -2.3110659714764074e-09
+    },
+    {
+      "source": "J13_load36_C08_continuous_0.0001_checkpoint_codex.json",
+      "candidate": "C08",
+      "compartments": [
+        {
+          "compartment": "soma",
+          "K_delta_uM": -74.77124022261705,
+          "Na_delta_uM": 0.2231686551385792,
+          "Cl_delta_uM": 7.321015220815752,
+          "monovalent_charge_delta_uM": -81.86908678829423,
+          "stored_Ca_charge_delta_mobile_uM": 0.07343618998553153,
+          "excess_PMCA_Ca_export_mobile_uM": 40.90158401327789,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 81.80316802655578,
+          "capacitive_charge_delta_mobile_uM": 0.004251941105419094,
+          "residual_without_countercharge_uM": -81.79990253941412,
+          "residual_with_hypothetical_countercharge_uM": 0.0032654871416649186,
+          "axial_Ca_charge_bookkeeping_correction_uM": -0.003265485651712531,
+          "residual_with_countercharge_and_axial_Ca_uM": 1.4899523875962217e-09,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        },
+        {
+          "compartment": "process",
+          "K_delta_uM": -120.13109469105257,
+          "Na_delta_uM": -0.5521458143557538,
+          "Cl_delta_uM": 7.569182818515401,
+          "monovalent_charge_delta_uM": -128.25242332392372,
+          "stored_Ca_charge_delta_mobile_uM": 2.940165421662968e-05,
+          "excess_PMCA_Ca_export_mobile_uM": 64.08652573833237,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 128.17305147666474,
+          "capacitive_charge_delta_mobile_uM": 0.013953865677060523,
+          "residual_without_countercharge_uM": -128.26634778794656,
+          "residual_with_hypothetical_countercharge_uM": -0.09329631128182653,
+          "axial_Ca_charge_bookkeeping_correction_uM": 0.09329631201831175,
+          "residual_with_countercharge_and_axial_Ca_uM": 7.364852200320016e-10,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        }
+      ],
+      "weighted_residual_without_uM": -83.37128494846668,
+      "weighted_residual_with_countercharge_uM": 1.4644719564011072e-09
+    },
+    {
+      "source": "J13_load36_C08_continuous_0.001_checkpoint_codex.json",
+      "candidate": "C08",
+      "compartments": [
+        {
+          "compartment": "soma",
+          "K_delta_uM": -764.8132672913198,
+          "Na_delta_uM": 2.4163739203813748,
+          "Cl_delta_uM": 75.66840814905845,
+          "monovalent_charge_delta_uM": -838.0653015199969,
+          "stored_Ca_charge_delta_mobile_uM": 0.7598703062118729,
+          "excess_PMCA_Ca_export_mobile_uM": 418.6891439755709,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 837.3782879511418,
+          "capacitive_charge_delta_mobile_uM": 0.043830720025242076,
+          "residual_without_countercharge_uM": -837.3492619338102,
+          "residual_with_hypothetical_countercharge_uM": 0.02902601733155913,
+          "axial_Ca_charge_bookkeeping_correction_uM": -0.029026017967160072,
+          "residual_with_countercharge_and_axial_Ca_uM": -6.356009434049792e-10,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        },
+        {
+          "compartment": "process",
+          "K_delta_uM": -1205.7529805508675,
+          "Na_delta_uM": -5.1053525907227595,
+          "Cl_delta_uM": 78.09548723227817,
+          "monovalent_charge_delta_uM": -1288.9538203738684,
+          "stored_Ca_charge_delta_mobile_uM": 0.00028655680085709005,
+          "excess_PMCA_Ca_export_mobile_uM": 644.1339120436935,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 1288.267824087387,
+          "capacitive_charge_delta_mobile_uM": 0.14357593354591378,
+          "residual_without_countercharge_uM": -1289.0971097506135,
+          "residual_with_hypothetical_countercharge_uM": -0.8292856632265525,
+          "axial_Ca_charge_bookkeeping_correction_uM": 0.8292856615349424,
+          "residual_with_countercharge_and_axial_Ca_uM": -1.691610074239236e-09,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        }
+      ],
+      "weighted_residual_without_uM": -852.6262778017089,
+      "weighted_residual_with_countercharge_uM": -6.713126082507706e-10
+    },
+    {
+      "source": "J13_load36_C08_repeated_0.0001_checkpoint_codex.json",
+      "candidate": "C08",
+      "compartments": [
+        {
+          "compartment": "soma",
+          "K_delta_uM": -69.68268002002151,
+          "Na_delta_uM": 0.2230435204692185,
+          "Cl_delta_uM": 6.887651879562327,
+          "monovalent_charge_delta_uM": -76.34728837911462,
+          "stored_Ca_charge_delta_mobile_uM": 0.06953973034193864,
+          "excess_PMCA_Ca_export_mobile_uM": 38.142684881953755,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 76.28536976390751,
+          "capacitive_charge_delta_mobile_uM": 0.004000320624041792,
+          "residual_without_countercharge_uM": -76.28174896939672,
+          "residual_with_hypothetical_countercharge_uM": 0.003620794510797082,
+          "axial_Ca_charge_bookkeeping_correction_uM": -0.0036207943582465293,
+          "residual_with_countercharge_and_axial_Ca_uM": 1.5255055248533655e-10,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        },
+        {
+          "compartment": "process",
+          "K_delta_uM": -119.81083614579984,
+          "Na_delta_uM": -0.6343599751053262,
+          "Cl_delta_uM": 7.161792023938688,
+          "monovalent_charge_delta_uM": -127.60698814484385,
+          "stored_Ca_charge_delta_mobile_uM": 2.5993111207713302e-05,
+          "excess_PMCA_Ca_export_mobile_uM": 63.75835878392645,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 127.5167175678529,
+          "capacitive_charge_delta_mobile_uM": 0.013203045896513164,
+          "residual_without_countercharge_uM": -127.62016519762916,
+          "residual_with_hypothetical_countercharge_uM": -0.10344762977626504,
+          "axial_Ca_charge_bookkeeping_correction_uM": 0.10344763267416403,
+          "residual_with_countercharge_and_axial_Ca_uM": 2.897898990217307e-09,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        }
+      ],
+      "weighted_residual_without_uM": -78.01788961321346,
+      "weighted_residual_with_countercharge_uM": 2.4539157384784634e-10
+    },
+    {
+      "source": "J13_load36_C08_repeated_0.001_checkpoint_codex.json",
+      "candidate": "C08",
+      "compartments": [
+        {
+          "compartment": "soma",
+          "K_delta_uM": -711.3342838288227,
+          "Na_delta_uM": 2.393517675818657,
+          "Cl_delta_uM": 70.99776061985722,
+          "monovalent_charge_delta_uM": -779.9385267728612,
+          "stored_Ca_charge_delta_mobile_uM": 0.7174744878611814,
+          "excess_PMCA_Ca_export_mobile_uM": 389.64746373239905,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 779.2949274647981,
+          "capacitive_charge_delta_mobile_uM": 0.04113273382063831,
+          "residual_without_countercharge_uM": -779.2621850188207,
+          "residual_with_hypothetical_countercharge_uM": 0.03274244597741294,
+          "axial_Ca_charge_bookkeeping_correction_uM": -0.03274244748108879,
+          "residual_with_countercharge_and_axial_Ca_uM": -1.5036758505004855e-09,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        },
+        {
+          "compartment": "process",
+          "K_delta_uM": -1202.2588702326466,
+          "Na_delta_uM": -5.988230421295157,
+          "Cl_delta_uM": 73.69776241309955,
+          "monovalent_charge_delta_uM": -1281.9448630670413,
+          "stored_Ca_charge_delta_mobile_uM": 0.0002499437319812878,
+          "excess_PMCA_Ca_export_mobile_uM": 640.5723307257499,
+          "hypothetical_2H_per_Ca_countercharge_mobile_uM": 1281.1446614514998,
+          "capacitive_charge_delta_mobile_uM": 0.13551396038217753,
+          "residual_without_countercharge_uM": -1282.0801270836917,
+          "residual_with_hypothetical_countercharge_uM": -0.9354656321917723,
+          "axial_Ca_charge_bookkeeping_correction_uM": 0.9354656312260418,
+          "residual_with_countercharge_and_axial_Ca_uM": -9.65730495572359e-10,
+          "explicit_warning": "Untracked proton-equivalent flux, not free H concentration or inferred pH. Other missing charge species/fluxes are not ruled out."
+        }
+      ],
+      "weighted_residual_without_uM": -796.2662675323566,
+      "weighted_residual_with_countercharge_uM": -1.4854838439560484e-09
+    }
+  ],
+  "status": "Diagnostic only; no numerical trajectory changed. PMCA H countertransport and acid extrusion are not dynamically represented in this ion block.",
+  "interpretation": "A near match identifies missing bookkeeping/physiology, not proof that an electrogenic PMCA current should be added. Electroneutral PMCA needs explicit H-equivalent balance and a separately justified acid-recovery route.",
+  "sources": [
+    {
+      "title": "The plasma membrane calcium ATPase (PMCA) of neurones is electroneutral and exchanges 2 H+ for each Ca2+ or Ba2+ ion extruded",
+      "doi": "10.1113/jphysiol.2008.162453",
+      "system": "Voltage-clamped snail neurons, 18-22 C; not human iPSC-MNs",
+      "read": "Publisher HTML methods/results/discussion",
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/jphysiol.2008.162453"
+    },
+    {
+      "title": "Ca2+ transport by reconstituted synaptosomal ATPase is associated with H+ countertransport and net charge displacement",
+      "doi": "10.1074/jbc.273.29.18230",
+      "read": "PubMed indexed abstract; contrasting reconstituted preparation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9660785/"
+    }
+  ]
+}

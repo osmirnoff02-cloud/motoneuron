@@ -1,0 +1,685 @@
+{
+  "author": "codex",
+  "date": "2026-11-04",
+  "status": "public_source_audit_completed_identity_unresolved",
+  "publisher": "https://www.nature.com/articles/s41593-023-01374-9",
+  "downloads": [
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM5_ESM.xlsx",
+      "discovery": "Observed Source Data/supplement link on Nature article via browser",
+      "file": "41593_2023_1374_MOESM5_ESM.xlsx",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 10928,
+      "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM5_ESM.xlsx",
+      "path": "E:\\data_als\\papers\\41593_2023_1374_MOESM5_ESM.xlsx",
+      "sha256": "a5490e9d0c1d33f0d9f23b0d41242ac95e69a277bb38669d77c367a9b6063576",
+      "valid_zip_signature": true
+    },
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM18_ESM.xlsx",
+      "discovery": "Observed Source Data/supplement link on Nature article via browser",
+      "file": "41593_2023_1374_MOESM18_ESM.xlsx",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 9087,
+      "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM18_ESM.xlsx",
+      "path": "E:\\data_als\\papers\\41593_2023_1374_MOESM18_ESM.xlsx",
+      "sha256": "864e4ef4522ebba49d399598c5bcceee499e70224aa71d62a5e02f350a0a2c75",
+      "valid_zip_signature": true
+    },
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM2_ESM.xlsx",
+      "discovery": "Observed Source Data/supplement link on Nature article via browser",
+      "file": "41593_2023_1374_MOESM2_ESM.xlsx",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 28648,
+      "final_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM2_ESM.xlsx",
+      "path": "E:\\data_als\\papers\\41593_2023_1374_MOESM2_ESM.xlsx",
+      "sha256": "d1ff475b87637e2fe8a9d17710b0dbfa9e0c4dcc08f443a56ff38673594b39eb",
+      "valid_zip_signature": true
+    }
+  ],
+  "source_inventory": [
+    {
+      "file": "41593_2023_1374_MOESM5_ESM.xlsx",
+      "sheet": "Fig.3b",
+      "dimension": "A1:G17",
+      "state": "visible",
+      "populated_cells": 75,
+      "formula_count": 0,
+      "cells": {
+        "A1": "Half-life of FAM222A",
+        "A2": "Hours",
+        "B2": "Ctrl",
+        "E2": "C9-ALS",
+        "A3": 0,
+        "B3": 1,
+        "C3": 1,
+        "D3": 1,
+        "E3": 1,
+        "F3": 1,
+        "G3": 1,
+        "A4": 3,
+        "B4": 0.46649941,
+        "C4": 0.13075176,
+        "D4": 0.20407164,
+        "E4": 0.67896006,
+        "F4": 0.50593068,
+        "G4": 0.42295202,
+        "A5": 6,
+        "B5": 0.1259432,
+        "C5": 0.01260683,
+        "D5": 0.14309692,
+        "E5": 0.42712291,
+        "F5": 0.23832475,
+        "G5": 0.30482491,
+        "A7": "Half-life of FGF18",
+        "A8": "Hours",
+        "B8": "Ctrl",
+        "E8": "C9-ALS",
+        "A9": 0,
+        "B9": 1,
+        "C9": 1,
+        "D9": 1,
+        "E9": 1,
+        "F9": 1,
+        "G9": 1,
+        "A10": 3,
+        "B10": 0.3075734,
+        "C10": 0.08565087,
+        "D10": 0.16513514,
+        "E10": 0.57384095,
+        "F10": 0.51929439,
+        "G10": 0.64709581,
+        "A11": 6,
+        "B11": 0.22936667,
+        "C11": 0.03447563,
+        "D11": 0.1201202,
+        "E11": 0.34302704,
+        "F11": 0.31392134,
+        "G11": 0.26086206,
+        "A13": "Half-life of FEM1A",
+        "A14": "Hours",
+        "B14": "Ctrl",
+        "E14": "C9-ALS",
+        "A15": 0,
+        "B15": 1,
+        "C15": 1,
+        "D15": 1,
+        "E15": 1,
+        "F15": 1,
+        "G15": 1,
+        "A16": 3,
+        "B16": 0.5568382,
+        "C16": 0.32553597,
+        "D16": 0.49052874,
+        "E16": 0.73416464,
+        "F16": 0.66408957,
+        "G16": 0.62060859,
+        "A17": 6,
+        "B17": 0.41247631,
+        "C17": 0.14658026,
+        "D17": 0.28878021,
+        "E17": 0.42067579,
+        "F17": 0.52792337,
+        "G17": 0.53082591
+      }
+    },
+    {
+      "file": "41593_2023_1374_MOESM5_ESM.xlsx",
+      "sheet": "Fig.3d",
+      "dimension": "A1:G5",
+      "state": "visible",
+      "populated_cells": 24,
+      "formula_count": 0,
+      "cells": {
+        "A1": "YTHDF2/IgG-RIP of target transcripts",
+        "B2": "IgG",
+        "E2": "YTHDF2",
+        "A3": "FAM222A",
+        "B3": 0.784689111111111,
+        "C3": 0.112389555555556,
+        "D3": 0.735917555555555,
+        "E3": 27.0635591111111,
+        "F3": 5.22536666666667,
+        "G3": 17.5075302222222,
+        "A4": "FGF18",
+        "B4": 0.62524822221597,
+        "C4": 0.289793999997102,
+        "D4": 0.184062444442604,
+        "E4": 16.4266306665024,
+        "F4": 6.7807011110433,
+        "G4": 4.83785399995162,
+        "A5": "FEM1A",
+        "B5": 0.36802802986386,
+        "C5": 0.10674245599242,
+        "D5": 0.23050846583804,
+        "E5": 9.844397904449,
+        "F5": 3.02960445259508,
+        "G5": 8.15019545164704
+      }
+    },
+    {
+      "file": "41593_2023_1374_MOESM18_ESM.xlsx",
+      "sheet": "Extended Data Fig.6c",
+      "dimension": "A1:G4",
+      "state": "visible",
+      "populated_cells": 17,
+      "formula_count": 0,
+      "cells": {
+        "A1": "YTHDF2/IgG-RIP of negative targets",
+        "B2": "IgG-RIP",
+        "E2": "YTHDF2-RIP",
+        "A3": "HPRT1",
+        "B3": 0.10244312,
+        "C3": 0.01115382,
+        "D3": 0.01208616,
+        "E3": 0.13322562,
+        "F3": 0.03522539,
+        "G3": 0.01514492,
+        "A4": "SMARCA1",
+        "B4": 0.04025398,
+        "C4": 0.01402978,
+        "D4": 0.05197923,
+        "E4": 0.03883993,
+        "F4": 0.0707717,
+        "G4": 0.0399485
+      }
+    }
+  ],
+  "qPCR_curves": [
+    {
+      "gene": "FAM222A",
+      "group": "Ctrl",
+      "source_column": "B",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.46649941,
+        0.1259432
+      ],
+      "source_range": "B3:B5",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FAM222A",
+      "group": "Ctrl",
+      "source_column": "C",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.13075176,
+        0.01260683
+      ],
+      "source_range": "C3:C5",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FAM222A",
+      "group": "Ctrl",
+      "source_column": "D",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.20407164,
+        0.14309692
+      ],
+      "source_range": "D3:D5",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FAM222A",
+      "group": "C9",
+      "source_column": "E",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.67896006,
+        0.42712291
+      ],
+      "source_range": "E3:E5",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FAM222A",
+      "group": "C9",
+      "source_column": "F",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.50593068,
+        0.23832475
+      ],
+      "source_range": "F3:F5",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FAM222A",
+      "group": "C9",
+      "source_column": "G",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.42295202,
+        0.30482491
+      ],
+      "source_range": "G3:G5",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FGF18",
+      "group": "Ctrl",
+      "source_column": "B",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.3075734,
+        0.22936667
+      ],
+      "source_range": "B9:B11",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FGF18",
+      "group": "Ctrl",
+      "source_column": "C",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.08565087,
+        0.03447563
+      ],
+      "source_range": "C9:C11",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FGF18",
+      "group": "Ctrl",
+      "source_column": "D",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.16513514,
+        0.1201202
+      ],
+      "source_range": "D9:D11",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FGF18",
+      "group": "C9",
+      "source_column": "E",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.57384095,
+        0.34302704
+      ],
+      "source_range": "E9:E11",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FGF18",
+      "group": "C9",
+      "source_column": "F",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.51929439,
+        0.31392134
+      ],
+      "source_range": "F9:F11",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FGF18",
+      "group": "C9",
+      "source_column": "G",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.64709581,
+        0.26086206
+      ],
+      "source_range": "G9:G11",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FEM1A",
+      "group": "Ctrl",
+      "source_column": "B",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.5568382,
+        0.41247631
+      ],
+      "source_range": "B15:B17",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FEM1A",
+      "group": "Ctrl",
+      "source_column": "C",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.32553597,
+        0.14658026
+      ],
+      "source_range": "C15:C17",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FEM1A",
+      "group": "Ctrl",
+      "source_column": "D",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.49052874,
+        0.28878021
+      ],
+      "source_range": "D15:D17",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FEM1A",
+      "group": "C9",
+      "source_column": "E",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.73416464,
+        0.42067579
+      ],
+      "source_range": "E15:E17",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FEM1A",
+      "group": "C9",
+      "source_column": "F",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.66408957,
+        0.52792337
+      ],
+      "source_range": "F15:F17",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    },
+    {
+      "gene": "FEM1A",
+      "group": "C9",
+      "source_column": "G",
+      "line_identity": null,
+      "times_h": [
+        0,
+        3,
+        6
+      ],
+      "RNA_fraction_of_own_t0": [
+        1,
+        0.62060859,
+        0.53082591
+      ],
+      "source_range": "G15:G17",
+      "source_sheet": "Fig.3b",
+      "assay": "RT-qPCR",
+      "scope": "Three individual lines per group per manuscript Fig3b; columns are not named by line; not RNA-seq counts"
+    }
+  ],
+  "qPCR_observation_count": 54,
+  "qPCR_genes": [
+    "FAM222A",
+    "FGF18",
+    "FEM1A"
+  ],
+  "canonical80_overlap": [],
+  "author_RP_half_life_coverage": 0,
+  "absolute_RP_synthesis_coverage": 0,
+  "Fig3a_gene_wise_half_life_table_present": false,
+  "ExtendedData6d_half_life_table_present": false,
+  "publisher_supplement_identical_to_user_file": true,
+  "sample_chain": [
+    {
+      "geo": "GSM6176479",
+      "biosample": {
+        "accession": "SAMN28597231",
+        "last_update": "2023-06-09T16:28:05.497",
+        "title": "iPSN-C9-4_0h",
+        "attributes": {
+          "source_name": "iPSC-derived neuron",
+          "cell type": "iPSC-derived neuron",
+          "genotype": "patient-derived",
+          "treatment": "actinomycin D treatment 0 hour",
+          "geo_loc_name": "missing",
+          "collection_date": "missing"
+        }
+      },
+      "sra_sample": "SRS13139326",
+      "experiment": "SRX15414383",
+      "experiment_title": "GSM6176479: iPSN-C9-4_0h; Homo sapiens; RNA-Seq",
+      "run": "SRR19355605",
+      "original_files": [
+        {
+          "filename": "YL28_CKDL210020439-1a-7UDI239-AK7212_HMG23DSX2_S70_L003_R1_001.fastq.gz",
+          "bytes": 2095432208,
+          "md5": "a4f6e05a836cd8df2db14e7a21380af3"
+        },
+        {
+          "filename": "YL28_CKDL210020439-1a-7UDI239-AK7212_HMG23DSX2_S70_L003_R2_001.fastq.gz",
+          "bytes": 2177143572,
+          "md5": "76075e77c5073fe1e3c2507ffb582fe1"
+        }
+      ],
+      "identity_status": "Repository alias C9-4 confirmed; no catalog cell-line ID; cannot choose between S2 C9-4 and C9-5"
+    },
+    {
+      "geo": "GSM6176480",
+      "biosample": {
+        "accession": "SAMN28597230",
+        "last_update": "2023-06-09T16:28:06.770",
+        "title": "iPSN-C9-4_3h",
+        "attributes": {
+          "source_name": "iPSC-derived neuron",
+          "cell type": "iPSC-derived neuron",
+          "genotype": "patient-derived",
+          "treatment": "actinomycin D treatment 3 hour",
+          "geo_loc_name": "missing",
+          "collection_date": "missing"
+        }
+      },
+      "sra_sample": "SRS13139327",
+      "experiment": "SRX15414384",
+      "experiment_title": "GSM6176480: iPSN-C9-4_3h; Homo sapiens; RNA-Seq",
+      "run": "SRR19355604",
+      "original_files": [
+        {
+          "filename": "YL29_CKDL210020439-1a-AK7207-AK7215_HMG23DSX2_S69_L003_R1_001.fastq.gz",
+          "bytes": 2024544052,
+          "md5": "31480b66ae686e2381350042a745c757"
+        },
+        {
+          "filename": "YL29_CKDL210020439-1a-AK7207-AK7215_HMG23DSX2_S69_L003_R2_001.fastq.gz",
+          "bytes": 2063638994,
+          "md5": "0dfa7a87a359615aac3eb3b462ae2668"
+        }
+      ],
+      "identity_status": "Repository alias C9-4 confirmed; no catalog cell-line ID; cannot choose between S2 C9-4 and C9-5"
+    },
+    {
+      "geo": "GSM6176481",
+      "biosample": {
+        "accession": "SAMN28597229",
+        "last_update": "2023-06-09T16:28:09.293",
+        "title": "iPSN-C9-4_6h",
+        "attributes": {
+          "source_name": "iPSC-derived neuron",
+          "cell type": "iPSC-derived neuron",
+          "genotype": "patient-derived",
+          "treatment": "actinomycin D treatment 6 hour",
+          "geo_loc_name": "missing",
+          "collection_date": "missing"
+        }
+      },
+      "sra_sample": "SRS13139328",
+      "experiment": "SRX15414385",
+      "experiment_title": "GSM6176481: iPSN-C9-4_6h; Homo sapiens; RNA-Seq",
+      "run": "SRR19355603",
+      "original_files": [
+        {
+          "filename": "YL30_CKDL210020439-1a-AK4243-AK7212_HMG23DSX2_S46_L003_R1_001.fastq.gz",
+          "bytes": 2039845741,
+          "md5": "c25492eea66b0af192ce738d21b164f6"
+        },
+        {
+          "filename": "YL30_CKDL210020439-1a-AK4243-AK7212_HMG23DSX2_S46_L003_R2_001.fastq.gz",
+          "bytes": 2103313330,
+          "md5": "03dfcd72e89d9a6364ab77db025663d0"
+        }
+      ],
+      "identity_status": "Repository alias C9-4 confirmed; no catalog cell-line ID; cannot choose between S2 C9-4 and C9-5"
+    }
+  ],
+  "identity_resolved": false,
+  "reason": "GEO/BioSample/SRA share submission provenance; labels do not establish physical cell-line identity. Publisher still says C9-5.",
+  "current_crossref_correction_relation": {},
+  "correction_scope": "No correction relationship in retrieved Crossref record or targeted search; not proof no correction exists",
+  "author_request": {
+    "status": "Private outreach status omitted; scientific data questions retained.",
+    "primary_contact": "Shuying Sun <[contact omitted in publication export]>",
+    "data_submitter": "Xiaoyang Dou <[contact omitted in publication export]>",
+    "contact_provenance": "Published source attribution retained; contact details and outreach status omitted.",
+    "questions": [
+      "Provide gene-ID-linked per-line half-lives, fitted decay constants and QC for Figure3a/ExtendedData6d, including canonical80 RPL/RPS genes.",
+      "Identify the catalog iPSC line for GSM6176479/80/81 (SRR19355605/604/603; tubes YL28/29/30): C9-4 C89YHNiALS or C9-5 CS0BUUiALS? Explain/correct TableS7c versus repository labels.",
+      "Provide ERCC mix, spike amounts/input RNA per sample, calibration equations/coefficients, normalization/fit code and per-line replicate mapping.",
+      "Provide sample-resolved MN purity and absolute RNA/cell or volume if measured; these are not inferred from the requested files."
+    ]
+  },
+  "parameter_action": "Retain current physical priors and unresolved human-MN rates; add source inventory and identity audit to common evidence panel",
+  "failed_document_downloads": []
+}

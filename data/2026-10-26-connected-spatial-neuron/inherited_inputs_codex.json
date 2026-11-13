@@ -1,0 +1,617 @@
+{
+  "author": "codex",
+  "date": "2026-10-26",
+  "source_sha256": "ee9ad2fa30e651c9db84845d6bb8d4d98a8c7d6264e2fa96dd4322b34a74e234",
+  "biochemical": {
+    "geometry": {
+      "class": "SpatialGeometry",
+      "values": {
+        "soma_volume_um3": 1000.0,
+        "soma_area_um2": 2500.0,
+        "process_length_um": 100.0,
+        "process_radius_um": 0.5,
+        "process_accessible_fraction": 0.8,
+        "connection_length_um": 10.0,
+        "connection_radius_um": 0.5,
+        "free_ca_diffusion_um2_s": 30.0,
+        "adenylate_diffusion_um2_s": 0.0,
+        "process_kappa": 50.0,
+        "process_gamma_per_s": 5.1,
+        "provenance": "Scenario geometry and stationary buffers; not measured human MN"
+      }
+    },
+    "traffic_parameters": {
+      "class": "PumpTrafficParameters",
+      "values": {
+        "total_pumps": 25000.0,
+        "departure_soma_per_s": 2.777777777777778e-05,
+        "departure_process_per_s": 0.0001388888888888889,
+        "forward_speed_um_s": 0.1,
+        "reverse_speed_um_s": 0.1,
+        "insertion_delay_s": 180.0,
+        "initial_process_fraction_if_static": 0.2,
+        "ATP_molecules_per_delivery": 100.0,
+        "provenance": "Closed pump pool; effective first-order transport, uncertain delivery energy"
+      }
+    },
+    "pump_kinetics": {
+      "class": "PMCASurfaceParameters",
+      "values": {
+        "density_per_um2": 1.0,
+        "active_fraction": 0.1,
+        "cycles_per_s": 1000.0,
+        "calcium_half_uM": 0.3,
+        "calcium_hill": 2.0,
+        "provenance": "Scenario, not human pump calibration"
+      }
+    },
+    "memory_parameters": {
+      "class": "PMCAMemoryParameters",
+      "values": {
+        "memory_gain": 3.0,
+        "forget_at_50nM_per_s": 0.021,
+        "activation_max_per_M_s": 504000.0,
+        "free_CaM_uM": 0.117,
+        "activation_half_uM": 0.64,
+        "activation_hill": 4.6,
+        "off_half_uM": 0.11,
+        "off_floor_per_s": 0.0005,
+        "pmca2_ratio": 1.0,
+        "pmca2_share": 0.5,
+        "membrane_support": 1.0,
+        "saturation_weight": 0.0,
+        "saturation_half_uM": 0.43,
+        "saturation_hill": 2.0,
+        "provenance": "Hypothesis: Caride2001 PMCA2b/CaM source anchors, not measured human MN. Saturation optional: Constantin SI model borrowed from human T cells."
+      }
+    },
+    "energy_parameters": {
+      "class": "EnergyParameters",
+      "values": {
+        "ATP0_uM": 2700.0,
+        "ADP0_uM": 200.0,
+        "AMP0_uM": 24.0,
+        "other_demand_uM_s": 6.0,
+        "pump_half_ATP_uM": 300.0,
+        "other_half_ATP_uM": 300.0,
+        "ox_half_ADP_uM": 200.0,
+        "gly_half_ADP_uM": 200.0,
+        "glycolytic_fraction": 0.3,
+        "pmca_fraction": 0.5,
+        "ncx_ATP_equivalent": 1.0,
+        "adenylate_kinase_per_uM_s": 1e-05,
+        "pump_feedback": true,
+        "provenance": "Connolly2016 reference pools; stoichiometry PMCA1/SERCA2 Ca per ATP. Other parameters are hypotheses, not a human kinetic fit."
+      }
+    },
+    "er_parameters": {
+      "class": "ERParameters",
+      "values": {
+        "enabled": true,
+        "volume_ratio": 0.06,
+        "er_baseline_uM": 200.0,
+        "er_buffer_ratio": 10.0,
+        "serca_vmax_uM_s": 3.0,
+        "serca_half_uM": 0.2,
+        "release_per_s": 0.1,
+        "cicr_gain": 0.1,
+        "cicr_half_uM": 0.5,
+        "soce_nS": 0.0,
+        "trpm_nS": 0.0,
+        "trpm_half_uM": 8.0,
+        "trpm_tau_ms": 150.0,
+        "trpm_hill": 3.2,
+        "provenance": "Hypothesis ranges; Davi2026 human cortical ER refill and Burley/Dafinca MN release constrain interpretation, not these kinetic constants. Mouse TRPM5 is optional."
+      }
+    },
+    "basal_ca_uM": 0.0804,
+    "calcium_tau_s": 10.0,
+    "enzyme_parameters": {
+      "class": "CalpainPoolParameters",
+      "values": {
+        "native_ca_half_uM": 0.6838479072076737,
+        "processed_ca_half_uM": 0.15570299323788708,
+        "hill_n": 2.0,
+        "autolysis_per_s": 0.028215463602451606,
+        "cast_binding_per_s": 0.004284264082981634,
+        "cast_unbinding_per_s": 0.01180723784410853,
+        "turnover_per_s": 1e-05,
+        "synthesis_per_s": 1e-05,
+        "provenance": "Conditional enzyme sensitivity range; Ca activity and autolysis distinct; no human fit"
+      }
+    },
+    "tdp_parameters": {
+      "class": "CalpainTDPParameters",
+      "values": {
+        "ca_half_uM": 1.0,
+        "hill_n": 2.0,
+        "activation_tau_s": 20.0,
+        "deactivation_tau_s": 120.0,
+        "cast_over_ki": 1.0,
+        "cleavage1_per_s": 0.0038880905732743853,
+        "cleavage2_per_s": 0.00050141848516838,
+        "intact_half_life_s": 33874.63418905393,
+        "large_half_life_s": 3731.6662783442043,
+        "small_half_life_s": 16375.115792791785,
+        "provenance": "Conditional cleavage/clearance ranges; not Cascella aggregate rates"
+      }
+    },
+    "localization_parameters": {
+      "class": "LocalizationParameters",
+      "values": {
+        "nuclear_fraction": 0.8320592217706559,
+        "exchange_per_s": 0.00038355145262136903,
+        "provenance": "Equal N/C losses; independent exchange; synthesis allocation preserves basal nuclear fraction"
+      }
+    },
+    "stmn2_parameters": {
+      "class": "STMN2Parameters",
+      "values": {
+        "tdp_half_relative": 26.77335687841716,
+        "tdp_hill": 0.5,
+        "mrna_tau_s": 79341.9489183482,
+        "somatodendritic_protein_half_life_s": 2158725.150813959,
+        "axonal_availability_tau_s": 218954.46450770405,
+        "regrowth_response_tau_s": 92947.71958100927,
+        "axonal_gain": 1.0,
+        "regrowth_half_relative": 0.5197160300934441,
+        "regrowth_hill": 4.0,
+        "provenance": "Chan endpoint transfer family; all time constants assumed"
+      }
+    },
+    "inactivation_parameters": {
+      "class": "CalpainInactivationParameters",
+      "values": {
+        "native_inactivation_per_s": 0.0001,
+        "processed_inactivation_per_s": 0.0001,
+        "provenance": "Unknown active-pool destructive loss; primary 1e-4/s; sensitivity 0 and .01/s"
+      }
+    },
+    "phosphorylation_parameters": {
+      "class": "TDPPhosphorylationParameters",
+      "values": {
+        "phosphorylation_per_s": 1e-05,
+        "dephosphorylation_per_s": 1e-05,
+        "phosphorylated_cleavage_multiplier": 0.0,
+        "provenance": "Inherited unfitted phosphorylation/susceptibility scenarios"
+      }
+    },
+    "reactivation_parameters": {
+      "class": "CalpainReactivationParameters",
+      "values": {
+        "native_gating_tau_s": 10.0,
+        "processed_gating_tau_s": 10.0,
+        "closed_processed_loss_per_s": 0.0,
+        "provenance": "Unfitted stress-test grid: gating .1/10/100s; closed processed loss 0/1e-5/1e-3 per s; NOT literature confidence bounds"
+      }
+    },
+    "stability_parameters": {
+      "class": "CalpainStabilityParameters",
+      "values": {
+        "further_cleavage_per_s": 0.0001,
+        "fragile_closed_loss_per_s": 0.001,
+        "processed_background_loss_per_s": 0.0,
+        "provenance": "Unmeasured human rates. Optional Crawford-inspired associated fragile intermediate and Li-inspired background instability; no salt-to-cell extrapolation"
+      }
+    },
+    "aggregation_parameters": {
+      "class": "TDPAggregationParameters",
+      "values": {
+        "formation_per_s": [
+          1e-07,
+          1e-07,
+          1e-06,
+          0.0
+        ],
+        "fast_clearance_per_s": [
+          3.46e-05,
+          3.46e-05,
+          1.6045073624072808e-05,
+          1.6045073624072808e-05
+        ],
+        "slow_clearance_per_s": [
+          1.1460766874337719e-06,
+          1.1460766874337719e-06,
+          1.1460766874337719e-06,
+          1.1460766874337719e-06
+        ],
+        "slow_formation_fraction": 0.3,
+        "disaggregation_per_s": 0.0,
+        "formation_order": 1.0,
+        "aggregate_calpain_accessibility": 0.0,
+        "provenance": "FL fast clearance includes Cascella NSC34 exogenous-aggregate source anchor, NOT human fit; other rates/slow-input split are assumptions; N fragments NOT C-terminal assay construct"
+      }
+    },
+    "provenance": "Conditional 192h synthetic Ca experiment, six hours total input; not new human recordings or a pharmacological dose",
+    "autoregulation_parameters": {
+      "class": "TDPAutoregulationParameters",
+      "values": {
+        "enabled": true,
+        "minimum_capacity": 0.1,
+        "maximum_capacity": 4.0,
+        "hill": 4.0,
+        "response_tau_s": 21600.0,
+        "provenance": "Direction: Ayala2011/Avendano2012/Koehler2022. Floor, ceiling, exponent, 1/6/24h delay are unfitted sensitivity assumptions, not human MN measurements"
+      }
+    },
+    "rna_feedback_parameters": {
+      "class": "RNAFeedbackParameters",
+      "values": {
+        "decay_fraction": 1.0,
+        "provenance": "Ayala2011 supports TDP-dependent transcript destabilization in induced HEK293. Partition 0/0.5/1 and basal relaxation 1/6/24h are assumed, not human MN fits."
+      }
+    },
+    "organelle_parameters": {
+      "class": "OrganelleParameters",
+      "values": {
+        "cryptic_function_threshold": 0.7,
+        "maximum_cryptic_fraction": 0.5,
+        "cryptic_RNA_tau_s": 21600.0,
+        "PKN1_half_life_s": 86400.0,
+        "PKN207_half_life_s": 604800.0,
+        "AF3_half_life_s": 21600.0,
+        "PKN_cleavage_per_s": 3.209e-05,
+        "AF3_neurofilament_gain": 2.0,
+        "neurofilament_tau_s": 21600.0,
+        "assumed_NF_to_lysosome_gain": 0.5,
+        "lysosome_position_tau_s": 21600.0,
+        "assumed_TDP_loss_to_ER_gain": 1.0,
+        "ER_transit_s": 3600.0,
+        "ERGIC_transit_s": 1800.0,
+        "Golgi_transit_s": 3600.0,
+        "lysosome_activity_tau_s": 43200.0,
+        "assumed_Golgi_to_lysosome_gain": 0.5,
+        "autophagosome_transit_s": 14400.0,
+        "autolysosome_transit_s": 28800.0,
+        "soluble_TDP_lysosomal_fraction": 0.5,
+        "aggregate_TDP_lysosomal_fraction": 0.5,
+        "assumed_position_clearance_gain": 0.5,
+        "assumed_position_translation_gain": 0.0,
+        "assumed_PKN207_to_ER_gain": 1.0,
+        "assumed_aggregate_cargo_gain": 1.0,
+        "feedback_enabled": true,
+        "provenance": "Source-informed topology; ALL new numerical rates, thresholds, fractions and gains are sensitivity assumptions, not human motor-neuron measurements."
+      }
+    },
+    "iron_parameters": {
+      "class": "IronParameters",
+      "values": {
+        "ferritin_turnover_s": 86400.0,
+        "lysosomal_digestion_s": 21600.0,
+        "lysosomal_Fe_export_s": 7200.0,
+        "endosomal_Fe_export_s": 1800.0,
+        "external_Fe_turnover_s": 259200.0,
+        "soma_axon_exchange_s": 21600.0,
+        "axonal_FTH1_RNA_tau_s": 21600.0,
+        "axonal_ferritin_tau_s": 43200.0,
+        "somatic_ferritin_tau_s": 43200.0,
+        "GPX4_tau_s": 86400.0,
+        "GSH_tau_s": 21600.0,
+        "oxidation_formation_per_s": 1.1574074074074074e-07,
+        "oxidation_repair_per_s": 1.1574074074074073e-05,
+        "transferrin_import_fraction": 0.8,
+        "assumed_TDP_to_axonal_FTH1_gain": 0.5,
+        "assumed_iron_to_ferritin_gain": 0.5,
+        "assumed_oxidation_to_lysosome_gain": 0.5,
+        "assumed_low_lysosome_GPX4_gain": 0.0,
+        "feedback_enabled": true,
+        "provenance": "Topology informed by Jinno2025, Mancias2014, Dong2008, Cañeque2025 and Bonte2026. Every new numerical value is an explicit sensitivity assumption, not a measured human MN parameter."
+      }
+    },
+    "editing_parameters": {
+      "class": "AMPAParameters",
+      "values": {
+        "normal_editing": 0.999,
+        "tau_rna_h": 6.0,
+        "tau_surface_h": 12.0,
+        "incorporation_R_over_Q": 1.0,
+        "weights": [
+          0.02,
+          0.0,
+          0.98,
+          0.0,
+          0.0
+        ],
+        "g_reference_nS": 10.0,
+        "cp_conductance_ratio": 3.0,
+        "cp_unblocked_fraction": 1.0,
+        "pf_cp": 0.035,
+        "pf_ci": 0.001,
+        "voltage_mV": -60.0,
+        "reversal_mV": 0.0,
+        "volume_um3": 1000.0,
+        "kappa": 50.0,
+        "gamma_per_s": 5.1,
+        "basal_ca_uM": 0.0804,
+        "opening_per_s": 1000.0,
+        "closing_per_s": 200.0,
+        "desensitization_per_s": 100.0,
+        "recovery_per_s": 10.0
+      }
+    },
+    "mapping_family": "exposure",
+    "editing_provenance": "Existing two hypothetical ADAR2 maps; current/assembly/buffering constants are conditional, not fitted human kinetics",
+    "iron_release_parameters": {
+      "class": "IronReleaseParameters",
+      "values": {
+        "acid_only_fraction": 0.5,
+        "soma_position_coupling": 0.0,
+        "provenance": "Asano2011 Fig3 vs Kidane2006 different cells/assays; fraction unknown in human MN. Farias2017 rat hippocampal axonal transport, not global hydrolysis."
+      }
+    },
+    "ncoa4_parameters": {
+      "class": "NCOA4Parameters",
+      "values": {
+        "baseline_half_life_h": 1.0,
+        "herc2_loss_fraction": 0.5,
+        "iron_half_response_relative": 1.0,
+        "iron_hill": 1.0,
+        "enabled": true,
+        "provenance": "Mancias2015 Fig3 and Fig3-S1: parallel HERC2/proteasome and autophagic turnover; rates and sensing curve are hypotheses for human MN"
+      }
+    },
+    "protein_input_provenance": "Sensitivity experiment motivated by Zhu2025 S5B: independently imposed GPX4/FPN abundance; factors0.25/0.5/0.75 are hypotheses, not digitized source values or human measurements; per-protein scaling assumed proportional."
+  },
+  "injury": {
+    "basal_ca_uM": 0.0804,
+    "enzyme_parameters": {
+      "class": "CalpainPoolParameters",
+      "values": {
+        "native_ca_half_uM": 0.6838479072076737,
+        "processed_ca_half_uM": 0.15570299323788708,
+        "hill_n": 2.0,
+        "autolysis_per_s": 0.028215463602451606,
+        "cast_binding_per_s": 0.004284264082981634,
+        "cast_unbinding_per_s": 0.01180723784410853,
+        "turnover_per_s": 1e-05,
+        "synthesis_per_s": 1e-05,
+        "provenance": "Conditional enzyme sensitivity range; Ca activity and autolysis distinct; no human fit"
+      }
+    },
+    "inactivation_parameters": {
+      "class": "CalpainInactivationParameters",
+      "values": {
+        "native_inactivation_per_s": 0.0001,
+        "processed_inactivation_per_s": 0.0001,
+        "provenance": "Unknown active-pool destructive loss; primary 1e-4/s; sensitivity 0 and .01/s"
+      }
+    },
+    "reactivation_parameters": {
+      "class": "CalpainReactivationParameters",
+      "values": {
+        "native_gating_tau_s": 10.0,
+        "processed_gating_tau_s": 10.0,
+        "closed_processed_loss_per_s": 0.0,
+        "provenance": "Unfitted stress-test grid: gating .1/10/100s; closed processed loss 0/1e-5/1e-3 per s; NOT literature confidence bounds"
+      }
+    },
+    "stability_parameters": {
+      "class": "CalpainStabilityParameters",
+      "values": {
+        "further_cleavage_per_s": 0.0001,
+        "fragile_closed_loss_per_s": 0.001,
+        "processed_background_loss_per_s": 0.0,
+        "provenance": "Unmeasured human rates. Optional Crawford-inspired associated fragile intermediate and Li-inspired background instability; no salt-to-cell extrapolation"
+      }
+    },
+    "substrates": [
+      {
+        "class": "LocalSubstrateParameters",
+        "values": {
+          "name": "cytoplasmic_TDP43",
+          "initial_intact_amount": 0.05,
+          "cleavage_per_activity_s": 0.0038880905732743853,
+          "intact_half_life_s": 33874.63418905393,
+          "fragment_half_life_s": 3731.6662783442043,
+          "provenance": "Inherited local normalized TDP scenario"
+        }
+      },
+      {
+        "class": "LocalSubstrateParameters",
+        "values": {
+          "name": "betaII_spectrin",
+          "initial_intact_amount": 1.0,
+          "cleavage_per_activity_s": 0.001,
+          "intact_half_life_s": 36000.0,
+          "fragment_half_life_s": 3600.0,
+          "provenance": "Inherited spectrin scenario, not a measured human rate"
+        }
+      }
+    ],
+    "provenance": "Frozen local injury assumptions from 2026-10-25"
+  },
+  "profiles": {
+    "Burley": {
+      "p": [
+        5.868360641679526,
+        -36.39046518694363,
+        12.40841729967776,
+        0.6375057629558608,
+        -16.642188523799827,
+        28.81267127573144,
+        -72.47508774114056,
+        5.809135726494771,
+        0.024106467985819006,
+        2.2625165307867703,
+        89.3048746922289,
+        4.419427513823481,
+        0.025265782545460403,
+        196.1489929894386,
+        0.40565014863256843,
+        50.169200062202634
+      ],
+      "c": [
+        24.395086091,
+        1.413754718,
+        -37.130904184,
+        80.23338513096452,
+        -103.76969765519684,
+        -70.0
+      ],
+      "coupling": {
+        "g_ampa_nS": 0.3,
+        "surface_glua2_fraction": 0.5,
+        "cp_conductance_ratio": 3.0,
+        "pf_cp": 0.035,
+        "pf_ci": 0.001,
+        "eca_mV": 120.0,
+        "g_vgcc_nS": 0.03,
+        "g_sk_nS": 0.15,
+        "replace_adaptation": 0.0,
+        "basal_ca_uM": 0.08,
+        "kappa": 50.0,
+        "gamma_per_s": 5.1,
+        "cytosol_fraction": 0.1,
+        "shell_fraction": 0.05,
+        "exchange_ms": 50.0,
+        "sk_half_uM": 0.42,
+        "sk_hill": 5.2,
+        "sk_tau_ms": 10.0,
+        "vg_half_mV": -20.0,
+        "vg_slope_mV": 6.0,
+        "vg_tau_ms": 2.0
+      }
+    },
+    "Selvaraj-Con1": {
+      "p": [
+        16.30049526388614,
+        -49.63556947133098,
+        4.645554969549729,
+        0.010531311605504357,
+        -36.96883618999698,
+        3.1699813641940207,
+        -80.12445159067964,
+        4.9482927345587875,
+        0.9333142991108838,
+        2.6097069287365295,
+        33.5270728305768,
+        6.271265159956957,
+        0.3275827231909823,
+        125.53976686946041,
+        0.2628533966502123,
+        22.659368146355714
+      ],
+      "c": [
+        23.0,
+        0.701,
+        -60.5,
+        66.93091542595232,
+        -98.07502235454548,
+        -60.5,
+        -60.0
+      ],
+      "coupling": {
+        "g_ampa_nS": 0.3,
+        "surface_glua2_fraction": 0.5,
+        "cp_conductance_ratio": 3.0,
+        "pf_cp": 0.035,
+        "pf_ci": 0.001,
+        "eca_mV": 120.0,
+        "g_vgcc_nS": 0.03,
+        "g_sk_nS": 0.15,
+        "replace_adaptation": 0.0,
+        "basal_ca_uM": 0.08,
+        "kappa": 50.0,
+        "gamma_per_s": 5.1,
+        "cytosol_fraction": 0.1,
+        "shell_fraction": 0.05,
+        "exchange_ms": 50.0,
+        "sk_half_uM": 0.42,
+        "sk_hill": 5.2,
+        "sk_tau_ms": 10.0,
+        "vg_half_mV": -20.0,
+        "vg_slope_mV": 6.0,
+        "vg_tau_ms": 2.0
+      }
+    },
+    "Selvaraj-Con2": {
+      "p": [
+        16.694805913896996,
+        -48.69838711360068,
+        4.643070587493812,
+        0.010229931360608457,
+        -35.85450890859358,
+        8.531148822600755,
+        -79.25175453870551,
+        4.948627231232888,
+        0.9319292378660102,
+        2.80841497443854,
+        23.617086398819914,
+        6.820756804734771,
+        0.30180306551832903,
+        101.31719323552643,
+        0.26196358341121895,
+        31.445148287443164
+      ],
+      "c": [
+        28.1,
+        0.693,
+        -59.1,
+        66.93091542595232,
+        -98.07502235454548,
+        -59.1,
+        -60.0
+      ],
+      "coupling": {
+        "g_ampa_nS": 2.0160164133575433,
+        "surface_glua2_fraction": 0.5,
+        "cp_conductance_ratio": 3.0,
+        "pf_cp": 0.035,
+        "pf_ci": 0.001,
+        "eca_mV": 120.0,
+        "g_vgcc_nS": 0.013321270684961407,
+        "g_sk_nS": 0.02776362642985359,
+        "replace_adaptation": 0.0,
+        "basal_ca_uM": 0.05392082007787075,
+        "kappa": 37.06220147175985,
+        "gamma_per_s": 19.28591983404349,
+        "cytosol_fraction": 0.05003814029744602,
+        "shell_fraction": 0.06278781744159855,
+        "exchange_ms": 11.55298665186197,
+        "sk_half_uM": 0.4093782730218777,
+        "sk_hill": 6.032423439707873,
+        "sk_tau_ms": 30.910036447141017,
+        "vg_half_mV": -4.261746767390232,
+        "vg_slope_mV": 6.0,
+        "vg_tau_ms": 0.6193059951043651
+      }
+    }
+  },
+  "template": [
+    0.0,
+    600.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0
+  ],
+  "status": "Frozen inherited scenario inputs, not new human calibration"
+}

@@ -1,0 +1,308 @@
+{
+  "schema": "Q1-cell-passport-v1",
+  "author": "codex",
+  "date": "2026-11-04",
+  "target": "Healthy-control human iPSC-derived spinal MN, defined per study/line and developmental protocol; no single averaged cell",
+  "primary_development_profile": "Burley",
+  "primary_selection_reason": "User-selected healthy day47 electrical stage; not selected by STMN2 protection",
+  "profiles": {
+    "Burley": {
+      "id": "Burley",
+      "species": "Homo sapiens",
+      "cell_class": "iPSC-derived spinal motor-neuron-enriched culture",
+      "source": {
+        "doi": "10.1038/s41598-022-09751-3",
+        "file": "data/2026-10-14-healthy-ipsc-electrical/Burley2022.pdf",
+        "locations": "Results p2; Methods p6; Fig2/3; line IDs checked in earlier stage1 audit"
+      },
+      "lines": {
+        "value": [
+          "856-03-04",
+          "AH017-3",
+          "065-03-03"
+        ],
+        "status": "prior_source_audit",
+        "source": "research/2026-10-14-healthy-ipsc-stage1_codex.md; original labels CTRL1-3"
+      },
+      "age": {
+        "value": {
+          "day": 47,
+          "origin": "start of differentiation"
+        },
+        "status": "reported",
+        "source": "Burley Results Fig2; day40 is separate"
+      },
+      "culture": {
+        "value": "Mixed neuronal/glial culture enriched for spinal MNs; astrocytes present",
+        "status": "reported",
+        "source": "Burley Results p2/Discussion p6"
+      },
+      "identity": {
+        "value": "Morphological cell selection, no live cell-type-specific marker; interneuron recordings not excluded",
+        "status": "reported",
+        "source": "Burley Methods p6"
+      },
+      "protocol": {
+        "measurement": "whole-cell patch current clamp; voltage clamp separate",
+        "holding_mV": -70.0,
+        "holding_status": "reported approximately; per-cell bias current unknown",
+        "pulse_s": 0.5,
+        "current_step_pA": 5.0,
+        "data_level": "Digitized pooled CTRL means/SEM, not raw per-cell traces",
+        "primary_use": "source-specific electrical development reference"
+      },
+      "donor_age": {
+        "value": null,
+        "status": "not_resolved_in_this_passport",
+        "source": "Do not equate donor age with days in differentiation"
+      },
+      "adult_in_vivo_equivalent": false,
+      "healthy_human_whole_model_validated": false,
+      "integrated_candidate_supported": true,
+      "limitations": [
+        "Three control lines pooled; cell/differentiation/donor are different replicate levels",
+        "day47 is not mature adult MN",
+        "No matched basal human Ca/ATP/TDP/RNA measurements"
+      ]
+    },
+    "Selvaraj-Con1": {
+      "id": "Selvaraj-Con1",
+      "species": "Homo sapiens",
+      "cell_class": "iPSC-derived spinal motor-neuron-enriched culture",
+      "source": {
+        "doi": "10.1038/s41467-017-02729-0",
+        "file": "data/2026-10-16-ipsc-expanded-calibration/root-Selvaraj2018-PMC5783946.1.xml",
+        "locations": "Results Fig2/3; MN differentiation; Electrophysiology; Supplementary Table1 p9"
+      },
+      "lines": {
+        "value": [
+          "Con-1"
+        ],
+        "status": "reported",
+        "source": "Two unrelated healthy controls; exclude C9-mutant and corrected lines from this comparator"
+      },
+      "age": {
+        "value": {
+          "weeks_post_plating": 5,
+          "plating_day_range": [
+            14,
+            16
+          ],
+          "total_differentiation_day_range": [
+            49,
+            51
+          ],
+          "total_day_status": "arithmetic_inference_not_recorded_cell_age"
+        },
+        "status": "reported_and_derived",
+        "source": "MN differentiation and Fig3/TableS1; 14-16 +35 days"
+      },
+      "culture": {
+        "value": "Neuronal-only MN-enriched culture, >95% Tau+, devoid of astrocytes",
+        "status": "reported",
+        "source": "Selvaraj Results Fig2"
+      },
+      "identity": {
+        "value": "MN-enriched culture; 40-60% Isl1/2 at week1, not a per-recorded-cell identity certificate",
+        "status": "reported_with_scope",
+        "source": "Fig2"
+      },
+      "protocol": {
+        "measurement": "whole-cell patch current clamp",
+        "holding_mV": null,
+        "holding_status": "not specified; model free rest is an assumption",
+        "pulse_s": 1.0,
+        "current_step_pA": 10.0,
+        "source_current_range_pA": [
+          5,
+          65
+        ],
+        "fitted_current_range_pA": [
+          5,
+          35
+        ],
+        "n_FI_cells": 8,
+        "data_level": "Digitized Fig3d means and TableS1, not raw voltage traces",
+        "passive_targets": {
+          "capacitance_pF": 23.0,
+          "Rin_MOhm": 701.0,
+          "RMP_mV": -60.5
+        }
+      },
+      "donor_age": {
+        "value": null,
+        "status": "not_resolved_in_this_passport",
+        "source": "Do not equate donor age with days in differentiation"
+      },
+      "adult_in_vivo_equivalent": false,
+      "healthy_human_whole_model_validated": false,
+      "integrated_candidate_supported": true,
+      "limitations": [
+        "Separate line-specific profile; same source family as Devlin/Zhao, not independent replication",
+        "TableS1 Con2 RMP SEM is printed21.6; do not silently fix",
+        "Fig3c representative waveform lacks known current/line; not a population AHP target",
+        "F-I agreement does not calibrate channel density, Ca or ATP"
+      ]
+    },
+    "Selvaraj-Con2": {
+      "id": "Selvaraj-Con2",
+      "species": "Homo sapiens",
+      "cell_class": "iPSC-derived spinal motor-neuron-enriched culture",
+      "source": {
+        "doi": "10.1038/s41467-017-02729-0",
+        "file": "data/2026-10-16-ipsc-expanded-calibration/root-Selvaraj2018-PMC5783946.1.xml",
+        "locations": "Results Fig2/3; MN differentiation; Electrophysiology; Supplementary Table1 p9"
+      },
+      "lines": {
+        "value": [
+          "Con-2"
+        ],
+        "status": "reported",
+        "source": "Two unrelated healthy controls; exclude C9-mutant and corrected lines from this comparator"
+      },
+      "age": {
+        "value": {
+          "weeks_post_plating": 5,
+          "plating_day_range": [
+            14,
+            16
+          ],
+          "total_differentiation_day_range": [
+            49,
+            51
+          ],
+          "total_day_status": "arithmetic_inference_not_recorded_cell_age"
+        },
+        "status": "reported_and_derived",
+        "source": "MN differentiation and Fig3/TableS1; 14-16 +35 days"
+      },
+      "culture": {
+        "value": "Neuronal-only MN-enriched culture, >95% Tau+, devoid of astrocytes",
+        "status": "reported",
+        "source": "Selvaraj Results Fig2"
+      },
+      "identity": {
+        "value": "MN-enriched culture; 40-60% Isl1/2 at week1, not a per-recorded-cell identity certificate",
+        "status": "reported_with_scope",
+        "source": "Fig2"
+      },
+      "protocol": {
+        "measurement": "whole-cell patch current clamp",
+        "holding_mV": null,
+        "holding_status": "not specified; model free rest is an assumption",
+        "pulse_s": 1.0,
+        "current_step_pA": 10.0,
+        "source_current_range_pA": [
+          5,
+          65
+        ],
+        "fitted_current_range_pA": [
+          5,
+          35
+        ],
+        "n_FI_cells": 23,
+        "data_level": "Digitized Fig3d means and TableS1, not raw voltage traces",
+        "passive_targets": {
+          "capacitance_pF": 28.1,
+          "Rin_MOhm": 693.0,
+          "RMP_mV": -59.1
+        }
+      },
+      "donor_age": {
+        "value": null,
+        "status": "not_resolved_in_this_passport",
+        "source": "Do not equate donor age with days in differentiation"
+      },
+      "adult_in_vivo_equivalent": false,
+      "healthy_human_whole_model_validated": false,
+      "integrated_candidate_supported": true,
+      "limitations": [
+        "Separate line-specific profile; same source family as Devlin/Zhao, not independent replication",
+        "TableS1 Con2 RMP SEM is printed21.6; do not silently fix",
+        "Fig3c representative waveform lacks known current/line; not a population AHP target",
+        "F-I agreement does not calibrate channel density, Ca or ATP"
+      ]
+    },
+    "Kiskinis-39b-Cor-eGFP": {
+      "id": "Kiskinis-39b-Cor-eGFP",
+      "species": "Homo sapiens",
+      "cell_class": "iPSC-derived spinal motor-neuron-enriched culture",
+      "source": {
+        "doi": "10.1016/j.stemcr.2018.04.020",
+        "file": "papers/Kiskinis_ALS_Optopatch.pdf",
+        "locations": "Methods PDFp12-13; FigS2F-I PDFp20; TableS1; imaging age Results"
+      },
+      "lines": {
+        "value": [
+          "39b-Cor"
+        ],
+        "status": "reported",
+        "source": "FigS2F-H: corrected isogenic SOD1 A4V line, eGFP, n8"
+      },
+      "age": {
+        "value": {
+          "days_post_plating": [
+            22,
+            28
+          ],
+          "plating_day": 24,
+          "total_differentiation_day_range": [
+            46,
+            52
+          ],
+          "total_day_status": "arithmetic_inference; reported imaging age not proven cell-by-cell patch age"
+        },
+        "status": "reported_and_derived",
+        "source": "Results/Methods; do not equate to Burley day47"
+      },
+      "culture": {
+        "value": "MN culture, CaMKIIalpha transgene expression enriches more mature/larger cells",
+        "status": "reported",
+        "source": "FigS2 caption"
+      },
+      "identity": {
+        "value": "Gene-corrected isogenic control; not an unrelated healthy donor",
+        "status": "reported",
+        "source": "FigS2F-H"
+      },
+      "protocol": {
+        "measurement": "manual patch benchmark; optical voltage observation separate",
+        "pulse_s": 0.5,
+        "source_current_range_pA": [
+          5,
+          95
+        ],
+        "current_step_pA": 5.0,
+        "holding_mV": null,
+        "holding_status": "not resolved",
+        "n_patch_cells": 8,
+        "data_level": "Digitized patch FigS2F-H; optical FigureS2I correction not calcium",
+        "optical": {
+          "frame_rate_Hz": 500,
+          "AP_width_bias_ms": 1.8,
+          "AP_width_bias_SD_ms": 1.1,
+          "n_spikes": 148,
+          "n_cells": 4
+        }
+      },
+      "donor_age": {
+        "value": null,
+        "status": "not_resolved_in_this_passport",
+        "source": "Do not equate donor age with days in differentiation"
+      },
+      "adult_in_vivo_equivalent": false,
+      "healthy_human_whole_model_validated": false,
+      "integrated_candidate_supported": false,
+      "limitations": [
+        "TableS1 eGFP passive context has no resolved genotype label; cannot assert exact39b-Cor properties",
+        "Optopatch group caption/label ambiguity retained",
+        "Light intensity not mapped to pA; patch and optical protocols not interchangeable",
+        "Standalone electrical profile; not part of current9-condition full-neuron panel"
+      ]
+    }
+  },
+  "exclusions": [
+    "Adult human MN, cat Powers-Heckman and mouse assays are separate evidence layers",
+    "Mutation/isogenic correction/culture age never inferred from profile numerical fit"
+  ]
+}

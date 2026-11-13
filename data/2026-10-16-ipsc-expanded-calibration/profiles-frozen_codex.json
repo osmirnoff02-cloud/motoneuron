@@ -1,0 +1,201 @@
+{
+  "author": "codex",
+  "date": "2026-10-16",
+  "profiles": [
+    {
+      "id": "Selvaraj_Con1_w5",
+      "source": "Selvaraj2018 Fig3d/TableS1",
+      "doi": "10.1038/s41467-017-02729-0",
+      "population": "healthy Con1, week5 post-plating, MN enriched without glia",
+      "parameter_names": [
+        "gna",
+        "vm",
+        "km",
+        "gk",
+        "vn",
+        "kn",
+        "vh",
+        "kh",
+        "tm",
+        "thmin",
+        "threc",
+        "tn",
+        "ga",
+        "ta",
+        "tmfast",
+        "tndeact"
+      ],
+      "parameters": [
+        16.676463610914293,
+        -49.26530904120551,
+        3.3624399144260897,
+        0.12593895296029076,
+        -37.99885773109006,
+        18.641187704985118,
+        -80.34482894430842,
+        7.025273913228794,
+        0.9308316995216879,
+        2.9670331144314046,
+        32.6037380058094,
+        0.3358073481070889,
+        0.28231079336375897,
+        70.73138489226722,
+        0.15632801346881725,
+        21.86523837699884
+      ],
+      "context_names": [
+        "Cm_pF",
+        "Rin_GOhm",
+        "RMP_mV",
+        "ENa_mV",
+        "EK_mV",
+        "holding_mV",
+        "Rin_reference_mV"
+      ],
+      "context": [
+        23.0,
+        0.701,
+        -60.5,
+        66.93091542595232,
+        -98.07502235454548,
+        -60.5,
+        -60.0
+      ],
+      "status": "conditional FI-only calibration accepted within declared 1Hz engineering tolerance",
+      "guards": {
+        "FI_all_within_1Hz": true,
+        "rest_stable": true,
+        "finite_Rin_within10percent": true,
+        "Cm_matches": true,
+        "return_within_.5mV": true,
+        "dt_counts_agree": true,
+        "Na_off_no_AP": true
+      },
+      "fit_report": "selvaraj-Con1-neuron_codex.json",
+      "temperature_C": 23,
+      "protocol": {
+        "duration_ms": 1000,
+        "currents_pA": [
+          5,
+          15,
+          25,
+          35
+        ],
+        "CC": "free rest assumed; exact source bias unavailable",
+        "Rin_reference_mV": -60,
+        "pre_ms": 200,
+        "post_ms": 1800,
+        "dt_ms": 0.005
+      },
+      "not_validated": [
+        "Ca",
+        "Na/K current amplitudes in this source",
+        "population AP/AHP shape",
+        "unseen donor",
+        "whole T00",
+        "high-load firing above35pA"
+      ],
+      "molecular_parameters_identified": false,
+      "independent_validation": false
+    },
+    {
+      "id": "Selvaraj_Con2_w5",
+      "source": "Selvaraj2018 Fig3d/TableS1",
+      "doi": "10.1038/s41467-017-02729-0",
+      "population": "healthy Con2, week5 post-plating, MN enriched without glia",
+      "parameter_names": [
+        "gna",
+        "vm",
+        "km",
+        "gk",
+        "vn",
+        "kn",
+        "vh",
+        "kh",
+        "tm",
+        "thmin",
+        "threc",
+        "tn",
+        "ga",
+        "ta",
+        "tmfast",
+        "tndeact"
+      ],
+      "parameters": [
+        16.315454653785704,
+        -47.84839909002016,
+        3.3624399144260897,
+        0.6790244450580089,
+        -37.99885773109006,
+        18.641187704985118,
+        -78.92791899312306,
+        7.025273913228794,
+        0.9308316995216879,
+        2.9670331144314046,
+        62.34533055590708,
+        0.3358073481070889,
+        0.20344597394415923,
+        79.69362566619634,
+        0.15632801346881725,
+        21.86523837699884
+      ],
+      "context_names": [
+        "Cm_pF",
+        "Rin_GOhm",
+        "RMP_mV",
+        "ENa_mV",
+        "EK_mV",
+        "holding_mV",
+        "Rin_reference_mV"
+      ],
+      "context": [
+        28.1,
+        0.693,
+        -59.1,
+        66.93091542595232,
+        -98.07502235454548,
+        -59.1,
+        -60.0
+      ],
+      "status": "conditional FI-only calibration accepted within declared 1Hz engineering tolerance",
+      "guards": {
+        "FI_all_within_1Hz": true,
+        "rest_stable": true,
+        "finite_Rin_within10percent": true,
+        "Cm_matches": true,
+        "return_within_.5mV": true,
+        "dt_counts_agree": true,
+        "Na_off_no_AP": true
+      },
+      "fit_report": "selvaraj-Con2-neuron_codex.json",
+      "temperature_C": 23,
+      "protocol": {
+        "duration_ms": 1000,
+        "currents_pA": [
+          5,
+          15,
+          25,
+          35
+        ],
+        "CC": "free rest assumed; exact source bias unavailable",
+        "Rin_reference_mV": -60,
+        "pre_ms": 200,
+        "post_ms": 1800,
+        "dt_ms": 0.005
+      },
+      "not_validated": [
+        "Ca",
+        "Na/K current amplitudes in this source",
+        "population AP/AHP shape",
+        "unseen donor",
+        "whole T00",
+        "high-load firing above35pA"
+      ],
+      "molecular_parameters_identified": false,
+      "independent_validation": false
+    }
+  ],
+  "partial_profile_index": "patch-selection_codex.json",
+  "previous_profiles_preserved": true,
+  "warning": "FI calibration does not validate AP/AHP, calcium, disease mechanism or unseen donor. Do not pool cultures."
+}

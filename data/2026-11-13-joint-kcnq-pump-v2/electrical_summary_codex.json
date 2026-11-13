@@ -1,0 +1,257 @@
+{
+  "rows": [
+    {
+      "source": "J13_electric_C08_Burley_15_features_codex.json",
+      "candidate": "C08",
+      "profile": "Burley",
+      "pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 3,
+        "rest_mV": -69.99999958817584,
+        "peak_mV": 61.14971967662102,
+        "post_min_mV": -11.375962251651913,
+        "post_100ms_min_mV": -11.375962251651913,
+        "post_area_mVs": -3.464880404654628,
+        "tail_delta_mV": -0.47459355691115945
+      },
+      "historical_count_target": 3,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Burley_25_features_codex.json",
+      "candidate": "C08",
+      "profile": "Burley",
+      "pA": 25,
+      "start_s": 0,
+      "features": {
+        "spikes": 4,
+        "rest_mV": -69.99999958817584,
+        "peak_mV": 62.74328770241523,
+        "post_min_mV": -8.751803488339263,
+        "post_100ms_min_mV": -8.751803488339263,
+        "post_area_mVs": -2.709153002097092,
+        "tail_delta_mV": -0.5098830138002626
+      },
+      "historical_count_target": 4,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Burley_50_features_codex.json",
+      "candidate": "C08",
+      "profile": "Burley",
+      "pA": 50,
+      "start_s": 0,
+      "features": {
+        "spikes": 3,
+        "rest_mV": -69.99999958817584,
+        "peak_mV": 64.75585803782678,
+        "post_min_mV": -4.30823588991943,
+        "post_100ms_min_mV": -4.30823588991943,
+        "post_area_mVs": -0.5615967089533344,
+        "tail_delta_mV": -0.09374144806352547
+      },
+      "historical_count_target": 3,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Selvaraj-Con1_15_features_codex.json",
+      "candidate": "C08",
+      "profile": "Selvaraj-Con1",
+      "pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -60.49999967515965,
+        "peak_mV": -8.26168893058737,
+        "post_min_mV": -3.7726282444046504,
+        "post_100ms_min_mV": -3.7726282444046504,
+        "post_area_mVs": -0.6500897069547541,
+        "tail_delta_mV": -0.050546293272027754
+      },
+      "historical_count_target": 5,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Selvaraj-Con1_25_features_codex.json",
+      "candidate": "C08",
+      "profile": "Selvaraj-Con1",
+      "pA": 25,
+      "start_s": 0,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -60.49999967515965,
+        "peak_mV": -6.19678593867715,
+        "post_min_mV": -7.7714691078298515,
+        "post_100ms_min_mV": -7.7714691078298515,
+        "post_area_mVs": -1.4315412467096973,
+        "tail_delta_mV": -0.08555688505669679
+      },
+      "historical_count_target": 6,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Selvaraj-Con1_50_features_codex.json",
+      "candidate": "C08",
+      "profile": "Selvaraj-Con1",
+      "pA": 50,
+      "start_s": 0,
+      "features": {
+        "spikes": 4,
+        "rest_mV": -60.49999967515965,
+        "peak_mV": -3.5348227886756143,
+        "post_min_mV": -3.303699447213539,
+        "post_100ms_min_mV": -3.303699447213539,
+        "post_area_mVs": -0.2092637300814098,
+        "tail_delta_mV": 0.1526547514140475
+      },
+      "historical_count_target": 4,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Selvaraj-Con2_15_features_codex.json",
+      "candidate": "C08",
+      "profile": "Selvaraj-Con2",
+      "pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.09999968902525,
+        "peak_mV": -10.898319220394177,
+        "post_min_mV": -2.315505289953485,
+        "post_100ms_min_mV": -2.315505289953485,
+        "post_area_mVs": -0.2933448236211338,
+        "tail_delta_mV": -0.0879258784248691
+      },
+      "historical_count_target": 5,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Selvaraj-Con2_25_features_codex.json",
+      "candidate": "C08",
+      "profile": "Selvaraj-Con2",
+      "pA": 25,
+      "start_s": 0,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.09999968902525,
+        "peak_mV": -8.470322062134045,
+        "post_min_mV": -5.515735378435949,
+        "post_100ms_min_mV": -5.515735378435949,
+        "post_area_mVs": -0.8762540782356658,
+        "tail_delta_mV": -0.13966535774265765
+      },
+      "historical_count_target": 6,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Selvaraj-Con2_25post108_control_features_codex.json",
+      "candidate": "C08",
+      "profile": "Selvaraj-Con2",
+      "pA": 25,
+      "start_s": 388800.0,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.09994246534498,
+        "peak_mV": -8.47053006072806,
+        "post_min_mV": -5.507707676907572,
+        "post_100ms_min_mV": -5.507707676907572,
+        "post_area_mVs": -0.8742316841063306,
+        "tail_delta_mV": -0.1396669005856097
+      },
+      "historical_count_target": 6,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_C08_Selvaraj-Con2_50_features_codex.json",
+      "candidate": "C08",
+      "profile": "Selvaraj-Con2",
+      "pA": 50,
+      "start_s": 0,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.09999968902525,
+        "peak_mV": -0.28880808980833894,
+        "post_min_mV": -23.53716338542388,
+        "post_100ms_min_mV": -23.53716338542388,
+        "post_area_mVs": -4.3512375774827685,
+        "tail_delta_mV": -0.30390893978227496
+      },
+      "historical_count_target": 7,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_P01_Selvaraj-Con1_15_features_codex.json",
+      "candidate": "P01",
+      "profile": "Selvaraj-Con1",
+      "pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -60.499999564099916,
+        "peak_mV": -8.262636315503464,
+        "post_min_mV": -3.793978799851878,
+        "post_100ms_min_mV": -3.793978799851878,
+        "post_area_mVs": -0.6849975596612774,
+        "tail_delta_mV": -0.09761392473291153
+      },
+      "historical_count_target": 5,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    },
+    {
+      "source": "J13_electric_P01_Selvaraj-Con2_15_features_codex.json",
+      "candidate": "P01",
+      "profile": "Selvaraj-Con2",
+      "pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.09999959826504,
+        "peak_mV": -10.899475824609297,
+        "post_min_mV": -2.336334039443585,
+        "post_100ms_min_mV": -2.336334039443585,
+        "post_area_mVs": -0.34496323511055016,
+        "tail_delta_mV": -0.15805845091517767
+      },
+      "historical_count_target": 5,
+      "count_pass": true,
+      "pre_excursions": 0,
+      "delayed_post_excursions": 0
+    }
+  ],
+  "panels": {
+    "C08": {
+      "conditions": 9,
+      "count_passes": 9,
+      "complete_9of9": true
+    },
+    "P01": {
+      "conditions": 2,
+      "count_passes": 2,
+      "complete_9of9": false
+    }
+  },
+  "warning": "Counts are historical regression targets; 50pA Selvaraj not a measured human point. No waveform target is inferred from count pass."
+}

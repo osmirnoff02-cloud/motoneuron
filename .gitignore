@@ -1,0 +1,15 @@
+.venv/
+venv/
+outputs/
+__pycache__/
+*.pyc
+*.pyo
+*.nbi
+*.nbc
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example

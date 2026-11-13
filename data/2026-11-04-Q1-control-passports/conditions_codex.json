@@ -1,0 +1,244 @@
+{
+  "schema": "Q1-conditions-v1",
+  "author": "codex",
+  "date": "2026-11-04",
+  "recording_conditions": {
+    "Burley": {
+      "temperature_C": {
+        "value": null,
+        "status": "not_reported_in_checked_patch_methods",
+        "source": "Burley2022 PDFp6"
+      },
+      "bath_pH": {
+        "value": 7.4,
+        "status": "reported",
+        "source": "Methods p6"
+      },
+      "pipette_pH": {
+        "value": 7.3,
+        "status": "reported_KOH_titrated",
+        "source": "Methods p6"
+      },
+      "bath_recipe_mM": {
+        "NaCl": 167,
+        "KCl": 2.4,
+        "MgCl2": 1,
+        "glucose": 10,
+        "HEPES": 10,
+        "CaCl2": 2
+      },
+      "pipette_recipe_mM": {
+        "K_gluconate": 140,
+        "NaCl": 6,
+        "EGTA": 1,
+        "HEPES": 10,
+        "MgATP": 4,
+        "Na3GTP": 0.4
+      },
+      "bath_mOsm": 300,
+      "pipette_mOsm": 290,
+      "LJP_mV": {
+        "value": null,
+        "status": "not_resolved",
+        "source": "No invented correction"
+      },
+      "whole_cell_dialysis": true,
+      "free_cytosolic_Mg_mM": {
+        "value": null,
+        "status": "not_measured",
+        "source": "MgATP or bath MgCl2 does not specify free cytosolic Mg"
+      },
+      "free_cytosolic_pH": {
+        "value": null,
+        "status": "not_measured",
+        "source": "Pipette target pH does not establish whole-network pH"
+      },
+      "source_bath_Na_mM": 167,
+      "source_bath_K_mM": 2.4
+    },
+    "Selvaraj": {
+      "temperature_C": {
+        "value": null,
+        "status": "room_temperature_reported_no_exact_value",
+        "source": "Selvaraj Electrophysiology"
+      },
+      "reference_temperature_range_C": {
+        "value": [
+          22,
+          24
+        ],
+        "status": "cited_protocol_not_cellwise_measurement",
+        "source": "Devlin2015 PMID25580746 Methods"
+      },
+      "bath_pH": {
+        "value": 7.45,
+        "status": "reported",
+        "source": "F-I Methods"
+      },
+      "pipette_pH": {
+        "value": [
+          7.2,
+          7.3
+        ],
+        "status": "reported_KOH_titrated",
+        "source": "F-I Methods"
+      },
+      "bath_recipe_mM": {
+        "NaCl": 127,
+        "KCl": 3,
+        "CaCl2": 2,
+        "MgCl2": 1,
+        "NaHCO3": 26,
+        "NaH2PO4": 1.25,
+        "glucose": 10
+      },
+      "pipette_recipe_mM": {
+        "K_methanesulfonate": 140,
+        "NaCl": 10,
+        "CaCl2": 1,
+        "HEPES": 10,
+        "EGTA": 1,
+        "Mg2ATP": 3,
+        "Na3GTP": 0.4
+      },
+      "bath_mOsm": 310,
+      "pipette_mOsm": 300,
+      "bath_gas": "95%O2/5%CO2",
+      "LJP_mV": {
+        "value": null,
+        "status": "correction_reported_amount_unknown",
+        "source": "Selvaraj Methods"
+      },
+      "whole_cell_dialysis": true,
+      "free_cytosolic_Mg_mM": {
+        "value": null,
+        "status": "not_measured",
+        "source": "Recipe contains Mg2ATP, not measured free Mg"
+      },
+      "free_cytosolic_pH": {
+        "value": null,
+        "status": "not_measured",
+        "source": "Pipette pH is not a measurement of all modeled compartments"
+      },
+      "source_bath_Na_mM": 154.25,
+      "source_bath_K_mM": 3.0,
+      "exclusions": "Different recipe for AMPA/fluctuation measurements is not assigned to Fig3 F-I"
+    },
+    "Kiskinis-39b-Cor-eGFP": {
+      "temperature_C": {
+        "value": 23.0,
+        "status": "reported",
+        "source": "Kiskinis2018 PDFp13"
+      },
+      "bath_pH": {
+        "value": 7.3,
+        "status": "reported",
+        "source": "Tyrode Methods PDFp12-13"
+      },
+      "bath_recipe_mM": {
+        "NaCl": 125,
+        "KCl": 2.5,
+        "CaCl2": 3,
+        "MgCl2": 1,
+        "HEPES": 10,
+        "glucose": 30
+      },
+      "bath_mOsm": [
+        305,
+        310
+      ],
+      "pipette_recipe_mM": null,
+      "pipette_status": "not_resolved_in_checked_text",
+      "LJP_mV": {
+        "value": null,
+        "status": "not_resolved",
+        "source": "No arbitrary correction"
+      },
+      "whole_cell_dialysis": true,
+      "free_cytosolic_Mg_mM": {
+        "value": null,
+        "status": "not_measured",
+        "source": "Bath Mg not free cytosolic Mg"
+      },
+      "free_cytosolic_pH": {
+        "value": null,
+        "status": "not_measured",
+        "source": "No intracellular pH measurement"
+      },
+      "source_bath_Na_mM": 125,
+      "source_bath_K_mM": 2.5,
+      "synaptic_blockers": "Reported for single-cell imaging; quantities not newly transcribed because PDF text substitutes micro symbols"
+    }
+  },
+  "model_modules": {
+    "membrane_ions": {
+      "temperature_C": 23.0,
+      "status": "retained implementation reference; Burley bath unknown; Selvaraj room-temperature approximation; Kiskinis23C separately"
+    },
+    "CK_candidate": {
+      "temperature_C": 23.0,
+      "pH": 7.0,
+      "free_Mg_mM": 1.0,
+      "ionic_strength_M": 0.25,
+      "Na_mM": 145.0,
+      "K_mM": 6.5,
+      "status": "Wiseman2023 solution-domain transfer assumption, not neuronal intracellular medium"
+    },
+    "CK_legacy": {
+      "status": "Historical fixed factor; pH/Mg/T not fully encoded; must not label condition-matched"
+    },
+    "TDP_RNA": {
+      "reference_temperature_C": 37.0,
+      "target_temperature_C": 23.0,
+      "Q10": 1.0,
+      "status": "conditional temperature-neutral transfer; not experimentally calibrated Q10"
+    },
+    "Ca_ER_mito_PMCA_NaK_lysosome_nuclear_ribosome_NMJ": {
+      "temperature_C": null,
+      "pH": null,
+      "free_Mg_mM": null,
+      "status": "source systems heterogeneous; rate constants interpreted as target-condition hypotheses; complete thermal/speciation model absent"
+    },
+    "geometry": {
+      "status": "effective capacitance-derived cylinders; process accessible fraction and organelle volumes are assumptions; no real cell reconstruction"
+    }
+  },
+  "pool_meanings": [
+    {
+      "pool": "cytosolic/ER/matrix calcium",
+      "meaning": "Modeled free Ca, uM; buffers and volume assumptions are separate",
+      "not_equal": "Fura/GCaMP ratios; total calcium"
+    },
+    {
+      "pool": "ATP/ADP/AMP and PCr/Cr",
+      "meaning": "Effective concentration pools,uM; CK thermodynamics uses sums of chemical species",
+      "not_equal": "measured free/unbound ADP or specific MgATP without speciation"
+    },
+    {
+      "pool": "soma/process/terminal ions",
+      "meaning": "Effective ion concentration pools,uM; initial reference reversal shifts retained",
+      "not_equal": "whole-cell pipette recipe automatically equilibrated throughout a neuron"
+    },
+    {
+      "pool": "TDP intact/fragments/aggregates",
+      "meaning": "Normalized effective species; separate assay mapping required",
+      "not_equal": "absolute molecules or western-blot band intensities"
+    },
+    {
+      "pool": "iron",
+      "meaning": "common arbitrary amounts, see config iron_units",
+      "not_equal": "measured iron concentration"
+    },
+    {
+      "pool": "RNA/RP/Ran/translation",
+      "meaning": "Selected effective concentration/count-equivalent pools and cumulative counters; state_schema supplies per-state units",
+      "not_equal": "all proteins or all nuclear processes"
+    },
+    {
+      "pool": "flux/energy counters",
+      "meaning": "Cumulative accounting variables; may grow or have signed ledgers",
+      "not_equal": "substrate pool requiring nonnegative stationary concentration"
+    }
+  ],
+  "policy": "Unknown values remain null, not0 and not automatically room37C. Reported recipes, measured concentrations and inferred ions are separate. No physical defaults changed."
+}

@@ -1,0 +1,746 @@
+{
+  "author": "codex",
+  "date": "2026-11-02",
+  "source": "E:\\data_als\\downloads\\uniprot\\uniprot-human-reviewed-UP000005640.xml.gz",
+  "source_sha256": "473c0011451df2aff3218d46f74895ac42e6bde580b423908624a7b32e76af87",
+  "release": "2026_03",
+  "recipe": {
+    "40S": {
+      "translated_aa": 5575,
+      "bound_aa": 5425,
+      "coproduct_aa": 150,
+      "chains": 34,
+      "unique_genes": 34
+    },
+    "60S": {
+      "translated_aa": 8344,
+      "bound_aa": 8268,
+      "coproduct_aa": 76,
+      "chains": 48,
+      "unique_genes": 46
+    }
+  },
+  "proteins": [
+    {
+      "gene": "RPSA",
+      "accession": "P08865",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 295,
+      "bound_aa": 295,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS2",
+      "accession": "P15880",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 293,
+      "bound_aa": 293,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS3",
+      "accession": "P23396",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 243,
+      "bound_aa": 243,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS3A",
+      "accession": "P61247",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 264,
+      "bound_aa": 264,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS4X",
+      "accession": "P62701",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 263,
+      "bound_aa": 263,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS5",
+      "accession": "P46782",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 204,
+      "bound_aa": 204,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS6",
+      "accession": "P62753",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 249,
+      "bound_aa": 249,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS7",
+      "accession": "P62081",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 194,
+      "bound_aa": 194,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS8",
+      "accession": "P62241",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 208,
+      "bound_aa": 208,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS9",
+      "accession": "P46781",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 194,
+      "bound_aa": 194,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS10",
+      "accession": "P46783",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 165,
+      "bound_aa": 165,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS11",
+      "accession": "P62280",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 158,
+      "bound_aa": 158,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS12",
+      "accession": "P25398",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 132,
+      "bound_aa": 132,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS13",
+      "accession": "P62277",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 151,
+      "bound_aa": 151,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS14",
+      "accession": "P62263",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 151,
+      "bound_aa": 151,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS15",
+      "accession": "P62841",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 145,
+      "bound_aa": 145,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS15A",
+      "accession": "P62244",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 130,
+      "bound_aa": 130,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS16",
+      "accession": "P62249",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 146,
+      "bound_aa": 146,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS17",
+      "accession": "P08708",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 135,
+      "bound_aa": 135,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS18",
+      "accession": "P62269",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 152,
+      "bound_aa": 152,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS19",
+      "accession": "P39019",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 145,
+      "bound_aa": 145,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS20",
+      "accession": "P60866",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 119,
+      "bound_aa": 119,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS21",
+      "accession": "P63220",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 83,
+      "bound_aa": 83,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS23",
+      "accession": "P62266",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 143,
+      "bound_aa": 143,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS24",
+      "accession": "P62847",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 133,
+      "bound_aa": 133,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS25",
+      "accession": "P62851",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 125,
+      "bound_aa": 125,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS26",
+      "accession": "P62854",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 115,
+      "bound_aa": 115,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS27",
+      "accession": "P42677",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 84,
+      "bound_aa": 84,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS27A",
+      "accession": "P62979",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 156,
+      "bound_aa": 80,
+      "coproduct_aa": 76
+    },
+    {
+      "gene": "RPS28",
+      "accession": "P62857",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 69,
+      "bound_aa": 69,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPS29",
+      "accession": "P62273",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 56,
+      "bound_aa": 56,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "FAU",
+      "accession": "P62861",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 133,
+      "bound_aa": 59,
+      "coproduct_aa": 74
+    },
+    {
+      "gene": "RPL41",
+      "accession": "P62945",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 25,
+      "bound_aa": 25,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPLP0",
+      "accession": "P05388",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 317,
+      "bound_aa": 317,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPLP1",
+      "accession": "P05386",
+      "subunit": "60S",
+      "copies": 2,
+      "translated_aa": 114,
+      "bound_aa": 114,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPLP2",
+      "accession": "P05387",
+      "subunit": "60S",
+      "copies": 2,
+      "translated_aa": 115,
+      "bound_aa": 115,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL3",
+      "accession": "P39023",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 403,
+      "bound_aa": 403,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL4",
+      "accession": "P36578",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 427,
+      "bound_aa": 427,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL5",
+      "accession": "P46777",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 297,
+      "bound_aa": 297,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL6",
+      "accession": "Q02878",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 288,
+      "bound_aa": 288,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL7",
+      "accession": "P18124",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 248,
+      "bound_aa": 248,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL7A",
+      "accession": "P62424",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 266,
+      "bound_aa": 266,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL8",
+      "accession": "P62917",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 257,
+      "bound_aa": 257,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL9",
+      "accession": "P32969",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 192,
+      "bound_aa": 192,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL10",
+      "accession": "P27635",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 214,
+      "bound_aa": 214,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL10A",
+      "accession": "P62906",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 217,
+      "bound_aa": 217,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL11",
+      "accession": "P62913",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 178,
+      "bound_aa": 178,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL12",
+      "accession": "P30050",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 165,
+      "bound_aa": 165,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL13",
+      "accession": "P26373",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 211,
+      "bound_aa": 211,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL13A",
+      "accession": "P40429",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 203,
+      "bound_aa": 203,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL14",
+      "accession": "P50914",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 215,
+      "bound_aa": 215,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL15",
+      "accession": "P61313",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 204,
+      "bound_aa": 204,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL17",
+      "accession": "P18621",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 184,
+      "bound_aa": 184,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL18",
+      "accession": "Q07020",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 188,
+      "bound_aa": 188,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL18A",
+      "accession": "Q02543",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 176,
+      "bound_aa": 176,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL19",
+      "accession": "P84098",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 196,
+      "bound_aa": 196,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL21",
+      "accession": "P46778",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 160,
+      "bound_aa": 160,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL22",
+      "accession": "P35268",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 128,
+      "bound_aa": 128,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL23",
+      "accession": "P62829",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 140,
+      "bound_aa": 140,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL23A",
+      "accession": "P62750",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 156,
+      "bound_aa": 156,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL24",
+      "accession": "P83731",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 157,
+      "bound_aa": 157,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL26",
+      "accession": "P61254",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 145,
+      "bound_aa": 145,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL27",
+      "accession": "P61353",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 136,
+      "bound_aa": 136,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL27A",
+      "accession": "P46776",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 148,
+      "bound_aa": 148,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL28",
+      "accession": "P46779",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 137,
+      "bound_aa": 137,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL29",
+      "accession": "P47914",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 159,
+      "bound_aa": 159,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL30",
+      "accession": "P62888",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 115,
+      "bound_aa": 115,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL31",
+      "accession": "P62899",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 125,
+      "bound_aa": 125,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL32",
+      "accession": "P62910",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 135,
+      "bound_aa": 135,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL34",
+      "accession": "P49207",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 117,
+      "bound_aa": 117,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL35",
+      "accession": "P42766",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 123,
+      "bound_aa": 123,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL35A",
+      "accession": "P18077",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 110,
+      "bound_aa": 110,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL36",
+      "accession": "Q9Y3U8",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 105,
+      "bound_aa": 105,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL36A",
+      "accession": "P83881",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 106,
+      "bound_aa": 106,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL37",
+      "accession": "P61927",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 97,
+      "bound_aa": 97,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL37A",
+      "accession": "P61513",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 92,
+      "bound_aa": 92,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL38",
+      "accession": "P63173",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 70,
+      "bound_aa": 70,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "RPL39",
+      "accession": "P62891",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 51,
+      "bound_aa": 51,
+      "coproduct_aa": 0
+    },
+    {
+      "gene": "UBA52",
+      "accession": "P62987",
+      "subunit": "60S",
+      "copies": 1,
+      "translated_aa": 128,
+      "bound_aa": 52,
+      "coproduct_aa": 76
+    },
+    {
+      "gene": "RACK1",
+      "accession": "P63244",
+      "subunit": "40S",
+      "copies": 1,
+      "translated_aa": 317,
+      "bound_aa": 317,
+      "coproduct_aa": 0
+    }
+  ],
+  "scope": "Canonical selected human cytosolic recipe, not measured iPSC-MN stoichiometry. RPS4X/RPL3/RPL22/RPL36A canonical choices; alternative ORF RPL36 and paralogs excluded. RACK1 included. P1/P2 two copies each (Lee2012 DOI10.1093/nar/gkr1143). RPL41 assigned40S per current UniProt/NCBI and Ban nomenclature2025 (eS32). Only explicit Ub/FUBI cleavages subtracted; initiator-Met/PTM mass not resolved. Two aggregate representative-chain classes remain, not80 independent protein ODEs."
+}

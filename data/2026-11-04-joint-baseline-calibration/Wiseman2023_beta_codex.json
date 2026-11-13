@@ -1,0 +1,348 @@
+{
+  "source": "Wiseman2023 ExcelFileS1 Figure5 & A1 column J (author calculated beta, not measured)",
+  "workbook_sha256": "ef68617a7b87f7f603d2e204bffd00787a5f5e9591d184935dcaac6e43456a62",
+  "rows": [
+    {
+      "temperature_C": 10,
+      "pMg": 2,
+      "pH": 6,
+      "beta": 0.802374005
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 2,
+      "pH": 6.5,
+      "beta": 0.923612626
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 2,
+      "pH": 7,
+      "beta": 0.974054063
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 2,
+      "pH": 7.5,
+      "beta": 0.991599605
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 2,
+      "pH": 8,
+      "beta": 0.997323431
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 3,
+      "pH": 6,
+      "beta": 0.698536263
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 3,
+      "pH": 6.5,
+      "beta": 0.831474273
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 3,
+      "pH": 7,
+      "beta": 0.932107139
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 3,
+      "pH": 7.5,
+      "beta": 0.976599401
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 3,
+      "pH": 8,
+      "beta": 0.992387127
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 4,
+      "pH": 6.63,
+      "beta": 0.947893861
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 4,
+      "pH": 7,
+      "beta": 0.971124853
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 4,
+      "pH": 7.5,
+      "beta": 0.989336031
+    },
+    {
+      "temperature_C": 10,
+      "pMg": 4,
+      "pH": 8,
+      "beta": 0.996444992
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 2,
+      "pH": 6,
+      "beta": 0.82521466
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 2,
+      "pH": 6.5,
+      "beta": 0.934469542
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 2,
+      "pH": 7,
+      "beta": 0.978002916
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 2,
+      "pH": 7.5,
+      "beta": 0.992906576
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 2,
+      "pH": 8,
+      "beta": 0.997742791
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 3,
+      "pH": 6,
+      "beta": 0.688488491
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 3,
+      "pH": 6.5,
+      "beta": 0.834828933
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 3,
+      "pH": 7,
+      "beta": 0.935235625
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 3,
+      "pH": 7.5,
+      "beta": 0.977908059
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 3,
+      "pH": 8,
+      "beta": 0.992838047
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 4,
+      "pH": 6.5,
+      "beta": 0.928412588
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 4,
+      "pH": 7,
+      "beta": 0.966757931
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 4,
+      "pH": 7.5,
+      "beta": 0.987820038
+    },
+    {
+      "temperature_C": 20,
+      "pMg": 4,
+      "pH": 8,
+      "beta": 0.995951721
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 2,
+      "pH": 6,
+      "beta": 0.84673848
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 2,
+      "pH": 6.5,
+      "beta": 0.944061851
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 2,
+      "pH": 7,
+      "beta": 0.98141193
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 2,
+      "pH": 7.5,
+      "beta": 0.994026226
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 2,
+      "pH": 8,
+      "beta": 0.998101159
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 3,
+      "pH": 6,
+      "beta": 0.684046012
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 3,
+      "pH": 6.5,
+      "beta": 0.840857379
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 3,
+      "pH": 7,
+      "beta": 0.939161101
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 3,
+      "pH": 7.5,
+      "beta": 0.979444647
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 3,
+      "pH": 8,
+      "beta": 0.993357594
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 4,
+      "pH": 6.5,
+      "beta": 0.916922151
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 4,
+      "pH": 7,
+      "beta": 0.962087564
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 4,
+      "pH": 7.5,
+      "beta": 0.986230865
+    },
+    {
+      "temperature_C": 30,
+      "pMg": 4,
+      "pH": 8,
+      "beta": 0.995438322
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 2,
+      "pH": 6,
+      "beta": 0.866538429
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 2,
+      "pH": 6.5,
+      "beta": 0.952416034
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 2,
+      "pH": 7,
+      "beta": 0.984323629
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 2,
+      "pH": 7.5,
+      "beta": 0.994976403
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 2,
+      "pH": 8,
+      "beta": 0.998404656
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 3,
+      "pH": 6,
+      "beta": 0.685363933
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 3,
+      "pH": 6.5,
+      "beta": 0.849140046
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 3,
+      "pH": 7,
+      "beta": 0.943668989
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 3,
+      "pH": 7.5,
+      "beta": 0.981133544
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 3,
+      "pH": 8,
+      "beta": 0.993921175
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 4,
+      "pH": 6.3,
+      "beta": 0.881201576
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 4,
+      "pH": 6.5,
+      "beta": 0.904676201
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 4,
+      "pH": 7,
+      "beta": 0.957371794
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 4,
+      "pH": 7.5,
+      "beta": 0.984664223
+    },
+    {
+      "temperature_C": 40,
+      "pMg": 4,
+      "pH": 8,
+      "beta": 0.994936552
+    }
+  ]
+}

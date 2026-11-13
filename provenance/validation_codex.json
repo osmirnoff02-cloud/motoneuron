@@ -1,0 +1,88 @@
+{
+  "author": "codex",
+  "date": "2026-11-13",
+  "snapshot": "0.1.0-prepublication",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.12.10",
+  "fresh_venv": true,
+  "isolated_python_flag": true,
+  "original_project_and_tools_access_blocked": true,
+  "network_blocked_during_simulation": true,
+  "smoke": {
+    "states": 4425,
+    "samples": 80,
+    "all_state_max_difference_from_original": 0.0,
+    "max_balance": 1.5537936981880337e-10,
+    "elapsed_to_smoke_result_s": 163.26499999999942,
+    "restart": {
+      "exact_initial_state": true,
+      "max_end_difference": 3.485041588646709e-08,
+      "within_tolerance": true
+    }
+  },
+  "pulse": {
+    "states": 4425,
+    "samples": 8720,
+    "features": {
+      "spikes": 4,
+      "rest_mV": -69.99999958817584,
+      "peak_mV": 62.74328770241523,
+      "post_min_mV": -8.751803488339263,
+      "post_100ms_min_mV": -8.751803488339263,
+      "post_area_mVs": -2.709153002097092,
+      "tail_delta_mV": -0.5098830138002626
+    },
+    "max_balance": 2.8369968596564377e-09,
+    "elapsed_s": 672.875
+  },
+  "checked_source_files": 254,
+  "original_source_hash_changes": [],
+  "publication_transformations": [
+    {
+      "path": "data/2026-10-19-recovery-protocols/recovery_model_codex.py",
+      "change": "Defer optional NEURON replay initialization until explicit call. Integrated model equations/parameters unchanged."
+    },
+    {
+      "path": "data/2026-10-20-coupled-ampa-calcium-spikes/model_api_codex.py",
+      "change": "Defer optional NEURON replay initialization until explicit call. Integrated model equations/parameters unchanged."
+    },
+    {
+      "path": "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery_codex.json",
+      "change": "Contact emails and private outreach status omitted from metadata; all numerical values, keys and array structure preserved."
+    },
+    {
+      "path": "data/2026-11-04-human-MN-rp-mrna/li_author_audit_codex.json",
+      "change": "Contact emails and private outreach status omitted from metadata; all numerical values, keys and array structure preserved."
+    }
+  ],
+  "limits": [
+    "Only the documented smoke/restart and Burley C08 25-pA pulse were rerun, not all historical panels or long runs.",
+    "Windows Python 3.12 tested; Linux/macOS not validated.",
+    "No human calibration; scientific limitations remain.",
+    "AGPL-3.0-only selected by owner on 2026-11-14; personal attribution and third-party rights review remain pending."
+  ],
+  "last_verified_moscow": "2026-11-14T00:18:22.929850+03:00",
+  "relocated_sanitized_smoke": {
+    "protocol": "smoke",
+    "state_count": 4425,
+    "balances_passed": true,
+    "exact_time_grid": true,
+    "all_state_final_max_difference": 0.0,
+    "interpolated_path_max_difference": 0.0,
+    "runtime_files_identical_to_final_package": 224,
+    "original_project_tools_and_publication_directory_reads_blocked": true,
+    "restart": {
+      "exact_initial_state": true,
+      "max_end_difference": 3.485041588646709e-08,
+      "within_tolerance": true
+    }
+  },
+  "documentation_revision": {
+    "version": "0.1.1-prepublication",
+    "date": "2026-11-14",
+    "license": "AGPL-3.0-only",
+    "numerical_snapshot": "0.1.0-prepublication",
+    "numerical_tests_rerun": false,
+    "reason": "Only licensing, mission, documentation and metadata changed; executable code and numerical inputs/references remain byte-identical."
+  }
+}

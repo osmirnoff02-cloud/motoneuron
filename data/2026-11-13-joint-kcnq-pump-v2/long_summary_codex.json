@@ -1,0 +1,341 @@
+{
+  "rows": [
+    {
+      "source": "J13_load36_C05_control_0_metrics_codex.json",
+      "candidate": "C05",
+      "matched_final": {
+        "soma_V": 0.0,
+        "process_V": 0.0,
+        "soma_K": 0.0,
+        "process_K": 0.0,
+        "soma_Na": 0.0,
+        "process_Na": 0.0,
+        "soma_ATP": 0.0,
+        "process_ATP": 0.0,
+        "soma_PCr": 0.0,
+        "process_PCr": 0.0,
+        "soma_Ca_increment": 0.0,
+        "process_Ca_increment": 0.0,
+        "intact_TDP": 0.0,
+        "soma_ADP": 0.0,
+        "process_ADP": 0.0
+      },
+      "minimum_process_ATP_percent_of_start": 99.99999776196947,
+      "minimum_process_PCr_percent_of_start": 99.9992633104422,
+      "K_terms_relative_to_control": [
+        {
+          "channels": 0.0,
+          "pump": 0.0,
+          "background": 0.0,
+          "axial": 0.0
+        },
+        {
+          "channels": 0.0,
+          "pump": 0.0,
+          "background": 0.0,
+          "axial": 0.0
+        }
+      ],
+      "K_residual_uM": 6.683873721158307e-08,
+      "matched_K_molecules": {
+        "soma": 0.0,
+        "process": 0.0
+      }
+    },
+    {
+      "source": "J13_load36_C05_repeated_0.001_metrics_codex.json",
+      "candidate": "C05",
+      "matched_final": {
+        "soma_V": 0.23667279431278132,
+        "process_V": 0.23843897118707247,
+        "soma_K": -1078.6272583324171,
+        "process_K": -1243.5163128988352,
+        "soma_Na": 7.930750763769538,
+        "process_Na": 4.234695868943163,
+        "soma_ATP": -0.04419399873813745,
+        "process_ATP": -0.027250190858921997,
+        "soma_PCr": -8.80266096908781,
+        "process_PCr": -12.391690157082849,
+        "soma_Ca_increment": 0.00034059076198946804,
+        "process_Ca_increment": 5.791690023029785e-05,
+        "intact_TDP": -3.5786496623835262e-06,
+        "soma_ADP": 0.043816052943441264,
+        "process_ADP": 0.026886460770676024
+      },
+      "minimum_process_ATP_percent_of_start": 99.95402570054841,
+      "minimum_process_PCr_percent_of_start": 97.92138256096395,
+      "K_terms_relative_to_control": [
+        {
+          "channels": -55140.43332627311,
+          "pump": 151616.4570119232,
+          "background": -97526.48427899182,
+          "axial": -28.166664970591683
+        },
+        {
+          "channels": -174269.99171624077,
+          "pump": 420480.20449209213,
+          "background": -248258.4626700878,
+          "axial": 804.7335814302055
+        }
+      ],
+      "K_residual_uM": 1.1866632121382281e-07,
+      "matched_K_molecules": {
+        "soma": -583058015.9694756,
+        "process": -23527466.80734787
+      }
+    },
+    {
+      "source": "J13_load36_C08_continuous_0.0001_metrics_codex.json",
+      "candidate": "C08",
+      "matched_final": {
+        "soma_V": 0.014560932343385957,
+        "process_V": 0.015052973406277204,
+        "soma_K": -74.77124022261705,
+        "process_K": -120.13109469105257,
+        "soma_Na": 0.2231686551385792,
+        "process_Na": -0.5521458143557538,
+        "soma_ATP": -0.0012790745195161435,
+        "process_ATP": 0.003702165055074147,
+        "soma_PCr": -0.25687016479105296,
+        "process_PCr": 0.7150288441457633,
+        "soma_Ca_increment": 1.860791293945154e-05,
+        "process_Ca_increment": 2.355501764593576e-06,
+        "intact_TDP": 4.546657122239672e-06,
+        "soma_ADP": 0.0012682936971142311,
+        "process_ADP": -0.0037099045959649857
+      },
+      "minimum_process_ATP_percent_of_start": 99.99746171186877,
+      "minimum_process_PCr_percent_of_start": 99.77909161415353,
+      "K_terms_relative_to_control": [
+        {
+          "channels": -4803.26173872943,
+          "pump": 12312.352365311235,
+          "background": -7693.922285079956,
+          "axial": 110.06041818855407
+        },
+        {
+          "channels": -15096.663547013886,
+          "pump": 22284.782472401857,
+          "background": -4163.777126520872,
+          "axial": -3144.4728935802264
+        }
+      ],
+      "K_residual_uM": 1.479936599935172e-07,
+      "matched_K_molecules": {
+        "soma": -40418013.39526366,
+        "process": -2272893.6593403905
+      }
+    },
+    {
+      "source": "J13_load36_C08_continuous_0.001_metrics_codex.json",
+      "candidate": "C08",
+      "matched_final": {
+        "soma_V": 0.15009995035821078,
+        "process_V": 0.15488501605695149,
+        "soma_K": -764.8132672913198,
+        "process_K": -1205.7529805508675,
+        "soma_Na": 2.4163739203813748,
+        "process_Na": -5.1053525907227595,
+        "soma_ATP": -0.013846118583842326,
+        "process_ATP": 0.034244515252339625,
+        "soma_PCr": -2.7762655114916015,
+        "process_PCr": 6.567641658149114,
+        "soma_Ca_increment": 0.00019300009956347555,
+        "process_Ca_increment": 2.5138301181156995e-05,
+        "intact_TDP": 4.445384314644141e-05,
+        "soma_ADP": 0.013729173707972109,
+        "process_ADP": -0.03433197435977675
+      },
+      "minimum_process_ATP_percent_of_start": 99.97266260497209,
+      "minimum_process_PCr_percent_of_start": 97.64446331182438,
+      "K_terms_relative_to_control": [
+        {
+          "channels": -49095.02381058503,
+          "pump": 125804.0576611422,
+          "background": -78593.97770537436,
+          "axial": 1120.1305874689535
+        },
+        {
+          "channels": -154183.72969317273,
+          "pump": 234440.61769665778,
+          "background": -49460.034347489476,
+          "axial": -32002.60663676562
+        }
+      ],
+      "K_residual_uM": 1.817024894990027e-07,
+      "matched_K_molecules": {
+        "soma": -413424102.5054643,
+        "process": -22812980.363434263
+      }
+    },
+    {
+      "source": "J13_load36_C08_control_0_metrics_codex.json",
+      "candidate": "C08",
+      "matched_final": {
+        "soma_V": 0.0,
+        "process_V": 0.0,
+        "soma_K": 0.0,
+        "process_K": 0.0,
+        "soma_Na": 0.0,
+        "process_Na": 0.0,
+        "soma_ATP": 0.0,
+        "process_ATP": 0.0,
+        "soma_PCr": 0.0,
+        "process_PCr": 0.0,
+        "soma_Ca_increment": 0.0,
+        "process_Ca_increment": 0.0,
+        "intact_TDP": 0.0,
+        "soma_ADP": 0.0,
+        "process_ADP": 0.0
+      },
+      "minimum_process_ATP_percent_of_start": 99.99999883892576,
+      "minimum_process_PCr_percent_of_start": 99.99965286127859,
+      "K_terms_relative_to_control": [
+        {
+          "channels": 0.0,
+          "pump": 0.0,
+          "background": 0.0,
+          "axial": 0.0
+        },
+        {
+          "channels": 0.0,
+          "pump": 0.0,
+          "background": 0.0,
+          "axial": 0.0
+        }
+      ],
+      "K_residual_uM": 1.4932751657426024e-07,
+      "matched_K_molecules": {
+        "soma": 0.0,
+        "process": 0.0
+      }
+    },
+    {
+      "source": "J13_load36_C08_repeated_0.0001_metrics_codex.json",
+      "candidate": "C08",
+      "matched_final": {
+        "soma_V": 0.01369924853481308,
+        "process_V": 0.014243013610830246,
+        "soma_K": -69.68268002002151,
+        "process_K": -119.81083614579984,
+        "soma_Na": 0.2230435204692185,
+        "process_Na": -0.6343599751053262,
+        "soma_ATP": -0.0012766417426064436,
+        "process_ATP": 0.0042473349658394,
+        "soma_PCr": -0.25640028489533506,
+        "process_PCr": 0.3660241264319666,
+        "soma_Ca_increment": 1.7620874626813984e-05,
+        "process_Ca_increment": 2.0535137602119033e-06,
+        "intact_TDP": 2.5079191640076104e-06,
+        "soma_ADP": 0.0012658982267872432,
+        "process_ADP": -0.004254719520803363
+      },
+      "minimum_process_ATP_percent_of_start": 99.99746171186877,
+      "minimum_process_PCr_percent_of_start": 99.89818216599573,
+      "K_terms_relative_to_control": [
+        {
+          "channels": -4658.352506132796,
+          "pump": 12036.081938829273,
+          "background": -7535.246746543795,
+          "axial": 87.83463379223987
+        },
+        {
+          "channels": -14667.220281331567,
+          "pump": 24830.91346490383,
+          "background": -7774.031226411462,
+          "axial": -2509.4727934258135
+        }
+      ],
+      "K_residual_uM": 2.3495567802456208e-07,
+      "matched_K_molecules": {
+        "soma": -37667363.62914007,
+        "process": -2266834.332080229
+      }
+    },
+    {
+      "source": "J13_load36_C08_repeated_0.001_metrics_codex.json",
+      "candidate": "C08",
+      "matched_final": {
+        "soma_V": 0.14086059505797976,
+        "process_V": 0.14618802337804482,
+        "soma_K": -711.3342838288227,
+        "process_K": -1202.2588702326466,
+        "soma_Na": 2.393517675818657,
+        "process_Na": -5.988230421295157,
+        "soma_ATP": -0.013699102885311731,
+        "process_ATP": 0.04006721351379383,
+        "soma_PCr": -2.747260865851331,
+        "process_PCr": 2.8468801551312026,
+        "soma_Ca_increment": 0.0001822103551358096,
+        "process_Ca_increment": 2.1894853644792038e-05,
+        "intact_TDP": 2.482645979118292e-05,
+        "soma_ADP": 0.01358358811742022,
+        "process_ADP": -0.04014994147618722
+      },
+      "minimum_process_ATP_percent_of_start": 99.97266260497209,
+      "minimum_process_PCr_percent_of_start": 98.89959567777814,
+      "K_terms_relative_to_control": [
+        {
+          "channels": -47558.85045171133,
+          "pump": 122758.85710065067,
+          "background": -76804.72526840866,
+          "axial": 893.3843355419158
+        },
+        {
+          "channels": -149627.67831575638,
+          "pump": 257941.3570919931,
+          "background": -83991.5677331239,
+          "axial": -25524.369913332623
+        }
+      ],
+      "K_residual_uM": 1.4619217836298048e-07,
+      "matched_K_molecules": {
+        "soma": -384515737.95892483,
+        "process": -22746871.407982346
+      }
+    },
+    {
+      "source": "J13_load36_P01_control_0_metrics_codex.json",
+      "candidate": "P01",
+      "matched_final": {
+        "soma_V": 0.0,
+        "process_V": 0.0,
+        "soma_K": 0.0,
+        "process_K": 0.0,
+        "soma_Na": 0.0,
+        "process_Na": 0.0,
+        "soma_ATP": 0.0,
+        "process_ATP": 0.0,
+        "soma_PCr": 0.0,
+        "process_PCr": 0.0,
+        "soma_Ca_increment": 0.0,
+        "process_Ca_increment": 0.0,
+        "intact_TDP": 0.0,
+        "soma_ADP": 0.0,
+        "process_ADP": 0.0
+      },
+      "minimum_process_ATP_percent_of_start": 99.99999778050889,
+      "minimum_process_PCr_percent_of_start": 99.99956270797585,
+      "K_terms_relative_to_control": [
+        {
+          "channels": 0.0,
+          "pump": 0.0,
+          "background": 0.0,
+          "axial": 0.0
+        },
+        {
+          "channels": 0.0,
+          "pump": 0.0,
+          "background": 0.0,
+          "axial": 0.0
+        }
+      ],
+      "K_residual_uM": 1.1904091934411554e-07,
+      "matched_K_molecules": {
+        "soma": 0.0,
+        "process": 0.0
+      }
+    }
+  ],
+  "scope": "72h preparation +36h continuation, each load compared to own control. Extrema at stored300s points, not continuous-time guarantees."
+}

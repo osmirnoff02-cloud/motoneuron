@@ -1,0 +1,46 @@
+{
+  "author": "codex",
+  "date": "2026-11-05",
+  "profiles": {
+    "Burley": {
+      "checkpoint": "GQ3_rest_Burley_312.0h_checkpoint_codex.json",
+      "sha256": "4bd6ab9b5ea2d271ae44b7c4e871a73135503093c0ec9733ecc9821ef704f80c",
+      "initial_origin_s": 0.0,
+      "time_s": 1123200.0,
+      "configuration_fingerprint": "ccfb1be76af024a6222f432ede8e46d5c2539bd9935dc85a9ad57e805f124556",
+      "maximum_balance_error": 6.256741471588612e-07,
+      "state_count": 4413,
+      "fixed_reference_baseline_retained": true,
+      "full_network_stationarity_validated": false
+    },
+    "Selvaraj-Con1": {
+      "checkpoint": "GQ3_rest_Selvaraj-Con1_312.0h_checkpoint_codex.json",
+      "sha256": "b80ab0c1d6fd89479bafb01557a2c42d4554d9a23c41163bd9e3013c81fd32cf",
+      "initial_origin_s": 0.0,
+      "time_s": 1123200.0,
+      "configuration_fingerprint": "f1f9bf0365fdc2ffaea87f747cfa3200c967c393a74a0e059d827cbbcbd16132",
+      "maximum_balance_error": 2.0265579223632812e-06,
+      "state_count": 4413,
+      "fixed_reference_baseline_retained": true,
+      "full_network_stationarity_validated": false
+    },
+    "Selvaraj-Con2": {
+      "checkpoint": "GQ3_rest_Selvaraj-Con2_312.0h_checkpoint_codex.json",
+      "sha256": "85b2b36401586243760e290b58a46c1a5cf8e94173095621245fc570ae3f8fea",
+      "initial_origin_s": 0.0,
+      "time_s": 1123200.0,
+      "configuration_fingerprint": "56777017fb4e5cc7f251b24182d7bbc3f8718d365b6bfd00daebe00f6b6cbca8",
+      "maximum_balance_error": 3.337860107421875e-06,
+      "state_count": 4413,
+      "fixed_reference_baseline_retained": true,
+      "full_network_stationarity_validated": false
+    }
+  },
+  "conditions": "Q3v3 conditional 23C/Na_out145mM; no reinterpretation as whole-cell recording bath",
+  "limitations": [
+    "Not a healthy human calibration",
+    "240h preparation plus independent72h diagnostic; not culture age",
+    "Some individual RP pools still drift",
+    "Selection based on rest, not on beneficial STMN2 response"
+  ]
+}

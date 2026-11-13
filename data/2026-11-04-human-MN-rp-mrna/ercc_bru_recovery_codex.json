@@ -1,0 +1,89 @@
+{
+  "author": "codex",
+  "date": "2026-11-04",
+  "report": "research/2026-11-04-ye-ercc-chua-full-data_codex.md",
+  "plan_id": "N07.2.2",
+  "Ye": {
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298758",
+    "bioproject": "PRJNA1271061",
+    "public_runs": 36,
+    "decay_samples": 27,
+    "control_samples": 9,
+    "control_paired_fastq_bytes": 15045185866,
+    "all_decay_paired_fastq_bytes": 50379338354,
+    "raw_ERCC_presence_verified_control_samples": 9,
+    "partial_R1_download_bytes": 37748736,
+    "R1_records_examined": 542727,
+    "exact100nt_ERCC_matching_reads": 3708,
+    "scope": "Nine nonrandom 4MiB R1 prefixes; not full FASTQ downloads, not validated counts, not calibration",
+    "reagent": "ThermoFisher4456740: ERCC Mix1",
+    "reagent_source": "https://www.thermofisher.com/order/catalog/product/4456740",
+    "reference_source": {
+      "source": "https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip",
+      "zip_sha256": "8d5f23e997248084cc210061f07f1a51c2f1bf49ea07ee08a9f78bf6ff074807",
+      "fasta_member": "ERCC92.fa",
+      "fasta_sha256": "ab9720a49d9af5463e535fe0c3f6ea2a8c7f9fbf4a4afe29969fb5c1b9e3a2b4",
+      "sequences": 92
+    },
+    "author_ERCC_count_matrix_found": false,
+    "author_regression_coefficients_found": false,
+    "per_sample_spike_amounts_found": false,
+    "source_code": {
+      "url": "https://github.com/yye24/jhu2025",
+      "head": "ad2756b0fa50d4c7e946bdc32621e82fde132bd4",
+      "files": [
+        "R_script.Rmd",
+        "bash_script.sh"
+      ],
+      "scope": "Published files cover peak/IP-input analysis, not ERCC regression or RNA decay fitting"
+    },
+    "reconstruction": "Full reads permit independent ERCC counting. Relative kinetic scaling can be reconstructed up to a shared constant IF the same spike amount was added to every sample; this assumption is not verified. Full processing and endogenous counts remain required.",
+    "unresolved": [
+      "ERCC count matrix or full paired-read processing",
+      "sample-specific dilution/volume and RNA input; RNA/cell basis",
+      "regression axes, log/linear scale, intercept, transcript filters, coefficients and fit QC",
+      "replicate pairing/differentiation identity and ActD dose units"
+    ]
+  },
+  "Chua": {
+    "doi": "10.1016/j.cub.2022.04.053",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9233098/",
+    "data_availability": "Bru-seq/BruChase-seq shared by lead contact upon request without restriction; article reports no original code",
+    "lead_contact": "Jason Chua",
+    "email": "[contact omitted in publication export]",
+    "full_BruChase_public_dataset_found": false,
+    "RP_genes_newly_recovered": 0,
+    "provided_DataS1": {
+      "sheets": 7,
+      "genes": 40,
+      "RP_overlap": 0
+    },
+    "checks": [
+      "PubMed35580604 to GEO links: none",
+      "GEO title/author/assay search: no exact Chua result",
+      "SRA title/author/assay and SBF1/MTMR5/DOI queries: no exact result",
+      "GEO Bru-seq/BruChase neuronal/iPSC series search: six candidates screened; none is this study",
+      "Targeted web searches for Chua title/assay in EBI, DeepBlue, Zenodo, figshare and Dryad: no full BruChase dataset identified"
+    ],
+    "excluded_related": {
+      "GSE115310": "Tank2018 fibroblast/iPSC series, not Chua neuronal data",
+      "GSE191222": "CDK12 inhibition in HF1/K562/HeLa, not Chua neurons",
+      "GSE180993": "Rat hippocampal plasticity",
+      "GSE239471": "Mouse cortical plasticity",
+      "GSE93938": "Mouse cortical LSD1 perturbation",
+      "GSE121749": "Mouse cortical RAI1 perturbation"
+    },
+    "scope": "Bounded search result, not proof that no public or private dataset exists"
+  },
+  "unavailable_documents": [
+    {
+      "title": "Ye/DCPS Supplementary MMC1 PDF",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13058276/bin/NIHMS2140907-supplement-MMC1.pdf",
+      "status": "Browser retrieval returned Preparing to download HTML, not PDF; no supplement PDF read in this stage"
+    }
+  ],
+  "correspondence": "Correspondence details omitted from publication export; no access agreement is asserted.",
+  "physical_parameters_changed": false,
+  "new_identified_basal_human_MN_rates": 0,
+  "author_normalization_reproduced": false
+}

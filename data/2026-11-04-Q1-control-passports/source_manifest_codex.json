@@ -1,0 +1,66 @@
+[
+  {
+    "id": "Burley2022",
+    "path": "data/2026-10-14-healthy-ipsc-electrical/Burley2022.pdf",
+    "sha256": "7523a5c6eadf70695384167e2248a72aff16f623456e2bce0269486070848a86",
+    "pages": [
+      2,
+      6,
+      7
+    ],
+    "read_scope": "Selected methods/results/references; not a new full-paper review"
+  },
+  {
+    "id": "BurleySupp",
+    "path": "data/2026-10-14-healthy-ipsc-stage1/41598_2022_9751_MOESM1_ESM.pdf",
+    "sha256": "1a277b9eaee7a8d2232a6cd02659ab426c42921bb02e8f165938c4753f2db88b",
+    "pages": [
+      1,
+      2
+    ],
+    "read_scope": "Selected methods/results/references; not a new full-paper review"
+  },
+  {
+    "id": "Selvaraj2018",
+    "path": "data/2026-10-16-ipsc-expanded-calibration/root-Selvaraj2018-main.pdf",
+    "sha256": "e1a5511627ed84764cddfb6f9c44cb47a70d758d0840e06fb54837b1ce371b79",
+    "pages": [
+      5
+    ],
+    "read_scope": "Selected methods/results/references; not a new full-paper review"
+  },
+  {
+    "id": "SelvarajSupp",
+    "path": "data/2026-10-16-ipsc-expanded-calibration/root-Selvaraj2018-41467_2017_2729_MOESM1_ESM.pdf",
+    "sha256": "c5b04394f8b01ad0abd481ff52b5118c83f32972e089988bc05b120687410a22",
+    "pages": [
+      9
+    ],
+    "read_scope": "Selected methods/results/references; not a new full-paper review"
+  },
+  {
+    "id": "Kiskinis2018",
+    "path": "papers/Kiskinis_ALS_Optopatch.pdf",
+    "sha256": "98be33efcd4535fcbb80cf03245c9171aa75cc855dbb6717910a0718feb0ac24",
+    "pages": [
+      11,
+      12,
+      13,
+      20,
+      25
+    ],
+    "read_scope": "Selected methods/results/references; not a new full-paper review"
+  },
+  {
+    "id": "SelvarajXML",
+    "path": "data/2026-10-16-ipsc-expanded-calibration/root-Selvaraj2018-PMC5783946.1.xml",
+    "sha256": "2b8e1c2110310ab447fb0881b5ff417f40ea00748250eba37cfa9331577607b3",
+    "read_scope": "Methods and references26/33/73"
+  },
+  {
+    "id": "Devlin2015",
+    "path": "data/2026-10-14-ipsc-electrical-multisource/controls-Wainger-Devlin_codex.xml",
+    "sha256": "f45a117a338e741e2b32f59946d14eb3516579a9004137f17fa48be1dbd876c7",
+    "read_scope": "Selvaraj reference26; patch methods22-24C paragraph only"
+  }
+]

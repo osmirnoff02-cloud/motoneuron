@@ -1,0 +1,4156 @@
+{
+  "author": "codex",
+  "date": "2026-11-03",
+  "genes": [
+    "RPSA",
+    "RPS2",
+    "RPS3",
+    "RPS3A",
+    "RPS4X",
+    "RPS5",
+    "RPS6",
+    "RPS7",
+    "RPS8",
+    "RPS9",
+    "RPS10",
+    "RPS11",
+    "RPS12",
+    "RPS13",
+    "RPS14",
+    "RPS15",
+    "RPS15A",
+    "RPS16",
+    "RPS17",
+    "RPS18",
+    "RPS19",
+    "RPS20",
+    "RPS21",
+    "RPS23",
+    "RPS24",
+    "RPS25",
+    "RPS26",
+    "RPS27",
+    "RPS27A",
+    "RPS28",
+    "RPS29",
+    "FAU",
+    "RPL41",
+    "RPLP0",
+    "RPLP1",
+    "RPLP2",
+    "RPL3",
+    "RPL4",
+    "RPL5",
+    "RPL6",
+    "RPL7",
+    "RPL7A",
+    "RPL8",
+    "RPL9",
+    "RPL10",
+    "RPL10A",
+    "RPL11",
+    "RPL12",
+    "RPL13",
+    "RPL13A",
+    "RPL14",
+    "RPL15",
+    "RPL17",
+    "RPL18",
+    "RPL18A",
+    "RPL19",
+    "RPL21",
+    "RPL22",
+    "RPL23",
+    "RPL23A",
+    "RPL24",
+    "RPL26",
+    "RPL27",
+    "RPL27A",
+    "RPL28",
+    "RPL29",
+    "RPL30",
+    "RPL31",
+    "RPL32",
+    "RPL34",
+    "RPL35",
+    "RPL35A",
+    "RPL36",
+    "RPL36A",
+    "RPL37",
+    "RPL37A",
+    "RPL38",
+    "RPL39",
+    "UBA52",
+    "RACK1"
+  ],
+  "default_profile": "human_neuron67_K56213",
+  "profiles": {
+    "human_neuron67_K56213": {
+      "production_uM_s": [
+        2.870092083540277e-09,
+        2.4016332331015994e-08,
+        1.2371198830161806e-07,
+        4.334078561459944e-08,
+        9.42731009251399e-08,
+        2.996124683634137e-08,
+        2.8039575443863563e-08,
+        1.9109903808610132e-08,
+        1.616104285078755e-07,
+        3.4295073183163856e-11,
+        2.3333333333333334e-08,
+        3.30684828341092e-07,
+        5.825253849633257e-08,
+        4.009937934315684e-08,
+        1.0562808791700757e-07,
+        5.194890916112741e-08,
+        1.1138695151249318e-08,
+        3.018632763356416e-08,
+        1.3416666666666666e-08,
+        1.5917530516871704e-10,
+        1.2772767135168944e-07,
+        6.260420434035544e-08,
+        5.123830434258778e-08,
+        4.265383185263393e-08,
+        5.450509782154985e-08,
+        3.3965787171178254e-08,
+        1.966973630338279e-09,
+        9.534150007176524e-09,
+        7.64113129211427e-08,
+        1.234288386210395e-07,
+        1.694181166591182e-08,
+        2.794813581523333e-08,
+        2.9567103555130695e-08,
+        2.5365297932391424e-07,
+        1.527261790820114e-07,
+        1.0605846828593216e-07,
+        9.65523476020157e-08,
+        1.3021493792705393e-08,
+        1.731238970855016e-07,
+        3.791880782973428e-08,
+        3.330922996044381e-08,
+        1.227355855556388e-07,
+        1.6195597923957972e-07,
+        9.137217281311018e-09,
+        6.613363887560005e-08,
+        1.7392449106667764e-08,
+        5.790269768363586e-08,
+        4.164143642538555e-08,
+        6.491912809357478e-08,
+        2.0949836959930173e-08,
+        7.340000061250676e-08,
+        4.6698843747348756e-08,
+        1.7166666666666665e-08,
+        9.530810907364545e-08,
+        2.1741878876568564e-08,
+        1.80925181345396e-08,
+        4.833333333333334e-09,
+        4.5594049444348386e-08,
+        1.8322286995128517e-08,
+        6.239318069833982e-09,
+        2.0066597410167e-08,
+        2.9251744140208815e-08,
+        1.730315220901363e-08,
+        3.7165956010066036e-07,
+        1.1964670820361414e-08,
+        1.632534389265036e-08,
+        7.50273328980169e-09,
+        1.6682058114220267e-08,
+        4.008155904446821e-08,
+        1.3676669700994147e-08,
+        6.659894408029406e-08,
+        2.5146613345271907e-08,
+        2.585299510052409e-08,
+        2.25e-08,
+        1.1465084318605635e-08,
+        9.428584077585013e-08,
+        1.9313566082871004e-08,
+        3.735143208096126e-08,
+        3.6507888442221624e-08,
+        7.532936204003324e-08
+      ],
+      "decay_s_inv": [
+        2.4971198703826256e-05,
+        5.289804700337055e-05,
+        3.991826035586666e-05,
+        2.3397186019083305e-05,
+        3.19461476971638e-05,
+        3.288291518275502e-05,
+        2.8550420731800466e-05,
+        3.698152772403106e-05,
+        3.420032210403753e-05,
+        3.9166666666666665e-05,
+        2.3333333333333332e-05,
+        0.00022355937463263708,
+        2.4572800563682608e-05,
+        3.305999807210449e-05,
+        2.7932902253825925e-05,
+        4.9511841752816715e-05,
+        2.574139995264435e-05,
+        3.698923370927284e-05,
+        1.3416666666666666e-05,
+        1.45e-05,
+        6.29601804004855e-05,
+        5.3258724486984196e-05,
+        5.324051577196245e-05,
+        3.761656232190072e-05,
+        2.4166666666666667e-05,
+        3.252851023800976e-05,
+        6.417658879045479e-05,
+        4.184132770098739e-05,
+        1.1416666666666667e-05,
+        6.118620419347882e-05,
+        4.702193636574021e-05,
+        3.930522634478935e-05,
+        3.766972961223925e-05,
+        6.950590444451556e-05,
+        8.429137365234238e-05,
+        8.312559197363901e-05,
+        5.3854715793973664e-05,
+        3.3732785267477015e-05,
+        4.4018040366431326e-05,
+        2.7032301821357134e-05,
+        2.4652634145380766e-05,
+        6.176453866061942e-05,
+        7.164332618198472e-05,
+        2.2619087182295866e-05,
+        1.9999999999999998e-05,
+        3.891976972116679e-05,
+        4.205494752309726e-05,
+        5.38551416074144e-05,
+        6.318960823446329e-05,
+        6.257851638595029e-05,
+        0.0001637944569687262,
+        5.787520558717705e-05,
+        1.7166666666666666e-05,
+        6.303295974657059e-05,
+        5.259368209019572e-05,
+        4.820019925663917e-05,
+        4.833333333333333e-06,
+        4.9181079647556124e-05,
+        2.4999999999999998e-05,
+        2.862285264180059e-05,
+        3.614947386444857e-05,
+        2.6130343716546008e-05,
+        3.505969213433619e-05,
+        3.896548130374884e-05,
+        5.337622602361523e-05,
+        5.8645176722000184e-05,
+        1.6666666666666667e-05,
+        1.6682058114220268e-05,
+        3.648960536620626e-05,
+        1.9166666666666667e-05,
+        5.83647095591117e-05,
+        3.351434903129563e-05,
+        7.70321371731095e-05,
+        2.2499999999999998e-05,
+        2.8760349927901077e-05,
+        3.045160787752016e-05,
+        4.7840938604464296e-05,
+        2.3692186007866038e-05,
+        5.276887125619198e-05,
+        6.104767379634794e-05
+      ],
+      "initial_total_uM": [
+        0.00011493609568292378,
+        0.00045401170159430884,
+        0.003099132757758981,
+        0.0018523930860424693,
+        0.0029510005969674248,
+        0.0009111493512611109,
+        0.0009821072588479265,
+        0.0005167418704607024,
+        0.004725406620915904,
+        8.75618889782907e-07,
+        0.001,
+        0.0014791812192375665,
+        0.002370610478254846,
+        0.0012129274555824027,
+        0.003781493485967426,
+        0.0010492219097903391,
+        0.00043271520475734917,
+        0.0008160841576449511,
+        0.001,
+        1.0977607253014968e-05,
+        0.0020287056126463148,
+        0.0011754732195220928,
+        0.0009623930872880635,
+        0.0011339109482580354,
+        0.002255383358133097,
+        0.001044185144743857,
+        3.064939516746072e-05,
+        0.0002278644233115847,
+        0.006692961715720528,
+        0.0020172658240204164,
+        0.000360295916657645,
+        0.0007110539338984975,
+        0.0007849035249120573,
+        0.0036493731194649466,
+        0.0018118838555405044,
+        0.0012758822616212547,
+        0.0017928299533022491,
+        0.000386018933493164,
+        0.003933021453120569,
+        0.0014027221240840155,
+        0.001351142833825125,
+        0.001987152955679632,
+        0.002260587103789506,
+        0.0004039604784963554,
+        0.0033066819437800026,
+        0.0004468795481389696,
+        0.001376834382014976,
+        0.0007732119010834176,
+        0.0010273703209662916,
+        0.00033477682389788477,
+        0.00044812261642359036,
+        0.0008068886023567828,
+        0.001,
+        0.00151203607536184,
+        0.0004133933585270233,
+        0.00037536189504543404,
+        0.001,
+        0.000927064834100567,
+        0.0007328914798051408,
+        0.00021798379595198457,
+        0.000555100676856645,
+        0.0011194550082280893,
+        0.000493534060216905,
+        0.00953817449869157,
+        0.00022415730207429592,
+        0.0002783748776142073,
+        0.0004501639973881014,
+        0.001,
+        0.0010984377233519912,
+        0.0007135653757040424,
+        0.0011410824209249725,
+        0.0007503237888281838,
+        0.00033561310966131276,
+        0.001,
+        0.00039864203138512903,
+        0.003096251638175512,
+        0.00040370374508222443,
+        0.0015765295810424677,
+        0.0006918451650211815,
+        0.0012339432013630579
+      ],
+      "provenance": "67 cortical WT RATEseq loss rates;13 K562 whole-cell fallback;75 early-pulse normalized synthesis shapes with an assumed common count-to-uM factor;5 synthesis rates inferred at0.001uM. Initial totals alpha/k are inferred. Uniform compartment loss. Not humanMN calibrated."
+    },
+    "hybrid_equal_RNA_reference": {
+      "production_uM_s": [
+        2.4971198703826257e-08,
+        5.289804700337055e-08,
+        3.991826035586666e-08,
+        2.3397186019083306e-08,
+        3.19461476971638e-08,
+        3.288291518275502e-08,
+        2.8550420731800467e-08,
+        3.698152772403106e-08,
+        3.4200322104037535e-08,
+        3.9166666666666667e-08,
+        2.3333333333333334e-08,
+        2.2355937463263708e-07,
+        2.457280056368261e-08,
+        3.305999807210449e-08,
+        2.7932902253825924e-08,
+        4.951184175281672e-08,
+        2.574139995264435e-08,
+        3.6989233709272845e-08,
+        1.3416666666666666e-08,
+        1.45e-08,
+        6.296018040048551e-08,
+        5.3258724486984194e-08,
+        5.324051577196245e-08,
+        3.761656232190072e-08,
+        2.4166666666666668e-08,
+        3.252851023800976e-08,
+        6.417658879045479e-08,
+        4.1841327700987386e-08,
+        1.1416666666666666e-08,
+        6.118620419347883e-08,
+        4.702193636574021e-08,
+        3.930522634478935e-08,
+        3.7669729612239255e-08,
+        6.950590444451555e-08,
+        8.429137365234238e-08,
+        8.312559197363901e-08,
+        5.3854715793973665e-08,
+        3.373278526747701e-08,
+        4.401804036643133e-08,
+        2.7032301821357135e-08,
+        2.4652634145380766e-08,
+        6.176453866061942e-08,
+        7.164332618198472e-08,
+        2.2619087182295867e-08,
+        1.9999999999999997e-08,
+        3.8919769721166786e-08,
+        4.205494752309726e-08,
+        5.38551416074144e-08,
+        6.318960823446329e-08,
+        6.257851638595028e-08,
+        1.637944569687262e-07,
+        5.7875205587177046e-08,
+        1.7166666666666665e-08,
+        6.30329597465706e-08,
+        5.2593682090195727e-08,
+        4.820019925663917e-08,
+        4.833333333333334e-09,
+        4.918107964755612e-08,
+        2.5e-08,
+        2.862285264180059e-08,
+        3.614947386444857e-08,
+        2.613034371654601e-08,
+        3.505969213433619e-08,
+        3.8965481303748843e-08,
+        5.3376226023615226e-08,
+        5.864517672200019e-08,
+        1.6666666666666667e-08,
+        1.6682058114220267e-08,
+        3.6489605366206265e-08,
+        1.9166666666666666e-08,
+        5.83647095591117e-08,
+        3.351434903129563e-08,
+        7.70321371731095e-08,
+        2.25e-08,
+        2.8760349927901078e-08,
+        3.045160787752016e-08,
+        4.7840938604464295e-08,
+        2.369218600786604e-08,
+        5.2768871256191987e-08,
+        6.104767379634794e-08
+      ],
+      "decay_s_inv": [
+        2.4971198703826256e-05,
+        5.289804700337055e-05,
+        3.991826035586666e-05,
+        2.3397186019083305e-05,
+        3.19461476971638e-05,
+        3.288291518275502e-05,
+        2.8550420731800466e-05,
+        3.698152772403106e-05,
+        3.420032210403753e-05,
+        3.9166666666666665e-05,
+        2.3333333333333332e-05,
+        0.00022355937463263708,
+        2.4572800563682608e-05,
+        3.305999807210449e-05,
+        2.7932902253825925e-05,
+        4.9511841752816715e-05,
+        2.574139995264435e-05,
+        3.698923370927284e-05,
+        1.3416666666666666e-05,
+        1.45e-05,
+        6.29601804004855e-05,
+        5.3258724486984196e-05,
+        5.324051577196245e-05,
+        3.761656232190072e-05,
+        2.4166666666666667e-05,
+        3.252851023800976e-05,
+        6.417658879045479e-05,
+        4.184132770098739e-05,
+        1.1416666666666667e-05,
+        6.118620419347882e-05,
+        4.702193636574021e-05,
+        3.930522634478935e-05,
+        3.766972961223925e-05,
+        6.950590444451556e-05,
+        8.429137365234238e-05,
+        8.312559197363901e-05,
+        5.3854715793973664e-05,
+        3.3732785267477015e-05,
+        4.4018040366431326e-05,
+        2.7032301821357134e-05,
+        2.4652634145380766e-05,
+        6.176453866061942e-05,
+        7.164332618198472e-05,
+        2.2619087182295866e-05,
+        1.9999999999999998e-05,
+        3.891976972116679e-05,
+        4.205494752309726e-05,
+        5.38551416074144e-05,
+        6.318960823446329e-05,
+        6.257851638595029e-05,
+        0.0001637944569687262,
+        5.787520558717705e-05,
+        1.7166666666666666e-05,
+        6.303295974657059e-05,
+        5.259368209019572e-05,
+        4.820019925663917e-05,
+        4.833333333333333e-06,
+        4.9181079647556124e-05,
+        2.4999999999999998e-05,
+        2.862285264180059e-05,
+        3.614947386444857e-05,
+        2.6130343716546008e-05,
+        3.505969213433619e-05,
+        3.896548130374884e-05,
+        5.337622602361523e-05,
+        5.8645176722000184e-05,
+        1.6666666666666667e-05,
+        1.6682058114220268e-05,
+        3.648960536620626e-05,
+        1.9166666666666667e-05,
+        5.83647095591117e-05,
+        3.351434903129563e-05,
+        7.70321371731095e-05,
+        2.2499999999999998e-05,
+        2.8760349927901077e-05,
+        3.045160787752016e-05,
+        4.7840938604464296e-05,
+        2.3692186007866038e-05,
+        5.276887125619198e-05,
+        6.104767379634794e-05
+      ],
+      "initial_total_uM": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "provenance": "Sensitivity profile: same67cortical+13K562 effective loss rates, but uniform assumed0.001uM totals and alpha=k*M. No observed relative synthesis input in this alternative."
+    },
+    "K562_whole_cell": {
+      "production_uM_s": [
+        1.575e-08,
+        8e-09,
+        1.55e-08,
+        8.333333333333334e-09,
+        1.1666666666666669e-08,
+        1.9999999999999997e-08,
+        7.75e-09,
+        2.0833333333333335e-08,
+        1.0833333333333334e-08,
+        3.9166666666666667e-08,
+        2.3333333333333334e-08,
+        1.8416666666666666e-08,
+        9.5e-09,
+        1.675e-08,
+        4.2500000000000003e-08,
+        2.5e-08,
+        1.0416666666666669e-08,
+        2.0833333333333335e-08,
+        1.3416666666666666e-08,
+        1.45e-08,
+        2.8333333333333336e-08,
+        1.0333333333333333e-08,
+        6.666666666666667e-09,
+        1.1833333333333335e-08,
+        2.4166666666666668e-08,
+        1.125e-08,
+        2.8333333333333336e-08,
+        4.333333333333334e-08,
+        1.1416666666666666e-08,
+        3.083333333333334e-08,
+        9.083333333333333e-08,
+        6.9166666666666666e-09,
+        7.333333333333334e-08,
+        1.4583333333333333e-08,
+        1.0416666666666669e-08,
+        1.3083333333333335e-08,
+        1.9999999999999997e-08,
+        9.75e-09,
+        1.0166666666666667e-08,
+        1.6916666666666666e-08,
+        1.1333333333333334e-08,
+        9.583333333333333e-09,
+        9.000000000000001e-09,
+        2.5e-08,
+        1.9999999999999997e-08,
+        3.1666666666666666e-08,
+        3.083333333333333e-08,
+        1.9833333333333332e-08,
+        2.4166666666666668e-08,
+        2.4166666666666668e-08,
+        1.4666666666666667e-08,
+        2.0833333333333335e-08,
+        1.7166666666666665e-08,
+        1.9999999999999997e-08,
+        1.7333333333333333e-08,
+        1.9166666666666666e-08,
+        4.833333333333334e-09,
+        1.3333333333333334e-08,
+        2.5e-08,
+        1.9166666666666666e-08,
+        1.6666666666666667e-08,
+        1.4166666666666668e-08,
+        2.5833333333333336e-08,
+        1.05e-07,
+        4.75e-08,
+        2.9166666666666666e-08,
+        1.6666666666666667e-08,
+        2.8333333333333336e-08,
+        1.7333333333333333e-08,
+        1.9166666666666666e-08,
+        8.250000000000001e-09,
+        1.541666666666667e-08,
+        1.0500000000000001e-08,
+        2.25e-08,
+        5.833333333333333e-08,
+        5.583333333333333e-08,
+        3.583333333333333e-08,
+        2.0833333333333335e-08,
+        1.375e-08,
+        1.4250000000000002e-08
+      ],
+      "decay_s_inv": [
+        1.575e-05,
+        8e-06,
+        1.55e-05,
+        8.333333333333334e-06,
+        1.1666666666666668e-05,
+        1.9999999999999998e-05,
+        7.75e-06,
+        2.0833333333333333e-05,
+        1.0833333333333334e-05,
+        3.9166666666666665e-05,
+        2.3333333333333332e-05,
+        1.8416666666666666e-05,
+        9.5e-06,
+        1.675e-05,
+        4.25e-05,
+        2.4999999999999998e-05,
+        1.0416666666666668e-05,
+        2.0833333333333333e-05,
+        1.3416666666666666e-05,
+        1.45e-05,
+        2.8333333333333335e-05,
+        1.0333333333333333e-05,
+        6.666666666666667e-06,
+        1.1833333333333334e-05,
+        2.4166666666666667e-05,
+        1.1249999999999999e-05,
+        2.8333333333333335e-05,
+        4.3333333333333334e-05,
+        1.1416666666666667e-05,
+        3.0833333333333335e-05,
+        9.083333333333334e-05,
+        6.916666666666667e-06,
+        7.333333333333334e-05,
+        1.4583333333333333e-05,
+        1.0416666666666668e-05,
+        1.3083333333333334e-05,
+        1.9999999999999998e-05,
+        9.75e-06,
+        1.0166666666666667e-05,
+        1.6916666666666667e-05,
+        1.1333333333333334e-05,
+        9.583333333333334e-06,
+        9e-06,
+        2.4999999999999998e-05,
+        1.9999999999999998e-05,
+        3.1666666666666666e-05,
+        3.083333333333333e-05,
+        1.9833333333333332e-05,
+        2.4166666666666667e-05,
+        2.4166666666666667e-05,
+        1.4666666666666666e-05,
+        2.0833333333333333e-05,
+        1.7166666666666666e-05,
+        1.9999999999999998e-05,
+        1.7333333333333332e-05,
+        1.9166666666666667e-05,
+        4.833333333333333e-06,
+        1.3333333333333333e-05,
+        2.4999999999999998e-05,
+        1.9166666666666667e-05,
+        1.6666666666666667e-05,
+        1.4166666666666668e-05,
+        2.5833333333333336e-05,
+        0.000105,
+        4.75e-05,
+        2.9166666666666666e-05,
+        1.6666666666666667e-05,
+        2.8333333333333335e-05,
+        1.7333333333333332e-05,
+        1.9166666666666667e-05,
+        8.25e-06,
+        1.5416666666666668e-05,
+        1.0500000000000001e-05,
+        2.2499999999999998e-05,
+        5.833333333333333e-05,
+        5.5833333333333326e-05,
+        3.583333333333333e-05,
+        2.0833333333333333e-05,
+        1.375e-05,
+        1.425e-05
+      ],
+      "initial_total_uM": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "provenance": "Non-neuronal alternative: arithmetic mean of2primary K562whole-cell MAP rates for80genes; uniform assumed0.001uM and inferredalpha=k*M. Some reported posterior means violate bounds implied by positive support and central95CrI; raw values retained. No invented division-rate subtraction; not a neuron calibration."
+    }
+  },
+  "K562_point_estimate_policy": "Arithmetic mean of2replicate MAP rates; neither mean ofhalf-lives nor jointposterior estimate. Raw posterior means and credible intervals retained, including source inconsistencies.",
+  "inherited_reference_RNA_uM": 0.001,
+  "assumed_count_to_uM_factor": 3.931185602212737e-07,
+  "scaling_definition": "Set median(alpha_rel/k) of paired67QC corticalgenes to inherited0.001uM; not absolute measurement. SS counts not used.",
+  "physical_synthesis_measurements": 0,
+  "source_sha256": {
+    "data/2026-11-03-rp-mrna-neuronal-evidence/human_cortical_80_rates_codex.json": "7fc83487d65a7579875ff28ebf2c7fdeb0cbc1a2c283d583aec8367bf785ecf3",
+    "data/2026-11-03-rp-mrna-human-evidence/K562_rates_rep1_rp80_codex.json": "2fb2abb0f129a5008467ba2e1ff0d26f59ea700b6f07b5fcee132691ad746718",
+    "data/2026-11-03-rp-mrna-human-evidence/K562_rates_rep2_rp80_codex.json": "f97a743d29dbf763a5b017cf9bb2b35d0809143a7c10b9ced874120cec3542e3"
+  },
+  "rows": [
+    {
+      "gene": "RPSA",
+      "decay_s_inv": 2.4971198703826256e-05,
+      "effective_half_life_h": 7.710518256353119,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 7.71051825635312,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.3166666666666667e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.575e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.3166666666666667e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.25e-05,
+          1.3833333333333334e-05
+        ],
+        [
+          1.6666666666666667e-05,
+          1.9999999999999998e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 26.282990797812403,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25925,
+      "model_production_uM_s": 2.870092083540277e-09,
+      "model_initial_total_uM": 0.00011493609568292378,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS2",
+      "decay_s_inv": 5.289804700337055e-05,
+      "effective_half_life_h": 3.6398486219463906,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.63984862194639,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        7.166666666666666e-06,
+        8.833333333333332e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 8e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        8.833333333333332e-06,
+        8.833333333333332e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          6.833333333333333e-06,
+          7.5e-06
+        ],
+        [
+          8.333333333333334e-06,
+          9.499999999999999e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 219.93058873382301,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25895,
+      "model_production_uM_s": 2.4016332331015994e-08,
+      "model_initial_total_uM": 0.00045401170159430884,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS3",
+      "decay_s_inv": 3.991826035586666e-05,
+      "effective_half_life_h": 4.82337861851679,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.82337861851679,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.2666666666666667e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.55e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.2666666666666667e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.2e-05,
+          1.3666666666666666e-05
+        ],
+        [
+          1.6666666666666667e-05,
+          1.9999999999999998e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1132.89781493691,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25907,
+      "model_production_uM_s": 1.2371198830161806e-07,
+      "model_initial_total_uM": 0.003099132757758981,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS3A",
+      "decay_s_inv": 2.3397186019083305e-05,
+      "effective_half_life_h": 8.22923249538781,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 8.22923249538781,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        8e-06,
+        8.666666666666666e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 8.333333333333334e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        8.333333333333334e-06,
+        8.5e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          7.5e-06,
+          8.5e-06
+        ],
+        [
+          8e-06,
+          9.166666666666666e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 396.895094764123,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25908,
+      "model_production_uM_s": 4.334078561459944e-08,
+      "model_initial_total_uM": 0.0018523930860424693,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS4X",
+      "decay_s_inv": 3.19461476971638e-05,
+      "effective_half_life_h": 6.027045430143291,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 6.02704543014329,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.1166666666666668e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.1666666666666668e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.1166666666666668e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.0333333333333333e-05,
+          1.2e-05
+        ],
+        [
+          1.1166666666666668e-05,
+          1.3166666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 863.309946850324,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25909,
+      "model_production_uM_s": 9.42731009251399e-08,
+      "model_initial_total_uM": 0.0029510005969674248,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS5",
+      "decay_s_inv": 3.288291518275502e-05,
+      "effective_half_life_h": 5.855347143608759,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.85534714360876,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9999999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.8333333333333333e-05,
+          1.9999999999999998e-05
+        ],
+        [
+          1.9999999999999998e-05,
+          2.3333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 274.371397143187,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25910,
+      "model_production_uM_s": 2.996124683634137e-08,
+      "model_initial_total_uM": 0.0009111493512611109,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS6",
+      "decay_s_inv": 2.8550420731800466e-05,
+      "effective_half_life_h": 6.74388953135163,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 6.74388953135163,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        7.333333333333334e-06,
+        8.166666666666666e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 7.75e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        5.5e-06,
+        8.166666666666666e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        true,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          6.833333333333333e-06,
+          7.666666666666667e-06
+        ],
+        [
+          7.5e-06,
+          8.833333333333332e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 256.773609317992,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25911,
+      "model_production_uM_s": 2.8039575443863563e-08,
+      "model_initial_total_uM": 0.0009821072588479265,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS7",
+      "decay_s_inv": 3.698152772403106e-05,
+      "effective_half_life_h": 5.20640696419251,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.20640696419251,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.9999999999999998e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.0833333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.9999999999999998e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.8333333333333333e-05,
+          2.1666666666666667e-05
+        ],
+        [
+          1.9999999999999998e-05,
+          2.1666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 174.9997600527272,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25922,
+      "model_production_uM_s": 1.9109903808610132e-08,
+      "model_initial_total_uM": 0.0005167418704607024,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS8",
+      "decay_s_inv": 3.420032210403753e-05,
+      "effective_half_life_h": 5.6297973715909295,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.62979737159093,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.0166666666666667e-05,
+        1.15e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.0833333333333334e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.0166666666666667e-05,
+        1.15e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.666666666666667e-06,
+          1.1e-05
+        ],
+        [
+          1.0666666666666667e-05,
+          1.25e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1479.954399255219,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25923,
+      "model_production_uM_s": 1.616104285078755e-07,
+      "model_initial_total_uM": 0.004725406620915904,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS9",
+      "decay_s_inv": 3.9166666666666665e-05,
+      "effective_half_life_h": 4.915937450779754,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "CI50_HL_not_below_0.75"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        3.3333333333333335e-05,
+        4.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 3.9166666666666665e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        3.3333333333333335e-05,
+        4.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          3e-05,
+          3.5e-05
+        ],
+        [
+          3.9999999999999996e-05,
+          4.833333333333333e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 0.314058596953288,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 25924,
+      "model_production_uM_s": 3.4295073183163856e-11,
+      "model_initial_total_uM": 8.75618889782907e-07,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS10",
+      "decay_s_inv": 2.3333333333333332e-05,
+      "effective_half_life_h": 8.25175214952316,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "no_exact_gene_record"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.9999999999999998e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.3333333333333332e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.9999999999999998e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.8333333333333333e-05,
+          2.1666666666666667e-05
+        ],
+        [
+          2.5e-05,
+          2.8333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": null,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": null,
+      "model_production_uM_s": 2.3333333333333334e-08,
+      "model_initial_total_uM": 0.001,
+      "production_status": "inferred_balance_at_assumed_reference_RNA_no_exact_neuronal_synthesis_row"
+    },
+    {
+      "gene": "RPS11",
+      "decay_s_inv": 0.00022355937463263708,
+      "effective_half_life_h": 0.8612516643744671,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 0.861251664374467,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.5166666666666667e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.8416666666666666e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.5166666666666667e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3833333333333334e-05,
+          1.6666666666666667e-05
+        ],
+        [
+          1.9999999999999998e-05,
+          2.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 3028.260434607455,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25886,
+      "model_production_uM_s": 3.30684828341092e-07,
+      "model_initial_total_uM": 0.0014791812192375665,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS12",
+      "decay_s_inv": 2.4572800563682608e-05,
+      "effective_half_life_h": 7.83552867691604,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 7.83552867691604,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9.333333333333333e-06,
+        9.666666666666667e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 9.5e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        9.333333333333333e-06,
+        9.499999999999999e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          8.5e-06,
+          1.0166666666666667e-05
+        ],
+        [
+          8.666666666666666e-06,
+          1.1e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 533.450108457761,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25887,
+      "model_production_uM_s": 5.825253849633257e-08,
+      "model_initial_total_uM": 0.002370610478254846,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS13",
+      "decay_s_inv": 3.305999807210449e-05,
+      "effective_half_life_h": 5.823983506258479,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.82398350625848,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.5166666666666667e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.675e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.5166666666666667e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3833333333333334e-05,
+          1.6666666666666667e-05
+        ],
+        [
+          1.6666666666666667e-05,
+          2.1666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 367.211778436791,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25888,
+      "model_production_uM_s": 4.009937934315684e-08,
+      "model_initial_total_uM": 0.0012129274555824027,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS14",
+      "decay_s_inv": 2.7932902253825925e-05,
+      "effective_half_life_h": 6.89297809942043,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 6.89297809942043,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        3.5e-05,
+        5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 4.25e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        3.5e-05,
+        5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          3.1666666666666666e-05,
+          3.6666666666666666e-05
+        ],
+        [
+          4.5e-05,
+          5.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 967.293725046181,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25889,
+      "model_production_uM_s": 1.0562808791700757e-07,
+      "model_initial_total_uM": 0.003781493485967426,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS15",
+      "decay_s_inv": 4.9511841752816715e-05,
+      "effective_half_life_h": 3.88878451442215,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.88878451442215,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.3333333333333332e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.4999999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.5e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.3333333333333332e-05,
+          2.6666666666666667e-05
+        ],
+        [
+          2.3333333333333332e-05,
+          2.8333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 475.72435367791695,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25890,
+      "model_production_uM_s": 5.194890916112741e-08,
+      "model_initial_total_uM": 0.0010492219097903391,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS15A",
+      "decay_s_inv": 2.574139995264435e-05,
+      "effective_half_life_h": 7.4798139900349305,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 7.47981399003493,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.0166666666666667e-05,
+        1.0666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.0416666666666668e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        9.999999999999999e-06,
+        1.0666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.499999999999999e-06,
+          1.0666666666666667e-05
+        ],
+        [
+          9.833333333333335e-06,
+          1.15e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 102.00307643049709,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25891,
+      "model_production_uM_s": 1.1138695151249318e-08,
+      "model_initial_total_uM": 0.00043271520475734917,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS16",
+      "decay_s_inv": 3.698923370927284e-05,
+      "effective_half_life_h": 5.2053223108703,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.2053223108703,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        2.3333333333333332e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.0833333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.8333333333333333e-05,
+        2.3333333333333332e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.6666666666666667e-05,
+          1.9999999999999998e-05
+        ],
+        [
+          2.1666666666666667e-05,
+          2.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 276.4325841539095,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25892,
+      "model_production_uM_s": 3.018632763356416e-08,
+      "model_initial_total_uM": 0.0008160841576449511,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS17",
+      "decay_s_inv": 1.3416666666666666e-05,
+      "effective_half_life_h": 14.350873303518537,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "no_exact_gene_record"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.2666666666666667e-05,
+        1.4166666666666666e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.3416666666666666e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.2666666666666667e-05,
+        1.4e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.1833333333333334e-05,
+          1.3333333333333333e-05
+        ],
+        [
+          1.2833333333333333e-05,
+          1.5166666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": null,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": null,
+      "model_production_uM_s": 1.3416666666666666e-08,
+      "model_initial_total_uM": 0.001,
+      "production_status": "inferred_balance_at_assumed_reference_RNA_no_exact_neuronal_synthesis_row"
+    },
+    {
+      "gene": "RPS18",
+      "decay_s_inv": 1.45e-05,
+      "effective_half_life_h": 13.278681619922322,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "missing_or_nonpositive_fit",
+        "missing_CI50_quality"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.3833333333333334e-05,
+        1.5166666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.45e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.4e-05,
+        1.5333333333333334e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.2833333333333333e-05,
+          1.5e-05
+        ],
+        [
+          1.3833333333333334e-05,
+          1.6666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1.457654653305712,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 66383,
+      "model_production_uM_s": 1.5917530516871704e-10,
+      "model_initial_total_uM": 1.0977607253014968e-05,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS19",
+      "decay_s_inv": 6.29601804004855e-05,
+      "effective_half_life_h": 3.05813741739833,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.05813741739833,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.5e-05,
+        3.1666666666666666e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.8333333333333335e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.5e-05,
+        3.1666666666666666e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.3333333333333332e-05,
+          2.6666666666666667e-05
+        ],
+        [
+          2.8333333333333332e-05,
+          3.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1169.671603923418,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25893,
+      "model_production_uM_s": 1.2772767135168944e-07,
+      "model_initial_total_uM": 0.0020287056126463148,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS20",
+      "decay_s_inv": 5.3258724486984196e-05,
+      "effective_half_life_h": 3.61519892456171,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.61519892456171,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9.666666666666667e-06,
+        1.1e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.0333333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        9.666666666666667e-06,
+        1.1e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9e-06,
+          1.0333333333333333e-05
+        ],
+        [
+          9.999999999999999e-06,
+          1.2e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 573.300674225158,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25896,
+      "model_production_uM_s": 6.260420434035544e-08,
+      "model_initial_total_uM": 0.0011754732195220928,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS21",
+      "decay_s_inv": 5.324051577196245e-05,
+      "effective_half_life_h": 3.6164353537361795,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.61643535373618,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        6.333333333333333e-06,
+        7e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 6.666666666666667e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        6.5e-06,
+        7e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          5.833333333333333e-06,
+          7e-06
+        ],
+        [
+          6.333333333333333e-06,
+          7.666666666666667e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 469.216959711825,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25897,
+      "model_production_uM_s": 5.123830434258778e-08,
+      "model_initial_total_uM": 0.0009623930872880635,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS23",
+      "decay_s_inv": 3.761656232190072e-05,
+      "effective_half_life_h": 5.118513537766171,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.11851353776617,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.15e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.1833333333333334e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.1666666666666666e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.1e-05,
+          1.25e-05
+        ],
+        [
+          1.1333333333333334e-05,
+          1.3166666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 390.60428635842504,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25898,
+      "model_production_uM_s": 4.265383185263393e-08,
+      "model_initial_total_uM": 0.0011339109482580354,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS24",
+      "decay_s_inv": 2.4166666666666667e-05,
+      "effective_half_life_h": 7.9672089719533945,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "missing_CI50_quality"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.1666666666666667e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.4166666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.1666666666666667e-05,
+        5.333333333333334e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        true
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.9999999999999998e-05,
+          2.3333333333333332e-05
+        ],
+        [
+          2.5e-05,
+          2.8333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 499.1327604759605,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 25899,
+      "model_production_uM_s": 5.450509782154985e-08,
+      "model_initial_total_uM": 0.002255383358133097,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS25",
+      "decay_s_inv": 3.252851023800976e-05,
+      "effective_half_life_h": 5.919142379409941,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.91914237940994,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.0333333333333333e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.1249999999999999e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.0333333333333333e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.499999999999999e-06,
+          1.1333333333333334e-05
+        ],
+        [
+          1.0666666666666667e-05,
+          1.3666666666666666e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 311.0431462391805,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25900,
+      "model_production_uM_s": 3.3965787171178254e-08,
+      "model_initial_total_uM": 0.001044185144743857,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS26",
+      "decay_s_inv": 6.417658879045479e-05,
+      "effective_half_life_h": 3.0001732269931893,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.00017322699319,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.5e-05,
+        3.1666666666666666e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.8333333333333335e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.5e-05,
+        3.3333333333333335e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.1666666666666667e-05,
+          2.8333333333333332e-05
+        ],
+        [
+          2.8333333333333332e-05,
+          3.6666666666666666e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 18.01264500264775,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25901,
+      "model_production_uM_s": 1.966973630338279e-09,
+      "model_initial_total_uM": 3.064939516746072e-05,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS27",
+      "decay_s_inv": 4.184132770098739e-05,
+      "effective_half_life_h": 4.60169153485849,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.60169153485849,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        3.1666666666666666e-05,
+        5.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 4.3333333333333334e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        3.1666666666666666e-05,
+        5.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.6666666666666667e-05,
+          3.6666666666666666e-05
+        ],
+        [
+          4.6666666666666665e-05,
+          6.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 87.30938576524144,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25902,
+      "model_production_uM_s": 9.534150007176524e-09,
+      "model_initial_total_uM": 0.0002278644233115847,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS27A",
+      "decay_s_inv": 1.1416666666666667e-05,
+      "effective_half_life_h": 16.86489490413492,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "CI50_HL_not_below_0.75"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.1e-05,
+        1.1833333333333334e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.1416666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.0833333333333334e-05,
+        1.1666666666666666e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.999999999999999e-06,
+          1.1833333333333334e-05
+        ],
+        [
+          1.0666666666666667e-05,
+          1.2666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 699.739860568475,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 25903,
+      "model_production_uM_s": 7.64113129211427e-08,
+      "model_initial_total_uM": 0.006692961715720528,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS28",
+      "decay_s_inv": 6.118620419347882e-05,
+      "effective_half_life_h": 3.14680222489426,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.14680222489426,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        3e-05,
+        3.1666666666666666e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 3.0833333333333335e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        3e-05,
+        3.1666666666666666e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.6666666666666667e-05,
+          3.3333333333333335e-05
+        ],
+        [
+          2.6666666666666667e-05,
+          3.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1130.304859647521,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25905,
+      "model_production_uM_s": 1.234288386210395e-07,
+      "model_initial_total_uM": 0.0020172658240204164,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPS29",
+      "decay_s_inv": 4.702193636574021e-05,
+      "effective_half_life_h": 4.0947034165347,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.0947034165347,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        0.0001,
+        8.166666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 9.083333333333334e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        0.0001,
+        8.166666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.333333333333333e-05,
+          0.00011
+        ],
+        [
+          7.166666666666667e-05,
+          9.166666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 155.14536368609248,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25906,
+      "model_production_uM_s": 1.694181166591182e-08,
+      "model_initial_total_uM": 0.000360295916657645,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "FAU",
+      "decay_s_inv": 3.930522634478935e-05,
+      "effective_half_life_h": 4.89860767623842,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.89860767623842,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        6.333333333333333e-06,
+        7.5e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 6.916666666666667e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        6.166666666666666e-06,
+        7.5e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          5.666666666666667e-06,
+          6.833333333333333e-06
+        ],
+        [
+          6.5e-06,
+          8.5e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 255.9362470146615,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 19499,
+      "model_production_uM_s": 2.794813581523333e-08,
+      "model_initial_total_uM": 0.0007110539338984975,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL41",
+      "decay_s_inv": 3.766972961223925e-05,
+      "effective_half_life_h": 5.111289235968271,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.11128923596827,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        6.166666666666667e-05,
+        8.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 7.333333333333334e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        6.166666666666667e-05,
+        8.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          5.333333333333333e-05,
+          7e-05
+        ],
+        [
+          7.166666666666667e-05,
+          0.0001
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 270.76201321697454,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25861,
+      "model_production_uM_s": 2.9567103555130695e-08,
+      "model_initial_total_uM": 0.0007849035249120573,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPLP0",
+      "decay_s_inv": 6.950590444451556e-05,
+      "effective_half_life_h": 2.77013708443393,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 2.77013708443393,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.3666666666666666e-05,
+        1.55e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.4583333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.3666666666666666e-05,
+        1.55e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3166666666666667e-05,
+          1.4333333333333332e-05
+        ],
+        [
+          1.4333333333333332e-05,
+          1.633333333333333e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 2322.83798824484,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25869,
+      "model_production_uM_s": 2.5365297932391424e-07,
+      "model_initial_total_uM": 0.0036493731194649466,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPLP1",
+      "decay_s_inv": 8.429137365234238e-05,
+      "effective_half_life_h": 2.28422998874124,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 2.28422998874124,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9e-06,
+        1.1833333333333334e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.0416666666666668e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        8.833333333333332e-06,
+        1.1833333333333334e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          8.333333333333334e-06,
+          9.499999999999999e-06
+        ],
+        [
+          1.1e-05,
+          1.2833333333333333e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1398.596505811805,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25870,
+      "model_production_uM_s": 1.527261790820114e-07,
+      "model_initial_total_uM": 0.0018118838555405044,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPLP2",
+      "decay_s_inv": 8.312559197363901e-05,
+      "effective_half_life_h": 2.31626480987868,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 2.31626480987868,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.1166666666666668e-05,
+        1.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.3083333333333334e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.1166666666666668e-05,
+        1.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.0333333333333333e-05,
+          1.2e-05
+        ],
+        [
+          1.3666666666666666e-05,
+          1.6666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 971.2349516503291,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25871,
+      "model_production_uM_s": 1.0605846828593216e-07,
+      "model_initial_total_uM": 0.0012758822616212547,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL3",
+      "decay_s_inv": 5.3854715793973664e-05,
+      "effective_half_life_h": 3.57519078227907,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.57519078227907,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9999999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.6666666666666667e-05,
+          1.9999999999999998e-05
+        ],
+        [
+          1.9999999999999998e-05,
+          2.3333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 884.1822456095949,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25845,
+      "model_production_uM_s": 9.65523476020157e-08,
+      "model_initial_total_uM": 0.0017928299533022491,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL4",
+      "decay_s_inv": 3.3732785267477015e-05,
+      "effective_half_life_h": 5.707826435385081,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.70782643538508,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9.166666666666666e-06,
+        1.0333333333333333e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 9.75e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        9.166666666666666e-06,
+        1.0333333333333333e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          8.833333333333332e-06,
+          9.499999999999999e-06
+        ],
+        [
+          9.999999999999999e-06,
+          1.1e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 119.2448853784814,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25860,
+      "model_production_uM_s": 1.3021493792705393e-08,
+      "model_initial_total_uM": 0.000386018933493164,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL5",
+      "decay_s_inv": 4.4018040366431326e-05,
+      "effective_half_life_h": 4.37413573812131,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.37413573812131,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9.666666666666667e-06,
+        1.0666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.0166666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        9.666666666666667e-06,
+        1.0666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.166666666666666e-06,
+          1.0166666666666667e-05
+        ],
+        [
+          1.0166666666666667e-05,
+          1.1333333333333334e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1585.3894793392628,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25862,
+      "model_production_uM_s": 1.731238970855016e-07,
+      "model_initial_total_uM": 0.003933021453120569,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL6",
+      "decay_s_inv": 2.7032301821357134e-05,
+      "effective_half_life_h": 7.12262258542685,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 7.12262258542685,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.55e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.6916666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.5333333333333334e-05,
+        1.8333333333333333e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.4333333333333332e-05,
+          1.633333333333333e-05
+        ],
+        [
+          1.6666666666666667e-05,
+          1.9999999999999998e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 347.24310169992395,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25863,
+      "model_production_uM_s": 3.791880782973428e-08,
+      "model_initial_total_uM": 0.0014027221240840155,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL7",
+      "decay_s_inv": 2.4652634145380766e-05,
+      "effective_half_life_h": 7.8101545803757695,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 7.81015458037577,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.0500000000000001e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.1333333333333334e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.0500000000000001e-05,
+        1.2166666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.666666666666667e-06,
+          1.15e-05
+        ],
+        [
+          1.0666666666666667e-05,
+          1.3666666666666666e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 305.0306955492065,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25864,
+      "model_production_uM_s": 3.330922996044381e-08,
+      "model_initial_total_uM": 0.001351142833825125,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL7A",
+      "decay_s_inv": 6.176453866061942e-05,
+      "effective_half_life_h": 3.11733702969656,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.11733702969656,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9.833333333333335e-06,
+        9.333333333333333e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 9.583333333333334e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        9.666666666666667e-06,
+        9.166666666666666e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.166666666666666e-06,
+          1.0333333333333333e-05
+        ],
+        [
+          8.5e-06,
+          9.999999999999999e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1123.956365101657,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25865,
+      "model_production_uM_s": 1.227355855556388e-07,
+      "model_initial_total_uM": 0.001987152955679632,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL8",
+      "decay_s_inv": 7.164332618198472e-05,
+      "effective_half_life_h": 2.68749224456429,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 2.68749224456429,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9e-06,
+        9e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 9e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        9e-06,
+        9e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          8.333333333333334e-06,
+          9.666666666666667e-06
+        ],
+        [
+          8e-06,
+          9.999999999999999e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 1483.118794834596,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25867,
+      "model_production_uM_s": 1.6195597923957972e-07,
+      "model_initial_total_uM": 0.002260587103789506,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL9",
+      "decay_s_inv": 2.2619087182295866e-05,
+      "effective_half_life_h": 8.51231890735082,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 8.51231890735082,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.3333333333333332e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.4999999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.666666666666667e-06,
+        2.6666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        true,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.1666666666666667e-05,
+          2.5e-05
+        ],
+        [
+          2.6666666666666667e-05,
+          2.8333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 83.674457380503,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25868,
+      "model_production_uM_s": 9.137217281311018e-09,
+      "model_initial_total_uM": 0.0004039604784963554,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL10",
+      "decay_s_inv": 1.9999999999999998e-05,
+      "effective_half_life_h": 9.627044174443686,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "missing_or_nonpositive_fit",
+        "missing_CI50_quality"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9999999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.6666666666666667e-05,
+          1.9999999999999998e-05
+        ],
+        [
+          1.9999999999999998e-05,
+          2.3333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 605.6216216760461,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 66235,
+      "model_production_uM_s": 6.613363887560005e-08,
+      "model_initial_total_uM": 0.0033066819437800026,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL10A",
+      "decay_s_inv": 3.891976972116679e-05,
+      "effective_half_life_h": 4.9471228855745,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.9471228855745,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.8333333333333332e-05,
+        3.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 3.1666666666666666e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.8333333333333332e-05,
+        3.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.6666666666666667e-05,
+          3.1666666666666666e-05
+        ],
+        [
+          3.1666666666666666e-05,
+          3.8333333333333334e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 159.2720952904417,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25823,
+      "model_production_uM_s": 1.7392449106667764e-08,
+      "model_initial_total_uM": 0.0004468795481389696,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL11",
+      "decay_s_inv": 4.205494752309726e-05,
+      "effective_half_life_h": 4.57831705492266,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.57831705492266,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.6666666666666667e-05,
+        3.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 3.083333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.8333333333333332e-05,
+        3.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.5e-05,
+          3e-05
+        ],
+        [
+          3.1666666666666666e-05,
+          3.8333333333333334e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 530.246426278524,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25824,
+      "model_production_uM_s": 5.790269768363586e-08,
+      "model_initial_total_uM": 0.001376834382014976,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL12",
+      "decay_s_inv": 5.38551416074144e-05,
+      "effective_half_life_h": 3.57516251451776,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.57516251451776,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.633333333333333e-05,
+        2.3333333333333332e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9833333333333332e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.616666666666667e-05,
+        2.3333333333333332e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.55e-05,
+          1.8333333333333333e-05
+        ],
+        [
+          2.1666666666666667e-05,
+          2.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 381.33323200768996,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25825,
+      "model_production_uM_s": 4.164143642538555e-08,
+      "model_initial_total_uM": 0.0007732119010834176,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL13",
+      "decay_s_inv": 6.318960823446329e-05,
+      "effective_half_life_h": 3.0470339802465,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.0470339802465,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.1666666666666667e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.4166666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.1666666666666667e-05,
+        2.8333333333333332e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.9999999999999998e-05,
+          2.1666666666666667e-05
+        ],
+        [
+          2.5e-05,
+          3e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 594.49968733433,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25826,
+      "model_production_uM_s": 6.491912809357478e-08,
+      "model_initial_total_uM": 0.0010273703209662916,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL13A",
+      "decay_s_inv": 6.257851638595029e-05,
+      "effective_half_life_h": 3.07678888232802,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.07678888232802,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.3333333333333332e-05,
+        2.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.4166666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.3333333333333332e-05,
+        2.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.3333333333333332e-05,
+          2.5e-05
+        ],
+        [
+          2.3333333333333332e-05,
+          2.6666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 191.8490264445858,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25827,
+      "model_production_uM_s": 2.0949836959930173e-08,
+      "model_initial_total_uM": 0.00033477682389788477,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL14",
+      "decay_s_inv": 0.0001637944569687262,
+      "effective_half_life_h": 1.1755030484678497,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 1.17550304846785,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.4333333333333332e-05,
+        1.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.4666666666666666e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.4333333333333332e-05,
+        1.4833333333333332e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3666666666666666e-05,
+          1.5166666666666667e-05
+        ],
+        [
+          1.3833333333333334e-05,
+          1.5833333333333333e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 672.1636395297445,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25828,
+      "model_production_uM_s": 7.340000061250676e-08,
+      "model_initial_total_uM": 0.00044812261642359036,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL15",
+      "decay_s_inv": 5.787520558717705e-05,
+      "effective_half_life_h": 3.32682850169492,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.32682850169492,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.9999999999999998e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.0833333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.9999999999999998e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.8333333333333333e-05,
+          1.9999999999999998e-05
+        ],
+        [
+          1.9999999999999998e-05,
+          2.3333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 427.6466554919935,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25829,
+      "model_production_uM_s": 4.6698843747348756e-08,
+      "model_initial_total_uM": 0.0008068886023567828,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL17",
+      "decay_s_inv": 1.7166666666666666e-05,
+      "effective_half_life_h": 11.21597379546837,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "no_exact_gene_record"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.4333333333333332e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.7166666666666666e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.4333333333333332e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3166666666666667e-05,
+          1.55e-05
+        ],
+        [
+          1.8333333333333333e-05,
+          2.1666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": null,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": null,
+      "model_production_uM_s": 1.7166666666666665e-08,
+      "model_initial_total_uM": 0.001,
+      "production_status": "inferred_balance_at_assumed_reference_RNA_no_exact_neuronal_synthesis_row"
+    },
+    {
+      "gene": "RPL18",
+      "decay_s_inv": 6.303295974657059e-05,
+      "effective_half_life_h": 3.05460641960969,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.05460641960969,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9999999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.8333333333333333e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.6666666666666667e-05,
+          1.9999999999999998e-05
+        ],
+        [
+          1.8333333333333333e-05,
+          2.3333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 872.7880781614549,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25831,
+      "model_production_uM_s": 9.530810907364545e-08,
+      "model_initial_total_uM": 0.00151203607536184,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL18A",
+      "decay_s_inv": 5.259368209019572e-05,
+      "effective_half_life_h": 3.66091279098267,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.66091279098267,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.4666666666666668e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.7333333333333332e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.4666666666666668e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3333333333333333e-05,
+          1.5833333333333333e-05
+        ],
+        [
+          1.8333333333333333e-05,
+          2.1666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 199.1021841135935,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25832,
+      "model_production_uM_s": 2.1741878876568564e-08,
+      "model_initial_total_uM": 0.0004133933585270233,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL19",
+      "decay_s_inv": 4.820019925663917e-05,
+      "effective_half_life_h": 3.9946076252444707,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.99460762524447,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.6666666666666667e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9166666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.6666666666666667e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.5833333333333333e-05,
+          1.8333333333333333e-05
+        ],
+        [
+          1.8333333333333333e-05,
+          2.3333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 165.6830073036523,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25833,
+      "model_production_uM_s": 1.80925181345396e-08,
+      "model_initial_total_uM": 0.00037536189504543404,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL21",
+      "decay_s_inv": 4.833333333333333e-06,
+      "effective_half_life_h": 39.83604485976697,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "no_exact_gene_record"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        4.5e-06,
+        5.166666666666667e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 4.833333333333333e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        4.333333333333333e-06,
+        5.166666666666667e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          4e-06,
+          4.9999999999999996e-06
+        ],
+        [
+          4.666666666666666e-06,
+          6e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": null,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": null,
+      "model_production_uM_s": 4.833333333333334e-09,
+      "model_initial_total_uM": 0.001,
+      "production_status": "inferred_balance_at_assumed_reference_RNA_no_exact_neuronal_synthesis_row"
+    },
+    {
+      "gene": "RPL22",
+      "decay_s_inv": 4.9181079647556124e-05,
+      "effective_half_life_h": 3.91493811987597,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.91493811987597,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.2e-05,
+        1.4666666666666668e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.3333333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.2e-05,
+        1.4833333333333332e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.1333333333333334e-05,
+          1.2666666666666667e-05
+        ],
+        [
+          1.3833333333333334e-05,
+          1.5833333333333333e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 417.529454491454,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25834,
+      "model_production_uM_s": 4.5594049444348386e-08,
+      "model_initial_total_uM": 0.000927064834100567,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL23",
+      "decay_s_inv": 2.4999999999999998e-05,
+      "effective_half_life_h": 7.701635339554948,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "CI50_HL_not_below_0.75"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.1666666666666667e-05,
+        2.8333333333333332e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.4999999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.3333333333333332e-05,
+        3e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.1666666666666667e-05,
+          2.3333333333333332e-05
+        ],
+        [
+          2.6666666666666667e-05,
+          3.1666666666666666e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 167.78712545481392,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 25836,
+      "model_production_uM_s": 1.8322286995128517e-08,
+      "model_initial_total_uM": 0.0007328914798051408,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL23A",
+      "decay_s_inv": 2.862285264180059e-05,
+      "effective_half_life_h": 6.72682369917555,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 6.72682369917555,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9166666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.8333333333333333e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.633333333333333e-05,
+          1.8333333333333333e-05
+        ],
+        [
+          1.8333333333333333e-05,
+          2.1666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 57.1368216213436,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25837,
+      "model_production_uM_s": 6.239318069833982e-09,
+      "model_initial_total_uM": 0.00021798379595198457,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL24",
+      "decay_s_inv": 3.614947386444857e-05,
+      "effective_half_life_h": 5.3262430377508,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.3262430377508,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.3333333333333333e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.6666666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.35e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.1833333333333334e-05,
+          1.5166666666666667e-05
+        ],
+        [
+          1.6666666666666667e-05,
+          2.1666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 183.76072255642111,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25838,
+      "model_production_uM_s": 2.0066597410167e-08,
+      "model_initial_total_uM": 0.000555100676856645,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL26",
+      "decay_s_inv": 2.6130343716546008e-05,
+      "effective_half_life_h": 7.36847879145787,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 7.36847879145787,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.2833333333333333e-05,
+        1.55e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.4166666666666668e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.2833333333333333e-05,
+        1.55e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.1833333333333334e-05,
+          1.4166666666666666e-05
+        ],
+        [
+          1.3833333333333334e-05,
+          1.6666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 267.8740959100945,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25839,
+      "model_production_uM_s": 2.9251744140208815e-08,
+      "model_initial_total_uM": 0.0011194550082280893,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL27",
+      "decay_s_inv": 3.505969213433619e-05,
+      "effective_half_life_h": 5.4918018889363305,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.49180188893633,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.1666666666666667e-05,
+        3e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.5833333333333336e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.1666666666666667e-05,
+        3.1666666666666666e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.9999999999999998e-05,
+          2.3333333333333332e-05
+        ],
+        [
+          2.8333333333333332e-05,
+          3.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 158.45435513751193,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25841,
+      "model_production_uM_s": 1.730315220901363e-08,
+      "model_initial_total_uM": 0.000493534060216905,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL27A",
+      "decay_s_inv": 3.896548130374884e-05,
+      "effective_half_life_h": 4.94131926635151,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.94131926635151,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        0.00010166666666666667,
+        0.00010833333333333333
+      ],
+      "K562_average_MAP_rate_s_inv": 0.000105,
+      "K562_replicate_posterior_mean_s_inv": [
+        0.00010166666666666667,
+        0.00010833333333333333
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          9.666666666666665e-05,
+          0.00011
+        ],
+        [
+          0.0001,
+          0.00011833333333333334
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 3403.4882901719902,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25842,
+      "model_production_uM_s": 3.7165956010066036e-07,
+      "model_initial_total_uM": 0.00953817449869157,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL28",
+      "decay_s_inv": 5.337622602361523e-05,
+      "effective_half_life_h": 3.6072404857489904,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.60724048574899,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        4.5e-05,
+        5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 4.75e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        4.5e-05,
+        5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          4.3333333333333334e-05,
+          4.833333333333333e-05
+        ],
+        [
+          4.6666666666666665e-05,
+          5.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 109.56698388663409,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25843,
+      "model_production_uM_s": 1.1964670820361414e-08,
+      "model_initial_total_uM": 0.00022415730207429592,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL29",
+      "decay_s_inv": 5.8645176722000184e-05,
+      "effective_half_life_h": 3.28314951460695,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.28314951460695,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.3333333333333332e-05,
+        3.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.9166666666666666e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.3333333333333332e-05,
+        3.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.1666666666666667e-05,
+          2.6666666666666667e-05
+        ],
+        [
+          3e-05,
+          3.8333333333333334e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 149.5000337314546,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25844,
+      "model_production_uM_s": 1.632534389265036e-08,
+      "model_initial_total_uM": 0.0002783748776142073,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL30",
+      "decay_s_inv": 1.6666666666666667e-05,
+      "effective_half_life_h": 11.552453009332421,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "CI50_HL_not_below_0.75"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.6666666666666667e-05,
+        1.6666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.6666666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.6666666666666667e-05,
+        1.6666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.5e-05,
+          1.9999999999999998e-05
+        ],
+        [
+          1.4166666666666666e-05,
+          1.9999999999999998e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 68.7066004415643,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 25846,
+      "model_production_uM_s": 7.50273328980169e-09,
+      "model_initial_total_uM": 0.0004501639973881014,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL31",
+      "decay_s_inv": 1.6682058114220268e-05,
+      "effective_half_life_h": 11.5417943140209,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 11.5417943140209,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        2.3333333333333332e-05,
+        3.3333333333333335e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.8333333333333335e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        2.3333333333333332e-05,
+        3.3333333333333335e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.1666666666666667e-05,
+          2.6666666666666667e-05
+        ],
+        [
+          3e-05,
+          3.6666666666666666e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 152.7666594459181,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25847,
+      "model_production_uM_s": 1.6682058114220267e-08,
+      "model_initial_total_uM": 0.001,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL32",
+      "decay_s_inv": 3.648960536620626e-05,
+      "effective_half_life_h": 5.27659539083943,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.27659539083943,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.4666666666666668e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.7333333333333332e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.4666666666666668e-05,
+        1.9999999999999998e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3833333333333334e-05,
+          1.55e-05
+        ],
+        [
+          1.8333333333333333e-05,
+          2.1666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 367.048588290686,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25848,
+      "model_production_uM_s": 4.008155904446821e-08,
+      "model_initial_total_uM": 0.0010984377233519912,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL34",
+      "decay_s_inv": 1.9166666666666667e-05,
+      "effective_half_life_h": 10.045611312462974,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "CI50_HL_not_below_0.75"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.6666666666666667e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.9166666666666667e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.6666666666666667e-05,
+        2.1666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.5166666666666667e-05,
+          1.8333333333333333e-05
+        ],
+        [
+          1.8333333333333333e-05,
+          2.3333333333333332e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 125.2446867323323,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": 25849,
+      "model_production_uM_s": 1.3676669700994147e-08,
+      "model_initial_total_uM": 0.0007135653757040424,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL35",
+      "decay_s_inv": 5.83647095591117e-05,
+      "effective_half_life_h": 3.2989264393386306,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.29892643933863,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        7.666666666666667e-06,
+        8.833333333333332e-06
+      ],
+      "K562_average_MAP_rate_s_inv": 8.25e-06,
+      "K562_replicate_posterior_mean_s_inv": [
+        7.666666666666667e-06,
+        8.833333333333332e-06
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          7.166666666666666e-06,
+          8.333333333333334e-06
+        ],
+        [
+          8e-06,
+          9.666666666666667e-06
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 609.8826739549199,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25850,
+      "model_production_uM_s": 6.659894408029406e-08,
+      "model_initial_total_uM": 0.0011410824209249725,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL35A",
+      "decay_s_inv": 3.351434903129563e-05,
+      "effective_half_life_h": 5.74502829546471,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 5.74502829546471,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.5e-05,
+        1.5833333333333333e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.5416666666666668e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.5e-05,
+        1.6e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3833333333333334e-05,
+          1.633333333333333e-05
+        ],
+        [
+          1.4166666666666666e-05,
+          1.8333333333333333e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 230.2811853808777,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25851,
+      "model_production_uM_s": 2.5146613345271907e-08,
+      "model_initial_total_uM": 0.0007503237888281838,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL36",
+      "decay_s_inv": 7.70321371731095e-05,
+      "effective_half_life_h": 2.49948775348383,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 2.49948775348383,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        9.833333333333335e-06,
+        1.1166666666666668e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.0500000000000001e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        9.666666666666667e-06,
+        1.1166666666666668e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          8.833333333333332e-06,
+          1.0666666666666667e-05
+        ],
+        [
+          9.666666666666667e-06,
+          1.2666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 236.74990646460498,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25852,
+      "model_production_uM_s": 2.585299510052409e-08,
+      "model_initial_total_uM": 0.00033561310966131276,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL36A",
+      "decay_s_inv": 2.2499999999999998e-05,
+      "effective_half_life_h": 8.557372599505499,
+      "selected_decay_source": "Ietswaart2024_K562_whole_cell_fallback",
+      "cortical_half_life_h": null,
+      "cortical_QC_pass": false,
+      "cortical_exclusion_reasons": [
+        "no_exact_gene_record"
+      ],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.2499999999999998e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.9999999999999998e-05,
+        2.6666666666666667e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.6666666666666667e-05,
+          2.1666666666666667e-05
+        ],
+        [
+          2.3333333333333332e-05,
+          3e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": null,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "No growth correction applied to K562; unknown contribution of proliferation to effective removal",
+      "source_row_cortical": null,
+      "model_production_uM_s": 2.25e-08,
+      "model_initial_total_uM": 0.001,
+      "production_status": "inferred_balance_at_assumed_reference_RNA_no_exact_neuronal_synthesis_row"
+    },
+    {
+      "gene": "RPL37",
+      "decay_s_inv": 2.8760349927901077e-05,
+      "effective_half_life_h": 6.694664146004891,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 6.69466414600489,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        5.1666666666666664e-05,
+        6.5e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 5.833333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        5.1666666666666664e-05,
+        6.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          4.833333333333333e-05,
+          5.5e-05
+        ],
+        [
+          5.833333333333333e-05,
+          7e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 104.9919991662269,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25855,
+      "model_production_uM_s": 1.1465084318605635e-08,
+      "model_initial_total_uM": 0.00039864203138512903,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL37A",
+      "decay_s_inv": 3.045160787752016e-05,
+      "effective_half_life_h": 6.3228478530032,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 6.3228478530032,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        4.833333333333333e-05,
+        6.333333333333333e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 5.5833333333333326e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        4.833333333333333e-05,
+        6.333333333333333e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          4.6666666666666665e-05,
+          5.1666666666666664e-05
+        ],
+        [
+          5.6666666666666664e-05,
+          6.833333333333335e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 863.4266125771495,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25856,
+      "model_production_uM_s": 9.428584077585013e-08,
+      "model_initial_total_uM": 0.003096251638175512,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL38",
+      "decay_s_inv": 4.7840938604464296e-05,
+      "effective_half_life_h": 4.024605058039281,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 4.02460505803928,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        3.1666666666666666e-05,
+        3.9999999999999996e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 3.583333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        3.1666666666666666e-05,
+        3.9999999999999996e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          2.8333333333333332e-05,
+          3.5e-05
+        ],
+        [
+          3.6666666666666666e-05,
+          4.5e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 176.86480602493072,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25857,
+      "model_production_uM_s": 1.9313566082871004e-08,
+      "model_initial_total_uM": 0.00040370374508222443,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RPL39",
+      "decay_s_inv": 2.3692186007866038e-05,
+      "effective_half_life_h": 8.12676734113721,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 8.12676734113721,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.8333333333333333e-05,
+        2.3333333333333332e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 2.0833333333333333e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.8333333333333333e-05,
+        2.5e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.6666666666666667e-05,
+          2.1666666666666667e-05
+        ],
+        [
+          2.1666666666666667e-05,
+          2.6666666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 342.047334055595,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25858,
+      "model_production_uM_s": 3.735143208096126e-08,
+      "model_initial_total_uM": 0.0015765295810424677,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "UBA52",
+      "decay_s_inv": 5.276887125619198e-05,
+      "effective_half_life_h": 3.64875880240248,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.64875880240248,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.2833333333333333e-05,
+        1.4666666666666668e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.375e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.3e-05,
+        1.4833333333333332e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.2166666666666667e-05,
+          1.3833333333333334e-05
+        ],
+        [
+          1.3666666666666666e-05,
+          1.616666666666667e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 334.3225471675035,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 28859,
+      "model_production_uM_s": 3.6507888442221624e-08,
+      "model_initial_total_uM": 0.0006918451650211815,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    },
+    {
+      "gene": "RACK1",
+      "decay_s_inv": 6.104767379634794e-05,
+      "effective_half_life_h": 3.1539430008616,
+      "selected_decay_source": "Rodrigues2023_WT_cortical_RATEseq",
+      "cortical_half_life_h": 3.1539430008616,
+      "cortical_QC_pass": true,
+      "cortical_exclusion_reasons": [],
+      "K562_replicate_MAP_rate_s_inv": [
+        1.3833333333333334e-05,
+        1.4666666666666668e-05
+      ],
+      "K562_average_MAP_rate_s_inv": 1.425e-05,
+      "K562_replicate_posterior_mean_s_inv": [
+        1.3833333333333334e-05,
+        1.4666666666666668e-05
+      ],
+      "K562_posterior_mean_below_nonnegative_CrI_bound": [
+        false,
+        false
+      ],
+      "K562_replicate95CrI_s_inv": [
+        [
+          1.3166666666666667e-05,
+          1.4333333333333332e-05
+        ],
+        [
+          1.3666666666666666e-05,
+          1.55e-05
+        ]
+      ],
+      "early_synthesis_normalized_counts_per_hour": 689.831849179235,
+      "physical_synthesis_molecules_cell_hour": null,
+      "human_motor_neuron_measured": false,
+      "whole_cell_to_compartments": "Uniform effective loss in all5RNAstates; not a measured nuclear/cytoplasmic split",
+      "dilution_caveat": "Postmitotic cortical control; not spinal MN",
+      "source_row_cortical": 25296,
+      "model_production_uM_s": 7.532936204003324e-08,
+      "model_initial_total_uM": 0.0012339432013630579,
+      "production_status": "relative_labeling_shape_with_assumed_global_concentration_scale"
+    }
+  ]
+}

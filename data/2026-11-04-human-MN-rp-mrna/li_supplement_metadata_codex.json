@@ -1,0 +1,755 @@
+{
+  "author": "codex",
+  "date": "2026-11-04",
+  "source_path": "E:\\data_als\\papers\\NIHMS2016202-supplement-Supplementary_Tables.xlsx",
+  "source_bytes": 28648,
+  "source_sha256": "d1ff475b87637e2fe8a9d17710b0dbfa9e0c4dcc08f443a56ff38673594b39eb",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11361766/bin/NIHMS2016202-supplement-Supplementary_Tables.xlsx",
+  "acquisition": "user-supplied local XLSX; earlier HTTP failures are historical",
+  "source_doi": "10.1038/s41593-023-01374-9",
+  "inventory": [
+    {
+      "sheet": "Table S1 - Demo of lympho",
+      "member": "xl/worksheets/sheet1.xml",
+      "dimension": "A1:G13",
+      "state": "visible",
+      "populated_cells": 62,
+      "nonempty_rows": 13,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Supplementary Table 1: Demographic information for lymphoblast lines."
+      }
+    },
+    {
+      "sheet": "Table S2 - Demo of iPSC",
+      "member": "xl/worksheets/sheet2.xml",
+      "dimension": "A1:H14",
+      "state": "visible",
+      "populated_cells": 79,
+      "nonempty_rows": 14,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Supplementary Table 2: Demographic information for iPSC lines."
+      }
+    },
+    {
+      "sheet": "Table S3 - Demo of postmortem",
+      "member": "xl/worksheets/sheet3.xml",
+      "dimension": "A1:F21",
+      "state": "visible",
+      "populated_cells": 121,
+      "nonempty_rows": 21,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Supplementary Table 3: Demographic information for frozen postmortem tissues."
+      }
+    },
+    {
+      "sheet": "Table S4 - Demo of FFPE",
+      "member": "xl/worksheets/sheet4.xml",
+      "dimension": "A1:E8",
+      "state": "visible",
+      "populated_cells": 36,
+      "nonempty_rows": 8,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Supplementary Table 4: Demographic information for formalin-fixed paraffin embedded (FFPE) tissue slides of temporal cortex."
+      }
+    },
+    {
+      "sheet": "Table S5 - qPCR primers",
+      "member": "xl/worksheets/sheet5.xml",
+      "dimension": "A1:F26",
+      "state": "visible",
+      "populated_cells": 92,
+      "nonempty_rows": 26,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Table S6. Sequences of qPCR primers and RT primer for antisense C9."
+      }
+    },
+    {
+      "sheet": "Table S6 - Demographic",
+      "member": "xl/worksheets/sheet6.xml",
+      "dimension": "A1:D135",
+      "state": "visible",
+      "populated_cells": 540,
+      "nonempty_rows": 135,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Patient GUID",
+        "B1": "Clinical Diagnosis",
+        "C1": "Age at Sampling",
+        "D1": "Gender"
+      }
+    },
+    {
+      "sheet": "Table S7a - MeRIP-seq",
+      "member": "xl/worksheets/sheet7.xml",
+      "dimension": "A1:G30",
+      "state": "visible",
+      "populated_cells": 204,
+      "nonempty_rows": 30,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Table S7. Summary of sample information for high-through sequencing in this study."
+      }
+    },
+    {
+      "sheet": "Table S7b - YTHDF2-RIP-seq",
+      "member": "xl/worksheets/sheet8.xml",
+      "dimension": "A1:G12",
+      "state": "visible",
+      "populated_cells": 78,
+      "nonempty_rows": 12,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Table S7. Summary of sample information for high-through sequencing in this study."
+      }
+    },
+    {
+      "sheet": "Table S7c - RNA decay-seq",
+      "member": "xl/worksheets/sheet9.xml",
+      "dimension": "A1:I60",
+      "state": "visible",
+      "populated_cells": 134,
+      "nonempty_rows": 20,
+      "formula_count": 0,
+      "first_row": {
+        "A1": "Table S7. Summary of sample information for high-through sequencing in this study."
+      }
+    }
+  ],
+  "samples": [
+    {
+      "accession": "GSM6176473",
+      "geo_line": "C9-1",
+      "time_h": 0,
+      "group": "C9",
+      "archive_member": "GSM6176473_iPSN-C9-1_0h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "C9-1",
+        "genotype": "patient-derived",
+        "library_source": "polyA-selected RNA",
+        "time_h": 0,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A6:G6"
+      },
+      "demographics": {
+        "line": "C9-1",
+        "ipsc_line_name": "CS7VCZiALS",
+        "diagnosis": "C9orf72 repeat expansion",
+        "donor_age_at_sampling_years": 64,
+        "sex": "Male",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A9:F9"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176474",
+      "geo_line": "C9-1",
+      "time_h": 3,
+      "group": "C9",
+      "archive_member": "GSM6176474_iPSN-C9-1_3h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "C9-1",
+        "genotype": "patient-derived",
+        "library_source": "polyA-selected RNA",
+        "time_h": 3,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A12:G12"
+      },
+      "demographics": {
+        "line": "C9-1",
+        "ipsc_line_name": "CS7VCZiALS",
+        "diagnosis": "C9orf72 repeat expansion",
+        "donor_age_at_sampling_years": 64,
+        "sex": "Male",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A9:F9"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176475",
+      "geo_line": "C9-1",
+      "time_h": 6,
+      "group": "C9",
+      "archive_member": "GSM6176475_iPSN-C9-1_6h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "C9-1",
+        "genotype": "patient-derived",
+        "library_source": "polyA-selected RNA",
+        "time_h": 6,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A18:G18"
+      },
+      "demographics": {
+        "line": "C9-1",
+        "ipsc_line_name": "CS7VCZiALS",
+        "diagnosis": "C9orf72 repeat expansion",
+        "donor_age_at_sampling_years": 64,
+        "sex": "Male",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A9:F9"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176476",
+      "geo_line": "C9-3",
+      "time_h": 0,
+      "group": "C9",
+      "archive_member": "GSM6176476_iPSN-C9-3_0h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "C9-3",
+        "genotype": "patient-derived",
+        "library_source": "polyA-selected RNA",
+        "time_h": 0,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A7:G7"
+      },
+      "demographics": {
+        "line": "C9-3",
+        "ipsc_line_name": "CS0NKCiALS",
+        "diagnosis": "C9orf72 repeat expansion",
+        "donor_age_at_sampling_years": 52,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A11:F11"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176477",
+      "geo_line": "C9-3",
+      "time_h": 3,
+      "group": "C9",
+      "archive_member": "GSM6176477_iPSN-C9-3_3h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "C9-3",
+        "genotype": "patient-derived",
+        "library_source": "polyA-selected RNA",
+        "time_h": 3,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A13:G13"
+      },
+      "demographics": {
+        "line": "C9-3",
+        "ipsc_line_name": "CS0NKCiALS",
+        "diagnosis": "C9orf72 repeat expansion",
+        "donor_age_at_sampling_years": 52,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A11:F11"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176478",
+      "geo_line": "C9-3",
+      "time_h": 6,
+      "group": "C9",
+      "archive_member": "GSM6176478_iPSN-C9-3_6h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "C9-3",
+        "genotype": "patient-derived",
+        "library_source": "polyA-selected RNA",
+        "time_h": 6,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A19:G19"
+      },
+      "demographics": {
+        "line": "C9-3",
+        "ipsc_line_name": "CS0NKCiALS",
+        "diagnosis": "C9orf72 repeat expansion",
+        "donor_age_at_sampling_years": 52,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A11:F11"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176479",
+      "geo_line": "C9-4",
+      "time_h": 0,
+      "group": "C9",
+      "archive_member": "GSM6176479_iPSN-C9-4_0h_counts.txt.gz",
+      "exact_S7c_match": false,
+      "demographics": null,
+      "demographic_assignment_status": "unresolved C9-4 versus C9-5; no relabeling",
+      "unmatched_supplement_rows": [
+        {
+          "line": "C9-5",
+          "genotype": "patient-derived",
+          "library_source": "polyA-selected RNA",
+          "time_h": 0,
+          "replicate_label": 1,
+          "cell_type": "iPSC-derived neuron",
+          "organism": "Homo sapiens",
+          "sheet": "Table S7c - RNA decay-seq",
+          "range": "A8:G8"
+        }
+      ],
+      "alternative_line_metadata": {
+        "C9-4": {
+          "line": "C9-4",
+          "ipsc_line_name": "C89YHNiALS",
+          "diagnosis": "C9orf72 repeat expansion",
+          "donor_age_at_sampling_years": 65,
+          "sex": "Female",
+          "source": "Cedars-Sinai iPSC Core",
+          "sheet": "Table S2 - Demo of iPSC",
+          "range": "A12:F12"
+        },
+        "C9-5": {
+          "line": "C9-5",
+          "ipsc_line_name": "CS0BUUiALS",
+          "diagnosis": "C9orf72 repeat expansion",
+          "donor_age_at_sampling_years": 63,
+          "sex": "Female",
+          "source": "Cedars-Sinai iPSC Core",
+          "sheet": "Table S2 - Demo of iPSC",
+          "range": "A13:F13"
+        }
+      }
+    },
+    {
+      "accession": "GSM6176480",
+      "geo_line": "C9-4",
+      "time_h": 3,
+      "group": "C9",
+      "archive_member": "GSM6176480_iPSN-C9-4_3h_counts.txt.gz",
+      "exact_S7c_match": false,
+      "demographics": null,
+      "demographic_assignment_status": "unresolved C9-4 versus C9-5; no relabeling",
+      "unmatched_supplement_rows": [
+        {
+          "line": "C9-5",
+          "genotype": "patient-derived",
+          "library_source": "polyA-selected RNA",
+          "time_h": 3,
+          "replicate_label": 1,
+          "cell_type": "iPSC-derived neuron",
+          "organism": "Homo sapiens",
+          "sheet": "Table S7c - RNA decay-seq",
+          "range": "A14:G14"
+        }
+      ],
+      "alternative_line_metadata": {
+        "C9-4": {
+          "line": "C9-4",
+          "ipsc_line_name": "C89YHNiALS",
+          "diagnosis": "C9orf72 repeat expansion",
+          "donor_age_at_sampling_years": 65,
+          "sex": "Female",
+          "source": "Cedars-Sinai iPSC Core",
+          "sheet": "Table S2 - Demo of iPSC",
+          "range": "A12:F12"
+        },
+        "C9-5": {
+          "line": "C9-5",
+          "ipsc_line_name": "CS0BUUiALS",
+          "diagnosis": "C9orf72 repeat expansion",
+          "donor_age_at_sampling_years": 63,
+          "sex": "Female",
+          "source": "Cedars-Sinai iPSC Core",
+          "sheet": "Table S2 - Demo of iPSC",
+          "range": "A13:F13"
+        }
+      }
+    },
+    {
+      "accession": "GSM6176481",
+      "geo_line": "C9-4",
+      "time_h": 6,
+      "group": "C9",
+      "archive_member": "GSM6176481_iPSN-C9-4_6h_counts.txt.gz",
+      "exact_S7c_match": false,
+      "demographics": null,
+      "demographic_assignment_status": "unresolved C9-4 versus C9-5; no relabeling",
+      "unmatched_supplement_rows": [
+        {
+          "line": "C9-5",
+          "genotype": "patient-derived",
+          "library_source": "polyA-selected RNA",
+          "time_h": 6,
+          "replicate_label": 1,
+          "cell_type": "iPSC-derived neuron",
+          "organism": "Homo sapiens",
+          "sheet": "Table S7c - RNA decay-seq",
+          "range": "A20:G20"
+        }
+      ],
+      "alternative_line_metadata": {
+        "C9-4": {
+          "line": "C9-4",
+          "ipsc_line_name": "C89YHNiALS",
+          "diagnosis": "C9orf72 repeat expansion",
+          "donor_age_at_sampling_years": 65,
+          "sex": "Female",
+          "source": "Cedars-Sinai iPSC Core",
+          "sheet": "Table S2 - Demo of iPSC",
+          "range": "A12:F12"
+        },
+        "C9-5": {
+          "line": "C9-5",
+          "ipsc_line_name": "CS0BUUiALS",
+          "diagnosis": "C9orf72 repeat expansion",
+          "donor_age_at_sampling_years": 63,
+          "sex": "Female",
+          "source": "Cedars-Sinai iPSC Core",
+          "sheet": "Table S2 - Demo of iPSC",
+          "range": "A13:F13"
+        }
+      }
+    },
+    {
+      "accession": "GSM6176482",
+      "geo_line": "Ctrl-2",
+      "time_h": 0,
+      "group": "Ctrl",
+      "archive_member": "GSM6176482_iPSN-Ctrl-2_0h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-2",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 0,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A3:G3"
+      },
+      "demographics": {
+        "line": "Ctrl-2",
+        "ipsc_line_name": "EDi036-A",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 79,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A4:F4"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176483",
+      "geo_line": "Ctrl-2",
+      "time_h": 3,
+      "group": "Ctrl",
+      "archive_member": "GSM6176483_iPSN-Ctrl-2_3h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-2",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 3,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A9:G9"
+      },
+      "demographics": {
+        "line": "Ctrl-2",
+        "ipsc_line_name": "EDi036-A",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 79,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A4:F4"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176484",
+      "geo_line": "Ctrl-2",
+      "time_h": 6,
+      "group": "Ctrl",
+      "archive_member": "GSM6176484_iPSN-Ctrl-2_6h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-2",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 6,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A15:G15"
+      },
+      "demographics": {
+        "line": "Ctrl-2",
+        "ipsc_line_name": "EDi036-A",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 79,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A4:F4"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176485",
+      "geo_line": "Ctrl-3",
+      "time_h": 0,
+      "group": "Ctrl",
+      "archive_member": "GSM6176485_iPSN-Ctrl-3_0h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-3",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 0,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A4:G4"
+      },
+      "demographics": {
+        "line": "Ctrl-3",
+        "ipsc_line_name": "CS6EFYiCTR",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 50,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A5:F5"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176486",
+      "geo_line": "Ctrl-3",
+      "time_h": 3,
+      "group": "Ctrl",
+      "archive_member": "GSM6176486_iPSN-Ctrl-3_3h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-3",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 3,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A10:G10"
+      },
+      "demographics": {
+        "line": "Ctrl-3",
+        "ipsc_line_name": "CS6EFYiCTR",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 50,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A5:F5"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176487",
+      "geo_line": "Ctrl-3",
+      "time_h": 6,
+      "group": "Ctrl",
+      "archive_member": "GSM6176487_iPSN-Ctrl-3_6h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-3",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 6,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A16:G16"
+      },
+      "demographics": {
+        "line": "Ctrl-3",
+        "ipsc_line_name": "CS6EFYiCTR",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 50,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A5:F5"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176488",
+      "geo_line": "Ctrl-4",
+      "time_h": 0,
+      "group": "Ctrl",
+      "archive_member": "GSM6176488_iPSN-Ctrl-4_0h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-4",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 0,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A5:G5"
+      },
+      "demographics": {
+        "line": "Ctrl-4",
+        "ipsc_line_name": "CS2AE8iCTR",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 50,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A6:F6"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176489",
+      "geo_line": "Ctrl-4",
+      "time_h": 3,
+      "group": "Ctrl",
+      "archive_member": "GSM6176489_iPSN-Ctrl-4_3h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-4",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 3,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A11:G11"
+      },
+      "demographics": {
+        "line": "Ctrl-4",
+        "ipsc_line_name": "CS2AE8iCTR",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 50,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A6:F6"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    },
+    {
+      "accession": "GSM6176490",
+      "geo_line": "Ctrl-4",
+      "time_h": 6,
+      "group": "Ctrl",
+      "archive_member": "GSM6176490_iPSN-Ctrl-4_6h_counts.txt.gz",
+      "exact_S7c_match": true,
+      "supplement_design": {
+        "line": "Ctrl-4",
+        "genotype": "Non-neurologic control ",
+        "library_source": "polyA-selected RNA",
+        "time_h": 6,
+        "replicate_label": 1,
+        "cell_type": "iPSC-derived neuron",
+        "organism": "Homo sapiens",
+        "sheet": "Table S7c - RNA decay-seq",
+        "range": "A17:G17"
+      },
+      "demographics": {
+        "line": "Ctrl-4",
+        "ipsc_line_name": "CS2AE8iCTR",
+        "diagnosis": "Non-neurologic control ",
+        "donor_age_at_sampling_years": 50,
+        "sex": "Female",
+        "source": "Cedars-Sinai iPSC Core",
+        "sheet": "Table S2 - Demo of iPSC",
+        "range": "A6:F6"
+      },
+      "demographic_assignment_status": "label-consistent; independent donor identity not additionally established"
+    }
+  ],
+  "sample_count": 18,
+  "exact_sample_matches": 15,
+  "conflict_accessions": [
+    "GSM6176479",
+    "GSM6176480",
+    "GSM6176481"
+  ],
+  "conflict": {
+    "geo_line": "C9-4",
+    "supplement_line": "C9-5",
+    "times_h": [
+      0,
+      3,
+      6
+    ],
+    "supplement_cells": [
+      "A8",
+      "A14",
+      "A20"
+    ],
+    "sheet": "Table S7c - RNA decay-seq",
+    "status": "unresolved; neither source assumed corrected",
+    "effect": "C9 three-line estimates retain numerical fits but have unresolved source identity"
+  },
+  "direct_RP_rate_values": 0,
+  "absolute_RNA_values": 0,
+  "ERCC_calibration_values": 0,
+  "interpretation": "Sample metadata only; no gene-wise half-life/synthesis table or motor-neuron purity measurement",
+  "naming_discrepancy": "Tab Table S5 - qPCR primers has A1 Table S6; tab Table S6 - Demographic has demographic records",
+  "calibration_eligible_by_group": {
+    "Ctrl": false,
+    "C9": false
+  },
+  "reasons_by_group": {
+    "Ctrl": [
+      "mixed spinal neuronal culture",
+      "conditional input/recovery",
+      "0/80 prior technical screen"
+    ],
+    "C9": [
+      "mixed spinal neuronal culture",
+      "conditional input/recovery",
+      "C9-4/C9-5 identity unresolved"
+    ]
+  }
+}
