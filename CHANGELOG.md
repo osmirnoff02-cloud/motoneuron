@@ -1,6 +1,15 @@
 # 0.3.0 — 2026-11-14
 
-Optional PMCA proton/Na-H exchange closure, full-state restart, historical electrical panel and long conditional recovery results. [Details](docs/ACID_STAGE_0.3.0_codex.md). Existing license and earlier AGPL rights preserved; no human calibration claim.
+## 0.4.0 — 2026-11-14
+
+- Add DATA_REQUESTS.md beside README, with 43 English experimental-data requests and a sanitized 1,044-record numeric catalogue. Link it from both GitHub's displayed README and the root README.
+- Remove _codex and _claude suffixes from public filenames; update imports, commands and references. Entry point is now run_demo.py; generated output filenames also omit suffixes. Original paths and hashes remain in provenance. This is a filename/interface migration, not a change to model equations or parameter values.
+- Retain the optional acid-removal scenario from 0.3.0. Human calibration remains open.
+- Correct inherited homepage wording to retain the 0.2.0 license boundary; license terms and prior AGPL rights are unchanged.
+- Validation details are recorded in docs/DATA_REQUESTS_RELEASE.md.
+
+
+Optional PMCA proton/Na-H exchange closure, full-state restart, historical electrical panel and long conditional recovery results. [Details](docs/ACID_STAGE_0.3.0.md). Existing license and earlier AGPL rights preserved; no human calibration claim.
 
 # Changelog
 
@@ -38,5 +47,5 @@ Optional PMCA proton/Na-H exchange closure, full-state restart, historical elect
 - Added a portable read-only wrapper, short/full electrical examples, long-protocol commands and output checks.
 - Deferred optional legacy NEURON initialization in two exported files; scientific equations and parameter values retained.
 - Added English/Russian documentation, parameter inventory without correspondence fields, selected historical evidence and explicit limitations.
-- Prepared an isolated-environment reproduction check. See docs/VALIDATION_codex.md for the observed result and its limits.
+- Prepared an isolated-environment reproduction check. See docs/VALIDATION.md for the observed result and its limits.
 - No publication, deletion of originals, transfer of private Git history or automatic license grant.

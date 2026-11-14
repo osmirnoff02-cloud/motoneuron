@@ -103,5 +103,5 @@ permissions already granted for a received version.
 This is a custom source-available research license, not the GNU AGPL and not
 an OSI-approved open-source license. It is not a completed commercial contract.
 The English text in this file states these terms; the Russian explanation in
-docs/LICENSE_SCOPE_codex.md is a summary. A separate commercial agreement may
+docs/LICENSE_SCOPE.md is a summary. A separate commercial agreement may
 specify its own language and governing law. Mandatory applicable law prevails.

@@ -1,0 +1,49 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "version": "0.4.0",
+  "base_commit": "d8dfcdb7c91bc3662b30b06ce073f237109fe8bc",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "isolation": "Python -I -B; private project and als-tools reads forbidden by audit hook; network blocked by runner; existing publication environment reused.",
+  "numeric_catalogue_exact_records": 1044,
+  "english_request_groups": 43,
+  "python_files_checked": 208,
+  "python_ast_unchanged_except_names_and_strings": true,
+  "renamed_files": 299,
+  "runs": {
+    "smoke-base": {
+      "states": 4425,
+      "profile": "Burley",
+      "protocol": "smoke",
+      "acid_tau_s": null,
+      "all_finite": true,
+      "all_saved_states_compared": true,
+      "full_trace_max_absolute_difference": 0.0,
+      "maximum_balance_residual": 1.5537936981880337e-10,
+      "restart": {
+        "exact_initial_state": true,
+        "max_end_difference": 3.485041588646709e-08,
+        "within_tolerance": true
+      }
+    },
+    "smoke-acid": {
+      "states": 4431,
+      "profile": "Selvaraj-Con2",
+      "protocol": "smoke",
+      "acid_tau_s": 120.0,
+      "all_finite": true,
+      "all_saved_states_compared": true,
+      "full_trace_max_absolute_difference": 0.0,
+      "maximum_balance_residual": 3.6541666999135226e-10,
+      "restart": {
+        "exact_initial_state": true,
+        "max_end_difference": 4.2603346628311556e-08,
+        "within_tolerance": true
+      }
+    }
+  },
+  "limits": "Short full-state/restart regression only. Long protocols and pulse protocols were not rerun for this filename/documentation release. Human calibration remains open."
+}

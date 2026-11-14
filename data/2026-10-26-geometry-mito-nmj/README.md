@@ -2,10 +2,10 @@
 
 [codex] 2026-11-13. Selected runtime/input files retained under their historical paths.
 
-[Home](../../README.md) · [Scope](../../docs/SCOPE_codex.md) · [Source manifest](../../provenance/source_manifest_codex.json).
+[Home](../../README.md) · [Scope](../../docs/SCOPE.md) · [Source manifest](../../provenance/source_manifest.json).
 
 Use the supported root wrapper; individual historical scripts may need optional data or mechanisms outside this release.
 
-- [energy_terminal_codex.py](energy_terminal_codex.py)
-- [inputs_codex.py](inputs_codex.py)
-- [proteasome_sources_codex.py](proteasome_sources_codex.py)
+- [energy_terminal.py](energy_terminal.py)
+- [inputs.py](inputs.py)
+- [proteasome_sources.py](proteasome_sources.py)

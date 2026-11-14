@@ -1,0 +1,3151 @@
+{
+  "author": "codex",
+  "version": "0.4.0",
+  "base_commit": "d8dfcdb7c91bc3662b30b06ce073f237109fe8bc",
+  "scope": "Previous public paths and bytes mapped to current publication. Original private-source paths/hashes remain in source_manifest.json. Self and package-manifest hashes are excluded to avoid cycles; new files are covered by package_manifest.json.",
+  "files": [
+    {
+      "previous_public_path": ".gitattributes",
+      "public_path": ".gitattributes",
+      "previous_sha256": "4650f25bf3fc3fbb0ad580ddf32e17832d4a5c0b47b405c60696808357dedb03",
+      "public_sha256": "4650f25bf3fc3fbb0ad580ddf32e17832d4a5c0b47b405c60696808357dedb03",
+      "bytes": 77
+    },
+    {
+      "previous_public_path": ".github/ISSUE_TEMPLATE/README.md",
+      "public_path": ".github/ISSUE_TEMPLATE/README.md",
+      "previous_sha256": "7b2981f5a37e48289269d7674faff37c0864cd3f0cd04178af360470b61b83b1",
+      "public_sha256": "7b2981f5a37e48289269d7674faff37c0864cd3f0cd04178af360470b61b83b1",
+      "bytes": 161
+    },
+    {
+      "previous_public_path": ".github/ISSUE_TEMPLATE/reproducibility.md",
+      "public_path": ".github/ISSUE_TEMPLATE/reproducibility.md",
+      "previous_sha256": "5b76148711e05131e09acb592239d502f8e6aa321e1770197f71342c4c8adb02",
+      "public_sha256": "5b76148711e05131e09acb592239d502f8e6aa321e1770197f71342c4c8adb02",
+      "bytes": 289
+    },
+    {
+      "previous_public_path": ".github/ISSUE_TEMPLATE/scientific-review.md",
+      "public_path": ".github/ISSUE_TEMPLATE/scientific-review.md",
+      "previous_sha256": "0a868cf671332cf06475bef8c7b649b0c2c0017789097a334166607d3641ffb7",
+      "public_sha256": "0a868cf671332cf06475bef8c7b649b0c2c0017789097a334166607d3641ffb7",
+      "bytes": 333
+    },
+    {
+      "previous_public_path": ".github/README.md",
+      "public_path": ".github/README.md",
+      "previous_sha256": "65494bde1fe1992600e932702d118edc335c852a58fee921ba1767131b640ee7",
+      "public_sha256": "d889ae20916e478355592424ba9ffb9ae9e15feb3e285b7529d2cbe3390ce647",
+      "bytes": 2315
+    },
+    {
+      "previous_public_path": ".gitignore",
+      "public_path": ".gitignore",
+      "previous_sha256": "9712c6e4ed74dd81c0332c512eddf7caa085ea9ad6bdb81a3d5c6d0483becb63",
+      "public_sha256": "9712c6e4ed74dd81c0332c512eddf7caa085ea9ad6bdb81a3d5c6d0483becb63",
+      "bytes": 133
+    },
+    {
+      "previous_public_path": "CHANGELOG.md",
+      "public_path": "CHANGELOG.md",
+      "previous_sha256": "0a3e37898a71582af30562b5f5f53ecd4da757b4171965dbbe9de461f7dc09dd",
+      "public_sha256": "0c04f58ef4590ff1049548b2e01a6213b57b8b291775612e3e167ec6e3d44707",
+      "bytes": 3932
+    },
+    {
+      "previous_public_path": "CITATION.cff",
+      "public_path": "CITATION.cff",
+      "previous_sha256": "12704110d39d85570ff09df226d1ad7ed7e7081c84b809de6a36d9a367ebe323",
+      "public_sha256": "82461d059bfad6d637d1a10fd5259acfa32fe3e014df06aa5c12cfd38dd82d8f",
+      "bytes": 814
+    },
+    {
+      "previous_public_path": "COMMERCIAL_LICENSE_codex.md",
+      "public_path": "COMMERCIAL_LICENSE.md",
+      "previous_sha256": "3cccb319bcfbfe6d5261043b00b2d6850a99614a2583a1d1d42b93ecd4a874cc",
+      "public_sha256": "8390ba4b36fec09a800ee5f6c48df1de0cb973669f095bb1d50029d739fb79d0",
+      "bytes": 1847
+    },
+    {
+      "previous_public_path": "CONTRIBUTING.md",
+      "public_path": "CONTRIBUTING.md",
+      "previous_sha256": "d0bad30983ba5c7f641c3e92ce9d4ee63299ba7d43380ec9a637e612ef03faac",
+      "public_sha256": "671d9c53b3beeec3a6314eeceee51b7087cb4871ec54cb5c84c2da2d5ad12c6e",
+      "bytes": 1640
+    },
+    {
+      "previous_public_path": "LICENSE.txt",
+      "public_path": "LICENSE.txt",
+      "previous_sha256": "ee1f54bc1fb23719913a095c4bbb4f51e30dc0ff2d762c66ae8a6d232720b547",
+      "public_sha256": "c633b71e0e61ca7074254d400445353cc6efe8966eb235589fdeec1340755540",
+      "bytes": 5887
+    },
+    {
+      "previous_public_path": "MISSION_codex.md",
+      "public_path": "MISSION.md",
+      "previous_sha256": "1de7283dc8c1bfbd1129560b9c4348a65848f2cbd54867d9dacf8b6bea2e49ba",
+      "public_sha256": "a14c720f759c625ef38e17e48a118140ded2805043bfa9f34a8f7811e2f276ce",
+      "bytes": 2626
+    },
+    {
+      "previous_public_path": "PUBLICATION_CHECKLIST_codex.md",
+      "public_path": "PUBLICATION_CHECKLIST.md",
+      "previous_sha256": "68278a8106563bbaed2c074d53a5fca664bacdc5d5ca36f68d74738eee4fe0c0",
+      "public_sha256": "4c3c066497a54cc2c3ec2f22717847e5467581f1674d3723c847b540f04f03e4",
+      "bytes": 1900
+    },
+    {
+      "previous_public_path": "README.md",
+      "public_path": "README.md",
+      "previous_sha256": "4604ad3a8bc086e475c9dbb7a6c2d534c26baecb65d71004e14f29e599e34b06",
+      "public_sha256": "1460f94b1a8689e1cf9274ef7091965cfb7787beec6c49fc8cd1b2fba3282817",
+      "bytes": 8205
+    },
+    {
+      "previous_public_path": "README_RU_codex.md",
+      "public_path": "README_RU.md",
+      "previous_sha256": "b2e8fbd22e83ca198734e4a1ab969f78d6f7644d4c3a8de2192c17674da5e923",
+      "public_sha256": "62c976780374b3135052a5a138a995817c751bc79d629ddb6551924ff1a153a6",
+      "bytes": 7445
+    },
+    {
+      "previous_public_path": "THIRD_PARTY_NOTICES_codex.md",
+      "public_path": "THIRD_PARTY_NOTICES.md",
+      "previous_sha256": "361eaf3170122ac38077fef939d930f8b2998dc459b6a814851cd30fa166ca3f",
+      "public_sha256": "7374690def1e408656e4393aac51d5562154f2e4bc748be7444809a064b30878",
+      "bytes": 2132
+    },
+    {
+      "previous_public_path": "data/2026-10-14-healthy-ipsc-electrical/README.md",
+      "public_path": "data/2026-10-14-healthy-ipsc-electrical/README.md",
+      "previous_sha256": "fb37d1775f6cbc66a4b33b09c83fb3e8a90a8f4d3d69f6b4bcf67bba03577f43",
+      "public_sha256": "98988cd4f0359116127258efd179e6aee25f27c4862e5f368eab201399795072",
+      "bytes": 421
+    },
+    {
+      "previous_public_path": "data/2026-10-14-healthy-ipsc-electrical/targets-frozen_codex.json",
+      "public_path": "data/2026-10-14-healthy-ipsc-electrical/targets-frozen.json",
+      "previous_sha256": "e3dd464e5e71094613d9a2e500790a27e6b0fac02c42171fd78cfec89483c0c4",
+      "public_sha256": "e3dd464e5e71094613d9a2e500790a27e6b0fac02c42171fd78cfec89483c0c4",
+      "bytes": 13327
+    },
+    {
+      "previous_public_path": "data/2026-10-14-ipsc-electrical-multisource/README.md",
+      "public_path": "data/2026-10-14-ipsc-electrical-multisource/README.md",
+      "previous_sha256": "fc1a6d9aa3c9a49e2923e88131bac7d49ffe395c63540e95db0b9442e6b541bc",
+      "public_sha256": "9de7d104bdc3e8bf334c471634ae1b8a24b58a0a4acf87d55307a52ea1e622b0",
+      "bytes": 465
+    },
+    {
+      "previous_public_path": "data/2026-10-14-ipsc-electrical-multisource/electrical_model_codex.py",
+      "public_path": "data/2026-10-14-ipsc-electrical-multisource/electrical_model.py",
+      "previous_sha256": "ff142eebe75daaf8ae5803334a972281d91983497dc7cc1f526e615822e3354c",
+      "public_sha256": "bc5c7ed8f10f8e818272a937ea90d8d168fe9e8d91ecbaab31291f3853621354",
+      "bytes": 6869
+    },
+    {
+      "previous_public_path": "data/2026-10-14-ipsc-electrical-multisource/neuron_replay_codex.py",
+      "public_path": "data/2026-10-14-ipsc-electrical-multisource/neuron_replay.py",
+      "previous_sha256": "5325d5ed2761d535edc2b6363b48f67b935a74cde86dfb588eb92768cabeec65",
+      "public_sha256": "9c39fb3382bb4e9243fc600badb32bbdc9c8158243d2cd3cbe9259c4ee3acf8f",
+      "bytes": 5395
+    },
+    {
+      "previous_public_path": "data/2026-10-16-calcium-data-integration/README.md",
+      "public_path": "data/2026-10-16-calcium-data-integration/README.md",
+      "previous_sha256": "8f6146a8c2793f8f1c71e1c39a11a08d5c86b4b0badbdfe1972ef4d3334a2309",
+      "public_sha256": "86c21505797dadf654716ace689de1c8113954282813ed1991b07cf175bd39ca",
+      "bytes": 490
+    },
+    {
+      "previous_public_path": "data/2026-10-16-calcium-data-integration/cascade_observer_codex.py",
+      "public_path": "data/2026-10-16-calcium-data-integration/cascade_observer.py",
+      "previous_sha256": "d8187255f5254ceb0264cd47f5a5eeec5a926ff96fd81c299cfba227afedfb52",
+      "public_sha256": "86a0f99577a56d71cf114a080dbd826cf621750b5e982dafaaa10fec16a5e31a",
+      "bytes": 7510
+    },
+    {
+      "previous_public_path": "data/2026-10-16-calcium-data-integration/dandrea_fit_codex.py",
+      "public_path": "data/2026-10-16-calcium-data-integration/dandrea_fit.py",
+      "previous_sha256": "7c5adb4c48896286d781c9fefec4cf35ebafb1accd384ee1a27cc9609ca68988",
+      "public_sha256": "ec6b375335080865f97e5caf5c8158614938072db8757c908e2558fd16797421",
+      "bytes": 7220
+    },
+    {
+      "previous_public_path": "data/2026-10-16-calcium-data-integration/model_api_codex.py",
+      "public_path": "data/2026-10-16-calcium-data-integration/model_api.py",
+      "previous_sha256": "53e73c6f45115c9d963d8bf50235ab17dde8d58bf20261f84bdf64328a07be01",
+      "public_sha256": "43eeb234cee580500cc84b52ea1493df51b2739bcdd566d3b49fff790a545458",
+      "bytes": 6745
+    },
+    {
+      "previous_public_path": "data/2026-10-16-ipsc-expanded-calibration/README.md",
+      "public_path": "data/2026-10-16-ipsc-expanded-calibration/README.md",
+      "previous_sha256": "de425d4ff134c0c7e9c3d14b9d31e929d5387a36502b950d315718c2c3fac66e",
+      "public_sha256": "7acc77c2d0dc3960841986e85e6d837254ff95620d266a708221a7c80fdd919b",
+      "bytes": 425
+    },
+    {
+      "previous_public_path": "data/2026-10-16-ipsc-expanded-calibration/profiles-frozen_codex.json",
+      "public_path": "data/2026-10-16-ipsc-expanded-calibration/profiles-frozen.json",
+      "previous_sha256": "64326b69a9e192e065563c815c7f5327999086ea858699d0e5d4a1c71946b90f",
+      "public_sha256": "64326b69a9e192e065563c815c7f5327999086ea858699d0e5d4a1c71946b90f",
+      "bytes": 5208
+    },
+    {
+      "previous_public_path": "data/2026-10-16-selvaraj-waveform/README.md",
+      "public_path": "data/2026-10-16-selvaraj-waveform/README.md",
+      "previous_sha256": "2cacda720c6419d1fb36284ea2c6bf1859c3be77aa7b198e43c35904c9b489ff",
+      "public_sha256": "ba19aba8fdb32fe8c58439a60da12c8cef2f96067ec662391793212399ebd48d",
+      "bytes": 407
+    },
+    {
+      "previous_public_path": "data/2026-10-16-selvaraj-waveform/waveform_fit_codex.py",
+      "public_path": "data/2026-10-16-selvaraj-waveform/waveform_fit.py",
+      "previous_sha256": "9f1d14fa93a74e4c5f110c3806565a03d6858a1db540fdc9bb06c1b97d1a88d8",
+      "public_sha256": "57d8b9a34c6f13c89bca3672cb5c7a8a638ac6c14fe1fae0104ad82e6dd24a7a",
+      "bytes": 5875
+    },
+    {
+      "previous_public_path": "data/2026-10-19-adar2-ampa-chain/README.md",
+      "public_path": "data/2026-10-19-adar2-ampa-chain/README.md",
+      "previous_sha256": "508efb5215f025a2d09131a0ba278535a96fde69eec9e4b862dbe6c0ba841701",
+      "public_sha256": "3d5f75686674e2a98d2af148fc539dbd8eb5cbc6282a574d15a0daec57af1704",
+      "bytes": 434
+    },
+    {
+      "previous_public_path": "data/2026-10-19-adar2-ampa-chain/adar2_ampa_codex.py",
+      "public_path": "data/2026-10-19-adar2-ampa-chain/adar2_ampa.py",
+      "previous_sha256": "9fa3eacd661e40e3a22c7f095e8a44cdf9f69b463406c1b06612b31fe95c4f14",
+      "public_sha256": "9fa3eacd661e40e3a22c7f095e8a44cdf9f69b463406c1b06612b31fe95c4f14",
+      "bytes": 9980
+    },
+    {
+      "previous_public_path": "data/2026-10-19-adar2-ampa-chain/model_api_codex.py",
+      "public_path": "data/2026-10-19-adar2-ampa-chain/model_api.py",
+      "previous_sha256": "cdf4518fd66e5bc48556a94abc062e6dc6baad0370e4e0a9325fc49698fdb9d1",
+      "public_sha256": "082b70617f75d5567eafd9df932af350cb200233f1b4f5d06d1d3e34969e4fc1",
+      "bytes": 1414
+    },
+    {
+      "previous_public_path": "data/2026-10-19-adar2-qr-calibration/README.md",
+      "public_path": "data/2026-10-19-adar2-qr-calibration/README.md",
+      "previous_sha256": "473f5bc1c88ea1c5861e9be3e0e3ed2c6a37a6bc4915c19bea83383f6082b7e2",
+      "public_sha256": "9ac9ce20ae59c2ac3cce8848b4d56fd8589450ddffc3fd4aaf5cc5afeec70203",
+      "bytes": 450
+    },
+    {
+      "previous_public_path": "data/2026-10-19-adar2-qr-calibration/ampa_constraints_codex.py",
+      "public_path": "data/2026-10-19-adar2-qr-calibration/ampa_constraints.py",
+      "previous_sha256": "d0a4cba2702eeb1af488279d02cfbfaa453e7e60dcb1b493eb3636b52662245c",
+      "public_sha256": "881a3928abc2403016e05ef7a2681e20b7aa73dd647e14a7e8433000c1c961d0",
+      "bytes": 4136
+    },
+    {
+      "previous_public_path": "data/2026-10-19-adar2-qr-calibration/model_api_codex.py",
+      "public_path": "data/2026-10-19-adar2-qr-calibration/model_api.py",
+      "previous_sha256": "64aea3fa3175ed34ddff303daeff931399ecefd04f10f14dfedd20764a651423",
+      "public_sha256": "9255dbcbe36d681d0ceb93a1128bc5bd9ad0df5a27afce1d6531f504739d4482",
+      "bytes": 1948
+    },
+    {
+      "previous_public_path": "data/2026-10-19-calcium-buffer-calibration/README.md",
+      "public_path": "data/2026-10-19-calcium-buffer-calibration/README.md",
+      "previous_sha256": "3707acd3756f1ed567da19c6239541e933dd1578bfa1dcfcf0bc4f80efc529c4",
+      "public_sha256": "79afef2cf5f64b23445568bb052ce6e432376ae7e1c191ae791bca2c7cbb12dc",
+      "bytes": 462
+    },
+    {
+      "previous_public_path": "data/2026-10-19-calcium-buffer-calibration/calcium_calibration_codex.py",
+      "public_path": "data/2026-10-19-calcium-buffer-calibration/calcium_calibration.py",
+      "previous_sha256": "ac5252a166fe1854f6f93bbb13b6e1e9b528122a5bd737fcbb348257f7a2471a",
+      "public_sha256": "ac5252a166fe1854f6f93bbb13b6e1e9b528122a5bd737fcbb348257f7a2471a",
+      "bytes": 11736
+    },
+    {
+      "previous_public_path": "data/2026-10-19-calcium-buffer-calibration/model_api_codex.py",
+      "public_path": "data/2026-10-19-calcium-buffer-calibration/model_api.py",
+      "previous_sha256": "6f7cfa6265d660485f4816cac5a5686bf5967ceccd0c5d9d0243d426af6011c6",
+      "public_sha256": "7454cf99d35df66e7b18d022ab73e9386a743b05086598a7aeaf38465fa9b8e0",
+      "bytes": 5093
+    },
+    {
+      "previous_public_path": "data/2026-10-19-calpain-tdp-scenarios/README.md",
+      "public_path": "data/2026-10-19-calpain-tdp-scenarios/README.md",
+      "previous_sha256": "bef40bba3385328a0f726c055ffe5d29ea36815083b9d888a2a785c16769edaa",
+      "public_sha256": "531deb35c597f418379cf9c91a6b7136ca026de6ff0bfac2d619f34c87e062a1",
+      "bytes": 441
+    },
+    {
+      "previous_public_path": "data/2026-10-19-calpain-tdp-scenarios/calpain_tdp_codex.py",
+      "public_path": "data/2026-10-19-calpain-tdp-scenarios/calpain_tdp.py",
+      "previous_sha256": "2f391d9b7fe21c567c80f4aa44abbdfdbf1487e17950d49083673f4b2093e450",
+      "public_sha256": "2f391d9b7fe21c567c80f4aa44abbdfdbf1487e17950d49083673f4b2093e450",
+      "bytes": 7853
+    },
+    {
+      "previous_public_path": "data/2026-10-19-calpain-tdp-scenarios/model_api_codex.py",
+      "public_path": "data/2026-10-19-calpain-tdp-scenarios/model_api.py",
+      "previous_sha256": "6b8a7618da1e9cc51b4b8367ece202ceb382ebeb67d4198db5ad0b8c5b951eac",
+      "public_sha256": "c20cba77a9265296b56d4ae87179adf7d39bdd14d0e5eefbf061651f38b59e0a",
+      "bytes": 2223
+    },
+    {
+      "previous_public_path": "data/2026-10-19-electrical-recovery-refinement/README.md",
+      "public_path": "data/2026-10-19-electrical-recovery-refinement/README.md",
+      "previous_sha256": "441c621c0c222462a02698bd2febc54bef0c76156f181888b2613fa4850deb90",
+      "public_sha256": "56c2e0f520595b6b1b52ef216e1cd04d7fd8942f596384af381734e674ae8f53",
+      "bytes": 414
+    },
+    {
+      "previous_public_path": "data/2026-10-19-electrical-recovery-refinement/model_api_codex.py",
+      "public_path": "data/2026-10-19-electrical-recovery-refinement/model_api.py",
+      "previous_sha256": "8b0b52464db1fc41d213c969d2bf6d469aef5623dc5d73e4af48fb285c22c772",
+      "public_sha256": "5778a2389a265f1102b4048c847c43fd631c0023c7d1913305710a1f14ed1a88",
+      "bytes": 3431
+    },
+    {
+      "previous_public_path": "data/2026-10-19-equal-calcium-load/README.md",
+      "public_path": "data/2026-10-19-equal-calcium-load/README.md",
+      "previous_sha256": "a2eb452c19950dacff04adccf321352367ea33ba6c55fb10e2dea14107868285",
+      "public_sha256": "fa0d82c30164cb8f6f660f0a07e4d90d6649db2779a156be5579cd416ebb4dfd",
+      "bytes": 436
+    },
+    {
+      "previous_public_path": "data/2026-10-19-equal-calcium-load/equal_load_codex.py",
+      "public_path": "data/2026-10-19-equal-calcium-load/equal_load.py",
+      "previous_sha256": "f51afbad19e2ff32a51b938d05ebfd9ae09a61582439212443c3ec87f1dca954",
+      "public_sha256": "d2420164b650a9f840a54360be80d4b46c768e811b33b22885828d8ee36b768e",
+      "bytes": 9692
+    },
+    {
+      "previous_public_path": "data/2026-10-19-equal-calcium-load/model_api_codex.py",
+      "public_path": "data/2026-10-19-equal-calcium-load/model_api.py",
+      "previous_sha256": "1891688e09e67b430ff6e99fa07cea77b5938fbb5a3991e9c75c6164f91c8e65",
+      "public_sha256": "1451611376133cb38d144a1d6fdaa334510f49f1072816106b0c7e6f1d811ede",
+      "bytes": 1086
+    },
+    {
+      "previous_public_path": "data/2026-10-19-onodera-hirunagi/README.md",
+      "public_path": "data/2026-10-19-onodera-hirunagi/README.md",
+      "previous_sha256": "faccfaa287c0e08c342ccb792323e2d0a832b486f41e21f5f93caf18a527ca7c",
+      "public_sha256": "1d5096650dc9ef9002e853cecc326632a5c939374f460577ff39a7c82c031d70",
+      "bytes": 400
+    },
+    {
+      "previous_public_path": "data/2026-10-19-onodera-hirunagi/model_api_codex.py",
+      "public_path": "data/2026-10-19-onodera-hirunagi/model_api.py",
+      "previous_sha256": "bf4d7f1192052ab03a5ec979a22af218fe7e5fa74e7d5cf6653dc19d0f994bf6",
+      "public_sha256": "933f7fe84a07f569c08295ff671a0ec94e0754a30465f481c18ba93f34dc3fed",
+      "bytes": 4674
+    },
+    {
+      "previous_public_path": "data/2026-10-19-recovery-protocols/README.md",
+      "public_path": "data/2026-10-19-recovery-protocols/README.md",
+      "previous_sha256": "e33d5c201eaa3bed502c7d3308fa848efbd801efcb21e58f074ca09a64a9c693",
+      "public_sha256": "ab88aef0e9d9ceb0f387b0195aa0a3721341e20c907e2366c5225c4bb4c4c428",
+      "bytes": 480
+    },
+    {
+      "previous_public_path": "data/2026-10-19-recovery-protocols/er_exchange_codex.py",
+      "public_path": "data/2026-10-19-recovery-protocols/er_exchange.py",
+      "previous_sha256": "ec904d8e870a9b25b1b2d690f84052bc88fbbfa86cc0ad39343c6637990870cb",
+      "public_sha256": "ec904d8e870a9b25b1b2d690f84052bc88fbbfa86cc0ad39343c6637990870cb",
+      "bytes": 3251
+    },
+    {
+      "previous_public_path": "data/2026-10-19-recovery-protocols/model_api_codex.py",
+      "public_path": "data/2026-10-19-recovery-protocols/model_api.py",
+      "previous_sha256": "c0857168b6de9f104812b72e27ec6a262ba5b362d8f40d17ec8f061548ce765d",
+      "public_sha256": "75cad9339f38a8cca4ada1af3093d53b60f7638b0de5b18079dd903d33d29a1a",
+      "bytes": 1623
+    },
+    {
+      "previous_public_path": "data/2026-10-19-recovery-protocols/recovery_model_codex.py",
+      "public_path": "data/2026-10-19-recovery-protocols/recovery_model.py",
+      "previous_sha256": "fac01aacd62a0e2d706426b3fe68431da4f7807d6f69a215896cfbf244cabd37",
+      "public_sha256": "764cb75f164bf73011fb3b8896f2cc1feb855519983274e9b5004c71fffc8809",
+      "bytes": 5514
+    },
+    {
+      "previous_public_path": "data/2026-10-19-source-model-update/README.md",
+      "public_path": "data/2026-10-19-source-model-update/README.md",
+      "previous_sha256": "b5175ec0c3f8f4e4213e8785c0b20e89cf4b8ac39d76075c54732e9beb504ecc",
+      "public_sha256": "c106f5ade245400fa3521b624670b619894dd1d37ebb4d73021dd56119274ad2",
+      "bytes": 579
+    },
+    {
+      "previous_public_path": "data/2026-10-19-source-model-update/assay_observers_codex.py",
+      "public_path": "data/2026-10-19-source-model-update/assay_observers.py",
+      "previous_sha256": "88a6d7201c3ef72a70318fb72f1b229f7498854ed8683c0d32bce46d46b5806a",
+      "public_sha256": "88a6d7201c3ef72a70318fb72f1b229f7498854ed8683c0d32bce46d46b5806a",
+      "bytes": 10482
+    },
+    {
+      "previous_public_path": "data/2026-10-19-source-model-update/model_api_codex.py",
+      "public_path": "data/2026-10-19-source-model-update/model_api.py",
+      "previous_sha256": "e17ae211fa9b01928671a88b85cd8ebe4f3122f5616eac31f3963d4997a06042",
+      "public_sha256": "a58edad9d91254a0f387fa80defa5e45ac1d40b9d7c9978504d4c5259e98e554",
+      "bytes": 4967
+    },
+    {
+      "previous_public_path": "data/2026-10-19-source-model-update/model_api_observers_codex.py",
+      "public_path": "data/2026-10-19-source-model-update/model_api_observers.py",
+      "previous_sha256": "5be080f2bfc4d6d05715046180a049483a60ccc168b84206159bd1b3af513980",
+      "public_sha256": "e671fdb2e3c00b07f1c452b44b50aa7c2acc82c5955a9f867b9916ef5db31dd9",
+      "bytes": 1678
+    },
+    {
+      "previous_public_path": "data/2026-10-19-source-model-update/optical_qc_codex.py",
+      "public_path": "data/2026-10-19-source-model-update/optical_qc.py",
+      "previous_sha256": "7dca4deed3eeb8690178ce66db447e0bc7c4be0d19b07e17781d5719b0f1611f",
+      "public_sha256": "7dca4deed3eeb8690178ce66db447e0bc7c4be0d19b07e17781d5719b0f1611f",
+      "bytes": 2355
+    },
+    {
+      "previous_public_path": "data/2026-10-19-source-model-update/source_observers_codex.py",
+      "public_path": "data/2026-10-19-source-model-update/source_observers.py",
+      "previous_sha256": "612b322513d853a346da235e30b013867300c53fa94b65b1412effb4bf358022",
+      "public_sha256": "612b322513d853a346da235e30b013867300c53fa94b65b1412effb4bf358022",
+      "bytes": 9912
+    },
+    {
+      "previous_public_path": "data/2026-10-20-ampa-current-permeability/README.md",
+      "public_path": "data/2026-10-20-ampa-current-permeability/README.md",
+      "previous_sha256": "69a77dc45f1cadd1a231c3e48f1dce074c95a4970d6a002bc4c29a8c9ee28d74",
+      "public_sha256": "57a1b14a67ee537dd241fa482320019009b0dc08c88c8038d0a3a611d7c02875",
+      "bytes": 409
+    },
+    {
+      "previous_public_path": "data/2026-10-20-ampa-current-permeability/model_api_codex.py",
+      "public_path": "data/2026-10-20-ampa-current-permeability/model_api.py",
+      "previous_sha256": "42d63a72c827459ea2b373dc62c17a470a77bde131b3f2ec5cff1690706f05c4",
+      "public_sha256": "9c6a22d0d15bcd10d46eab1c6368b57e4c2a6704fb4e324f53f0fa77afc7c216",
+      "bytes": 8372
+    },
+    {
+      "previous_public_path": "data/2026-10-20-coupled-ampa-calcium-spikes/README.md",
+      "public_path": "data/2026-10-20-coupled-ampa-calcium-spikes/README.md",
+      "previous_sha256": "44dde99d1801b1f42d1ed9468a9fc47dfe53408793e88359036a83919bf282c4",
+      "public_sha256": "77955f7584fcee76d7ad8dbc62274a3d26bc5f4cc0582fefc2fa8b434af4fd78",
+      "bytes": 411
+    },
+    {
+      "previous_public_path": "data/2026-10-20-coupled-ampa-calcium-spikes/model_api_codex.py",
+      "public_path": "data/2026-10-20-coupled-ampa-calcium-spikes/model_api.py",
+      "previous_sha256": "d95a4e7d8d199121c14e961ac7062eef391872cc13e8c3c55f07bc5abaaa8479",
+      "public_sha256": "3f36985bca6868b8a48387909e7fa907847ca89b6cf06cc1d68a7d106af0aa1c",
+      "bytes": 11759
+    },
+    {
+      "previous_public_path": "data/2026-10-20-coupled-calpain-tdp/README.md",
+      "public_path": "data/2026-10-20-coupled-calpain-tdp/README.md",
+      "previous_sha256": "979e5197e51ccadfc65380c084f9704ffeb048a28e84ffb52f43c86b2edc57c2",
+      "public_sha256": "1ae5aee545e3c12c0c8e0f57944642d06538f096c878cf2c58e60958ed1c7837",
+      "bytes": 403
+    },
+    {
+      "previous_public_path": "data/2026-10-20-coupled-calpain-tdp/model_api_codex.py",
+      "public_path": "data/2026-10-20-coupled-calpain-tdp/model_api.py",
+      "previous_sha256": "16e8c39047dc1f53958a8410f8688ba15ff634f9e23b04927eb68254a1b2accf",
+      "public_sha256": "552993b463478469ba48731615b118be584e5d6b3fae25e09a4a0bce09b83d29",
+      "bytes": 2958
+    },
+    {
+      "previous_public_path": "data/2026-10-20-substrate-model-update/README.md",
+      "public_path": "data/2026-10-20-substrate-model-update/README.md",
+      "previous_sha256": "e0f7480e983d56c149c0cd0c223f0c52385a48250cd9fa577db500270ca35d8e",
+      "public_sha256": "ccf57ef56032a72362c724bc332de7ff486146931a2140492e7022b565ffdba7",
+      "bytes": 406
+    },
+    {
+      "previous_public_path": "data/2026-10-20-substrate-model-update/model_api_codex.py",
+      "public_path": "data/2026-10-20-substrate-model-update/model_api.py",
+      "previous_sha256": "1072a352ac96f43f5b87acfaf0763d15cfae7f5b7b6c38e4084c9d3a256d0563",
+      "public_sha256": "37c74f6b8a1c44849b0143168031af73d3ed55f23a1207f9d502116dd22290c3",
+      "bytes": 9393
+    },
+    {
+      "previous_public_path": "data/2026-10-21-calcium-protease-update/README.md",
+      "public_path": "data/2026-10-21-calcium-protease-update/README.md",
+      "previous_sha256": "50b8ac47ba6f442103628b7baae2a26a20646a739c8b04a2998280f3aad22416",
+      "public_sha256": "66b0eba3bfea64fb5b76f74357bda0c68fa62c43ed61f4c107aff8743a5b9340",
+      "bytes": 407
+    },
+    {
+      "previous_public_path": "data/2026-10-21-calcium-protease-update/model_api_codex.py",
+      "public_path": "data/2026-10-21-calcium-protease-update/model_api.py",
+      "previous_sha256": "18d0a158f6f372d6f941b1fb15326079765ffe514da0224cada4e65bbf1fb2b7",
+      "public_sha256": "13dbb5564edfa017af6dbadaa05ef5878775f3d40c555359b45ec721c0de4590",
+      "bytes": 10461
+    },
+    {
+      "previous_public_path": "data/2026-10-21-cascella-cast-source-update/README.md",
+      "public_path": "data/2026-10-21-cascella-cast-source-update/README.md",
+      "previous_sha256": "f2a61d26cb3ce0d86c3c64127b27091340f7b327ad9d351abb2e0c142f3e3112",
+      "public_sha256": "022f164a0ba47aa289883d8dd7b7f1a66c6f464b117507f0933d7cf56d671125",
+      "bytes": 411
+    },
+    {
+      "previous_public_path": "data/2026-10-21-cascella-cast-source-update/model_api_codex.py",
+      "public_path": "data/2026-10-21-cascella-cast-source-update/model_api.py",
+      "previous_sha256": "be4150c268b9ef0beb12ac03ad57a2d4081a8ec285abb1171d5bf7501ea55bb9",
+      "public_sha256": "6549b1afbbe5db3845cdbe0f671a956fc71836623842f7fab8ce7271f7e582cb",
+      "bytes": 7337
+    },
+    {
+      "previous_public_path": "data/2026-10-21-chan-stmn2-neurite/README.md",
+      "public_path": "data/2026-10-21-chan-stmn2-neurite/README.md",
+      "previous_sha256": "5d83e434258fda1995d356d77fd9fb00a988f867ec6ebfed8fdc9f1e1e3911cd",
+      "public_sha256": "809942b400dffa210fe63a7cf39967b07355a5bdeda3d8c2758225317f0f33e7",
+      "bytes": 402
+    },
+    {
+      "previous_public_path": "data/2026-10-21-chan-stmn2-neurite/model_api_codex.py",
+      "public_path": "data/2026-10-21-chan-stmn2-neurite/model_api.py",
+      "previous_sha256": "13dcb60449bb0c024774283a432698cfd9942b78c734d9842ff4cbab6cbfb5ba",
+      "public_sha256": "f07d86b23fc66d52e13ac4d8bad1805c5446feb5129de80aeea0ee960d1100b7",
+      "bytes": 7971
+    },
+    {
+      "previous_public_path": "data/2026-10-21-integrated-adar2-stmn2/README.md",
+      "public_path": "data/2026-10-21-integrated-adar2-stmn2/README.md",
+      "previous_sha256": "485be3298736e6b6aed1cc0308be097ec5aba2a767d7deb3efc3c83840d62715",
+      "public_sha256": "f16413440174487451be89724a20f30d7efe14319f2271662172c000e6208885",
+      "bytes": 406
+    },
+    {
+      "previous_public_path": "data/2026-10-21-integrated-adar2-stmn2/model_api_codex.py",
+      "public_path": "data/2026-10-21-integrated-adar2-stmn2/model_api.py",
+      "previous_sha256": "df41f37911f2e196e764956f572d2565e565e10d4dafd697eb53ea6198f850e8",
+      "public_sha256": "bf6b093507f95094ec2af75e3efbbd4a0a7f8336c63a1129bc6c93a34ac20387",
+      "bytes": 11235
+    },
+    {
+      "previous_public_path": "data/2026-10-21-protease-memory-clearance/README.md",
+      "public_path": "data/2026-10-21-protease-memory-clearance/README.md",
+      "previous_sha256": "1a3de589852804a6e2a4ef99c2200b79f8445be3478cbe606837dee9e4737e02",
+      "public_sha256": "d1b409db863b53f168cb7ae2b1a8904e90a0f133bc6ed28820e9e594645a81bf",
+      "bytes": 409
+    },
+    {
+      "previous_public_path": "data/2026-10-21-protease-memory-clearance/model_api_codex.py",
+      "public_path": "data/2026-10-21-protease-memory-clearance/model_api.py",
+      "previous_sha256": "5065b1eb0b06b57ddaf79e38fd6365153887de0b420b8c15091f42b6f907e393",
+      "public_sha256": "6831158f3012dc059e95c55b4a5aec23f0354e3e4c9a6b59553d755e5870e770",
+      "bytes": 12108
+    },
+    {
+      "previous_public_path": "data/2026-10-21-spectrin-tdp-state-update/README.md",
+      "public_path": "data/2026-10-21-spectrin-tdp-state-update/README.md",
+      "previous_sha256": "ce4ef7eb89cf6e96b807fcd74990e8c3702185084adba6ee67fa552abd992c8c",
+      "public_sha256": "693d2f303962030176289eba564138653cdaab56754b5e15b0d500f4215b6da5",
+      "bytes": 409
+    },
+    {
+      "previous_public_path": "data/2026-10-21-spectrin-tdp-state-update/model_api_codex.py",
+      "public_path": "data/2026-10-21-spectrin-tdp-state-update/model_api.py",
+      "previous_sha256": "aef20928984a190ec73e2a6445bc45856946f8622255ad509ce888b63c7dc72a",
+      "public_sha256": "f04aa9db03ea11929131467394b24c4db8bbc4f6ef2309131e93f1677f0f0fe0",
+      "bytes": 11693
+    },
+    {
+      "previous_public_path": "data/2026-10-21-tdp-transport-clearance/README.md",
+      "public_path": "data/2026-10-21-tdp-transport-clearance/README.md",
+      "previous_sha256": "2f7608d87cd5628df28057390dc1900e34f7c75305a9e8eb36ae0e606571f0d7",
+      "public_sha256": "fcd2488ff364d3646ab1cc474c1a171fe806c0ad7ece0f114e2ba590b9bf3fd6",
+      "bytes": 407
+    },
+    {
+      "previous_public_path": "data/2026-10-21-tdp-transport-clearance/model_api_codex.py",
+      "public_path": "data/2026-10-21-tdp-transport-clearance/model_api.py",
+      "previous_sha256": "c4d2f00ab6802fb216e1ef6e873f1d5f1d31c116ed16b4ae0f91669243c327cc",
+      "public_sha256": "1ae0d5d3b410c31dc7a2b63144c7a9993cbd831857e9674034dd1f8c44f34359",
+      "bytes": 11669
+    },
+    {
+      "previous_public_path": "data/2026-10-23-calpain-reactivation/README.md",
+      "public_path": "data/2026-10-23-calpain-reactivation/README.md",
+      "previous_sha256": "3f85f31cd678906ec744b72577d3635aeac3210f4112f944bb44a46bdff6c8be",
+      "public_sha256": "d41e63339032a0e054672bf3924ee2fb20668048122de53be72f91e7ee2f86f7",
+      "bytes": 404
+    },
+    {
+      "previous_public_path": "data/2026-10-23-calpain-reactivation/model_api_codex.py",
+      "public_path": "data/2026-10-23-calpain-reactivation/model_api.py",
+      "previous_sha256": "ab4df1ffbd86bd43f626a944ac67736728537b73eb22bb48f70ec7e11e2a0234",
+      "public_sha256": "764ac3254e8a9cb9de57b8c401038fba183f4fd9309a7d7a38082663fef6417e",
+      "bytes": 12313
+    },
+    {
+      "previous_public_path": "data/2026-10-23-calpain-seven-papers/README.md",
+      "public_path": "data/2026-10-23-calpain-seven-papers/README.md",
+      "previous_sha256": "18901f7ba544f9159c35ae5b0ca21a22c85b9cfe5d9b5612433d26f073384c12",
+      "public_sha256": "9ec12bec7070df39a9f4e84ca74052f0c4f369dba6c5d7635176d04e0f0425ca",
+      "bytes": 404
+    },
+    {
+      "previous_public_path": "data/2026-10-23-calpain-seven-papers/model_api_codex.py",
+      "public_path": "data/2026-10-23-calpain-seven-papers/model_api.py",
+      "previous_sha256": "4f6522a92454fbbd3f436ed8eaf25310c46a607412529178ed228200948f9e1a",
+      "public_sha256": "7ce93f66b0fe1046e728de2fe6a9a46dc7149f66a0c535e46a55f41fc5d59297",
+      "bytes": 12855
+    },
+    {
+      "previous_public_path": "data/2026-10-23-chou-cascella-supplement/README.md",
+      "public_path": "data/2026-10-23-chou-cascella-supplement/README.md",
+      "previous_sha256": "829bfe1fa3b9358e7c49cccb810fb6246c17391aa9807cdf8503e3e00ea989fb",
+      "public_sha256": "bd66bb8e5f734781a5af1705925f25f64743e6c5bb339747c922227ee7e40f9c",
+      "bytes": 408
+    },
+    {
+      "previous_public_path": "data/2026-10-23-chou-cascella-supplement/model_api_codex.py",
+      "public_path": "data/2026-10-23-chou-cascella-supplement/model_api.py",
+      "previous_sha256": "740f9ca0c5b47e25fbb7c05d4d27edb532e97c185e634467c279723a7891998e",
+      "public_sha256": "3923f7e644a02a63006825ae5c3e43e30c3f0e537dc5291fc2efa5a2a467103a",
+      "bytes": 19970
+    },
+    {
+      "previous_public_path": "data/2026-10-23-iron-neuron-network/README.md",
+      "public_path": "data/2026-10-23-iron-neuron-network/README.md",
+      "previous_sha256": "1eb4a2ea5b16b6b6663bed0f808b399aa487b96dd93c2f42483417185a4391c9",
+      "public_sha256": "9bcb86821046333500ecc6de39ec201a1a51460f4f6d756973bd4a96fab46fc9",
+      "bytes": 403
+    },
+    {
+      "previous_public_path": "data/2026-10-23-iron-neuron-network/model_api_codex.py",
+      "public_path": "data/2026-10-23-iron-neuron-network/model_api.py",
+      "previous_sha256": "be4d895ef521e1ee6bc9548a6735caa6cb581027fa423d0d54e3e102c34a9dc0",
+      "public_sha256": "c3b274bf8a8f17d10117122daf5289b1d3d8f32d1aa3b2a3e204436990a04ddd",
+      "bytes": 12762
+    },
+    {
+      "previous_public_path": "data/2026-10-23-library-functional-update/README.md",
+      "public_path": "data/2026-10-23-library-functional-update/README.md",
+      "previous_sha256": "315e3225a5ae03150b1eb35f24a9a0da29639cd513b492db056d6749045eb320",
+      "public_sha256": "19e5b1387fe467a23eab9e10ac42316042176f9d5e06836d7ec263472acba990",
+      "bytes": 409
+    },
+    {
+      "previous_public_path": "data/2026-10-23-library-functional-update/model_api_codex.py",
+      "public_path": "data/2026-10-23-library-functional-update/model_api.py",
+      "previous_sha256": "b892091494c5607ca6a44f285c2e87089a29f8c1d7b4b82c2196ae19025a114c",
+      "public_sha256": "65e0ca65ae4aec278f6feebee6a92f21048387f2f1d420b8feb7c53f4aa4547e",
+      "bytes": 13393
+    },
+    {
+      "previous_public_path": "data/2026-10-23-ling-ayala-supplement/README.md",
+      "public_path": "data/2026-10-23-ling-ayala-supplement/README.md",
+      "previous_sha256": "b7dd2763f3e6b422c44a31affdff1a4739c89e0afe757ad0be7483ba3c185254",
+      "public_sha256": "0dc039d164a365e4319ed07cd037de49b3737338e99602273039d16f4354860f",
+      "bytes": 405
+    },
+    {
+      "previous_public_path": "data/2026-10-23-ling-ayala-supplement/model_api_codex.py",
+      "public_path": "data/2026-10-23-ling-ayala-supplement/model_api.py",
+      "previous_sha256": "7379a549239c93d2f0ca662f1ee1319975d5b597d1b8e1cbf6ed54b83177106a",
+      "public_sha256": "f713799a89fc4372eb6b6072c7e87318b6264c9ba3ae0b64309345f7825b20bf",
+      "bytes": 13138
+    },
+    {
+      "previous_public_path": "data/2026-10-23-ling-ayala-synthesis/README.md",
+      "public_path": "data/2026-10-23-ling-ayala-synthesis/README.md",
+      "previous_sha256": "69502c88f7dfa707871a12822a8939f5e5f00973a495e6228338be2402a1650e",
+      "public_sha256": "907aa8df991dbf6fe7920b1e5b88f2dda7b430577e50f5bfc2facfcc8cf5cb3a",
+      "bytes": 404
+    },
+    {
+      "previous_public_path": "data/2026-10-23-ling-ayala-synthesis/model_api_codex.py",
+      "public_path": "data/2026-10-23-ling-ayala-synthesis/model_api.py",
+      "previous_sha256": "a61ccd6873f6414751ba1067ef3c21d57cd5fa2de62447723794054f072a107f",
+      "public_sha256": "4ecca8e6f38c6d700e92eb54ec39c27fac1fe0c2e5ab2b59f2adf3fdb6b91070",
+      "bytes": 11125
+    },
+    {
+      "previous_public_path": "data/2026-10-23-long-calcium-memory/README.md",
+      "public_path": "data/2026-10-23-long-calcium-memory/README.md",
+      "previous_sha256": "dcb75dc05f43963261054a609f3c66ab60443f77521a8801d678b30bd2df48e5",
+      "public_sha256": "d5e2f1fea4c6f8f4f12e52fbfa3004a9ef19addcb10fec4d88867040b8406d9c",
+      "bytes": 403
+    },
+    {
+      "previous_public_path": "data/2026-10-23-long-calcium-memory/model_api_codex.py",
+      "public_path": "data/2026-10-23-long-calcium-memory/model_api.py",
+      "previous_sha256": "262420135ffe4f7cca4e7923f0a7864365fa2c3f1fd5edb257e0f68fad4c2fe6",
+      "public_sha256": "68ac38f08ec171dfd3f23b2075331ef1ca2e4ab8a9ac64b658b5554da054af20",
+      "bytes": 10287
+    },
+    {
+      "previous_public_path": "data/2026-10-23-pkn-organelle-network/README.md",
+      "public_path": "data/2026-10-23-pkn-organelle-network/README.md",
+      "previous_sha256": "4ec1f747be19011dc4b96be75a9cf83b5c5e1ca6d0ae1a17b91dd16223c0122b",
+      "public_sha256": "bb6097d6e081c6d1954a08bc6b51b8e2b8dbcf776263568a4e0c59ab9831164b",
+      "bytes": 405
+    },
+    {
+      "previous_public_path": "data/2026-10-23-pkn-organelle-network/model_api_codex.py",
+      "public_path": "data/2026-10-23-pkn-organelle-network/model_api.py",
+      "previous_sha256": "f33b2e8d810eebe2628befcc41b0140488033a69ee9896fcf8e0150d6b28b472",
+      "public_sha256": "fe8bbc7e6ee17940e1c81e62b166bda59f37f7d19f556336440df811ac9027b5",
+      "bytes": 13450
+    },
+    {
+      "previous_public_path": "data/2026-10-23-six-papers-calpain-stmn2/README.md",
+      "public_path": "data/2026-10-23-six-papers-calpain-stmn2/README.md",
+      "previous_sha256": "da5928f4d717a90fae0c76aec7c7c7fd3bf516d0079645ad3d447f819f5bc62d",
+      "public_sha256": "bed5481d5975d79118b6fb4564d55a444c7b13bb75396298ef0f3f20aa89fcc8",
+      "bytes": 408
+    },
+    {
+      "previous_public_path": "data/2026-10-23-six-papers-calpain-stmn2/model_api_codex.py",
+      "public_path": "data/2026-10-23-six-papers-calpain-stmn2/model_api.py",
+      "previous_sha256": "49084c3368082d7927357195a300238b677836affaa5dbd5994a729007b36cf3",
+      "public_sha256": "40f0d452f6fa9a64a1e54b835ee7dabf3f5bd9d91e5be796506f96a21ad053f1",
+      "bytes": 12485
+    },
+    {
+      "previous_public_path": "data/2026-10-23-tdp-aggregation-chain/README.md",
+      "public_path": "data/2026-10-23-tdp-aggregation-chain/README.md",
+      "previous_sha256": "d9609704a4ff2c060779be29aeb9fada6a0bfbcc9e70cd080b0ef212e2c3838a",
+      "public_sha256": "1b1b222c43d3838113adcd0eafb93467e39cdf65ce221f17fb1b4f5f820af466",
+      "bytes": 405
+    },
+    {
+      "previous_public_path": "data/2026-10-23-tdp-aggregation-chain/model_api_codex.py",
+      "public_path": "data/2026-10-23-tdp-aggregation-chain/model_api.py",
+      "previous_sha256": "41312b745a5789ac57e3ccbef8ff6d90c2ada8de8489d0dde68e3c6ff29c5135",
+      "public_sha256": "4a0582697e675cf471be976cba778b7605cf8242fb4d8061a1e3af09cb193c98",
+      "bytes": 12662
+    },
+    {
+      "previous_public_path": "data/2026-10-23-tdp-homeostasis/README.md",
+      "public_path": "data/2026-10-23-tdp-homeostasis/README.md",
+      "previous_sha256": "59755d950c9dea483f9ce2d41d13cecc9f71d2e6643d9b0b9bf4779c02e9c56e",
+      "public_sha256": "c3fc2e03ff2dfaf136d3f63eb9ff73527ce49d033b6a1f4e4772a41bdf8ac875",
+      "bytes": 399
+    },
+    {
+      "previous_public_path": "data/2026-10-23-tdp-homeostasis/model_api_codex.py",
+      "public_path": "data/2026-10-23-tdp-homeostasis/model_api.py",
+      "previous_sha256": "4a45317c83d607f7b085d9ff7bf9bb1ac033c6e68aee42b9006af34ce27e906e",
+      "public_sha256": "dc6eb74908e1b6ad74e6709400dfc3ead3a83df8e24e5e470a5d9ca4a63d9167",
+      "bytes": 9788
+    },
+    {
+      "previous_public_path": "data/2026-10-23-yamashita-phospho/README.md",
+      "public_path": "data/2026-10-23-yamashita-phospho/README.md",
+      "previous_sha256": "0fedc5cc1080f62af0fd5eddf566350f602a8d9ea8cc981e3f17809d40819978",
+      "public_sha256": "11834ecdff53093d9c49acab251557978b456e4156ba3dc5e6483c9806a5eb06",
+      "bytes": 401
+    },
+    {
+      "previous_public_path": "data/2026-10-23-yamashita-phospho/model_api_codex.py",
+      "public_path": "data/2026-10-23-yamashita-phospho/model_api.py",
+      "previous_sha256": "a93b25fee0622f968bf1391eff05ed913472be71157cc9737aa104314ce44e4a",
+      "public_sha256": "0929eb29fd2f1e899d1acff7777f6443a54767156780ea66cb8ffd0931e67090",
+      "bytes": 13443
+    },
+    {
+      "previous_public_path": "data/2026-10-24-atp-calcium-feedback/README.md",
+      "public_path": "data/2026-10-24-atp-calcium-feedback/README.md",
+      "previous_sha256": "c9257e410c9f2743c85794fb8f9dfa6787b5e542eccb84b90c3e51c8b332ff21",
+      "public_sha256": "0e8df09aed9b3108a2a7b7293e40831114b0d3a8e3ee5dd2a3ec135ec35f9131",
+      "bytes": 420
+    },
+    {
+      "previous_public_path": "data/2026-10-24-atp-calcium-feedback/energy_parameters_codex.py",
+      "public_path": "data/2026-10-24-atp-calcium-feedback/energy_parameters.py",
+      "previous_sha256": "ea1186c9a4ed9c3be144eb894216b47032e3ec152ad8c557471419e88aa56a5d",
+      "public_sha256": "ea1186c9a4ed9c3be144eb894216b47032e3ec152ad8c557471419e88aa56a5d",
+      "bytes": 3491
+    },
+    {
+      "previous_public_path": "data/2026-10-24-er-unified-neuron/README.md",
+      "public_path": "data/2026-10-24-er-unified-neuron/README.md",
+      "previous_sha256": "9884bdb71996884630631cd038364e4fb585b7baedad8d231782a8b93b9040e8",
+      "public_sha256": "b994a89c14391ada236cb2c2a9f593116bc4efdce38f763d6e89dfea9b192f26",
+      "bytes": 409
+    },
+    {
+      "previous_public_path": "data/2026-10-24-er-unified-neuron/er_parameters_codex.py",
+      "public_path": "data/2026-10-24-er-unified-neuron/er_parameters.py",
+      "previous_sha256": "85546d8402e5dea588faa3d90fe4eeae4e24cd9a8761cbd3b425a22f367373cc",
+      "public_sha256": "85546d8402e5dea588faa3d90fe4eeae4e24cd9a8761cbd3b425a22f367373cc",
+      "bytes": 2746
+    },
+    {
+      "previous_public_path": "data/2026-10-24-kcnq2-transport/README.md",
+      "public_path": "data/2026-10-24-kcnq2-transport/README.md",
+      "previous_sha256": "200f1eb035ab21c041bab68a4ba4dc73bd67dab6c1cd61ec80a9084392c6b150",
+      "public_sha256": "44ddc373d1883863f2091636a5db5d37e9c2ec4a71caa783fc897bd234420676",
+      "bytes": 399
+    },
+    {
+      "previous_public_path": "data/2026-10-24-kcnq2-transport/transport_codex.py",
+      "public_path": "data/2026-10-24-kcnq2-transport/transport.py",
+      "previous_sha256": "d3aa278f2e61272ed7db1b838dd1c447725492fab2aa4390d98e37955bd5c66d",
+      "public_sha256": "d3aa278f2e61272ed7db1b838dd1c447725492fab2aa4390d98e37955bd5c66d",
+      "bytes": 9796
+    },
+    {
+      "previous_public_path": "data/2026-10-24-ncoa4-transport-update/README.md",
+      "public_path": "data/2026-10-24-ncoa4-transport-update/README.md",
+      "previous_sha256": "0ec5dcb575074197d0f189180fea1a0fe2435320771a999e4ab4d8d76a59f84e",
+      "public_sha256": "a9f336cf1131b1b6892d0821fb599c08c1e35ca526ade772670fa9222dcc2835",
+      "bytes": 406
+    },
+    {
+      "previous_public_path": "data/2026-10-24-ncoa4-transport-update/model_api_codex.py",
+      "public_path": "data/2026-10-24-ncoa4-transport-update/model_api.py",
+      "previous_sha256": "eb2551717adb95467bb91f516081926b384e38f455e8c2c114ca46cafe1ecf1f",
+      "public_sha256": "b6b30887a4d7292bd6c36703937518ac7829799c5cfc79a77c2261614c2efa71",
+      "bytes": 18258
+    },
+    {
+      "previous_public_path": "data/2026-10-25-gerencser-field-model/README.md",
+      "public_path": "data/2026-10-25-gerencser-field-model/README.md",
+      "previous_sha256": "1eb5a7f4ab1a97ec971d0a5371be0c76abaf425dd937498ba0214b6c1a793125",
+      "public_sha256": "fe0c61d520896f7d94ab3990ef9bf7c855e9e7e1ccadedc2172287019521657b",
+      "bytes": 415
+    },
+    {
+      "previous_public_path": "data/2026-10-25-gerencser-field-model/field_observer_codex.py",
+      "public_path": "data/2026-10-25-gerencser-field-model/field_observer.py",
+      "previous_sha256": "adb638c245898bde399a9d55cfcf32e12c6bc3392007dd346a8b89a4a1ba663b",
+      "public_sha256": "1cb8d387805f8e4cf99b2a74ccdd994777be8ff32e3373caf68616513dd4d1d4",
+      "bytes": 7590
+    },
+    {
+      "previous_public_path": "data/2026-10-25-gerencser-fret/README.md",
+      "public_path": "data/2026-10-25-gerencser-fret/README.md",
+      "previous_sha256": "9eb37ee7148bd91b3f97aae5d7d16e70fa03a8759d4add05b54e050f1b2267a5",
+      "public_sha256": "455a9c4968880c3befabd07b608bd93929405fe66eaf09091c72aef87256cf5a",
+      "bytes": 402
+    },
+    {
+      "previous_public_path": "data/2026-10-25-gerencser-fret/fret_bridge_codex.py",
+      "public_path": "data/2026-10-25-gerencser-fret/fret_bridge.py",
+      "previous_sha256": "c2559d4eeda0c529245f1e72633a75d76b9b0044c7549f779743a93155ece2ac",
+      "public_sha256": "740aa5b8b2f7532643a99c5d7ed187d25aca1e16c28b65ac6ec969aea2b2c5a2",
+      "bytes": 6506
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-geometry-model/README.md",
+      "public_path": "data/2026-10-25-pmca-geometry-model/README.md",
+      "previous_sha256": "621b89d88ee8c758192fd7341c3f48f27f6352938b4dca944440b6d0162598c9",
+      "public_sha256": "7665e96eaffb0cb3cd906fa6b50cc709d639b333f56b842076976bdcd5fdbacc",
+      "bytes": 445
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-geometry-model/bk_protocol_codex.py",
+      "public_path": "data/2026-10-25-pmca-geometry-model/bk_protocol.py",
+      "previous_sha256": "60dce0f1e6925bc085f5243aaee6438227df49cb3ac8a5d793f351f8faff1ab8",
+      "public_sha256": "bc93df7fc0b684cdbf3f9a8f1fa5ed7d674539128f5aba4e6bb9514ccf5f94de",
+      "bytes": 2516
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-geometry-model/surface_pmca_codex.py",
+      "public_path": "data/2026-10-25-pmca-geometry-model/surface_pmca.py",
+      "previous_sha256": "63120ad82bca7465d2934fb2d3ec5d7ff937a47d4d9de975e5920b158aa90864",
+      "public_sha256": "d5256c08e20934cd4cc15e64d991e18607673499980a54b5ab56cc9ccf53d741",
+      "bytes": 9870
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-memory-model/README.md",
+      "public_path": "data/2026-10-25-pmca-memory-model/README.md",
+      "previous_sha256": "698044512f09918d558ea0e98f0c057402045379a5884c1c69ccb04ff43e2d6e",
+      "public_sha256": "b5841147ed6075b426b44c94986d8e341f94bd62f77f01a97b7bc4af0c9ef023",
+      "bytes": 473
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-memory-model/bk_observer_codex.py",
+      "public_path": "data/2026-10-25-pmca-memory-model/bk_observer.py",
+      "previous_sha256": "eba5edda0f5a3555987673586bea2216c3dcde70ebd298dcc2b9d1d56f48d266",
+      "public_sha256": "eba5edda0f5a3555987673586bea2216c3dcde70ebd298dcc2b9d1d56f48d266",
+      "bytes": 2718
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-memory-model/long_pmca_codex.py",
+      "public_path": "data/2026-10-25-pmca-memory-model/long_pmca.py",
+      "previous_sha256": "163097af7a78ccbfbcda522a7d590065f447937ebc8d52f95fb7893285b22ad9",
+      "public_sha256": "4af6c75041b9957a8b611f8f212d8a18aa4ad55fd09b1f9848a1f23fc0cd22bc",
+      "bytes": 17156
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-memory-model/pmca_memory_codex.py",
+      "public_path": "data/2026-10-25-pmca-memory-model/pmca_memory.py",
+      "previous_sha256": "a03f40112e4d2f1d3855dbb9c7ae67052a2a92242cb3379a9d017690fc7ad5b9",
+      "public_sha256": "e3fc1054f3dd1deec51f0f3c81ccfe257f7bf9bba02c6dbdaa7ffeb3a2df550e",
+      "bytes": 5592
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-spatial-model/README.md",
+      "public_path": "data/2026-10-25-pmca-spatial-model/README.md",
+      "previous_sha256": "1a5462a294a4e86cab9a26542dd7699074fba2a50cc655dd5cede521ceac684e",
+      "public_sha256": "79cdc3f95ef126776997ddfd522f05fdb3be338e20b2e2be8c41110125d113d4",
+      "bytes": 408
+    },
+    {
+      "previous_public_path": "data/2026-10-25-pmca-spatial-model/spatial_pmca_codex.py",
+      "public_path": "data/2026-10-25-pmca-spatial-model/spatial_pmca.py",
+      "previous_sha256": "ee9ad2fa30e651c9db84845d6bb8d4d98a8c7d6264e2fa96dd4322b34a74e234",
+      "public_sha256": "5ee8da6146dad78187f27a661c19a8b8838d745bc39b590d7e141a861f81b125",
+      "bytes": 19299
+    },
+    {
+      "previous_public_path": "data/2026-10-25-rna-kcnq2-pmca2-model/README.md",
+      "public_path": "data/2026-10-25-rna-kcnq2-pmca2-model/README.md",
+      "previous_sha256": "b2f6cb917694d2b3c88e8becb5cf00e9a42cb673b75d329e4e6b43924102a409",
+      "public_sha256": "ed5ca91b52facc2480d2e159eff449b5596fa5bb060134e716788dd994c47a5d",
+      "bytes": 413
+    },
+    {
+      "previous_public_path": "data/2026-10-25-rna-kcnq2-pmca2-model/rna_effectors_codex.py",
+      "public_path": "data/2026-10-25-rna-kcnq2-pmca2-model/rna_effectors.py",
+      "previous_sha256": "4b1c8aeaca8e2f697e2a42259396674006812e1b32cb662038e202c524c9cff6",
+      "public_sha256": "0ec846b2500136017e406fb726a8abc373fb5cc3b9c571305c53323a6af37dce",
+      "bytes": 5925
+    },
+    {
+      "previous_public_path": "data/2026-10-25-spatial-electrical-injury/README.md",
+      "public_path": "data/2026-10-25-spatial-electrical-injury/README.md",
+      "previous_sha256": "3780eb67241147c209cc85aeaa6964e9d3f029774d106d9585023460fbe3c0b7",
+      "public_sha256": "a0bac2afdf6973781cc064db9ad392a5f0507eb0ebf0e9ca8ec31475b328b904",
+      "bytes": 467
+    },
+    {
+      "previous_public_path": "data/2026-10-25-spatial-electrical-injury/electrical_geometry_codex.py",
+      "public_path": "data/2026-10-25-spatial-electrical-injury/electrical_geometry.py",
+      "previous_sha256": "9e4b0a6f21e1061364cdbf03ae01b6b81d81e0d239abc61741fa3d6d2f47d271",
+      "public_sha256": "9e4b0a6f21e1061364cdbf03ae01b6b81d81e0d239abc61741fa3d6d2f47d271",
+      "bytes": 1111
+    },
+    {
+      "previous_public_path": "data/2026-10-25-spatial-electrical-injury/local_injury_codex.py",
+      "public_path": "data/2026-10-25-spatial-electrical-injury/local_injury.py",
+      "previous_sha256": "178d2a634c746bfefb3d14662986192bd868e3492652095ac7dada1bf0755880",
+      "public_sha256": "483c5ef6dc78e2af667426d8514c73d403d1fcd3fd8cfbf28cd2616e748c0049",
+      "bytes": 11564
+    },
+    {
+      "previous_public_path": "data/2026-10-25-watt-liu-kiehn/README.md",
+      "public_path": "data/2026-10-25-watt-liu-kiehn/README.md",
+      "previous_sha256": "59bfd7668376910de69da6e32e3fd6c400ecdd34d901bb22d32c36f1d13b7bd3",
+      "public_sha256": "64011628c09049bf2b72929d0afded2bd59e6ab65d179fbaf4b825e8753630ea",
+      "bytes": 414
+    },
+    {
+      "previous_public_path": "data/2026-10-25-watt-liu-kiehn/source_extensions_codex.py",
+      "public_path": "data/2026-10-25-watt-liu-kiehn/source_extensions.py",
+      "previous_sha256": "ddcee17df87573216e2490f5d6771f1902591508462883144e5436d62c03cefc",
+      "public_sha256": "ddcee17df87573216e2490f5d6771f1902591508462883144e5436d62c03cefc",
+      "bytes": 8943
+    },
+    {
+      "previous_public_path": "data/2026-10-26-connected-spatial-neuron/README.md",
+      "public_path": "data/2026-10-26-connected-spatial-neuron/README.md",
+      "previous_sha256": "4494c242e2a58ab7c33a063b934077d732ab223a831a5d858b8f49d97bc3ca95",
+      "public_sha256": "aaff51044ffa01c382ed3211e1e5a29b6db624f4c91e4be32bdec01703205e30",
+      "bytes": 526
+    },
+    {
+      "previous_public_path": "data/2026-10-26-connected-spatial-neuron/compiled_kernels_codex.py",
+      "public_path": "data/2026-10-26-connected-spatial-neuron/compiled_kernels.py",
+      "previous_sha256": "c0dd29f1c4aebf1f6d40daf30e23bd1969f56722df028a0eaf970b4bb49448c3",
+      "public_sha256": "dcb2573f1b1e66adb0aab60f931d26e27dfb11f570a9c5c94625cbc4443398b1",
+      "bytes": 1657
+    },
+    {
+      "previous_public_path": "data/2026-10-26-connected-spatial-neuron/connected_parameters_codex.py",
+      "public_path": "data/2026-10-26-connected-spatial-neuron/connected_parameters.py",
+      "previous_sha256": "bd6c8cb8b1132c8551d0679ceba89e5d177fe8695204a4ca596b4a8316a2f9b2",
+      "public_sha256": "d13f19ec7cf0f20dbcaa993d44e5380fda51fa9cb5a59c77c1eed2bdda5b2a3e",
+      "bytes": 7573
+    },
+    {
+      "previous_public_path": "data/2026-10-26-connected-spatial-neuron/inherited_inputs_codex.json",
+      "public_path": "data/2026-10-26-connected-spatial-neuron/inherited_inputs.json",
+      "previous_sha256": "fda181d962c77e345dd4544ed61f23d67776e099fb0ca7c0a6477b4415218fc2",
+      "public_sha256": "fda181d962c77e345dd4544ed61f23d67776e099fb0ca7c0a6477b4415218fc2",
+      "bytes": 21132
+    },
+    {
+      "previous_public_path": "data/2026-10-26-geometry-mito-nmj/README.md",
+      "public_path": "data/2026-10-26-geometry-mito-nmj/README.md",
+      "previous_sha256": "16219f133095fe8408dccd039569801b4115cce6ba78b05add745510e46aeeaf",
+      "public_sha256": "fb1fa6c040048fa35da62bf3a280078aaccdf231671f8eb3ed8c53eda7ad49a2",
+      "bytes": 489
+    },
+    {
+      "previous_public_path": "data/2026-10-26-geometry-mito-nmj/energy_terminal_codex.py",
+      "public_path": "data/2026-10-26-geometry-mito-nmj/energy_terminal.py",
+      "previous_sha256": "9fa71240cf9efdc05d20ec6b6481da2617e99391fccbff0c07d12c89a3cbf8e4",
+      "public_sha256": "c947c1a3a6520dba5f39624334ea34374ec302d3b0068050da76822fa3b71c84",
+      "bytes": 4410
+    },
+    {
+      "previous_public_path": "data/2026-10-26-geometry-mito-nmj/inputs_codex.py",
+      "public_path": "data/2026-10-26-geometry-mito-nmj/inputs.py",
+      "previous_sha256": "4d8f044d63bd84d32e8f70dfd50745d0b3d7b57d244b5587b3b78387e71161b3",
+      "public_sha256": "53319ff7e07fd5d0ba2ed69bb460ce807e6e6d8ee6f1c50557c462e4623c18fd",
+      "bytes": 455
+    },
+    {
+      "previous_public_path": "data/2026-10-26-geometry-mito-nmj/proteasome_sources_codex.py",
+      "public_path": "data/2026-10-26-geometry-mito-nmj/proteasome_sources.py",
+      "previous_sha256": "af0b1124b774c37ca1eb5efa816600373f2e15e0404cff4445a05d951d9416fd",
+      "public_sha256": "af0b1124b774c37ca1eb5efa816600373f2e15e0404cff4445a05d951d9416fd",
+      "bytes": 2210
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-energy-neuron/README.md",
+      "public_path": "data/2026-10-26-nak-energy-neuron/README.md",
+      "previous_sha256": "310645a9475be8204b62a148ce918c912ffce193bdd2320bf8753fdbdd8b5f27",
+      "public_sha256": "3e77324f3f6ec0ac0d70e407c88c589ff21d1e72a9f2b076ece442d4aa0b7eaf",
+      "bytes": 497
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-energy-neuron/ion_parameters_codex.py",
+      "public_path": "data/2026-10-26-nak-energy-neuron/ion_parameters.py",
+      "previous_sha256": "af854a1cc0087492547c573211c3872b84873d51c94f47af456bb83e8cbcbd02",
+      "public_sha256": "09bca9977958a59256cae40542db15512f039b24e8d261a518abcfa8e53d0ba4",
+      "bytes": 10382
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-energy-neuron/mito_ion_model_codex.py",
+      "public_path": "data/2026-10-26-nak-energy-neuron/mito_ion_model.py",
+      "previous_sha256": "fafd9db1a487adc5a6b9ea9748a794622cc1281911b11fc886a510e631d4ed81",
+      "public_sha256": "8d289784c8eed31efce69df071cb6ca5c4e5ef7774a7eaed70daa7b1b25da648",
+      "bytes": 31906
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-energy-neuron/mito_parameters_codex.py",
+      "public_path": "data/2026-10-26-nak-energy-neuron/mito_parameters.py",
+      "previous_sha256": "b296b4a31c01d4b884568ca7e0cfab728774f49b869a8c7bef61a8b8eed21f6d",
+      "public_sha256": "b296b4a31c01d4b884568ca7e0cfab728774f49b869a8c7bef61a8b8eed21f6d",
+      "bytes": 2832
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-source-calibration/README.md",
+      "public_path": "data/2026-10-26-nak-source-calibration/README.md",
+      "previous_sha256": "506c75fbbd628e1fb748ff0523943f1a52268b54f463a812a4a3a81bb86e9c4f",
+      "public_sha256": "3d80c509bedc6e5c4851ebb87d94839194c3914dd8a2556cfe89cea414c9c8ba",
+      "bytes": 580
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-source-calibration/energetic_neuron_codex.py",
+      "public_path": "data/2026-10-26-nak-source-calibration/energetic_neuron.py",
+      "previous_sha256": "b46d74d67a45d025f37f8a63d41a33b3124f5db2bef40fb0d221349c06e28705",
+      "public_sha256": "259ae80d244e4749f27b8b6c5d53526ec86fca5aa458877390f8d218e96ad7ba",
+      "bytes": 35411
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-source-calibration/extension_parameters_codex.py",
+      "public_path": "data/2026-10-26-nak-source-calibration/extension_parameters.py",
+      "previous_sha256": "70c148f271f6fb9f3f01f9ef759eaa5f9bfc300b107ece806df2980fe2b4fc9b",
+      "public_sha256": "70c148f271f6fb9f3f01f9ef759eaa5f9bfc300b107ece806df2980fe2b4fc9b",
+      "bytes": 5431
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-source-calibration/nmj_codex.py",
+      "public_path": "data/2026-10-26-nak-source-calibration/nmj.py",
+      "previous_sha256": "f73a4deafc18035ebf987050067bd2e9abbf670641872828d6aa1f044fd575ac",
+      "public_sha256": "f73a4deafc18035ebf987050067bd2e9abbf670641872828d6aa1f044fd575ac",
+      "bytes": 5603
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-source-calibration/recovery_inputs_codex.py",
+      "public_path": "data/2026-10-26-nak-source-calibration/recovery_inputs.py",
+      "previous_sha256": "25f868a2ddc98a98cf053d691b9f1b3cbd3b2c479d53fdb71c0a3075a48210bd",
+      "public_sha256": "ef99792f08efcc9322264047cb4b8b4c984ba8793e308d9d76ce763991def896",
+      "bytes": 810
+    },
+    {
+      "previous_public_path": "data/2026-10-26-nak-source-calibration/validate_model_codex.py",
+      "public_path": "data/2026-10-26-nak-source-calibration/validate_model.py",
+      "previous_sha256": "b6f6a73c0a873344af7820c3bab5103f94c8905fdff57c6f837357c9ff19a5ac",
+      "public_sha256": "c73eb14bba0e075b717bc70abd3c84c74ee28d86760a0557f052fe68dbc52f65",
+      "bytes": 6367
+    },
+    {
+      "previous_public_path": "data/2026-10-26-prakash-activity-atp/README.md",
+      "public_path": "data/2026-10-26-prakash-activity-atp/README.md",
+      "previous_sha256": "6fe54043ac5c9597d44d39de3eb149e19e5ce06b39f71aaf91ddfb58082ea767",
+      "public_sha256": "8214419a439b5eb764a46fd967d7e2cd99344a5028a11100dd2fe81f90aa40ab",
+      "bytes": 462
+    },
+    {
+      "previous_public_path": "data/2026-10-26-prakash-activity-atp/activity_energy_codex.py",
+      "public_path": "data/2026-10-26-prakash-activity-atp/activity_energy.py",
+      "previous_sha256": "e10738167fe98eeb91dd6cac462078598cc69c3084e7b35076424d4dd6adc2bb",
+      "public_sha256": "e10738167fe98eeb91dd6cac462078598cc69c3084e7b35076424d4dd6adc2bb",
+      "bytes": 2538
+    },
+    {
+      "previous_public_path": "data/2026-10-26-prakash-activity-atp/source_observers_codex.py",
+      "public_path": "data/2026-10-26-prakash-activity-atp/source_observers.py",
+      "previous_sha256": "14f4d44d48b25581a0b74ed09fd9f325fbca2ba150d31845f21438487a1997be",
+      "public_sha256": "14f4d44d48b25581a0b74ed09fd9f325fbca2ba150d31845f21438487a1997be",
+      "bytes": 3694
+    },
+    {
+      "previous_public_path": "data/2026-10-26-proteasome-ampa/README.md",
+      "public_path": "data/2026-10-26-proteasome-ampa/README.md",
+      "previous_sha256": "ec884946bac4f3154daf28671134f59fd5bb757ff9c6a35d8e18c6505fe2e338",
+      "public_sha256": "d8b59e933eb2cecaed3490e9edec269e3a6bf572c4df17c8002967de8694767e",
+      "bytes": 411
+    },
+    {
+      "previous_public_path": "data/2026-10-26-proteasome-ampa/proteasome_work_codex.py",
+      "public_path": "data/2026-10-26-proteasome-ampa/proteasome_work.py",
+      "previous_sha256": "3c3bc97b636e2a982eaecc6616d8fee7c386dbe002aa55c22f88fe470eb4919d",
+      "public_sha256": "bfbcc47217acb9e7c86f91638b7929f3786cdefe20fdc085e05af85652833bca",
+      "bytes": 5102
+    },
+    {
+      "previous_public_path": "data/2026-10-26-proteasome-energy/README.md",
+      "public_path": "data/2026-10-26-proteasome-energy/README.md",
+      "previous_sha256": "5f280f45692f925f34bc5ef21b7e524e49fe180cfd9d89ef37afa4de3ef23997",
+      "public_sha256": "7c9891536b23b0d161b68a740d0348199a080f04c9c8811c9fe285d709275fda",
+      "bytes": 469
+    },
+    {
+      "previous_public_path": "data/2026-10-26-proteasome-energy/proteostasis_parameters_codex.py",
+      "public_path": "data/2026-10-26-proteasome-energy/proteostasis_parameters.py",
+      "previous_sha256": "60dc9269990fcb6c89c3434c7cbae5f07f8d3815777250ef57ab401019adb6c8",
+      "public_sha256": "5d951f249dd144c9588a8a6c595d39ab8dcee36ab92c9af679b9085fea392098",
+      "bytes": 5117
+    },
+    {
+      "previous_public_path": "data/2026-10-26-proteasome-energy/source_assays_codex.py",
+      "public_path": "data/2026-10-26-proteasome-energy/source_assays.py",
+      "previous_sha256": "1e5dcdeafe232fc1cd0d3f27a3600a5da7102ffdc40a235276bc4519bc9f445a",
+      "public_sha256": "1e5dcdeafe232fc1cd0d3f27a3600a5da7102ffdc40a235276bc4519bc9f445a",
+      "bytes": 1258
+    },
+    {
+      "previous_public_path": "data/2026-10-26-takeuchi-recycling-atp/README.md",
+      "public_path": "data/2026-10-26-takeuchi-recycling-atp/README.md",
+      "previous_sha256": "e1489d61a2bd2d8ad3abd652af088c70629a749ffb66e6c6c59acba81d391b95",
+      "public_sha256": "0275a4dd16d12744f366680b84b542ec0e06acb7675663106dcccddd72b42433",
+      "bytes": 420
+    },
+    {
+      "previous_public_path": "data/2026-10-26-takeuchi-recycling-atp/recycling_energy_codex.py",
+      "public_path": "data/2026-10-26-takeuchi-recycling-atp/recycling_energy.py",
+      "previous_sha256": "3953e9d8311f9469bd7b39409e0168045a2c7062cb39d067f5709f58c502cd73",
+      "public_sha256": "17e1327382fd0f8e81c657bd8fb6d48596fa3039be6881197dfda689860e40d8",
+      "bytes": 4854
+    },
+    {
+      "previous_public_path": "data/2026-10-28-atluri-tabares/README.md",
+      "public_path": "data/2026-10-28-atluri-tabares/README.md",
+      "previous_sha256": "b33c65807dda591dabbf32b8bf5ce082f6f09b6f357320f952e3416fc6f1bb2b",
+      "public_sha256": "832edaa9e2a0b1b70087b61334534b04ae4dfd48eff0e56ab3fbf6888ff470e9",
+      "bytes": 416
+    },
+    {
+      "previous_public_path": "data/2026-10-28-atluri-tabares/synaptic_observers_codex.py",
+      "public_path": "data/2026-10-28-atluri-tabares/synaptic_observers.py",
+      "previous_sha256": "d944e40d002382e58ab6284015babdd47e85db5f913f8d05338591853cc01e44",
+      "public_sha256": "d944e40d002382e58ab6284015babdd47e85db5f913f8d05338591853cc01e44",
+      "bytes": 5895
+    },
+    {
+      "previous_public_path": "data/2026-10-28-donor-energy-integration/LICENSE_BlueBrain.txt",
+      "public_path": "data/2026-10-28-donor-energy-integration/LICENSE_BlueBrain.txt",
+      "previous_sha256": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe",
+      "public_sha256": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe",
+      "bytes": 10139
+    },
+    {
+      "previous_public_path": "data/2026-10-28-donor-energy-integration/NOTICE_codex.txt",
+      "public_path": "data/2026-10-28-donor-energy-integration/NOTICE.txt",
+      "previous_sha256": "236d2a4ec0ec43c604cb595569634d4ec85421e10ab60186dea80471a5208017",
+      "public_sha256": "236d2a4ec0ec43c604cb595569634d4ec85421e10ab60186dea80471a5208017",
+      "bytes": 642
+    },
+    {
+      "previous_public_path": "data/2026-10-28-donor-energy-integration/README.md",
+      "public_path": "data/2026-10-28-donor-energy-integration/README.md",
+      "previous_sha256": "f83b0a3756f32f6754cbab41c1a442a06c9a7d055f5f1153943aa84f6e4a6ee6",
+      "public_sha256": "b1798e1660663ec69b71156b72b948757f9d7e873756c7df642a87b8f3d74cb1",
+      "bytes": 587
+    },
+    {
+      "previous_public_path": "data/2026-10-28-donor-energy-integration/creatine_codex.py",
+      "public_path": "data/2026-10-28-donor-energy-integration/creatine.py",
+      "previous_sha256": "6529a3cb871927d2df099e8e7226b2016ee70d7a4c7bd928e1baadb9e780a958",
+      "public_sha256": "7db89421ea5ca1bebd4923df2434938c431517b1a4732ce66aadc91f63551477",
+      "bytes": 3234
+    },
+    {
+      "previous_public_path": "data/2026-10-28-donor-energy-integration/energy_observer_codex.py",
+      "public_path": "data/2026-10-28-donor-energy-integration/energy_observer.py",
+      "previous_sha256": "90cc1b93e74e0bdc350e0f999f8f52852b55c1a6ac228f32d8c5b418796a2442",
+      "public_sha256": "90cc1b93e74e0bdc350e0f999f8f52852b55c1a6ac228f32d8c5b418796a2442",
+      "bytes": 2890
+    },
+    {
+      "previous_public_path": "data/2026-10-28-parsons-grabe/README.md",
+      "public_path": "data/2026-10-28-parsons-grabe/README.md",
+      "previous_sha256": "4341702fdd54dab831f33fbe60e3068f3bc612b2425b208846d0fc5faf286e33",
+      "public_sha256": "f897282f4a09e9a3e210b51bb4ea2066c617a970b5b243dcb17b54506394dbbb",
+      "bytes": 461
+    },
+    {
+      "previous_public_path": "data/2026-10-28-parsons-grabe/cholinergic_cargo_codex.py",
+      "public_path": "data/2026-10-28-parsons-grabe/cholinergic_cargo.py",
+      "previous_sha256": "b0133f1ba37a5557efb2f5a0d91bc15ccadbdfd1e03bed01a87b9f2ee10085d0",
+      "public_sha256": "b0133f1ba37a5557efb2f5a0d91bc15ccadbdfd1e03bed01a87b9f2ee10085d0",
+      "bytes": 4546
+    },
+    {
+      "previous_public_path": "data/2026-10-28-parsons-grabe/organelle_acidity_codex.py",
+      "public_path": "data/2026-10-28-parsons-grabe/organelle_acidity.py",
+      "previous_sha256": "baca5c973e8291d016cb05a919ed5fd37a7ad7254409feb17ae1a5f147bcb071",
+      "public_sha256": "baca5c973e8291d016cb05a919ed5fd37a7ad7254409feb17ae1a5f147bcb071",
+      "bytes": 3401
+    },
+    {
+      "previous_public_path": "data/2026-10-28-takeuchi-balaji/README.md",
+      "public_path": "data/2026-10-28-takeuchi-balaji/README.md",
+      "previous_sha256": "517fafae3cdae99a2df1777d25055c540d17f5400d530a33eaeae07c73190fa4",
+      "public_sha256": "d795259d53ed1f6d498e333fa486262c78a4a58c733fce52ad5113c20528be0d",
+      "bytes": 481
+    },
+    {
+      "previous_public_path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling_codex.py",
+      "public_path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling.py",
+      "previous_sha256": "3c9553eae5f02d127c2477a9b071b073f84eb9511148e828a86174c6fdfe6042",
+      "public_sha256": "3c4fb8a5e16b45321b89971e69d1e586013796f7edde95f095cf046a68af91f9",
+      "bytes": 4838
+    },
+    {
+      "previous_public_path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron_codex.py",
+      "public_path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron.py",
+      "previous_sha256": "5932cb2655bdaa5eba362620b5df36ea7c1522c7b056b63c278130e1399d9ae4",
+      "public_sha256": "39a943f71a4fcdc7fcf3e22c643e3d2eeef4a302074ae707ed44d623525fe5b9",
+      "bytes": 124404
+    },
+    {
+      "previous_public_path": "data/2026-10-28-vesicle-supplements/README.md",
+      "public_path": "data/2026-10-28-vesicle-supplements/README.md",
+      "previous_sha256": "e55e39c5523ca6fa5c7349c76b010337912429baa61ce76a9472491bbf9638f0",
+      "public_sha256": "90a418897212f8dbffd9bad1315e894d07b3df6c1f2ac17c2674c405e7076a5a",
+      "bytes": 491
+    },
+    {
+      "previous_public_path": "data/2026-10-28-vesicle-supplements/proton_surface_codex.py",
+      "public_path": "data/2026-10-28-vesicle-supplements/proton_surface.py",
+      "previous_sha256": "57cd86862ba4fda63eb1fdcb79fd8d3652ee1abe0d05b266847af5ace6b28faf",
+      "public_sha256": "57cd86862ba4fda63eb1fdcb79fd8d3652ee1abe0d05b266847af5ace6b28faf",
+      "bytes": 1756
+    },
+    {
+      "previous_public_path": "data/2026-10-28-vesicle-supplements/quantal_observer_codex.py",
+      "public_path": "data/2026-10-28-vesicle-supplements/quantal_observer.py",
+      "previous_sha256": "ebec1d3b5852a585f2b9b9304c8c167e0d82c8ccb43646820b12fdcf4686ac11",
+      "public_sha256": "ebec1d3b5852a585f2b9b9304c8c167e0d82c8ccb43646820b12fdcf4686ac11",
+      "bytes": 2605
+    },
+    {
+      "previous_public_path": "data/2026-10-28-vesicle-supplements/uncoating_codex.py",
+      "public_path": "data/2026-10-28-vesicle-supplements/uncoating.py",
+      "previous_sha256": "257a3f36bb75f73b0ffabd6f7e2306a62e8d11f6056298a461840e68cdbd0e2d",
+      "public_sha256": "257a3f36bb75f73b0ffabd6f7e2306a62e8d11f6056298a461840e68cdbd0e2d",
+      "bytes": 2172
+    },
+    {
+      "previous_public_path": "data/2026-10-29-rna-calcium-modules/README.md",
+      "public_path": "data/2026-10-29-rna-calcium-modules/README.md",
+      "previous_sha256": "824b263c5a2067b71bafcf647787ec0dc6ee4eb39089168d39edc2fb782f562f",
+      "public_sha256": "dbfdb60a0c80b7bbf42d4b5c26868feae43165627ceade5d95d10a2da0ebb16a",
+      "bytes": 437
+    },
+    {
+      "previous_public_path": "data/2026-10-29-rna-calcium-modules/rna_calcium_codex.py",
+      "public_path": "data/2026-10-29-rna-calcium-modules/rna_calcium.py",
+      "previous_sha256": "0da313cc7e360e9c5411e7977d4206eaa702928841188b613894af02cd8b84d5",
+      "public_sha256": "0da313cc7e360e9c5411e7977d4206eaa702928841188b613894af02cd8b84d5",
+      "bytes": 11744
+    },
+    {
+      "previous_public_path": "data/2026-10-29-rna-calcium-modules/validate_codex.py",
+      "public_path": "data/2026-10-29-rna-calcium-modules/validate.py",
+      "previous_sha256": "b72500134ead6ac61a48e1d3403df510c49b77ed4094edf7c0b3a9caca1a7ae8",
+      "public_sha256": "e4ff6478b3ba62e5e06691390426476068ac9ff55bd89bb07705e09beb3f779c",
+      "bytes": 7767
+    },
+    {
+      "previous_public_path": "data/2026-10-30-fusco-supplement/README.md",
+      "public_path": "data/2026-10-30-fusco-supplement/README.md",
+      "previous_sha256": "75dff1365cae33ded1e5f5d7c7f5423ad230183d91c1afac6d8c3ec31a89a011",
+      "public_sha256": "edff35e8e32114de0e81ac269a7778a36cdcd709c1dc0c8d2d0915b37555e846",
+      "bytes": 432
+    },
+    {
+      "previous_public_path": "data/2026-10-30-fusco-supplement/maturation_codex.py",
+      "public_path": "data/2026-10-30-fusco-supplement/maturation.py",
+      "previous_sha256": "92e4241c5027f49ea4d3022af49fba30f92f37f9bd466258f3325953fa53cff8",
+      "public_sha256": "76c8e0642f417608bd80f2a05c37e340dc5650b07641084f8b8e0659355b8ec1",
+      "bytes": 1639
+    },
+    {
+      "previous_public_path": "data/2026-10-30-fusco-supplement/validate_codex.py",
+      "public_path": "data/2026-10-30-fusco-supplement/validate.py",
+      "previous_sha256": "0cdb5b60c7098663422430ce362a6830e0accd89722457bc019c34814af00125",
+      "public_sha256": "a1d118fa473105d34420c90dbd820c011e92827f86500301036eff731f25327d",
+      "bytes": 7973
+    },
+    {
+      "previous_public_path": "data/2026-10-30-isr-selective/README.md",
+      "public_path": "data/2026-10-30-isr-selective/README.md",
+      "previous_sha256": "62cdb68a346f024bddbf5d6092978787b6c3c5e45c73f689bc3dca6fb12da4c7",
+      "public_sha256": "1fe4ebeea46298fb5618642f011272121924c9b667ab2de96fbd0d52ba0bc9b6",
+      "bytes": 475
+    },
+    {
+      "previous_public_path": "data/2026-10-30-isr-selective/isr_observers_codex.py",
+      "public_path": "data/2026-10-30-isr-selective/isr_observers.py",
+      "previous_sha256": "e6d335113a2fa6da78efe8b1f29213171811a671db560aa7c4ad5b47dd187113",
+      "public_sha256": "e6d335113a2fa6da78efe8b1f29213171811a671db560aa7c4ad5b47dd187113",
+      "bytes": 2556
+    },
+    {
+      "previous_public_path": "data/2026-10-30-isr-selective/selective_isr_codex.py",
+      "public_path": "data/2026-10-30-isr-selective/selective_isr.py",
+      "previous_sha256": "d955b27af94254d072e0830f3146036d4c6aa8fc9c7036f2bec25d4d1b7d1cdb",
+      "public_sha256": "d955b27af94254d072e0830f3146036d4c6aa8fc9c7036f2bec25d4d1b7d1cdb",
+      "bytes": 7982
+    },
+    {
+      "previous_public_path": "data/2026-10-30-isr-selective/validate_codex.py",
+      "public_path": "data/2026-10-30-isr-selective/validate.py",
+      "previous_sha256": "ae8aca514984547844e3d6ba38fcfc11e61b2ef38e39b44709234a21df4367d3",
+      "public_sha256": "1e967dacbe038f0b51d872a0f3cdfc91b9a54453d887fb661cdb4fbd2c68310f",
+      "bytes": 6829
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nuclear-recycling/README.md",
+      "public_path": "data/2026-10-30-nuclear-recycling/README.md",
+      "previous_sha256": "59821c19410eaa46026dff6c1ce99737afbb42185b8f0fac920259a2c46100c9",
+      "public_sha256": "6388ae72649717e270a477ad51f72eec42b07c625e11f0e46eec02f135115bf3",
+      "bytes": 431
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nuclear-recycling/recycling_codex.py",
+      "public_path": "data/2026-10-30-nuclear-recycling/recycling.py",
+      "previous_sha256": "fa74ced4c87a7d1be799056b9852ea2fa0ccaf302723890a9a922355368ba264",
+      "public_sha256": "97bda24d01f47beaae7313f149afa7d1ecb86ce7a3f66b7d22824c6fe1fdb264",
+      "bytes": 8413
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nuclear-recycling/validate_codex.py",
+      "public_path": "data/2026-10-30-nuclear-recycling/validate.py",
+      "previous_sha256": "c7b44d6ad8dff0dba2181093751c70cff22c27a6ac08c1b333a9a0a761840221",
+      "public_sha256": "01f3d35497a7ec7ae7c382181be0e7695bae7d6854031c50fe6f3300686b2f67",
+      "bytes": 6444
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nuclear-targets-cycle/README.md",
+      "public_path": "data/2026-10-30-nuclear-targets-cycle/README.md",
+      "previous_sha256": "2369f3e3ee363a454e8c38e33a4e77655dc3c37d0dddc442250a0d1fe1e2f09f",
+      "public_sha256": "975ef1cee524550359565ccdb4fd7735e65d27f0c07dd49261eb8433b77d10b3",
+      "bytes": 443
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nuclear-targets-cycle/nuclear_cycle_codex.py",
+      "public_path": "data/2026-10-30-nuclear-targets-cycle/nuclear_cycle.py",
+      "previous_sha256": "3a81f786f148584326d7ead9f3ab3aba618533b9ace610f3b247558e7c5a0107",
+      "public_sha256": "8d0a225ab3b12ada5757693de007654e7c8348cf1ab5d5af05d0b8295b854ee3",
+      "bytes": 10242
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nuclear-targets-cycle/validate_codex.py",
+      "public_path": "data/2026-10-30-nuclear-targets-cycle/validate.py",
+      "previous_sha256": "0c04a892f33e76cbf2a92a2f8d22c844170c9333e2ed6581640f1b1bfb909bd6",
+      "public_sha256": "e94dc47f6f1378e36f5e9e7cf6bd496a0fd91f5ae74944d7ede7aa7666f42a43",
+      "bytes": 6417
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nucleus-ribosome/README.md",
+      "public_path": "data/2026-10-30-nucleus-ribosome/README.md",
+      "previous_sha256": "8ee9204822a9cf5b3dd9a8cdc05693fcfc619570f56b3dbb208f749b74a62d0e",
+      "public_sha256": "ffd07f05f51990d9914907f9b45931eaf473699cefa8cd0b2feea0266d95d3d6",
+      "bytes": 444
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nucleus-ribosome/nucleus_ribosome_codex.py",
+      "public_path": "data/2026-10-30-nucleus-ribosome/nucleus_ribosome.py",
+      "previous_sha256": "b7803531ecd1be603fb874867f50de1c0d98a4d990007890dadce85a8288fdd2",
+      "public_sha256": "6bc24c4fafd649226f02353419277426e44cd5df87b08733bde3ca742f311e3e",
+      "bytes": 9583
+    },
+    {
+      "previous_public_path": "data/2026-10-30-nucleus-ribosome/validate_codex.py",
+      "public_path": "data/2026-10-30-nucleus-ribosome/validate.py",
+      "previous_sha256": "94d408ecfe48c673a87c2b7db17c198988688e2abf406bf05ecf1ada90e6a524",
+      "public_sha256": "2741f8a04f2f9a6497e8a7c9a8da92508ac9bffe7b5f5a300e8cbf9e6ed60f29",
+      "bytes": 10078
+    },
+    {
+      "previous_public_path": "data/2026-10-30-ribosome-biogenesis/README.md",
+      "public_path": "data/2026-10-30-ribosome-biogenesis/README.md",
+      "previous_sha256": "02ed75036a333241af025c6fa0d5c5d8a8333ec1f454d32c22e4e60bc3980ca0",
+      "public_sha256": "468dcc1aa27629ae27995c8443ef1f657c8d7102b01338d2dc8c6002e6d7a015",
+      "bytes": 435
+    },
+    {
+      "previous_public_path": "data/2026-10-30-ribosome-biogenesis/biogenesis_codex.py",
+      "public_path": "data/2026-10-30-ribosome-biogenesis/biogenesis.py",
+      "previous_sha256": "74967a9d5a37b619ca251a34b4aac70ee3e3203886f180d85da8bd0932466893",
+      "public_sha256": "5b7c3328a6e4e4f678ee269354a014263fe277d86c9d59da661c2dd5091bbb23",
+      "bytes": 9816
+    },
+    {
+      "previous_public_path": "data/2026-10-30-ribosome-biogenesis/validate_codex.py",
+      "public_path": "data/2026-10-30-ribosome-biogenesis/validate.py",
+      "previous_sha256": "ca6b824542194b4ed2fda7f9c055e56404b493095152a407b933d73c2b8ea0a3",
+      "public_sha256": "b4ba1c67afec5e8651c9dfce23a6cd04fc96e2cb3d8ece3bab7f4f4224a5c92c",
+      "bytes": 7090
+    },
+    {
+      "previous_public_path": "data/2026-10-30-shared-translation/README.md",
+      "public_path": "data/2026-10-30-shared-translation/README.md",
+      "previous_sha256": "04a0ed0be7d69a5170b210ab8f54d2ee28fd3fe834a2414e722c3ca5d9908b69",
+      "public_sha256": "f2e1dcd0ef67a8df918bd844e359bd5c6f57a6b22328a392d51061edb9eeb9f3",
+      "bytes": 450
+    },
+    {
+      "previous_public_path": "data/2026-10-30-shared-translation/shared_translation_codex.py",
+      "public_path": "data/2026-10-30-shared-translation/shared_translation.py",
+      "previous_sha256": "65f40729aa75315cdd42cf04f9274e047f94666c40f285754db921e5e4306208",
+      "public_sha256": "8a6772b2331a011722d0e4b16698a6b5e65e9c809cd2bad4b9bdbff4c2216bd0",
+      "bytes": 7807
+    },
+    {
+      "previous_public_path": "data/2026-10-30-shared-translation/validate_codex.py",
+      "public_path": "data/2026-10-30-shared-translation/validate.py",
+      "previous_sha256": "05672c4e2ac7ef7071343c274df6d5135068678fe4cf98792a45a6783be5eb89",
+      "public_sha256": "c10a5e3283f71b7de28b0a897d0d1206ce49e673bedc1811f19694a2eeeec15f",
+      "bytes": 6816
+    },
+    {
+      "previous_public_path": "data/2026-10-30-translation-substrates/README.md",
+      "public_path": "data/2026-10-30-translation-substrates/README.md",
+      "previous_sha256": "2cd04cf431fc4c875529609f7951798bc6c9df7c548159df9100712d451a9a1e",
+      "public_sha256": "982b7108d64cdfdb3d9079727a20bbf4019ba7b973d651f2cad28403ab814a6d",
+      "bytes": 438
+    },
+    {
+      "previous_public_path": "data/2026-10-30-translation-substrates/substrates_codex.py",
+      "public_path": "data/2026-10-30-translation-substrates/substrates.py",
+      "previous_sha256": "ecc34c4f3bd549e6f8777aad4460a181b6b82b140a7f9702634974e9055ea314",
+      "public_sha256": "ecc34c4f3bd549e6f8777aad4460a181b6b82b140a7f9702634974e9055ea314",
+      "bytes": 5029
+    },
+    {
+      "previous_public_path": "data/2026-10-30-translation-substrates/validate_codex.py",
+      "public_path": "data/2026-10-30-translation-substrates/validate.py",
+      "previous_sha256": "4db6acf32eadf097c14367b4f86e35224a394c3426040952022f2a06e87383ea",
+      "public_sha256": "cb98f65941e6e2b2982b4582d4c656c40f134d4124fe331ac265c045e9d9067d",
+      "bytes": 5651
+    },
+    {
+      "previous_public_path": "data/2026-10-31-local-ribosomes/README.md",
+      "public_path": "data/2026-10-31-local-ribosomes/README.md",
+      "previous_sha256": "5263360f7face27e4cd287720c5dc8f35f40e9b9a1f5ebe75921eb3be1ba25fa",
+      "public_sha256": "ae2a5d24b782f8802366d523eae0aac7847969a61dd7a883a41e226d687122ea",
+      "bytes": 493
+    },
+    {
+      "previous_public_path": "data/2026-10-31-local-ribosomes/local_ribosomes_codex.py",
+      "public_path": "data/2026-10-31-local-ribosomes/local_ribosomes.py",
+      "previous_sha256": "67827d76c057d5bf3e99236dc94b4bbbd252841a29c909fea09367a99859e446",
+      "public_sha256": "67827d76c057d5bf3e99236dc94b4bbbd252841a29c909fea09367a99859e446",
+      "bytes": 4047
+    },
+    {
+      "previous_public_path": "data/2026-10-31-local-ribosomes/organelle_observers_codex.py",
+      "public_path": "data/2026-10-31-local-ribosomes/organelle_observers.py",
+      "previous_sha256": "8d3cbb0759def5b017927c0a807af3a695bc6d2411b94086487f89fb1eb5a20b",
+      "public_sha256": "26027b295a523635e30a77e3a74c94d74b2e81399fcc2b1f86c505c2ca4676e2",
+      "bytes": 2800
+    },
+    {
+      "previous_public_path": "data/2026-10-31-local-ribosomes/validate_codex.py",
+      "public_path": "data/2026-10-31-local-ribosomes/validate.py",
+      "previous_sha256": "cdf873682e2c24303cbce94e1ec551ebcf458ebc98d2a9c387de74eb7516d8e0",
+      "public_sha256": "14b577e6bebe3acf41e8d71f4ca65162598063892a223bf042769655ab0f7260",
+      "bytes": 8094
+    },
+    {
+      "previous_public_path": "data/2026-11-02-axon-growth-supplements/README.md",
+      "public_path": "data/2026-11-02-axon-growth-supplements/README.md",
+      "previous_sha256": "4831f828b60dc9eaf2230ffb4b627f6d01a6c56c2be6127b6269a77751f38187",
+      "public_sha256": "02bdbc2f2dbc82a9c5d87b98774e2984c22b13c5bc828fe30b3b91d2cba40921",
+      "bytes": 415
+    },
+    {
+      "previous_public_path": "data/2026-11-02-axon-growth-supplements/growth_stages_codex.py",
+      "public_path": "data/2026-11-02-axon-growth-supplements/growth_stages.py",
+      "previous_sha256": "c41616028d0446182aae6bbe5f2d50e8afcd23dc626708387c55cb48e5336d3a",
+      "public_sha256": "514d7c74fab991387b11010c0753ccc15e2a987afd2141196c79ae41edfcdefe",
+      "bytes": 5314
+    },
+    {
+      "previous_public_path": "data/2026-11-02-gap43-regrowth/README.md",
+      "public_path": "data/2026-11-02-gap43-regrowth/README.md",
+      "previous_sha256": "4a4f6546a5ece1bed98ea263c23dfb461e6987e3e9615b246ec48930f50b880e",
+      "public_sha256": "88b318719f0c5fd205e6f547d0f50ce08bd3d2f97676a58a9d7e4593e59267da",
+      "bytes": 438
+    },
+    {
+      "previous_public_path": "data/2026-11-02-gap43-regrowth/gap43_regrowth_codex.py",
+      "public_path": "data/2026-11-02-gap43-regrowth/gap43_regrowth.py",
+      "previous_sha256": "5501dd35837eaefcfdf3729291d8491b962f225e745111cd5c81ea40983f2938",
+      "public_sha256": "5501dd35837eaefcfdf3729291d8491b962f225e745111cd5c81ea40983f2938",
+      "bytes": 3504
+    },
+    {
+      "previous_public_path": "data/2026-11-02-gap43-regrowth/validate_codex.py",
+      "public_path": "data/2026-11-02-gap43-regrowth/validate.py",
+      "previous_sha256": "6d6d8d0fc31d1da58c86c826a33f1c39f99c7d2cd9ebddd4cb7d77e3a28930b0",
+      "public_sha256": "65737fbf08dd7dbc0439f54fcfd9ca2b86deb2172901101776d6bb67691013dc",
+      "bytes": 13999
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-mrna/README.md",
+      "public_path": "data/2026-11-02-local-mrna/README.md",
+      "previous_sha256": "391006fe06417a3e5df66ce528f98728ffaa29f9f48d74b69d406e52fc01d51c",
+      "public_sha256": "824f1bd7c1736351798aac08db12cd2aeb48920af197ae7faab6ec42b3e864aa",
+      "bytes": 426
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-mrna/local_mrna_codex.py",
+      "public_path": "data/2026-11-02-local-mrna/local_mrna.py",
+      "previous_sha256": "a09414c70e124cb9a3622e454c7040a336c687be524b2cd31a5f883ab9cd03a3",
+      "public_sha256": "41255c644383f3e0ba33a4d622e4575c938419b274d920a5c3974aaeb9bd3f72",
+      "bytes": 6034
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-mrna/validate_codex.py",
+      "public_path": "data/2026-11-02-local-mrna/validate.py",
+      "previous_sha256": "439d26904b96d6e3ee8e84f05278abcb33adc4f50e2ec216708c0607331cde32",
+      "public_sha256": "3130efffb6e600356f1afc09a7d14ff9a7d966a8eacf157f25518cbc6613b9e3",
+      "bytes": 10362
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-rqc/README.md",
+      "public_path": "data/2026-11-02-local-rqc/README.md",
+      "previous_sha256": "c151dbf1adc29e4fb906b63429c98443a95b0f937fef7db462cb4f47a4ea9003",
+      "public_sha256": "83e588088737d0b5913ba82018bed0caed38278e2b5fcd4e271e9412f428259a",
+      "bytes": 423
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-rqc/local_rqc_codex.py",
+      "public_path": "data/2026-11-02-local-rqc/local_rqc.py",
+      "previous_sha256": "6a9ea4a185a29ced12c1bdbc1355ac61a84b3027fb610b8fa6428a234955abb4",
+      "public_sha256": "7afdf1d8865642a671ac0670d9e530e3222742e18ce42f3d6f54f0b464eb7db0",
+      "bytes": 6058
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-rqc/validate_codex.py",
+      "public_path": "data/2026-11-02-local-rqc/validate.py",
+      "previous_sha256": "72ba6ea3ca3c992bb2e9ce03685d7635fd83662525329c367f66cde508c6a105",
+      "public_sha256": "5340435528d8792953e55deede182a4a96cafdcfa01f79b03413fbbb69a945bb",
+      "bytes": 11485
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-translation/README.md",
+      "public_path": "data/2026-11-02-local-translation/README.md",
+      "previous_sha256": "b8e424d4d41df26b955fce938a8758c7ee7c47a3849d04b7122bfa328777f456",
+      "public_sha256": "feef79f2b8341c4a19126a6aeb07655df20af0492dca738cea209f01f6178f1e",
+      "bytes": 447
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-translation/local_translation_codex.py",
+      "public_path": "data/2026-11-02-local-translation/local_translation.py",
+      "previous_sha256": "f8a42ff7f2b8a5d79d8fa9132708c7a5da075fbf710755f30fd025ed04171c3b",
+      "public_sha256": "f8a42ff7f2b8a5d79d8fa9132708c7a5da075fbf710755f30fd025ed04171c3b",
+      "bytes": 8336
+    },
+    {
+      "previous_public_path": "data/2026-11-02-local-translation/validate_codex.py",
+      "public_path": "data/2026-11-02-local-translation/validate.py",
+      "previous_sha256": "ab0737cd2ad59982fcc9b4cea25e1018e5f542ffec422d8b89f75ec27d1e6f03",
+      "public_sha256": "c26b6c1695d4c37fee722f1dd95e65db5dfc47e460fae1fea29989f6def54845",
+      "bytes": 11162
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-maintenance/README.md",
+      "public_path": "data/2026-11-02-ribosome-maintenance/README.md",
+      "previous_sha256": "721a7fcea5e4c12b763ee41c2542ec9e73bdba8fd3ac4bd38a3a81e9386d9e8b",
+      "public_sha256": "4bc8500e63739af89378924e625fc36cabd106ab0dc989fa3ec5102659f97fe5",
+      "bytes": 438
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-maintenance/maintenance_codex.py",
+      "public_path": "data/2026-11-02-ribosome-maintenance/maintenance.py",
+      "previous_sha256": "daa57c4a45841710748b516df7788423f53e50b00a2abf916aa2384804f652a6",
+      "public_sha256": "daa57c4a45841710748b516df7788423f53e50b00a2abf916aa2384804f652a6",
+      "bytes": 8737
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-maintenance/validate_codex.py",
+      "public_path": "data/2026-11-02-ribosome-maintenance/validate.py",
+      "previous_sha256": "e3bc5ad38b4ab61fe0831bf645f6a7c053d6b53c80a3ad12f0228f6f25274ce0",
+      "public_sha256": "34e1f1eaad374c0cdba1756656adf97680599313cb573b41642c0e62857191a5",
+      "bytes": 10069
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-renewal/README.md",
+      "public_path": "data/2026-11-02-ribosome-renewal/README.md",
+      "previous_sha256": "d0f08ac38be1408f97a44e78365056ea595f1f07277d79d2995fca20f54de6b0",
+      "public_sha256": "4f857b59e16e5c1b7e54563979f5e5da0ae4b0b66e7d8c0b5300798b3d8e786d",
+      "bytes": 426
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-renewal/renewal_codex.py",
+      "public_path": "data/2026-11-02-ribosome-renewal/renewal.py",
+      "previous_sha256": "cdc765a37dfb0004eb750c83ccd07f39a89aafb129b05a3fdf2be8f0e68e7db1",
+      "public_sha256": "cdc765a37dfb0004eb750c83ccd07f39a89aafb129b05a3fdf2be8f0e68e7db1",
+      "bytes": 4322
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-renewal/validate_codex.py",
+      "public_path": "data/2026-11-02-ribosome-renewal/validate.py",
+      "previous_sha256": "5951a3a04d0b7c056074e92b27fa37b5025f5e45818afb1da9e7e1e65461087c",
+      "public_sha256": "a5aec78790d3077d6aa18aa323d78c3d0d997a7508a4d40131b1e192f4c3381d",
+      "bytes": 6761
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-surplus/README.md",
+      "public_path": "data/2026-11-02-ribosome-surplus/README.md",
+      "previous_sha256": "fbe8bd67b26db718b2453253919e696f369ba081a0dd16830b8772ee26de50b2",
+      "public_sha256": "2fe07a0d8412514582316c3e494f4d4d76abd73b85e47777d82facb1d04e5ff9",
+      "bytes": 474
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-surplus/human_RP_recipe_codex.json",
+      "public_path": "data/2026-11-02-ribosome-surplus/human_RP_recipe.json",
+      "previous_sha256": "e1d56fe560aa954811500466f71507131d71d24713f68ec0931b1fd4c81f7210",
+      "public_sha256": "e1d56fe560aa954811500466f71507131d71d24713f68ec0931b1fd4c81f7210",
+      "bytes": 16431
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-surplus/surplus_codex.py",
+      "public_path": "data/2026-11-02-ribosome-surplus/surplus.py",
+      "previous_sha256": "7d8837fc4f862450980ef16d3c29c7b406a5943cbcf6fad03340e7d8d2a7e4f8",
+      "public_sha256": "827c19d64a54f89af2ef22b130350b51eca22bc58d28306f69fd2e75390ae0e3",
+      "bytes": 6211
+    },
+    {
+      "previous_public_path": "data/2026-11-02-ribosome-surplus/validate_codex.py",
+      "public_path": "data/2026-11-02-ribosome-surplus/validate.py",
+      "previous_sha256": "fe98d04baad9e6ae1c7ebdca3d4908be1410956bc1e0571031d5eed2344f9442",
+      "public_sha256": "f22aba898604aa037cd74fbc89b0fc4123354cd5c465317282482fa9a2be104c",
+      "bytes": 7875
+    },
+    {
+      "previous_public_path": "data/2026-11-03-codon-translation/GAP43_recipe_codex.json",
+      "public_path": "data/2026-11-03-codon-translation/GAP43_recipe.json",
+      "previous_sha256": "a5ae695c73ad1f8681ce266e944c5c713ce66254f4c03581a09aeef83e987f2f",
+      "public_sha256": "a5ae695c73ad1f8681ce266e944c5c713ce66254f4c03581a09aeef83e987f2f",
+      "bytes": 5836
+    },
+    {
+      "previous_public_path": "data/2026-11-03-codon-translation/README.md",
+      "public_path": "data/2026-11-03-codon-translation/README.md",
+      "previous_sha256": "a14b28f00749e0d3f40497e91041bc26ab0ba030ab0b02e129430dfd74c96fab",
+      "public_sha256": "fad94d097380190cea877e3aa20ed0095831db4dcc4c9100bd5486a407b75cd2",
+      "bytes": 459
+    },
+    {
+      "previous_public_path": "data/2026-11-03-codon-translation/codon_translation_codex.py",
+      "public_path": "data/2026-11-03-codon-translation/codon_translation.py",
+      "previous_sha256": "72574639cf8f28caa11eadae362b0077af89cc2f06b2e8da6924fbb193441ea5",
+      "public_sha256": "004a975b3f02dc2d0fbfa7d946d439d8c57afc9852399ee62896288d7d71c6f3",
+      "bytes": 15813
+    },
+    {
+      "previous_public_path": "data/2026-11-03-individual-ribosomal-proteins/README.md",
+      "public_path": "data/2026-11-03-individual-ribosomal-proteins/README.md",
+      "previous_sha256": "f70cd9651bcceb201d0ac3d658263242848d4acb9888be85b447eb0c49c7f3a0",
+      "public_sha256": "9c8c0e30916437aacfccb9023658d6afaeaa88bb0f6847238d4682e03a557c1d",
+      "bytes": 427
+    },
+    {
+      "previous_public_path": "data/2026-11-03-individual-ribosomal-proteins/protein_inputs_codex.json",
+      "public_path": "data/2026-11-03-individual-ribosomal-proteins/protein_inputs.json",
+      "previous_sha256": "d161ab1b835d92cdde0755289d606f6f63c7784a65add8569f3f90d8cdc38255",
+      "public_sha256": "3f68fe8ca1fde9a55abedda6d94afbb61d65c163a5df8c87198bc6d9efa54f87",
+      "bytes": 115125
+    },
+    {
+      "previous_public_path": "data/2026-11-03-ion-homeostasis/README.md",
+      "public_path": "data/2026-11-03-ion-homeostasis/README.md",
+      "previous_sha256": "2a4c1514c0891b2d5a4c2ff244f7b2eba80e15bab9b0ee85bc1f60475f500f42",
+      "public_sha256": "5b306b11b1896097e5a1fb821febb9b5d3985b393dff412dd5adc64c66296cf1",
+      "bytes": 459
+    },
+    {
+      "previous_public_path": "data/2026-11-03-ion-homeostasis/ion_homeostasis_codex.py",
+      "public_path": "data/2026-11-03-ion-homeostasis/ion_homeostasis.py",
+      "previous_sha256": "e0f2b162abbad8e5345465102b3b9f80af28b55da00637b38dcf26788c557c17",
+      "public_sha256": "e0f2b162abbad8e5345465102b3b9f80af28b55da00637b38dcf26788c557c17",
+      "bytes": 3620
+    },
+    {
+      "previous_public_path": "data/2026-11-03-ion-homeostasis/potassium_sources_codex.py",
+      "public_path": "data/2026-11-03-ion-homeostasis/potassium_sources.py",
+      "previous_sha256": "2081d4832100b47f68ee3877896972e7b6560d5641e345d8d5aa2175d7171f8a",
+      "public_sha256": "2081d4832100b47f68ee3877896972e7b6560d5641e345d8d5aa2175d7171f8a",
+      "bytes": 5431
+    },
+    {
+      "previous_public_path": "data/2026-11-03-ion-pump-papers/README.md",
+      "public_path": "data/2026-11-03-ion-pump-papers/README.md",
+      "previous_sha256": "03b022069dce1ad3eb54bfb1b4897e9c38d8ef064de086acc5e714c6b1b0de9b",
+      "public_sha256": "da9bb8ec5ea32c39ec8912a8a63533bc4a45a122199f11255e1abbfa1d623202",
+      "bytes": 409
+    },
+    {
+      "previous_public_path": "data/2026-11-03-ion-pump-papers/ion_references_codex.py",
+      "public_path": "data/2026-11-03-ion-pump-papers/ion_references.py",
+      "previous_sha256": "ac83899d7b4014bd5665b6865310b4c848bbdc20a26dfd689cd3465e94354fa6",
+      "public_sha256": "e49469cdd7c0273afd4105ee4a053021f7523610056ad3a28fca5fa3c760e559",
+      "bytes": 8032
+    },
+    {
+      "previous_public_path": "data/2026-11-03-nuclear-transport/README.md",
+      "public_path": "data/2026-11-03-nuclear-transport/README.md",
+      "previous_sha256": "7a4ca5f886b462758cd6e62ac9f98a9da2bbef10773e36ce045ea70537be29ac",
+      "public_sha256": "a6eba2a24b597ca9d65abfaad1a6591ed843aea01466a689b0ea84f3dcf153ab",
+      "bytes": 401
+    },
+    {
+      "previous_public_path": "data/2026-11-03-nuclear-transport/transport_codex.py",
+      "public_path": "data/2026-11-03-nuclear-transport/transport.py",
+      "previous_sha256": "a37acdbf0fdf128264c275f44c00165c116e48d9e58d8b1867b7896a00b291ab",
+      "public_sha256": "a37acdbf0fdf128264c275f44c00165c116e48d9e58d8b1867b7896a00b291ab",
+      "bytes": 9535
+    },
+    {
+      "previous_public_path": "data/2026-11-03-precursor-quality/README.md",
+      "public_path": "data/2026-11-03-precursor-quality/README.md",
+      "previous_sha256": "7c91e52894f8752572ec3c9f8b4e05d32670fc0df8ba665ff43007aa48f28793",
+      "public_sha256": "bd5d1109138abe6a455ea6d24cd383d1803ac09c022596f84b7b608b26724bc4",
+      "bytes": 447
+    },
+    {
+      "previous_public_path": "data/2026-11-03-precursor-quality/precursor_quality_codex.py",
+      "public_path": "data/2026-11-03-precursor-quality/precursor_quality.py",
+      "previous_sha256": "4f2cfe323e7d080956c4b0c6079e2db0810fb25fdb1fc0ae04c716d0d9e36a97",
+      "public_sha256": "4f2cfe323e7d080956c4b0c6079e2db0810fb25fdb1fc0ae04c716d0d9e36a97",
+      "bytes": 5840
+    },
+    {
+      "previous_public_path": "data/2026-11-03-precursor-quality/validate_codex.py",
+      "public_path": "data/2026-11-03-precursor-quality/validate.py",
+      "previous_sha256": "62d9761b39e5e756c28f9d88e832a3f267f9419b49db798b83181cdfba7c7017",
+      "public_sha256": "1f8e125fa15da9833906e14ad39f845606871ac514ef16fe7fd478134cd00514",
+      "bytes": 7618
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rna-ribosome-transport/README.md",
+      "public_path": "data/2026-11-03-rna-ribosome-transport/README.md",
+      "previous_sha256": "0726e74ffea4ec7f32a4cd334ef2920475eab1bb0847056d852df7df3c883f0a",
+      "public_sha256": "8520c0ba494a0471c0ef3f56d70db0470722fa9e6286cf93fb942d7c1cd0e259",
+      "bytes": 414
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rna-ribosome-transport/rna_transport_codex.py",
+      "public_path": "data/2026-11-03-rna-ribosome-transport/rna_transport.py",
+      "previous_sha256": "36d532b4ed2b4cd99116db94468f214129f8c9ed2d1ae0ba16fb7b1771e5e5a5",
+      "public_sha256": "a69cf8f513eb58252b1f688bd5769077b3cb5be51f35bb0526ebf97289a1be45",
+      "bytes": 16091
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rna-salvage/README.md",
+      "public_path": "data/2026-11-03-rna-salvage/README.md",
+      "previous_sha256": "136afe2dd9ad435382bc0d6d7a950d6a95a6c2d43aa9ba00e8a7fc1d8cde5bb9",
+      "public_sha256": "af8259fc69ba749073623446b2d1c9196be92af980055b1af3df22127da7a922",
+      "bytes": 467
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rna-salvage/rna_recipe_codex.json",
+      "public_path": "data/2026-11-03-rna-salvage/rna_recipe.json",
+      "previous_sha256": "423cd748ae95ee23ccea76ccfa14015a8aac68118b7ab00eac88323e725cac54",
+      "public_sha256": "423cd748ae95ee23ccea76ccfa14015a8aac68118b7ab00eac88323e725cac54",
+      "bytes": 637
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rna-salvage/rna_salvage_codex.py",
+      "public_path": "data/2026-11-03-rna-salvage/rna_salvage.py",
+      "previous_sha256": "b0b5aff598ad9fc387d131c77660d802d665c6de393042535bb6ba5598a18e2a",
+      "public_sha256": "8691f7f403038df4f407ca0a44149e1d0499508073983771e215da441976b85c",
+      "bytes": 6568
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rna-salvage/validate_codex.py",
+      "public_path": "data/2026-11-03-rna-salvage/validate.py",
+      "previous_sha256": "e2e58ba3fd987d873c0cb157db931d02a14a0773884b97e177b934119f988126",
+      "public_sha256": "b5277d529e4b9df6c4960e257bafcef2eccea12fa06fb15b1ed5975b025a2951",
+      "bytes": 6753
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-mrna-kinetics/README.md",
+      "public_path": "data/2026-11-03-rp-mrna-kinetics/README.md",
+      "previous_sha256": "0d5748784c7def0a31bebd86b539af79e33ccaa232c7812e57eed9229c04757c",
+      "public_sha256": "afc4f69ad07156b9cf6a05d04a6aa846f1a92d61b5792b3eba1753595f36e4f5",
+      "bytes": 508
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-mrna-kinetics/human_MN_transfer_check_codex.json",
+      "public_path": "data/2026-11-03-rp-mrna-kinetics/human_MN_transfer_check.json",
+      "previous_sha256": "fc8f08ed6fc53abac78c195e14d33237ceac803aea7fe87b9ae8901a8558a764",
+      "public_sha256": "fc8f08ed6fc53abac78c195e14d33237ceac803aea7fe87b9ae8901a8558a764",
+      "bytes": 45617
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-mrna-kinetics/kinetics_codex.py",
+      "public_path": "data/2026-11-03-rp-mrna-kinetics/kinetics.py",
+      "previous_sha256": "0ebfe6cbf7bacbf6b468fa6646fa18c31042c432422cd72fc309d8e1bf4be173",
+      "public_sha256": "dded445fd43235274c26a23cb19c353c86ce45c31061d39bd6a70bd5d427ab0a",
+      "bytes": 5967
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-mrna-kinetics/model_profiles_codex.json",
+      "public_path": "data/2026-11-03-rp-mrna-kinetics/model_profiles.json",
+      "previous_sha256": "8470af8b71cee283ee302f7dfd3b5c4cf37a19080c07433de566e0cf41d13e3f",
+      "public_sha256": "8470af8b71cee283ee302f7dfd3b5c4cf37a19080c07433de566e0cf41d13e3f",
+      "bytes": 147799
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-neuron-coupling/README.md",
+      "public_path": "data/2026-11-03-rp-neuron-coupling/README.md",
+      "previous_sha256": "6d9d8a457f54e8a8f9a4ee8c7347e05947a5494852d5ec5020576bd286bc324b",
+      "public_sha256": "7b5b5f171ee74d48afba271066ca30cdf7d2b116c28f6271b3ac012aa71e06db",
+      "bytes": 406
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-neuron-coupling/rp_coupling_codex.py",
+      "public_path": "data/2026-11-03-rp-neuron-coupling/rp_coupling.py",
+      "previous_sha256": "56ae8285ad53dfd3ba6bb07351ed31f99fd73551e622345d6a83467c9dcf65bf",
+      "public_sha256": "cba87bf3fa2b2551fa83561995218acbf5a9b51e743773e6f92224d85c5d95b9",
+      "bytes": 5928
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-production/README.md",
+      "public_path": "data/2026-11-03-rp-production/README.md",
+      "previous_sha256": "b96ad99345806703da9fe6a0dfd6b3bdc752cc6d76bd96f6370e43e9c8e8cd3f",
+      "public_sha256": "d188fc62b3e57e73cf182300633b93bac28535e715500d3d447d1d0d62e5fda3",
+      "bytes": 399
+    },
+    {
+      "previous_public_path": "data/2026-11-03-rp-production/production_codex.py",
+      "public_path": "data/2026-11-03-rp-production/production.py",
+      "previous_sha256": "2d8f08f8fb009e837a9faed6a5959d8cbb7f24e19eeb1f6af188a5cea8f7b968",
+      "public_sha256": "4536d9be361474ced75f3f50f733f984599a08d146c76d225c9b2d77b4e18798",
+      "bytes": 8816
+    },
+    {
+      "previous_public_path": "data/2026-11-03-translation-coupling/README.md",
+      "public_path": "data/2026-11-03-translation-coupling/README.md",
+      "previous_sha256": "2dc6e57ee8952fa8353d41087963f3dc0f9fe3e5449f2416542e4bdf09dcbef4",
+      "public_sha256": "af4fa3bdccaaab566bde4c3c13843a121b63b5a4df2f321524dccb7da713b41b",
+      "bytes": 454
+    },
+    {
+      "previous_public_path": "data/2026-11-03-translation-coupling/coupled_translation_codex.py",
+      "public_path": "data/2026-11-03-translation-coupling/coupled_translation.py",
+      "previous_sha256": "6b9263124ab7013b93c311894251618d7685778c2d2b9841f862e025854d4425",
+      "public_sha256": "aba83e1c691fec8f663f4743256af622ce7d05d2c4ac375755b6f2201bda5b0c",
+      "bytes": 11837
+    },
+    {
+      "previous_public_path": "data/2026-11-03-translation-coupling/validate_codex.py",
+      "public_path": "data/2026-11-03-translation-coupling/validate.py",
+      "previous_sha256": "797c2a76f899b176297a70dc9d827b1f754647dbfd7cf12c47a2a99096e16cc2",
+      "public_sha256": "7d4d848d270b353888db3ba27cb87863acfbb9d46f9db46d7d512048fcb9b355",
+      "bytes": 5610
+    },
+    {
+      "previous_public_path": "data/2026-11-04-Q1-control-passports/README.md",
+      "public_path": "data/2026-11-04-Q1-control-passports/README.md",
+      "previous_sha256": "1ca7e51c68ae1c042e12389a6a754b354a1c27ca58667429d2b14ae14e17be28",
+      "public_sha256": "f874e5dc6801be0be4b1b01ef39c07cbd9a6bbccbc55fcedb87e416bcfb1c157",
+      "bytes": 552
+    },
+    {
+      "previous_public_path": "data/2026-11-04-Q1-control-passports/cell_passports_codex.json",
+      "public_path": "data/2026-11-04-Q1-control-passports/cell_passports.json",
+      "previous_sha256": "47ec9bd777c2cb351582b9fe635817652e802bc84862b6afd6229c513e74a1fd",
+      "public_sha256": "47ec9bd777c2cb351582b9fe635817652e802bc84862b6afd6229c513e74a1fd",
+      "bytes": 11505
+    },
+    {
+      "previous_public_path": "data/2026-11-04-Q1-control-passports/conditions_codex.json",
+      "public_path": "data/2026-11-04-Q1-control-passports/conditions.json",
+      "previous_sha256": "6317366e2804aae877e2dfeccb618d555f6c53b67d83b2598965faf4a8b8a18d",
+      "public_sha256": "6317366e2804aae877e2dfeccb618d555f6c53b67d83b2598965faf4a8b8a18d",
+      "bytes": 7838
+    },
+    {
+      "previous_public_path": "data/2026-11-04-Q1-control-passports/control_passports_codex.py",
+      "public_path": "data/2026-11-04-Q1-control-passports/control_passports.py",
+      "previous_sha256": "a7c687b915d6edebb9f956765f827f8f1d6ea97e34110d60ab5407896815b399",
+      "public_sha256": "e5fb1ea299a553f22a1f17595fea5ce6420562f0e180e03453dcc1877769404f",
+      "bytes": 6927
+    },
+    {
+      "previous_public_path": "data/2026-11-04-Q1-control-passports/source_manifest_codex.json",
+      "public_path": "data/2026-11-04-Q1-control-passports/source_manifest.json",
+      "previous_sha256": "eacf4c967fe9410d61ec68c8d719a8693df957201890da7ef2fdc869e4bc8549",
+      "public_sha256": "eacf4c967fe9410d61ec68c8d719a8693df957201890da7ef2fdc869e4bc8549",
+      "bytes": 2228
+    },
+    {
+      "previous_public_path": "data/2026-11-04-Q2-ion-energy/README.md",
+      "public_path": "data/2026-11-04-Q2-ion-energy/README.md",
+      "previous_sha256": "ec8af786c82021c22af6d824978d7be806d14fca12d30011b6cfc91bbd888dff",
+      "public_sha256": "47a0f74faedff19ee349b709f15d63655b6281f897321e9a0e3fd2199e5b6057",
+      "bytes": 399
+    },
+    {
+      "previous_public_path": "data/2026-11-04-Q2-ion-energy/ion_energy_codex.py",
+      "public_path": "data/2026-11-04-Q2-ion-energy/ion_energy.py",
+      "previous_sha256": "536245df29cb1f722d4acab0359c13c2dd3b3df841ec2d4b57f6e2150f867748",
+      "public_sha256": "536245df29cb1f722d4acab0359c13c2dd3b3df841ec2d4b57f6e2150f867748",
+      "bytes": 6041
+    },
+    {
+      "previous_public_path": "data/2026-11-04-U41-Helton-Markmiller/README.md",
+      "public_path": "data/2026-11-04-U41-Helton-Markmiller/README.md",
+      "previous_sha256": "4a2b30db6ff541a9c9fa983aa3edebd9e558e1d64b9279d753aa56fd658e3a4a",
+      "public_sha256": "aee4d85a9cc9aaa60302f3a2cdbe1ee53534ea4179627d42178d593739c86659",
+      "bytes": 423
+    },
+    {
+      "previous_public_path": "data/2026-11-04-U41-Helton-Markmiller/human_mn_reference_codex.py",
+      "public_path": "data/2026-11-04-U41-Helton-Markmiller/human_mn_reference.py",
+      "previous_sha256": "5c6f7397ab621dc7fef552836611779d3b96d8e6b0d1d9422b098c0397d67170",
+      "public_sha256": "39bafde2e274bf516e59dc9e7b96def47e1f115bd286536336a8c19e66dea049",
+      "bytes": 4781
+    },
+    {
+      "previous_public_path": "data/2026-11-04-U41-compartment-data/README.md",
+      "public_path": "data/2026-11-04-U41-compartment-data/README.md",
+      "previous_sha256": "6bd428ddaa4867e4479507ef8108f56f27acb4f89fbbef58629281cae0b6bea9",
+      "public_sha256": "5c64b06b76b861a078472aa89b4de69029db1d7e04b9ea49436fb2e95fe2fddc",
+      "bytes": 432
+    },
+    {
+      "previous_public_path": "data/2026-11-04-U41-compartment-data/compartment_calibration_codex.py",
+      "public_path": "data/2026-11-04-U41-compartment-data/compartment_calibration.py",
+      "previous_sha256": "e6d1350ce27e849f3a2dac34791249b7b1e17962fda19c46d0e351c2b23487d8",
+      "public_sha256": "72461f8808126cecc0fb33b6f02526649c25364e7437d71127a7d372e5090a3d",
+      "bytes": 7369
+    },
+    {
+      "previous_public_path": "data/2026-11-04-U41-supplied-export/README.md",
+      "public_path": "data/2026-11-04-U41-supplied-export/README.md",
+      "previous_sha256": "b419635d0d875a4af1d08dd389a438fed05dbc6fcb76cd78be3bb5d084050646",
+      "public_sha256": "356f68d222e18f93014b380aa81e6e76fdf5f2cae4036cebd2903fbdbb88485d",
+      "bytes": 435
+    },
+    {
+      "previous_public_path": "data/2026-11-04-U41-supplied-export/supplied_export_reference_codex.py",
+      "public_path": "data/2026-11-04-U41-supplied-export/supplied_export_reference.py",
+      "previous_sha256": "75c0d8b54f31416b6ba5e9bee0786c523a27e8164474fbd2db40897af85e1678",
+      "public_sha256": "67463194e6003ce7d0280aa170114711372db24fc5e08470edf6222a4f93f66f",
+      "bytes": 8099
+    },
+    {
+      "previous_public_path": "data/2026-11-04-calpain-baseline-evidence/README.md",
+      "public_path": "data/2026-11-04-calpain-baseline-evidence/README.md",
+      "previous_sha256": "a66b9e9bdde705c95a7a2aa3b135eb091b277bfb60313a07b3bf9df83dfe6315",
+      "public_sha256": "c8307960e6e9a0b6aabf2a8c6fde3280b0728e4b50a7642bf7a2d9cbd98c9926",
+      "bytes": 427
+    },
+    {
+      "previous_public_path": "data/2026-11-04-calpain-baseline-evidence/baseline_observers_codex.py",
+      "public_path": "data/2026-11-04-calpain-baseline-evidence/baseline_observers.py",
+      "previous_sha256": "843f4c91b07e92a67a7e95e25e630546a58d78b0210c84d738092272faa237e9",
+      "public_sha256": "8ee868e110b8baf90aba4e969f9fffbaa3d61de739d77d0652b3c65f8992e722",
+      "bytes": 3059
+    },
+    {
+      "previous_public_path": "data/2026-11-04-calpain-fulltext-integration/README.md",
+      "public_path": "data/2026-11-04-calpain-fulltext-integration/README.md",
+      "previous_sha256": "e9f3911f7d02e42af4fa6dd958059256e6380afbb83e3a53e2599c031863206d",
+      "public_sha256": "603e42822bc003577075b2a1612e3b98b8cdd22d7c2ea8ff6a2a2983b25a5c41",
+      "bytes": 430
+    },
+    {
+      "previous_public_path": "data/2026-11-04-calpain-fulltext-integration/fragment_observers_codex.py",
+      "public_path": "data/2026-11-04-calpain-fulltext-integration/fragment_observers.py",
+      "previous_sha256": "a1631ef4b0f413f955ce08f30ef50882ae5d05a66e1a01dea669d584c7da89e7",
+      "public_sha256": "99c1de5196df42efefcbc5a29b2ad5f6f5149b9b7f0dd939980d6a1e283250c7",
+      "bytes": 4953
+    },
+    {
+      "previous_public_path": "data/2026-11-04-calpain-turnover-review/README.md",
+      "public_path": "data/2026-11-04-calpain-turnover-review/README.md",
+      "previous_sha256": "6583abcf3e6cb26b06d6545a7f8bdb59926799aa3b4602702c1857344af505dd",
+      "public_sha256": "32b393e0797388dbe273f54a446ea63c68329246ccbbaf889f10d28eb296c6ae",
+      "bytes": 429
+    },
+    {
+      "previous_public_path": "data/2026-11-04-calpain-turnover-review/turnover_constraints_codex.py",
+      "public_path": "data/2026-11-04-calpain-turnover-review/turnover_constraints.py",
+      "previous_sha256": "433a5e1af5a8a1d972966a1c4999a34c83340e77d336cf801a335e454868cb0c",
+      "public_sha256": "006824d16a258ea17c96c11c4623f596ef2410e049a353005fcc0d905df149a3",
+      "bytes": 3318
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/README.md",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/README.md",
+      "previous_sha256": "3eabeb8aaac305e55d54ebecacc02957cc7ca91298c42577412a539b21545aa9",
+      "public_sha256": "da3534a535ba0a1030234f68f05db0fb665219dabfed75a06e5c64954f5e886c",
+      "bytes": 794
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/actd_rp80_fits_codex.json",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/actd_rp80_fits.json",
+      "previous_sha256": "d16cbbdbbfc84792a44d1ffa81687e5ead86b3d76adb207136becc8f40d84058",
+      "public_sha256": "d16cbbdbbfc84792a44d1ffa81687e5ead86b3d76adb207136becc8f40d84058",
+      "bytes": 493207
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery_codex.json",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json",
+      "previous_sha256": "619deccdbfde13c7f2270dab6734acebfd49840c1794fad1a61b1bb12efce697",
+      "public_sha256": "619deccdbfde13c7f2270dab6734acebfd49840c1794fad1a61b1bb12efce697",
+      "bytes": 4280
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/human_mn_evidence_codex.py",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/human_mn_evidence.py",
+      "previous_sha256": "b7113d9ec318dcf78088dee38ac81fe4365daaf7aadf1b19558ffd2f15fcda8b",
+      "public_sha256": "4591673e56760906278967624e1af00c846acb118b579e69f3d5cfcdb5786972",
+      "bytes": 7323
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/li_author_audit_codex.json",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/li_author_audit.json",
+      "previous_sha256": "9169d307a2893af09de275ed87273bc2706b93e046747e413de6a556d4c561c2",
+      "public_sha256": "9169d307a2893af09de275ed87273bc2706b93e046747e413de6a556d4c561c2",
+      "bytes": 20307
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/li_supplement_metadata_codex.json",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/li_supplement_metadata.json",
+      "previous_sha256": "9d1ba6ce7a0412fb230abadd6056a9978c52ea36611ad630d86ffe046b26d5d1",
+      "public_sha256": "9d1ba6ce7a0412fb230abadd6056a9978c52ea36611ad630d86ffe046b26d5d1",
+      "bytes": 25362
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/vargas_identifiability_codex.json",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/vargas_identifiability.json",
+      "previous_sha256": "00ecdc819dfb1f49f09f94b9b001660d4d2247622137291bcc5c7b9e889c1181",
+      "public_sha256": "2f09ae03acdd297e369950561cddf481330c6346f71fc37747323613681efa5e",
+      "bytes": 357340
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/ye_chua_Chua_DataS1_codex.json",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/ye_chua_Chua_DataS1.json",
+      "previous_sha256": "abc10e62295cd4b6e25cdc0a5fa33094ec092aadc02ff48304e72be7d03633f0",
+      "public_sha256": "abc10e62295cd4b6e25cdc0a5fa33094ec092aadc02ff48304e72be7d03633f0",
+      "bytes": 301041
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-MN-rp-mrna/ye_chua_RP80_fits_codex.json",
+      "public_path": "data/2026-11-04-human-MN-rp-mrna/ye_chua_RP80_fits.json",
+      "previous_sha256": "3d61d53a645dead95bae18088082d24ad859efd8a7016271d5c3cfaa7fc0f045",
+      "public_sha256": "3d61d53a645dead95bae18088082d24ad859efd8a7016271d5c3cfaa7fc0f045",
+      "bytes": 437499
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-pet-axon/README.md",
+      "public_path": "data/2026-11-04-human-pet-axon/README.md",
+      "previous_sha256": "300807f9b05cd5cacc62ae8b6a298979847a099f01f52cb0e8b99d43269f0329",
+      "public_sha256": "0af4712847db767e773f42b290910921fb1f4619273c8d90abdfa6da9a7859b9",
+      "bytes": 410
+    },
+    {
+      "previous_public_path": "data/2026-11-04-human-pet-axon/human_reference_codex.py",
+      "public_path": "data/2026-11-04-human-pet-axon/human_reference.py",
+      "previous_sha256": "98748d15cdd52aa7d6e395c4154133ea94f804c9e054cfe30d829aae40c22a73",
+      "public_sha256": "dfd54eb0ee26f0427c1748537765c5904a10c8ca6cc5587e68ffed0b85383e8f",
+      "bytes": 7042
+    },
+    {
+      "previous_public_path": "data/2026-11-04-integrated-neuron/README.md",
+      "public_path": "data/2026-11-04-integrated-neuron/README.md",
+      "previous_sha256": "c621976f53e32390a629929b2f93eb836e82b10a174ed541801c0c31d48cdd0d",
+      "public_sha256": "49be281c6ef1e4118aa5db05727edc7c43cfc6ec4412a313bfcd35d867cc627f",
+      "bytes": 399
+    },
+    {
+      "previous_public_path": "data/2026-11-04-integrated-neuron/validate_codex.py",
+      "public_path": "data/2026-11-04-integrated-neuron/validate.py",
+      "previous_sha256": "5fbbeeed37552b315811fde7937553864c721cb7d8e643eaa3323127c10c34f5",
+      "public_sha256": "f0781cffea33c8c07078d8ae7426cd3315b53337224679740ead8017a7f312e1",
+      "bytes": 6382
+    },
+    {
+      "previous_public_path": "data/2026-11-04-joint-baseline-calibration/README.md",
+      "public_path": "data/2026-11-04-joint-baseline-calibration/README.md",
+      "previous_sha256": "1a3cd8148bb15a394c5875338634664ca881cc4cf8a84abe73b645f7ea60d78e",
+      "public_sha256": "5e5e528ab4e22926dfe2b400ce8213b9a47f8042ec1e547b9d0b08b0a9ab38a2",
+      "bytes": 560
+    },
+    {
+      "previous_public_path": "data/2026-11-04-joint-baseline-calibration/Wiseman2023_beta_codex.json",
+      "public_path": "data/2026-11-04-joint-baseline-calibration/Wiseman2023_beta.json",
+      "previous_sha256": "b6cc5e1e1d9750c23f04545bb62c28130fb13e18d71a3ea6818c39f8f676adb1",
+      "public_sha256": "b6cc5e1e1d9750c23f04545bb62c28130fb13e18d71a3ea6818c39f8f676adb1",
+      "bytes": 6131
+    },
+    {
+      "previous_public_path": "data/2026-11-04-joint-baseline-calibration/capture_runtime_codex.py",
+      "public_path": "data/2026-11-04-joint-baseline-calibration/capture_runtime.py",
+      "previous_sha256": "4d17eb01943cb7880866cea1ea90c9d2d7bf24668bd5805daaef71ab829d39a9",
+      "public_sha256": "5a3dcbbee93ca8e30d96c54b0f9ce54cb149e2d3008023eb578ae577280e5397",
+      "bytes": 2383
+    },
+    {
+      "previous_public_path": "data/2026-11-04-joint-baseline-calibration/profile_codex.py",
+      "public_path": "data/2026-11-04-joint-baseline-calibration/profile.py",
+      "previous_sha256": "7e0a9030c5138d3841790dd14efe8ce1e48ca1a94986497f7fe619f7a01b7321",
+      "public_sha256": "c6f06de24001319286bdaea426accf0ebed796f223487c6f635727839b837818",
+      "bytes": 10860
+    },
+    {
+      "previous_public_path": "data/2026-11-04-joint-baseline-calibration/run_codex.py",
+      "public_path": "data/2026-11-04-joint-baseline-calibration/run.py",
+      "previous_sha256": "94700bd62c2d8caeac2d30af9d4ee7564d231dcee2b6f5e8bfa5458c7cbf1685",
+      "public_sha256": "1c92fa86bd86b327aa212540d40208a48a5994e73592854be02a2c615142b155",
+      "bytes": 9536
+    },
+    {
+      "previous_public_path": "data/2026-11-04-joint-baseline-calibration/sparse_solver_codex.py",
+      "public_path": "data/2026-11-04-joint-baseline-calibration/sparse_solver.py",
+      "previous_sha256": "08614d713e5f2abf1ae4e7d61d747aaffeefe376d2e116107f8c8ff94f059c44",
+      "public_sha256": "08614d713e5f2abf1ae4e7d61d747aaffeefe376d2e116107f8c8ff94f059c44",
+      "bytes": 3535
+    },
+    {
+      "previous_public_path": "data/2026-11-04-protein-turnover-review/README.md",
+      "public_path": "data/2026-11-04-protein-turnover-review/README.md",
+      "previous_sha256": "2053687e3cef383b98dd002375de0a606dc369abc42eae5d865cfe5b43423898",
+      "public_sha256": "86a35a566de5ab88634b9f310522eed777ec1f2922c10da13e082e8a8bda706e",
+      "bytes": 423
+    },
+    {
+      "previous_public_path": "data/2026-11-04-protein-turnover-review/turnover_evidence_codex.py",
+      "public_path": "data/2026-11-04-protein-turnover-review/turnover_evidence.py",
+      "previous_sha256": "fc44a85b9a216798c13e538081279fe0a7eabe25406d2eead86d44cde30a6c1d",
+      "public_sha256": "98ee1275fa14e88a00ea52db34fd45265dd66a353fd6200aebcab01ca09eae2b",
+      "bytes": 5013
+    },
+    {
+      "previous_public_path": "data/2026-11-04-resting-state-review/README.md",
+      "public_path": "data/2026-11-04-resting-state-review/README.md",
+      "previous_sha256": "3449dda04c3fed5024778ba21dededaa170a667ef306543fa47db9591bbacc2a",
+      "public_sha256": "36fc980238b146b0a072e3b349dfda1489f2ddc90264e72b6a0bf4842b4fdaec",
+      "bytes": 416
+    },
+    {
+      "previous_public_path": "data/2026-11-04-resting-state-review/energy_baseline_codex.py",
+      "public_path": "data/2026-11-04-resting-state-review/energy_baseline.py",
+      "previous_sha256": "db58413abb8cadfff67b33458b81c7cddd3ec23f052006fefd469f550045aea4",
+      "public_sha256": "db58413abb8cadfff67b33458b81c7cddd3ec23f052006fefd469f550045aea4",
+      "bytes": 6092
+    },
+    {
+      "previous_public_path": "data/2026-11-04-rna-supplied-papers/README.md",
+      "public_path": "data/2026-11-04-rna-supplied-papers/README.md",
+      "previous_sha256": "992982b9a1391351da93ebfe0fed631c7598eb754e14f690e9bc3b8cb316ca34",
+      "public_sha256": "019cda0d39e903b9d339e029845fd4e27d8d188a83121aa34be36813bd6218d5",
+      "bytes": 427
+    },
+    {
+      "previous_public_path": "data/2026-11-04-rna-supplied-papers/supplied_rna_evidence_codex.py",
+      "public_path": "data/2026-11-04-rna-supplied-papers/supplied_rna_evidence.py",
+      "previous_sha256": "691059cc75e866bfad9afd61745596dbcfeabb1476fe4e87c84c5b3e091aaee9",
+      "public_sha256": "c3869a0d8a0403899a4be5cff3602c918b747a6e83bcd343f82a1fb369621f9f",
+      "bytes": 5877
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Golding-Q3-recovery/GQ3_rest_Burley_312.0h_checkpoint_codex.json",
+      "public_path": "data/2026-11-05-Golding-Q3-recovery/GQ3_rest_Burley_312.0h_checkpoint.json",
+      "previous_sha256": "4bd6ab9b5ea2d271ae44b7c4e871a73135503093c0ec9733ecc9821ef704f80c",
+      "public_sha256": "4bd6ab9b5ea2d271ae44b7c4e871a73135503093c0ec9733ecc9821ef704f80c",
+      "bytes": 185239
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Golding-Q3-recovery/GQ3_rest_Selvaraj-Con1_312.0h_checkpoint_codex.json",
+      "public_path": "data/2026-11-05-Golding-Q3-recovery/GQ3_rest_Selvaraj-Con1_312.0h_checkpoint.json",
+      "previous_sha256": "b80ab0c1d6fd89479bafb01557a2c42d4554d9a23c41163bd9e3013c81fd32cf",
+      "public_sha256": "b80ab0c1d6fd89479bafb01557a2c42d4554d9a23c41163bd9e3013c81fd32cf",
+      "bytes": 185149
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Golding-Q3-recovery/GQ3_rest_Selvaraj-Con2_312.0h_checkpoint_codex.json",
+      "public_path": "data/2026-11-05-Golding-Q3-recovery/GQ3_rest_Selvaraj-Con2_312.0h_checkpoint.json",
+      "previous_sha256": "85b2b36401586243760e290b58a46c1a5cf8e94173095621245fc570ae3f8fea",
+      "public_sha256": "85b2b36401586243760e290b58a46c1a5cf8e94173095621245fc570ae3f8fea",
+      "bytes": 185258
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Golding-Q3-recovery/README.md",
+      "public_path": "data/2026-11-05-Golding-Q3-recovery/README.md",
+      "previous_sha256": "a4b570fbfdb54319be1c82d26ab32b30c969b9bdea0535c04117e53c4bb28a65",
+      "public_sha256": "e51f136c1fb89994c3ff08650efe6ff405bc06f4241d0f46b34db1cfcc8b73f1",
+      "bytes": 805
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Golding-Q3-recovery/prepared_state_codex.py",
+      "public_path": "data/2026-11-05-Golding-Q3-recovery/prepared_state.py",
+      "previous_sha256": "e94cdbcb9b2bf333b8db45e0a2f3263a7208f924836b659c5cdf22c640bdca53",
+      "public_sha256": "dbe4ce7329bc58ae09e386a56798144333f192d2065d7f5509abaad3d41f6fdf",
+      "bytes": 1405
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Golding-Q3-recovery/prepared_states_manifest_codex.json",
+      "public_path": "data/2026-11-05-Golding-Q3-recovery/prepared_states_manifest.json",
+      "previous_sha256": "e2a7b5437064475e909062d3f5d0d46c3d3c1c30e493e1bf4071f57e6a7b7a60",
+      "public_sha256": "4696f21bef44ed61e1b0529b62c7a96921e620d332a9a917e673cf331f31c0f0",
+      "bytes": 2021
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Golding-Q3-recovery/source_chemistry_codex.py",
+      "public_path": "data/2026-11-05-Golding-Q3-recovery/source_chemistry.py",
+      "previous_sha256": "ef822a75a43118c727507286a0ab50ff7b95e29a348080887ba112f3ed2dff16",
+      "public_sha256": "ef822a75a43118c727507286a0ab50ff7b95e29a348080887ba112f3ed2dff16",
+      "bytes": 2854
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Q3-nuclear-baseline/Q2_donor_constraints_codex.json",
+      "public_path": "data/2026-11-05-Q3-nuclear-baseline/Q2_donor_constraints.json",
+      "previous_sha256": "131d559f0509b4d73a5ae270b78d87632c51935a6ae75fb97b764eaa1ca4f3e0",
+      "public_sha256": "131d559f0509b4d73a5ae270b78d87632c51935a6ae75fb97b764eaa1ca4f3e0",
+      "bytes": 456
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Q3-nuclear-baseline/README.md",
+      "public_path": "data/2026-11-05-Q3-nuclear-baseline/README.md",
+      "previous_sha256": "e9f462720bf61f410dec54d837960b61bb5874f569b0e54337d50a7ae70ed820",
+      "public_sha256": "66492b9d99391333650f5f4741d232e057d96ca9a1a0be0810a20d3c32f15b62",
+      "bytes": 595
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Q3-nuclear-baseline/profile_codex.py",
+      "public_path": "data/2026-11-05-Q3-nuclear-baseline/profile.py",
+      "previous_sha256": "b2fc9b708eef2f3ff983a38bd3e444d4eeea77641d86b8475f860b258f539f56",
+      "public_sha256": "4204892887fe8891ba6f2b7ff2787ef3c8fbcf2e8416a3baf9f8b825a4a05c7a",
+      "bytes": 3761
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Q3-nuclear-baseline/rna_initialization_codex.py",
+      "public_path": "data/2026-11-05-Q3-nuclear-baseline/rna_initialization.py",
+      "previous_sha256": "c37b51769dcf452e3f59c6508eb7d38cfe9632632668b4cad0779917b0a526ce",
+      "public_sha256": "c37b51769dcf452e3f59c6508eb7d38cfe9632632668b4cad0779917b0a526ce",
+      "bytes": 3766
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Q3-nuclear-baseline/source_observers_codex.py",
+      "public_path": "data/2026-11-05-Q3-nuclear-baseline/source_observers.py",
+      "previous_sha256": "c3fada2f1cded6fcbcd81d622f1fbb1e93d151f233923d0c9223af7d94c793b1",
+      "public_sha256": "c3fada2f1cded6fcbcd81d622f1fbb1e93d151f233923d0c9223af7d94c793b1",
+      "bytes": 1689
+    },
+    {
+      "previous_public_path": "data/2026-11-05-Q3-nuclear-baseline/thermodynamics_codex.py",
+      "public_path": "data/2026-11-05-Q3-nuclear-baseline/thermodynamics.py",
+      "previous_sha256": "f73dc5e0d54aa09b2f5c0c09e749cd7899ce64b56c62cefcd4d7c288006fc8e2",
+      "public_sha256": "f73dc5e0d54aa09b2f5c0c09e749cd7899ce64b56c62cefcd4d7c288006fc8e2",
+      "bytes": 2104
+    },
+    {
+      "previous_public_path": "data/2026-11-11-Con2-neurite-energy/README.md",
+      "public_path": "data/2026-11-11-Con2-neurite-energy/README.md",
+      "previous_sha256": "dddedc547a9c1c38e75b2a64b5405d7e8073bd1a408cb2c5d7f9b51df60d4d8a",
+      "public_sha256": "f539cb119d100a212b954e668a7a065f5680948381d08c3987d082b00e518869",
+      "bytes": 421
+    },
+    {
+      "previous_public_path": "data/2026-11-11-Con2-neurite-energy/source_constraints_codex.py",
+      "public_path": "data/2026-11-11-Con2-neurite-energy/source_constraints.py",
+      "previous_sha256": "9c659426bc6027c53e47bd77941bb1f37b3348e10fa05c6d793752d9ffeb87c6",
+      "public_sha256": "86b11e6b07ad4d4fd39d7df2715dc286c852cd7760bfe510bf1ab064057324af",
+      "bytes": 5982
+    },
+    {
+      "previous_public_path": "data/2026-11-11-human-electrical-numbers/README.md",
+      "public_path": "data/2026-11-11-human-electrical-numbers/README.md",
+      "previous_sha256": "f7640ea421e7d34169275e1fd0d7e68a24bc3179a68443f1b95ec63ba729272d",
+      "public_sha256": "b6a8fd79960c86668985c92107868a709cc43dd7b8294d9b96291d443045a02b",
+      "bytes": 432
+    },
+    {
+      "previous_public_path": "data/2026-11-11-human-electrical-numbers/electrical_references_codex.py",
+      "public_path": "data/2026-11-11-human-electrical-numbers/electrical_references.py",
+      "previous_sha256": "d1dbc8efc1eb63c5c1939d817310a0a922a97a31421cd792a79a5cca1a0ca8cb",
+      "public_sha256": "e12395b8fa12ed07c48c909c856e506fc10d381135e396a2f9f4b9c29b7377ee",
+      "bytes": 6410
+    },
+    {
+      "previous_public_path": "data/2026-11-11-ion-balance/README.md",
+      "public_path": "data/2026-11-11-ion-balance/README.md",
+      "previous_sha256": "a494fb1f3089cd7b939ae9f2bde4c24b919ea357f533f127ca14fcb65b37ea23",
+      "public_sha256": "e41e508367666d0f154673c156b5732a7be2381f3205350a4168facb419d8a93",
+      "bytes": 413
+    },
+    {
+      "previous_public_path": "data/2026-11-11-ion-balance/source_constraints_codex.py",
+      "public_path": "data/2026-11-11-ion-balance/source_constraints.py",
+      "previous_sha256": "fae09571af62425a166f80ed74ef8ef6ec8181a4c5e0eb4c71581773db0a49aa",
+      "public_sha256": "79a619212b670f0a273e0bb9ba851186291f3e4f07dce99b76a959005dd366e0",
+      "bytes": 5284
+    },
+    {
+      "previous_public_path": "data/2026-11-11-kcnq-passive/README.md",
+      "public_path": "data/2026-11-11-kcnq-passive/README.md",
+      "previous_sha256": "f842807b10e78a605bfc5f32e91dcc0e0094441c0f84bb9105ad039cdbb0b18a",
+      "public_sha256": "d07ca20e67ccdb51eef0f6ab0c135f03befbb6a5c0c019adc38ca0a28069b5f1",
+      "bytes": 528
+    },
+    {
+      "previous_public_path": "data/2026-11-11-kcnq-passive/current_partition_codex.py",
+      "public_path": "data/2026-11-11-kcnq-passive/current_partition.py",
+      "previous_sha256": "4a3b59ab9ff591d25a6c3b18ef44f656a9f58cb819002f519e3b5631235100ac",
+      "public_sha256": "4a3b59ab9ff591d25a6c3b18ef44f656a9f58cb819002f519e3b5631235100ac",
+      "bytes": 2283
+    },
+    {
+      "previous_public_path": "data/2026-11-11-kcnq-passive/passive_chloride_codex.py",
+      "public_path": "data/2026-11-11-kcnq-passive/passive_chloride.py",
+      "previous_sha256": "dbab521e19d16eff9c2a16d44bab6e04e2c8dfa943edbeed34b6dd326eeaa459",
+      "public_sha256": "dbab521e19d16eff9c2a16d44bab6e04e2c8dfa943edbeed34b6dd326eeaa459",
+      "bytes": 3344
+    },
+    {
+      "previous_public_path": "data/2026-11-11-kcnq-passive/run_codex.py",
+      "public_path": "data/2026-11-11-kcnq-passive/run.py",
+      "previous_sha256": "5ba1f38414745b9d59d48639123f991efd8552c63a01260e3176284b66eaa878",
+      "public_sha256": "53774811f6339f30bc468dcce0d5309857f61eef133041d9933c8f39ad564052",
+      "bytes": 5641
+    },
+    {
+      "previous_public_path": "data/2026-11-11-kcnq-passive/source_constraints_codex.py",
+      "public_path": "data/2026-11-11-kcnq-passive/source_constraints.py",
+      "previous_sha256": "7c1f7373cc99af018b24a72ef543a9255c5f3ade824d234bf5e11be2f7007721",
+      "public_sha256": "3583a9f12799f99145a54419681916362237f73214657ee397d116f73d4c4e95",
+      "bytes": 3298
+    },
+    {
+      "previous_public_path": "data/2026-11-11-mn-pump-loads/README.md",
+      "public_path": "data/2026-11-11-mn-pump-loads/README.md",
+      "previous_sha256": "ab3c6e2e7ec1dd3dfeeb471da2262f1ef60848cd56f7eb8ac5beb59d9445b6b5",
+      "public_sha256": "ef4f12f4e7a73adfcaf5e8625cc97563b9b0b7d91b29094f4b89d45a0994ef44",
+      "bytes": 405
+    },
+    {
+      "previous_public_path": "data/2026-11-11-mn-pump-loads/source_assays_codex.py",
+      "public_path": "data/2026-11-11-mn-pump-loads/source_assays.py",
+      "previous_sha256": "a3dae9be8501cc9d47830e24d297c0c29bb4a722986bb5e3890a8a1ff76a4987",
+      "public_sha256": "ed29e059e2c2eadacdef3197d682ea9f5cac3d0eaedc7b9bf5d280909464172f",
+      "bytes": 5973
+    },
+    {
+      "previous_public_path": "data/2026-11-11-neuronal-maturity-assays/README.md",
+      "public_path": "data/2026-11-11-neuronal-maturity-assays/README.md",
+      "previous_sha256": "87baa612f2b62e66261b486410e8935024b04166db3de3d075540e9e1916d70a",
+      "public_sha256": "cadb60a8669c305edf69ad7e2cef442cee28abe129dceaac5d743693b785f711",
+      "bytes": 416
+    },
+    {
+      "previous_public_path": "data/2026-11-11-neuronal-maturity-assays/source_assays_codex.py",
+      "public_path": "data/2026-11-11-neuronal-maturity-assays/source_assays.py",
+      "previous_sha256": "13104b9f4a23d23649c269894ddec1f601438e736d7b14878a265555a34e106f",
+      "public_sha256": "87445ea00e88af3ff18cd84a1b986a6d0384bdefc941b11d086ebc572d2bf17d",
+      "bytes": 8870
+    },
+    {
+      "previous_public_path": "data/2026-11-11-user-pdf-batch/README.md",
+      "public_path": "data/2026-11-11-user-pdf-batch/README.md",
+      "previous_sha256": "af180075a2a82e78c90a198e834a3c84121a8a12838138e2d9d960f635163e0f",
+      "public_sha256": "11122610762475a5ade14db1017516e59203a4893e62250b15c81e71ef68f509",
+      "bytes": 406
+    },
+    {
+      "previous_public_path": "data/2026-11-11-user-pdf-batch/source_assays_codex.py",
+      "public_path": "data/2026-11-11-user-pdf-batch/source_assays.py",
+      "previous_sha256": "8d031b61f8a8fb20a6c9c0284de7e9ed42afac98418383f643934bc22dd912b6",
+      "public_sha256": "33e0f16546433538ed4c485819f112b37947871da43eca2111b864c175777cb7",
+      "bytes": 7094
+    },
+    {
+      "previous_public_path": "data/2026-11-12-absolute-kcnq/README.md",
+      "public_path": "data/2026-11-12-absolute-kcnq/README.md",
+      "previous_sha256": "7d4bfe6da74591cb09df452f964fb195487d686f47da5ed198740201ef09dbfd",
+      "public_sha256": "ca86323b98c01f9b667a13d577f68d003d200a9dbf275a2987a84ce253fd6fdc",
+      "bytes": 405
+    },
+    {
+      "previous_public_path": "data/2026-11-12-absolute-kcnq/absolute_kcnq_codex.py",
+      "public_path": "data/2026-11-12-absolute-kcnq/absolute_kcnq.py",
+      "previous_sha256": "08c813232b3403b5a0b20aa668f5d542ffbde766d170bd638e032145538f4bad",
+      "public_sha256": "f6003906e4a587a0ecf9c033a8a5bdfa124219dbb618c73f764881f345c7268d",
+      "bytes": 5550
+    },
+    {
+      "previous_public_path": "data/2026-11-12-ion-water-kcnq/README.md",
+      "public_path": "data/2026-11-12-ion-water-kcnq/README.md",
+      "previous_sha256": "31cf3c95b8a160a2a1c056a6f932a739474e37ece723dbfd9a26080cbb721058",
+      "public_sha256": "dcbdf3393f73e4adb1f380c5014f7c0ef42953e2018a9cbed2881ca36b65ea2c",
+      "bytes": 482
+    },
+    {
+      "previous_public_path": "data/2026-11-12-ion-water-kcnq/absolute_current_coupling_codex.py",
+      "public_path": "data/2026-11-12-ion-water-kcnq/absolute_current_coupling.py",
+      "previous_sha256": "7064d570421d5b7de3b67f2f09bdf073b8bc7b2bb31c44238e633e56ff7e9377",
+      "public_sha256": "da8ae9cbb9ccaa57f6b84fd57a80259fdd09d67b07dd6975b6e028ba138a478c",
+      "bytes": 7166
+    },
+    {
+      "previous_public_path": "data/2026-11-12-ion-water-kcnq/compartment_volumes_codex.py",
+      "public_path": "data/2026-11-12-ion-water-kcnq/compartment_volumes.py",
+      "previous_sha256": "497e341f198f150907bff852e19b163fec32b29403adf5e30f9bfbb526e316fc",
+      "public_sha256": "d466ca563ed5ad86dc0415ee08bd1143b040f994bbfd5848d14fee61416b24d6",
+      "bytes": 4164
+    },
+    {
+      "previous_public_path": "data/2026-11-12-kcnq-joint-calibration/README.md",
+      "public_path": "data/2026-11-12-kcnq-joint-calibration/README.md",
+      "previous_sha256": "b2015ee34075c83c7cc33f7627cfaf55151ad6e01ad6d49d9fd21c85899900f4",
+      "public_sha256": "82923505b28bdfd39ea5d1174e478e7cec8e0382cbe58eda7dd9c71a14ef9edb",
+      "bytes": 424
+    },
+    {
+      "previous_public_path": "data/2026-11-12-kcnq-joint-calibration/source_constraints_codex.py",
+      "public_path": "data/2026-11-12-kcnq-joint-calibration/source_constraints.py",
+      "previous_sha256": "7817a6ed68658fd15c026357e15985f06fa32f6c6adbf40e2813b5e141db292b",
+      "public_sha256": "7817a6ed68658fd15c026357e15985f06fa32f6c6adbf40e2813b5e141db292b",
+      "bytes": 5228
+    },
+    {
+      "previous_public_path": "data/2026-11-12-kcnq-kinetics-search/README.md",
+      "public_path": "data/2026-11-12-kcnq-kinetics-search/README.md",
+      "previous_sha256": "cbfbb5c1843dd08aaf29f0d82df2e97d24703561b7a8b37ccc7c4ac0269f4482",
+      "public_sha256": "2486f847564d1a1f24e17466821d4021b62cd1084e8148d9384086e6f4988519",
+      "bytes": 414
+    },
+    {
+      "previous_public_path": "data/2026-11-12-kcnq-kinetics-search/kinetic_assays_codex.py",
+      "public_path": "data/2026-11-12-kcnq-kinetics-search/kinetic_assays.py",
+      "previous_sha256": "9f83f78b2edf0fc92c8f1b3e9d5eba1d58ac1e7d9363a567fb79949a3040a1c7",
+      "public_sha256": "248241b853969b8d30d664ddc8a27e186f2f0e06136bcc17401af15e29f63411",
+      "bytes": 5431
+    },
+    {
+      "previous_public_path": "data/2026-11-12-kcnq-pump-primary/README.md",
+      "public_path": "data/2026-11-12-kcnq-pump-primary/README.md",
+      "previous_sha256": "fca8d7bd65b9727941d0a2dd0fe8bbff1637be1fea6ed5ecf16723a627271fd3",
+      "public_sha256": "c4408110308a6bed79e4a9169b199ea5683f14698fb6501feda77fb5c4eb347d",
+      "bytes": 417
+    },
+    {
+      "previous_public_path": "data/2026-11-12-kcnq-pump-primary/assay_constraints_codex.py",
+      "public_path": "data/2026-11-12-kcnq-pump-primary/assay_constraints.py",
+      "previous_sha256": "6cdde13a0d0e0c09dee3d8d1def3686ceec77718386c514d58581ec77f805ff5",
+      "public_sha256": "7bf338ba107e3b2d3d9bd572851bc0789a82d524fe000aa6adbf0f23104f52cb",
+      "bytes": 4936
+    },
+    {
+      "previous_public_path": "data/2026-11-12-potassium-flux-audit/README.md",
+      "public_path": "data/2026-11-12-potassium-flux-audit/README.md",
+      "previous_sha256": "7a70db162b587b7ee6f851b05d7a4ec70b9d9d9dacff507353580cb33ec9a5d1",
+      "public_sha256": "1e5a531728344d27b3b790845afb5c82879d34aacf399bc02f57d1f2b666d72e",
+      "bytes": 490
+    },
+    {
+      "previous_public_path": "data/2026-11-12-potassium-flux-audit/instantaneous_codex.py",
+      "public_path": "data/2026-11-12-potassium-flux-audit/instantaneous.py",
+      "previous_sha256": "c888e2ed68aec6e8f1b99bf611e0007bc69447f55ac3446d99ad9fc9cb30b35f",
+      "public_sha256": "2b5e86991f0fb02f13c34b3abcf96c6f478eed9d5bf05178c78f366c4b4589c4",
+      "bytes": 7209
+    },
+    {
+      "previous_public_path": "data/2026-11-12-potassium-flux-audit/ledger_audit_codex.py",
+      "public_path": "data/2026-11-12-potassium-flux-audit/ledger_audit.py",
+      "previous_sha256": "b184f9f75311de0cc63e476d51dccf8b030dde7ef91ed947ea0dc877205dbcaa",
+      "public_sha256": "58e6ccc151c993d0a1acb120f9c0aaf3d0ab5fe6d7206e8b0bef22355f31f595",
+      "bytes": 2552
+    },
+    {
+      "previous_public_path": "data/2026-11-12-potassium-flux-audit/source_assays_codex.py",
+      "public_path": "data/2026-11-12-potassium-flux-audit/source_assays.py",
+      "previous_sha256": "58e22654eb18e17060a81db3c5fc65b61302e7bb20e8d4aed101eced1382ec11",
+      "public_sha256": "7fa415723a3ec1da4066cdaa5d35fe4999c9aee1f2041ddb2d89997236184445",
+      "bytes": 973
+    },
+    {
+      "previous_public_path": "data/2026-11-13-acid-extrusion/README.md",
+      "public_path": "data/2026-11-13-acid-extrusion/README.md",
+      "previous_sha256": "365c77782fb29549947dc993365cb258870c9930c194792a717319c2aa095c87",
+      "public_sha256": "54503856f13a5c7a9261d602053760e9f30bc4e55f55d65c3bc64087a28282c6",
+      "bytes": 135
+    },
+    {
+      "previous_public_path": "data/2026-11-13-acid-extrusion/acid_extrusion_claude.py",
+      "public_path": "data/2026-11-13-acid-extrusion/acid_extrusion.py",
+      "previous_sha256": "0ebae52b198f394ecb2e4f78f4a6e9b814f2de070f31b9845fd877187579c39f",
+      "public_sha256": "0ebae52b198f394ecb2e4f78f4a6e9b814f2de070f31b9845fd877187579c39f",
+      "bytes": 7086
+    },
+    {
+      "previous_public_path": "data/2026-11-13-coupled-assumption-validation/README.md",
+      "public_path": "data/2026-11-13-coupled-assumption-validation/README.md",
+      "previous_sha256": "6ce3a57351ac3a106594fed806f635641e283d613ae6e1d81317262e1e3cbfc2",
+      "public_sha256": "cc7713eb310e2161b84c9caa0f111bb6053a465327b45c6e9126482c209b26b1",
+      "bytes": 433
+    },
+    {
+      "previous_public_path": "data/2026-11-13-coupled-assumption-validation/run_codex.py",
+      "public_path": "data/2026-11-13-coupled-assumption-validation/run.py",
+      "previous_sha256": "a7323ad74c9e8e6dccf6e41f820089c4ffd2f225bd97522a0f1742f66352dcf6",
+      "public_sha256": "d744c9194840328db5f1a24b9e789d37d8b11cc771b43205cf372c416571a8f4",
+      "bytes": 7607
+    },
+    {
+      "previous_public_path": "data/2026-11-13-coupled-assumption-validation/scenarios_codex.py",
+      "public_path": "data/2026-11-13-coupled-assumption-validation/scenarios.py",
+      "previous_sha256": "94d70357ae3d3db5698bcdc655841fc05040fa66a006073345b9bae3181c598e",
+      "public_sha256": "94d70357ae3d3db5698bcdc655841fc05040fa66a006073345b9bae3181c598e",
+      "bytes": 978
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_15_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_15_features.json",
+      "previous_sha256": "19ae0141e616cb64bf12842045271696519eb0be11d9bb272f6b9440de9122e1",
+      "public_sha256": "19ae0141e616cb64bf12842045271696519eb0be11d9bb272f6b9440de9122e1",
+      "bytes": 5822
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_25_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_25_features.json",
+      "previous_sha256": "d3cb1103d7e6171003fa610455988e1b27e05efc60f8d79f4eb5f24f58109c05",
+      "public_sha256": "d3cb1103d7e6171003fa610455988e1b27e05efc60f8d79f4eb5f24f58109c05",
+      "bytes": 5819
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_50_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_50_features.json",
+      "previous_sha256": "c6a8cfeb8251de1ea6116b47b6175a144a08bc4e86ae60db5420a178209d4512",
+      "public_sha256": "c6a8cfeb8251de1ea6116b47b6175a144a08bc4e86ae60db5420a178209d4512",
+      "bytes": 5819
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_15_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_15_features.json",
+      "previous_sha256": "d599d44f0d613cd213458bb93c9043dee7f78ad74333fd1eb07a33dfd8dc8558",
+      "public_sha256": "d599d44f0d613cd213458bb93c9043dee7f78ad74333fd1eb07a33dfd8dc8558",
+      "bytes": 5838
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_25_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_25_features.json",
+      "previous_sha256": "c47ebb97b5e4e987923a22f1d14afb616973273771998cd718edf7fe4a178475",
+      "public_sha256": "c47ebb97b5e4e987923a22f1d14afb616973273771998cd718edf7fe4a178475",
+      "bytes": 5837
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_50_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_50_features.json",
+      "previous_sha256": "fd6417026b702c1e7f1938a45c38e223f70d49912fb0727857b29578c0dae57c",
+      "public_sha256": "fd6417026b702c1e7f1938a45c38e223f70d49912fb0727857b29578c0dae57c",
+      "bytes": 5835
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_15_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_15_features.json",
+      "previous_sha256": "32444c29116ec97973c6ecf6abdb7beb5d766fd6dde9cf29331632c3653f5dd1",
+      "public_sha256": "32444c29116ec97973c6ecf6abdb7beb5d766fd6dde9cf29331632c3653f5dd1",
+      "bytes": 5835
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_25_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_25_features.json",
+      "previous_sha256": "862030301d985e36f8d4f98bb1fc1e1a54fafb52bef245b7f04a138bdd734b7b",
+      "public_sha256": "862030301d985e36f8d4f98bb1fc1e1a54fafb52bef245b7f04a138bdd734b7b",
+      "bytes": 5835
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_25post108_control_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_25post108_control_features.json",
+      "previous_sha256": "e928157124cb19fde1c82c5a4a49dd9224fbfebe6057dd55aa6da9a9e5a69693",
+      "public_sha256": "e928157124cb19fde1c82c5a4a49dd9224fbfebe6057dd55aa6da9a9e5a69693",
+      "bytes": 5840
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_50_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_50_features.json",
+      "previous_sha256": "7aef16efd9e81640dcbadf74ae0e91a99cc3d2fcbf9299bc2de7617ba1d7d19e",
+      "public_sha256": "7aef16efd9e81640dcbadf74ae0e91a99cc3d2fcbf9299bc2de7617ba1d7d19e",
+      "bytes": 5837
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_P01_Selvaraj-Con1_15_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_P01_Selvaraj-Con1_15_features.json",
+      "previous_sha256": "ed65272a73cf778478b41f267d9f0c6c4d374fca613754a795b8a231d2288586",
+      "public_sha256": "ed65272a73cf778478b41f267d9f0c6c4d374fca613754a795b8a231d2288586",
+      "bytes": 5838
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_P01_Selvaraj-Con2_15_features_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_P01_Selvaraj-Con2_15_features.json",
+      "previous_sha256": "e25705772b67f137e4115e59f832941f778ac93a1c7e8404f9b23c687db75e97",
+      "public_sha256": "e25705772b67f137e4115e59f832941f778ac93a1c7e8404f9b23c687db75e97",
+      "bytes": 5838
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C05_control_0_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C05_control_0_metrics.json",
+      "previous_sha256": "608f22a98242a030cecf39aa785a80d56db63e2e6c6a336e398573ca3eaa76b7",
+      "public_sha256": "608f22a98242a030cecf39aa785a80d56db63e2e6c6a336e398573ca3eaa76b7",
+      "bytes": 25818
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C05_repeated_0.001_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C05_repeated_0.001_metrics.json",
+      "previous_sha256": "bfc6101f9d2eca474b75ee4187f1af57006b3d1830f48a99d7cf45379f3b25e0",
+      "public_sha256": "bfc6101f9d2eca474b75ee4187f1af57006b3d1830f48a99d7cf45379f3b25e0",
+      "bytes": 25829
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_continuous_0.0001_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_continuous_0.0001_metrics.json",
+      "previous_sha256": "8e964b327a5826ac15d1d673a28331f533deafce448621dbd64dc69238d50187",
+      "public_sha256": "8e964b327a5826ac15d1d673a28331f533deafce448621dbd64dc69238d50187",
+      "bytes": 25802
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_continuous_0.001_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_continuous_0.001_metrics.json",
+      "previous_sha256": "a9c81f507ff0ea68bb915cbcc50a428e930f536c13017b4aab9d794f1b246f53",
+      "public_sha256": "a9c81f507ff0ea68bb915cbcc50a428e930f536c13017b4aab9d794f1b246f53",
+      "bytes": 25816
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_control_0_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_control_0_metrics.json",
+      "previous_sha256": "2141e05c1732f65bd9378a2b795730ed755ffcd01cbdd4da54c0bafcb5654c4d",
+      "public_sha256": "2141e05c1732f65bd9378a2b795730ed755ffcd01cbdd4da54c0bafcb5654c4d",
+      "bytes": 25827
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_repeated_0.0001_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_repeated_0.0001_metrics.json",
+      "previous_sha256": "a60e81b0286d0826549e7af504d588c8458b7e53eddd8edd8e474609783b94bc",
+      "public_sha256": "a60e81b0286d0826549e7af504d588c8458b7e53eddd8edd8e474609783b94bc",
+      "bytes": 25828
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_repeated_0.001_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_C08_repeated_0.001_metrics.json",
+      "previous_sha256": "04a9c6f6ee77f031892ce34f3eb2723966367a513668d65d4cdb47cbfb3585e9",
+      "public_sha256": "04a9c6f6ee77f031892ce34f3eb2723966367a513668d65d4cdb47cbfb3585e9",
+      "bytes": 25814
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_P01_control_0_metrics_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/J13_load36_P01_control_0_metrics.json",
+      "previous_sha256": "65728713ce9882f9e94c8e9c1b251fc1ed46e30ff7d438fccca0d479a42afefc",
+      "public_sha256": "65728713ce9882f9e94c8e9c1b251fc1ed46e30ff7d438fccca0d479a42afefc",
+      "bytes": 25838
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/README.md",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/README.md",
+      "previous_sha256": "e591a625900d7f566c8c229751945aa8388697c2fec9cc0e626e46f998536d6e",
+      "public_sha256": "8857b0b4282c83c0e9f1a7d855cf990dea9662c2a77ab7827d8154a24bf8daf3",
+      "bytes": 2718
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/capture_codex.py",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/capture.py",
+      "previous_sha256": "525ee5bb77742aeb3d3837d8f697e4db4c8ec5d5d5a8ecc2850f4b594a9303d2",
+      "public_sha256": "48aa1ebca9444e183b78f052ec07a590f41c38f6e6da21a31901a2a0792e3c0e",
+      "bytes": 3902
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic.json",
+      "previous_sha256": "18dadd855955990ea070d30fa9190c339f92fba1459dc9b8e83d7582d2f40403",
+      "public_sha256": "18dadd855955990ea070d30fa9190c339f92fba1459dc9b8e83d7582d2f40403",
+      "bytes": 12790
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic_codex.py",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic.py",
+      "previous_sha256": "3c2acc291a0ee8340637b6bb4077b01b0d83c279710e84a7e7966a11b385559b",
+      "public_sha256": "0297033422c2369e74397cc67b6267ed06a1d8f0e1ac7312ba8a1ad4835e3ac2",
+      "bytes": 4844
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/declared_candidates_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/declared_candidates.json",
+      "previous_sha256": "0396c323b322b87d8223686dbd2034b53780e4076687abe06b8198639d972ecb",
+      "public_sha256": "0396c323b322b87d8223686dbd2034b53780e4076687abe06b8198639d972ecb",
+      "bytes": 6278
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/electrical_summary_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/electrical_summary.json",
+      "previous_sha256": "7cf11b0be9a28c482d6b8016dcc3d02b216ec3577e264a453b7d5ebd18bea155",
+      "public_sha256": "1844e663786bf4670b62f71c9a9dd196be186ea0da9f242c6c91daa304ce53c4",
+      "bytes": 7958
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/full_codex.py",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/full.py",
+      "previous_sha256": "6a8531aa2bf16942902f3fd1a7621866f83c05b508d34b6efabe04665cd3d826",
+      "public_sha256": "a1252bb054fe2876168478b78a4b4a8289c10961491255477e2326afbf85b62f",
+      "bytes": 4789
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/long_summary_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/long_summary.json",
+      "previous_sha256": "4484091aaa788c0665d6e102b8bb19c3146aebbcc2ff76479603b47e79866968",
+      "public_sha256": "f4927a87559af8fe807bc44cf99b98ac82d19300833c06ec192efd867eac6fd4",
+      "bytes": 11242
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/options_codex.py",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/options.py",
+      "previous_sha256": "3014b9033a927f20a636b9ed2c2a41c201debf59d4f1a9c0d43d5b3647d1fc0e",
+      "public_sha256": "72e6814d1d6b0801885457994c74c234c00e6431e43b418280f99acee10ed60e",
+      "bytes": 1502
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/selected_parameters_codex.json",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/selected_parameters.json",
+      "previous_sha256": "8164a5b8ca7565408a45f6657bea54b86ec117f15c15b444d6204154cce6d4a2",
+      "public_sha256": "8164a5b8ca7565408a45f6657bea54b86ec117f15c15b444d6204154cce6d4a2",
+      "bytes": 185
+    },
+    {
+      "previous_public_path": "data/2026-11-13-joint-kcnq-pump-v2/summarize_codex.py",
+      "public_path": "data/2026-11-13-joint-kcnq-pump-v2/summarize.py",
+      "previous_sha256": "61fbcf43d49a94bfee5b673da620f48dda67de99065b1a03e3583625f0139327",
+      "public_sha256": "30cc645512cf620a5dc570683650e858b8319a957756b00499d09c79ccd89d9c",
+      "bytes": 5327
+    },
+    {
+      "previous_public_path": "data/2026-11-13-mn-modulation-atp/README.md",
+      "public_path": "data/2026-11-13-mn-modulation-atp/README.md",
+      "previous_sha256": "ff6151c1360897528986ccbf308b3779befd8ef765e8f0480649de2504c67b5a",
+      "public_sha256": "4a81a9ab3c9bbacd391fdfe3ef6cb1b213b5e23006965a82c9b98aed0be13bf0",
+      "bytes": 409
+    },
+    {
+      "previous_public_path": "data/2026-11-13-mn-modulation-atp/source_assays_codex.py",
+      "public_path": "data/2026-11-13-mn-modulation-atp/source_assays.py",
+      "previous_sha256": "f9d4a1d9bce1c0bf0845ec5cdfd7de15c08edc45bf69d11bd804e3499d8285d3",
+      "public_sha256": "8704b68b49182eef76714569ce5d7f6b3b61479a431eba29d66ed202c8a5fae8",
+      "bytes": 8900
+    },
+    {
+      "previous_public_path": "data/2026-11-13-pump-response-test/README.md",
+      "public_path": "data/2026-11-13-pump-response-test/README.md",
+      "previous_sha256": "d30581a52c1a63d31417ea027121ca4075c4961a9fb6d770ff3e03a861f7d462",
+      "public_sha256": "791980058685fd304bb5ce333b61cb6f7a62b4dc2bb44cf8858d8271a0e24713",
+      "bytes": 410
+    },
+    {
+      "previous_public_path": "data/2026-11-13-pump-response-test/pump_response_codex.py",
+      "public_path": "data/2026-11-13-pump-response-test/pump_response.py",
+      "previous_sha256": "76e56bfb8159b1fe5bd74bb4f014c4ca6ea567a81458b39a4b2329ff45831d38",
+      "public_sha256": "76e56bfb8159b1fe5bd74bb4f014c4ca6ea567a81458b39a4b2329ff45831d38",
+      "bytes": 4368
+    },
+    {
+      "previous_public_path": "data/README.md",
+      "public_path": "data/README.md",
+      "previous_sha256": "5fd00013cd5b68dbea12b9f95ca5f7d46c19a6782831a481c0b5ba04d4bf78da",
+      "public_sha256": "5fd00013cd5b68dbea12b9f95ca5f7d46c19a6782831a481c0b5ba04d4bf78da",
+      "bytes": 10087
+    },
+    {
+      "previous_public_path": "data/neuron-model/README.md",
+      "public_path": "data/neuron-model/README.md",
+      "previous_sha256": "54d1a220ed4b0d4192bc2788c675bb9f611360001fd106d2af16d80157b8ebcb",
+      "public_sha256": "ff124e1b5f89a0b2ffac0b1148606cbb31ec7c16870b21fbb5e08a9e45143de2",
+      "bytes": 577
+    },
+    {
+      "previous_public_path": "data/neuron-model/evidence_extensions_codex.py",
+      "public_path": "data/neuron-model/evidence_extensions.py",
+      "previous_sha256": "dc634a64ad7f8885b7db0f01e0886f8f6d3bd1dd4abd9db450810636b5a8ab5f",
+      "public_sha256": "dc634a64ad7f8885b7db0f01e0886f8f6d3bd1dd4abd9db450810636b5a8ab5f",
+      "bytes": 9087
+    },
+    {
+      "previous_public_path": "data/neuron-model/integrated_neuron_codex.py",
+      "public_path": "data/neuron-model/integrated_neuron.py",
+      "previous_sha256": "77fd68762b9329d99cd170eeea794b1d06947e74ed2750fae5240470a8065873",
+      "public_sha256": "97d616ba0ec49825610c940ae7be9ceba34166b824ad1212e5ffc4f7bee1368d",
+      "bytes": 7520
+    },
+    {
+      "previous_public_path": "data/neuron-model/model_api_codex.py",
+      "public_path": "data/neuron-model/model_api.py",
+      "previous_sha256": "6d7683f64d1bbf7f23e7aaba9bb9d1c5c59e616f38c43e32a31d3bd87b8db4fc",
+      "public_sha256": "7ff421ac00f137d5e1a97e8553090c6dddec6f2583d6732e2440fe66d3479761",
+      "bytes": 87298
+    },
+    {
+      "previous_public_path": "data/neuron-model/model_contracts_codex.py",
+      "public_path": "data/neuron-model/model_contracts.py",
+      "previous_sha256": "6a87cb42c987f3feb7e10bdcec51818a541cf9ae091b895d74f4d00e90406daf",
+      "public_sha256": "74532bd040589abce569390c90eebb2bd162a9407b27efed89ae35375459c596",
+      "bytes": 6166
+    },
+    {
+      "previous_public_path": "data/neuron-model/state_layout_v1_codex.json",
+      "public_path": "data/neuron-model/state_layout_v1.json",
+      "previous_sha256": "7fc519b8abed21776e67f4f3df79e53734545d325eec96d116200e8d4f1563ca",
+      "public_sha256": "d91da153ff865373a2a8ea90f79367df8dd32a8a6b8350776bf11d39ddede7b2",
+      "bytes": 165225
+    },
+    {
+      "previous_public_path": "docs/ACID_STAGE_0.3.0_codex.md",
+      "public_path": "docs/ACID_STAGE_0.3.0.md",
+      "previous_sha256": "b92771d8e56014af5fd379a555c9edd0748f8563486413b35e0ba4bc4981754a",
+      "public_sha256": "22750f862ecf7286c84a7f1cdd6845c52732482f4388bb2da1c6ff2b0672b8e1",
+      "bytes": 3734
+    },
+    {
+      "previous_public_path": "docs/ASSUMPTIONS_codex.md",
+      "public_path": "docs/ASSUMPTIONS.md",
+      "previous_sha256": "fca2f3eacb52864347ba80739bf30f7216fe86194933c3f69e129c3fc850b832",
+      "public_sha256": "6af27ede0e1740d05a767808a05efff89dcdbda6d0573afb199e4f6f7150ea5d",
+      "bytes": 2904
+    },
+    {
+      "previous_public_path": "docs/DATA_codex.md",
+      "public_path": "docs/DATA.md",
+      "previous_sha256": "e6acac95049c9d10e307aac06d8301dd028253e2867d7beaaefbb756c0eba985",
+      "public_sha256": "16313cf13b682a9967ecafbad2ac6be6fa83174deb793bb0997fe25c3c046cb2",
+      "bytes": 1968
+    },
+    {
+      "previous_public_path": "docs/LICENSE_SCOPE_codex.md",
+      "public_path": "docs/LICENSE_SCOPE.md",
+      "previous_sha256": "186839c755d4cc47f5d4445254cfcd6b74b28e00364cb6a9db00e897b2aa7330",
+      "public_sha256": "9a18f6369f8880696425a2bd8d4f1855fc442fe5c0ef103960994d826f2e6158",
+      "bytes": 5722
+    },
+    {
+      "previous_public_path": "docs/MODEL_codex.md",
+      "public_path": "docs/MODEL.md",
+      "previous_sha256": "c1f5fe1a97d99091e78e94aedc71a5db7a91794e08270adca50d3405333f7a7f",
+      "public_sha256": "fa44a469fe2558742faa21727b2be63fec526510eba0254335e63ee33acb0097",
+      "bytes": 3551
+    },
+    {
+      "previous_public_path": "docs/README.md",
+      "public_path": "docs/README.md",
+      "previous_sha256": "cd4ae94f7cb468379592444c297404783d5f1812de5f57a71adf0e0876f66654",
+      "public_sha256": "b56671e487e66f85d980c0eec4d15b30e8d0b5600dbaf3e9bfdb1f233b289c14",
+      "bytes": 556
+    },
+    {
+      "previous_public_path": "docs/RUNNING_codex.md",
+      "public_path": "docs/RUNNING.md",
+      "previous_sha256": "021757d2fcf005a91a993dd3431248490c1edea5d7e4d27d811e499394793df5",
+      "public_sha256": "c663f62c6f1f0774fa68054097bdf4441eaac666e5af14a0825a0ac4f1561b8f",
+      "bytes": 3895
+    },
+    {
+      "previous_public_path": "docs/SCOPE_codex.md",
+      "public_path": "docs/SCOPE.md",
+      "previous_sha256": "0b10233b94b94eddb10f8dac9d2dc5ab209ae490f3dbee5c7c8221bb571b0bdc",
+      "public_sha256": "1130697aee728cddbd02c3eb1a5cf2094b7d12051ac339180e57dd7e5a368fb7",
+      "bytes": 2352
+    },
+    {
+      "previous_public_path": "docs/VALIDATION_codex.md",
+      "public_path": "docs/VALIDATION.md",
+      "previous_sha256": "e0d3b3ad8d922e95bfea18750fa7efb9e3b7c54ef6214aa14d5699b291bb93e7",
+      "public_sha256": "469c5b09c9a7ed24a25a14bc6e3f8e3d6de11bb21d335c3233957c94107e6bda",
+      "bytes": 4669
+    },
+    {
+      "previous_public_path": "parameters/README.md",
+      "public_path": "parameters/README.md",
+      "previous_sha256": "fc0cc23bedc658a79ea065ceab8f8b417b1de857c3b079e12921a84348580c99",
+      "public_sha256": "a75f3d5a6063e9055c32fd54d4600ea95953dde9a31616fc92dd7d4d42efed82",
+      "bytes": 1128
+    },
+    {
+      "previous_public_path": "parameters/acid_C08_active_config_codex.json",
+      "public_path": "parameters/acid_C08_active_config.json",
+      "previous_sha256": "b3e62ec21616d98a33f1ac139fd387f58a8491342aff697d6f3894fd248e1915",
+      "public_sha256": "b3e62ec21616d98a33f1ac139fd387f58a8491342aff697d6f3894fd248e1915",
+      "bytes": 86170
+    },
+    {
+      "previous_public_path": "parameters/acid_extrusion_codex.json",
+      "public_path": "parameters/acid_extrusion.json",
+      "previous_sha256": "861824ca2fe550d8dc80d23f7c2529fb736087f498b8adbe675ccfc39ac1ac15",
+      "public_sha256": "861824ca2fe550d8dc80d23f7c2529fb736087f498b8adbe675ccfc39ac1ac15",
+      "bytes": 894
+    },
+    {
+      "previous_public_path": "parameters/registry_codex.csv",
+      "public_path": "parameters/registry.csv",
+      "previous_sha256": "2889b61af50c4f68f82511eb89f9ed0571f771978386e37b9657cbac36678b8f",
+      "public_sha256": "2889b61af50c4f68f82511eb89f9ed0571f771978386e37b9657cbac36678b8f",
+      "bytes": 515342
+    },
+    {
+      "previous_public_path": "parameters/registry_codex.json",
+      "public_path": "parameters/registry.json",
+      "previous_sha256": "1d065f34c4a5ccbd47197c6ab286b6c1c33aa657496cc2d947be094a076ca723",
+      "public_sha256": "c379e72039f2efd58492d848ade7ccf22e984d814a022cc66c4f39a6b7e4b14d",
+      "bytes": 954562
+    },
+    {
+      "previous_public_path": "provenance/AGPL-3.0-0.1.2.txt",
+      "public_path": "provenance/AGPL-3.0-0.1.2.txt",
+      "previous_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "public_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "bytes": 34523
+    },
+    {
+      "previous_public_path": "provenance/README.md",
+      "public_path": "provenance/README.md",
+      "previous_sha256": "127750a3d9644d3fed84fedca1190c2989eaf729b82c1c34a00024603084bd8b",
+      "public_sha256": "92d42a4c805a8534c273df049f14fedc625043720065af3d0877a8a6eb05fcab",
+      "bytes": 1285
+    },
+    {
+      "previous_public_path": "provenance/acid_release_codex.json",
+      "public_path": "provenance/acid_release.json",
+      "previous_sha256": "84e4232aded820c8a8946e5b83701e0f1575a47702d4bf1f3188e6b68cdd5d7a",
+      "public_sha256": "84e4232aded820c8a8946e5b83701e0f1575a47702d4bf1f3188e6b68cdd5d7a",
+      "bytes": 1169
+    },
+    {
+      "previous_public_path": "provenance/acid_validation_codex.json",
+      "public_path": "provenance/acid_validation.json",
+      "previous_sha256": "adf6cccf8592c250df4e03e4cef03bf79f509c6b2a5c2a950dedde103b5214a0",
+      "public_sha256": "adf6cccf8592c250df4e03e4cef03bf79f509c6b2a5c2a950dedde103b5214a0",
+      "bytes": 52520
+    },
+    {
+      "previous_public_path": "provenance/license_adoption_codex.json",
+      "public_path": "provenance/license_adoption.json",
+      "previous_sha256": "d558ee15b84c527b0bc55409ffc3a8d2db1944fd1b79fd7052986f7cb94e04ab",
+      "public_sha256": "d558ee15b84c527b0bc55409ffc3a8d2db1944fd1b79fd7052986f7cb94e04ab",
+      "bytes": 606
+    },
+    {
+      "previous_public_path": "provenance/license_transition_0.2.0_codex.json",
+      "public_path": "provenance/license_transition_0.2.0.json",
+      "previous_sha256": "97b1eb5ca258959be10b8239a01c52f4c26bfa03f36f979d5199960fea24bc81",
+      "public_sha256": "97b1eb5ca258959be10b8239a01c52f4c26bfa03f36f979d5199960fea24bc81",
+      "bytes": 996
+    },
+    {
+      "previous_public_path": "provenance/source_manifest_codex.json",
+      "public_path": "provenance/source_manifest.json",
+      "previous_sha256": "5e036d253c0114a0908e448d6b9889259f85334bd5aaebab6ea1e2bb023aba33",
+      "public_sha256": "7db25f6ed43d165b45d21ada971bb349fc26c3caaa2f4ef0d2f7b3416e2f5af8",
+      "bytes": 115405
+    },
+    {
+      "previous_public_path": "provenance/validation_codex.json",
+      "public_path": "provenance/validation.json",
+      "previous_sha256": "a6f4195bac89c72c6fb7f09a466f4649105f976176f43a158c2c1b4f26a106c7",
+      "public_sha256": "a6f4195bac89c72c6fb7f09a466f4649105f976176f43a158c2c1b4f26a106c7",
+      "bytes": 3398
+    },
+    {
+      "previous_public_path": "publication_optional_neuron_codex.py",
+      "public_path": "publication_optional_neuron.py",
+      "previous_sha256": "1bcbffef181e6e95268cba718a205d59fd4d73ddcdea012588b5f9441b5b33b2",
+      "public_sha256": "42f4a070240dd418188351cea738b30e158eb627ad1951014d2d175e9d539610",
+      "bytes": 1013
+    },
+    {
+      "previous_public_path": "references/README.md",
+      "public_path": "references/README.md",
+      "previous_sha256": "539a0a2052b9e00cd76e6319a39139970e734284f97000fc84c7c398cc0a41ce",
+      "public_sha256": "50bfd428bebff1c1bf6e417dfe5c48eb2356561f9149dc7a1949630a3bd3e238",
+      "bytes": 110
+    },
+    {
+      "previous_public_path": "references/source_links_codex.json",
+      "public_path": "references/source_links.json",
+      "previous_sha256": "1e438536d742d6da09ecbec5a0c1aad9204d3a453f5f640bba32ae9f0f2a3756",
+      "public_sha256": "ed831f5b830bb2267767ad05a7e5686f2d75691d3b54db707c73f62e3ae1c1ec",
+      "bytes": 4893
+    },
+    {
+      "previous_public_path": "requirements-lock.txt",
+      "public_path": "requirements-lock.txt",
+      "previous_sha256": "06638d1d662f0da3ed88bb8f576f08a25bb535994a450cf343141816b2611421",
+      "public_sha256": "06638d1d662f0da3ed88bb8f576f08a25bb535994a450cf343141816b2611421",
+      "bytes": 399
+    },
+    {
+      "previous_public_path": "requirements.txt",
+      "public_path": "requirements.txt",
+      "previous_sha256": "c5c47ecfbac90e9ce72b9e8a547f723374dc09af7dd51685093d122c8199671f",
+      "public_sha256": "c5c47ecfbac90e9ce72b9e8a547f723374dc09af7dd51685093d122c8199671f",
+      "bytes": 25
+    },
+    {
+      "previous_public_path": "results/README.md",
+      "public_path": "results/README.md",
+      "previous_sha256": "524a45747b065035e100abca365d5b94978807726497ff2ed4679e5b2280e71c",
+      "public_sha256": "1b318b28a04ab8e89bb5d6a7fe13123d57cd42e2a18db3e4a9f2b041a40bf2ea",
+      "bytes": 2061
+    },
+    {
+      "previous_public_path": "results/acid_acceptance_results_codex.json",
+      "public_path": "results/acid_acceptance_results.json",
+      "previous_sha256": "922182a42abd73be1405b08aac300a2d3bd11213d256fd5af011b8db92aa60d1",
+      "public_sha256": "922182a42abd73be1405b08aac300a2d3bd11213d256fd5af011b8db92aa60d1",
+      "bytes": 9282
+    },
+    {
+      "previous_public_path": "results/acid_electrical_audit_codex.json",
+      "public_path": "results/acid_electrical_audit.json",
+      "previous_sha256": "08c28607c7c6bd595c8bcd9fd5994030f5d7edd67183401fd8c438318bb312df",
+      "public_sha256": "08c28607c7c6bd595c8bcd9fd5994030f5d7edd67183401fd8c438318bb312df",
+      "bytes": 39022
+    },
+    {
+      "previous_public_path": "results/acid_guard_test_codex.json",
+      "public_path": "results/acid_guard_test.json",
+      "previous_sha256": "c1122bfc38055e6ca407080d573155d0dabd24932492b9ff284a8409bf4339d0",
+      "public_sha256": "c1122bfc38055e6ca407080d573155d0dabd24932492b9ff284a8409bf4339d0",
+      "bytes": 302
+    },
+    {
+      "previous_public_path": "results/acid_recovery_codex.png",
+      "public_path": "results/acid_recovery.png",
+      "previous_sha256": "b60c298ea2cac2084842eaadb072651f7d6a96c0418ef0a2f83c4bb370cf8110",
+      "public_sha256": "b60c298ea2cac2084842eaadb072651f7d6a96c0418ef0a2f83c4bb370cf8110",
+      "bytes": 253707
+    },
+    {
+      "previous_public_path": "results/acid_reference_smoke_codex.npz",
+      "public_path": "results/acid_reference_smoke.npz",
+      "previous_sha256": "930baa8a3d5305128091968adf240e84e829d1b9ddbfba7fa5eacccbf52fabd0",
+      "public_sha256": "930baa8a3d5305128091968adf240e84e829d1b9ddbfba7fa5eacccbf52fabd0",
+      "bytes": 1643820
+    },
+    {
+      "previous_public_path": "results/acid_refinement_comparison_codex.json",
+      "public_path": "results/acid_refinement_comparison.json",
+      "previous_sha256": "ea8fd213775dc1a391e100cc9f104adcf19f223d076a7244745cc0435da98710",
+      "public_sha256": "ea8fd213775dc1a391e100cc9f104adcf19f223d076a7244745cc0435da98710",
+      "bytes": 1358
+    },
+    {
+      "previous_public_path": "results/acid_summary_codex.json",
+      "public_path": "results/acid_summary.json",
+      "previous_sha256": "f0b4d0e7c1c85324a09f6b2b9ebd28c5e41e565973c67c94d7e5104ffbc6470a",
+      "public_sha256": "f0b4d0e7c1c85324a09f6b2b9ebd28c5e41e565973c67c94d7e5104ffbc6470a",
+      "bytes": 131962
+    },
+    {
+      "previous_public_path": "results/acid_unit_checks_codex.json",
+      "public_path": "results/acid_unit_checks.json",
+      "previous_sha256": "6e6a6fed3ee03a7d1c02086a2ae2ec0dd6e4b38396fe05bd88d6198bc717d67e",
+      "public_sha256": "6e6a6fed3ee03a7d1c02086a2ae2ec0dd6e4b38396fe05bd88d6198bc717d67e",
+      "bytes": 283
+    },
+    {
+      "previous_public_path": "results/electrical_comparison_codex.png",
+      "public_path": "results/electrical_comparison.png",
+      "previous_sha256": "3e9c43911413b526b6f6a31b0a67a178302c164352773426ea6c8c12cb7d48c7",
+      "public_sha256": "3e9c43911413b526b6f6a31b0a67a178302c164352773426ea6c8c12cb7d48c7",
+      "bytes": 176026
+    },
+    {
+      "previous_public_path": "results/reference_smoke_codex.npz",
+      "public_path": "results/reference_smoke.npz",
+      "previous_sha256": "b997f42b4fe20f2f5dd20e415d19d2c310f1b178fd5f860d530a19e411a0da0e",
+      "public_sha256": "b997f42b4fe20f2f5dd20e415d19d2c310f1b178fd5f860d530a19e411a0da0e",
+      "bytes": 1640147
+    },
+    {
+      "previous_public_path": "results/reference_smoke_summary_codex.json",
+      "public_path": "results/reference_smoke_summary.json",
+      "previous_sha256": "b5d8dc631802e7b8ce08713b17a9462ae60f722ce15deb61a0700fb6dce7a048",
+      "public_sha256": "b5d8dc631802e7b8ce08713b17a9462ae60f722ce15deb61a0700fb6dce7a048",
+      "bytes": 22311
+    },
+    {
+      "previous_public_path": "results/verified_pulse_figure_codex.png",
+      "public_path": "results/verified_pulse_figure.png",
+      "previous_sha256": "5f5cb5777e7cab1e92f3e5a41d6c18638b80abcf13d578f18c800d7beabe9dea",
+      "public_sha256": "5f5cb5777e7cab1e92f3e5a41d6c18638b80abcf13d578f18c800d7beabe9dea",
+      "bytes": 84943
+    },
+    {
+      "previous_public_path": "results/verified_pulse_summary_codex.json",
+      "public_path": "results/verified_pulse_summary.json",
+      "previous_sha256": "ee529a97ce4cf1a2a7b52c411cbb02b994c7809a71050a2f3668ecccb0529868",
+      "public_sha256": "ee529a97ce4cf1a2a7b52c411cbb02b994c7809a71050a2f3668ecccb0529868",
+      "bytes": 22876
+    },
+    {
+      "previous_public_path": "results/verified_pulse_timeseries_codex.csv",
+      "public_path": "results/verified_pulse_timeseries.csv",
+      "previous_sha256": "ad6f7de8fb6597e7f2148d068937d577f5f6470fdbf7878fe49611e5ea220b77",
+      "public_sha256": "ad6f7de8fb6597e7f2148d068937d577f5f6470fdbf7878fe49611e5ea220b77",
+      "bytes": 1306460
+    },
+    {
+      "previous_public_path": "run_demo_codex.py",
+      "public_path": "run_demo.py",
+      "previous_sha256": "88432fdb135b705861db53c2779b1f2f628212be935097a8597cc409f7fca2c5",
+      "public_sha256": "964b47da941cda72049b38a47717f90b13ce5fe8163e9bfdfe68b6ca21b0a5ef",
+      "bytes": 11161
+    },
+    {
+      "previous_public_path": "tests/README.md",
+      "public_path": "tests/README.md",
+      "previous_sha256": "3de26fad1de5cb94f96650f705f12bae48af46fce781c573e3a4720a19307fa1",
+      "public_sha256": "df11760fcffe93d2194910404c0bf93a64fdd1bfdb62d46d14bb3c30fe558cea",
+      "bytes": 102
+    },
+    {
+      "previous_public_path": "tests/check_output_codex.py",
+      "public_path": "tests/check_output.py",
+      "previous_sha256": "16afdd718bd815a65284ccc762041e2d1e6a1d6f1d27d10451c22518d097f614",
+      "public_sha256": "9fcfd21098eeaff667a49b563a15240fa93efd6d1ed79340ee4eb6adf7a13818",
+      "bytes": 3165
+    },
+    {
+      "previous_public_path": "verify_package_codex.py",
+      "public_path": "verify_package.py",
+      "previous_sha256": "e499c11b96a7a8fe3232e8eb3b79633b6fa3f4049627f0b80722f336eb051401",
+      "public_sha256": "6212ea43a77d86dc1b4be978e1aa7428bc54a952d54fe5c6ea1159502c3ac052",
+      "bytes": 2106
+    }
+  ]
+}

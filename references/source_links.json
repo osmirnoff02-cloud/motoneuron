@@ -1,0 +1,156 @@
+{
+  "author": "codex",
+  "scope": "URLs occurring in exported runtime/input files. Presence is not full-text verification or permission to redistribute.",
+  "links": [
+    {
+      "url": "https://assets.thermofisher.com/TFS-Assets/LSG/manuals/ERCC92.zip",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json"
+      ]
+    },
+    {
+      "url": "https://data.mendeley.com/datasets/x844x4ky8x/2'",
+      "files": [
+        "data/2026-11-11-ion-balance/source_constraints.py"
+      ]
+    },
+    {
+      "url": "https://data.mendeley.com/datasets/x844x4ky8x/2',licence='CC-BY-4.0'",
+      "files": [
+        "data/2026-11-11-ion-balance/source_constraints.py"
+      ]
+    },
+    {
+      "url": "https://dataportal.answerals.org',access='Publication",
+      "files": [
+        "data/2026-11-12-kcnq-joint-calibration/source_constraints.py"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cub.2022.04.053'",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/human_mn_evidence.py"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1126/scisignal.adx6752'",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/human_mn_evidence.py"
+      ]
+    },
+    {
+      "url": "https://github.com/yye24/jhu2025",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json"
+      ]
+    },
+    {
+      "url": "https://neuronprofile.com/protein-turnover/#browse",
+      "files": [
+        "data/2026-11-03-individual-ribosomal-proteins/protein_inputs.json"
+      ]
+    },
+    {
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/jphysiol.2008.162453",
+      "files": [
+        "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic.json"
+      ]
+    },
+    {
+      "url": "https://physoc.onlinelibrary.wiley.com/doi/full/10.1113/jphysiol.2008.162453'",
+      "files": [
+        "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic.py"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9233098/",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/11361766/bin/NIHMS2016202-supplement-Supplementary_Tables.xlsx",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/li_supplement_metadata.json"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13058276/bin/NIHMS2140907-supplement-MMC1.pdf",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36398/'",
+      "files": [
+        "data/2026-11-04-resting-state-review/energy_baseline.py"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9660785/",
+      "files": [
+        "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic.json"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9660785/'",
+      "files": [
+        "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic.py"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aleighbrown/lmn_bdnf/5e74ae541a8fd566cff1703e2e7e00f97656d98d/data/estimate_list_full.csv",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/vargas_identifiability.json"
+      ]
+    },
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM18_ESM.xlsx",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/li_author_audit.json"
+      ]
+    },
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM2_ESM.xlsx",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/li_author_audit.json"
+      ]
+    },
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41593-023-01374-9/MediaObjects/41593_2023_1374_MOESM5_ESM.xlsx",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/li_author_audit.json"
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41593-023-01374-9",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/li_author_audit.json"
+      ]
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203579'",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/human_mn_evidence.py"
+      ]
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298758",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json"
+      ]
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE298758'",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/human_mn_evidence.py"
+      ]
+    },
+    {
+      "url": "https://www.thermofisher.com/order/catalog/product/4456740",
+      "files": [
+        "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json"
+      ]
+    }
+  ]
+}
