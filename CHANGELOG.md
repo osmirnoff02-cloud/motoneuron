@@ -1,3 +1,7 @@
+# 0.3.0 — 2026-11-14
+
+Optional PMCA proton/Na-H exchange closure, full-state restart, historical electrical panel and long conditional recovery results. [Details](docs/ACID_STAGE_0.3.0_codex.md). Existing license and earlier AGPL rights preserved; no human calibration claim.
+
 # Changelog
 
 ## 0.2.0 — 2026-11-14

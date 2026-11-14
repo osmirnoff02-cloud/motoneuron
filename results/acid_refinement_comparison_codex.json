@@ -1,0 +1,44 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "same_72h_checkpoint": true,
+  "change": "36h continuation: rtol/atol divided by 4, max step 300 ->150s; same equations/parameters",
+  "outcomes": {
+    "soma_K_uM": {
+      "main": 0.06206134633976035,
+      "refined": 0.06206144322641194,
+      "difference": 9.68866515904665e-08
+    },
+    "process_K_uM": {
+      "main": -1.2197376317926683,
+      "refined": -1.219737539649941,
+      "difference": 9.21427272260189e-08
+    },
+    "process_Na_uM": {
+      "main": -0.019337685780556058,
+      "refined": -0.01933768384697032,
+      "difference": 1.9335857359692454e-09
+    },
+    "process_ATP_uM": {
+      "main": 0.00010898259051828063,
+      "refined": 0.00010898237951550982,
+      "difference": -2.1100277081131935e-10
+    },
+    "process_PCr_uM": {
+      "main": -5.760595351962365,
+      "refined": -5.760638737461704,
+      "difference": -4.338549933891045e-05
+    },
+    "soma_V_mV": {
+      "main": 4.1394428485830304e-05,
+      "refined": 4.139462589591858e-05,
+      "difference": 1.9741008827622863e-10
+    }
+  },
+  "interpretation": "Additional numerical check; does not establish human calibration.",
+  "declared_outcome_tolerance": {
+    "process_K_difference_uM": 0.1,
+    "soma_V_difference_mV": 0.001
+  },
+  "within_outcome_tolerance": true
+}

@@ -1,0 +1,1140 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "rows": [
+    {
+      "file": "A14_electric_initial_Burley_15_features_codex.json",
+      "profile": "Burley",
+      "current_pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 3,
+        "rest_mV": -69.99999958817635,
+        "peak_mV": 61.14971964161951,
+        "post_min_mV": -11.375955693817005,
+        "post_100ms_min_mV": -11.375955693817005,
+        "post_area_mVs": -3.4648790385767043,
+        "tail_delta_mV": -0.4745935669565995
+      },
+      "historical_count_target": 3,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -5.115907697472721e-13,
+        "peak_mV": -3.500150569379912e-08,
+        "post_min_mV": 6.55783490799422e-06,
+        "post_100ms_min_mV": 6.55783490799422e-06,
+        "post_area_mVs": 1.3660779236701615e-06,
+        "tail_delta_mV": -1.0045440035355568e-08
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.2276000000000008,
+          "after_off_ms": -472.3999999999992,
+          "peak_mV": 61.14971964161957,
+          "rise_mV_ms": 65.12765692638955,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.43160000000000664,
+          "after_off_ms": -268.3999999999933,
+          "peak_mV": 52.6558090604381,
+          "rise_mV_ms": 51.90024137436722,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.6388000000000126,
+          "after_off_ms": -61.19999999998738,
+          "peak_mV": 51.777851995991206,
+          "rise_mV_ms": 50.697453862642746,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Burley_25_features_codex.json",
+      "profile": "Burley",
+      "current_pA": 25,
+      "start_s": 0,
+      "features": {
+        "spikes": 4,
+        "rest_mV": -69.99999958817635,
+        "peak_mV": 62.74328768561039,
+        "post_min_mV": -8.751803378891069,
+        "post_100ms_min_mV": -8.751803378891069,
+        "post_area_mVs": -2.7091529490542623,
+        "tail_delta_mV": -0.5098831420430514
+      },
+      "historical_count_target": 4,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -5.115907697472721e-13,
+        "peak_mV": -1.680484018606876e-08,
+        "post_min_mV": 1.0944819450742216e-07,
+        "post_100ms_min_mV": 1.0944819450742216e-07,
+        "post_area_mVs": 5.3042829684102344e-08,
+        "tail_delta_mV": -1.28242788832722e-07
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.21920000000000056,
+          "after_off_ms": -480.7999999999994,
+          "peak_mV": 62.74328768561058,
+          "rise_mV_ms": 67.97450965481944,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3436000000000041,
+          "after_off_ms": -356.3999999999958,
+          "peak_mV": 48.588421961847715,
+          "rise_mV_ms": 46.824349496884395,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.4704000000000078,
+          "after_off_ms": -229.59999999999215,
+          "peak_mV": 46.15489387994184,
+          "rise_mV_ms": 43.77080913005343,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.5978000000000114,
+          "after_off_ms": -102.19999999998852,
+          "peak_mV": 45.20367748349302,
+          "rise_mV_ms": 42.687964067020765,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Burley_50_features_codex.json",
+      "profile": "Burley",
+      "current_pA": 50,
+      "start_s": 0,
+      "features": {
+        "spikes": 3,
+        "rest_mV": -69.99999958817635,
+        "peak_mV": 64.75585804995418,
+        "post_min_mV": -4.308235709074353,
+        "post_100ms_min_mV": -4.308235709074353,
+        "post_area_mVs": -0.5615968220227129,
+        "tail_delta_mV": -0.09374174406251257
+      },
+      "historical_count_target": 3,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -5.115907697472721e-13,
+        "peak_mV": 1.2127401305406238e-08,
+        "post_min_mV": 1.8084507757976098e-07,
+        "post_100ms_min_mV": 1.8084507757976098e-07,
+        "post_area_mVs": -1.1306937852673116e-07,
+        "tail_delta_mV": -2.959989870987556e-07
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.21232316252834746,
+          "after_off_ms": -487.67683747165245,
+          "peak_mV": 64.76699329878149,
+          "rise_mV_ms": 70.66212415605106,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.28800000000000253,
+          "after_off_ms": -411.99999999999744,
+          "peak_mV": 26.497434442733443,
+          "rise_mV_ms": 25.706806240506786,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3706000000000049,
+          "after_off_ms": -329.39999999999503,
+          "peak_mV": 1.2482343467475345,
+          "rise_mV_ms": 10.143971176263323,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.4900000000000083,
+          "after_off_ms": -209.99999999999164,
+          "peak_mV": -31.972890218975618,
+          "rise_mV_ms": 0.43911220622847086,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con1_15_features_codex.json",
+      "profile": "Selvaraj-Con1",
+      "current_pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -60.499999675159664,
+        "peak_mV": -8.261688872018631,
+        "post_min_mV": -3.7726324745902318,
+        "post_100ms_min_mV": -3.7726324745902318,
+        "post_area_mVs": -0.6500904579144693,
+        "tail_delta_mV": -0.05054642315735691
+      },
+      "historical_count_target": 5,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -1.4210854715202004e-14,
+        "peak_mV": 5.856873919185546e-08,
+        "post_min_mV": -4.230185581377555e-06,
+        "post_100ms_min_mV": -4.230185581377555e-06,
+        "post_area_mVs": -7.509597151900138e-07,
+        "tail_delta_mV": -1.2988532915869655e-07
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.22140000000000062,
+          "after_off_ms": -978.5999999999993,
+          "peak_mV": -8.261688872018105,
+          "rise_mV_ms": 13.14851255491552,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.4870000000000082,
+          "after_off_ms": -712.9999999999917,
+          "peak_mV": -15.015920785531064,
+          "rise_mV_ms": 8.94363678759732,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.686800000000014,
+          "after_off_ms": -513.199999999986,
+          "peak_mV": -17.86241822452885,
+          "rise_mV_ms": 7.295996360022312,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.8596000000000189,
+          "after_off_ms": -340.39999999998105,
+          "peak_mV": -20.050641798482104,
+          "rise_mV_ms": 6.121238509059801,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.0152000000000234,
+          "after_off_ms": -184.79999999997654,
+          "peak_mV": -22.0580756321143,
+          "rise_mV_ms": 5.128320156539946,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.1584000000000274,
+          "after_off_ms": -41.599999999972546,
+          "peak_mV": -24.06863003261106,
+          "rise_mV_ms": 4.21228841740515,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con1_25_features_codex.json",
+      "profile": "Selvaraj-Con1",
+      "current_pA": 25,
+      "start_s": 0,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -60.499999675159664,
+        "peak_mV": -6.1967859499451645,
+        "post_min_mV": -7.771458156262021,
+        "post_100ms_min_mV": -7.771458156262021,
+        "post_area_mVs": -1.431539066708387,
+        "tail_delta_mV": -0.0855568613058395
+      },
+      "historical_count_target": 6,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -1.4210854715202004e-14,
+        "peak_mV": -1.1268014077359112e-08,
+        "post_min_mV": 1.0951567830375097e-05,
+        "post_100ms_min_mV": 1.0951567830375097e-05,
+        "post_area_mVs": 2.1800013103590032e-06,
+        "tail_delta_mV": 2.3750857280901982e-08
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.21500000000000044,
+          "after_off_ms": -984.9999999999995,
+          "peak_mV": -6.196785949944773,
+          "rise_mV_ms": 14.548992326695853,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.41160000000000607,
+          "after_off_ms": -788.3999999999938,
+          "peak_mV": -8.422274519722874,
+          "rise_mV_ms": 13.610722992641596,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.6004000000000115,
+          "after_off_ms": -599.5999999999884,
+          "peak_mV": -9.35706476298633,
+          "rise_mV_ms": 12.919715384123267,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7808000000000167,
+          "after_off_ms": -419.1999999999833,
+          "peak_mV": -10.41713145341467,
+          "rise_mV_ms": 12.14687925961075,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.9512000000000216,
+          "after_off_ms": -248.79999999997838,
+          "peak_mV": -11.753692787506875,
+          "rise_mV_ms": 11.215188633453428,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.110200000000026,
+          "after_off_ms": -89.7999999999739,
+          "peak_mV": -13.530946755658448,
+          "rise_mV_ms": 10.027827083560638,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con1_50_features_codex.json",
+      "profile": "Selvaraj-Con1",
+      "current_pA": 50,
+      "start_s": 0,
+      "features": {
+        "spikes": 4,
+        "rest_mV": -60.499999675159664,
+        "peak_mV": -3.534822818293469,
+        "post_min_mV": -3.303699415491991,
+        "post_100ms_min_mV": -3.303699415491991,
+        "post_area_mVs": -0.2092637735315487,
+        "tail_delta_mV": 0.15265456693560964
+      },
+      "historical_count_target": 4,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -1.4210854715202004e-14,
+        "peak_mV": -2.9617854835350954e-08,
+        "post_min_mV": 3.1721548054974846e-08,
+        "post_100ms_min_mV": 3.1721548054974846e-08,
+        "post_area_mVs": -4.3450138903500246e-08,
+        "tail_delta_mV": -1.8447843785907025e-07
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.2100000000000003,
+          "after_off_ms": -989.9999999999997,
+          "peak_mV": -3.5348228182931183,
+          "rise_mV_ms": 16.29188117233418,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.33820000000000394,
+          "after_off_ms": -861.799999999996,
+          "peak_mV": -7.875613915704781,
+          "rise_mV_ms": 14.484191367042115,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.4568000000000074,
+          "after_off_ms": -743.1999999999925,
+          "peak_mV": -11.43671441236068,
+          "rise_mV_ms": 11.835774816362424,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.5560000000000103,
+          "after_off_ms": -643.9999999999897,
+          "peak_mV": -19.966060812289264,
+          "rise_mV_ms": 6.554432518848838,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.6366000000000125,
+          "after_off_ms": -563.3999999999875,
+          "peak_mV": -36.62817707490988,
+          "rise_mV_ms": 0.7432640607574579,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con2_15_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 15,
+      "start_s": 0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.09999968902527,
+        "peak_mV": -10.898319200444035,
+        "post_min_mV": -2.315503922722918,
+        "post_100ms_min_mV": -2.315503922722918,
+        "post_area_mVs": -0.29334416713652123,
+        "tail_delta_mV": -0.08792616296167921
+      },
+      "historical_count_target": 5,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -1.4210854715202004e-14,
+        "peak_mV": 1.9950141094682294e-08,
+        "post_min_mV": 1.36723056698429e-06,
+        "post_100ms_min_mV": 1.36723056698429e-06,
+        "post_area_mVs": 6.56484612560071e-07,
+        "tail_delta_mV": -2.845368101134227e-07
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.22320000000000068,
+          "after_off_ms": -976.7999999999993,
+          "peak_mV": -10.898319200443664,
+          "rise_mV_ms": 10.652096628926252,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.445400000000007,
+          "after_off_ms": -754.599999999993,
+          "peak_mV": -16.40889831465978,
+          "rise_mV_ms": 7.667354541857164,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.6234000000000122,
+          "after_off_ms": -576.5999999999877,
+          "peak_mV": -18.345363103421686,
+          "rise_mV_ms": 6.661218432442274,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7850000000000168,
+          "after_off_ms": -414.9999999999832,
+          "peak_mV": -19.705941467196986,
+          "rise_mV_ms": 5.987815024169534,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.936600000000021,
+          "after_off_ms": -263.399999999979,
+          "peak_mV": -20.89583176870536,
+          "rise_mV_ms": 5.430775590083024,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.0802000000000251,
+          "after_off_ms": -119.79999999997482,
+          "peak_mV": -22.082978896413263,
+          "rise_mV_ms": 4.896661274935077,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con2_25_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 25,
+      "start_s": 0,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.09999968902527,
+        "peak_mV": -8.470322079124424,
+        "post_min_mV": -5.515695949386384,
+        "post_100ms_min_mV": -5.515695949386384,
+        "post_area_mVs": -0.8762442091863996,
+        "tail_delta_mV": -0.13966537976936877
+      },
+      "historical_count_target": 6,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -1.4210854715202004e-14,
+        "peak_mV": -1.6990378881587276e-08,
+        "post_min_mV": 3.9429049564887464e-05,
+        "post_100ms_min_mV": 3.9429049564887464e-05,
+        "post_area_mVs": 9.869049266253427e-06,
+        "tail_delta_mV": -2.2026711121725384e-08
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.2166000000000005,
+          "after_off_ms": -983.3999999999995,
+          "peak_mV": -8.470322079124417,
+          "rise_mV_ms": 12.13967743046086,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3898000000000055,
+          "after_off_ms": -810.1999999999945,
+          "peak_mV": -9.8879137883276,
+          "rise_mV_ms": 11.74027585832803,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.5606000000000103,
+          "after_off_ms": -639.3999999999896,
+          "peak_mV": -10.243161884079662,
+          "rise_mV_ms": 11.524379101354691,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7284000000000151,
+          "after_off_ms": -471.5999999999848,
+          "peak_mV": -10.655435531540022,
+          "rise_mV_ms": 11.238865377554399,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.89300000000002,
+          "after_off_ms": -306.99999999997993,
+          "peak_mV": -11.09206376486438,
+          "rise_mV_ms": 10.959323833637907,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.0540000000000245,
+          "after_off_ms": -145.99999999997547,
+          "peak_mV": -11.552632816363454,
+          "rise_mV_ms": 10.650970857213071,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con2_50_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50,
+      "start_s": 0,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.09999968902527,
+        "peak_mV": -0.2888173183909821,
+        "post_min_mV": -23.53717320477351,
+        "post_100ms_min_mV": -23.53717320477351,
+        "post_area_mVs": -4.351247289935251,
+        "tail_delta_mV": -0.3039083249496599
+      },
+      "historical_count_target": 7,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -1.4210854715202004e-14,
+        "peak_mV": -9.228582643183714e-06,
+        "post_min_mV": -9.819349628514829e-06,
+        "post_100ms_min_mV": -9.819349628514829e-06,
+        "post_area_mVs": -9.71245248226893e-06,
+        "tail_delta_mV": 6.1483261504236e-07
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.21100000000000033,
+          "after_off_ms": -988.9999999999997,
+          "peak_mV": -5.473738732086909,
+          "rise_mV_ms": 13.98428925934117,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3302000000000037,
+          "after_off_ms": -869.7999999999962,
+          "peak_mV": -6.510901296734009,
+          "rise_mV_ms": 14.60015288450106,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.4560000000000074,
+          "after_off_ms": -743.9999999999926,
+          "peak_mV": -4.9518326263133385,
+          "rise_mV_ms": 15.863876926517271,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.5906000000000112,
+          "after_off_ms": -609.3999999999887,
+          "peak_mV": -3.1541988425039005,
+          "rise_mV_ms": 17.44011748725434,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7348000000000153,
+          "after_off_ms": -465.19999999998464,
+          "peak_mV": -1.6010606365965647,
+          "rise_mV_ms": 18.87638687517457,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.8874000000000197,
+          "after_off_ms": -312.59999999998024,
+          "peak_mV": -0.6717543247793146,
+          "rise_mV_ms": 19.66686810145656,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.0444000000000242,
+          "after_off_ms": -155.59999999997575,
+          "peak_mV": -0.28881731836796054,
+          "rise_mV_ms": 20.113458403188204,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.2031999999999996,
+          "after_off_ms": 3.1999999999996476,
+          "peak_mV": -2.5131883930948615,
+          "rise_mV_ms": 18.7687179503511,
+          "phase": "post"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_post108_control_Selvaraj-Con2_15_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 15.0,
+      "start_s": 388800.0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.10099471341862,
+        "peak_mV": -10.896605774718584,
+        "post_min_mV": -2.3191078313406805,
+        "post_100ms_min_mV": -2.3191078313406805,
+        "post_area_mVs": -0.294883464901852,
+        "tail_delta_mV": -0.0878894908461163
+      },
+      "historical_count_target": 5,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -0.0009950243933687375,
+        "peak_mV": 0.0017134456755929506,
+        "post_min_mV": -0.0036025413871954015,
+        "post_100ms_min_mV": -0.0036025413871954015,
+        "post_area_mVs": -0.0015386412807182337,
+        "tail_delta_mV": 3.6387578752794525e-05
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.2232000011135824,
+          "after_off_ms": -976.7999988980591,
+          "peak_mV": -10.89660541849964,
+          "rise_mV_ms": 10.653319378148835,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.4456000116770156,
+          "after_off_ms": -754.399988334626,
+          "peak_mV": -16.408626444459337,
+          "rise_mV_ms": 7.676047627738138,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.6234000201220624,
+          "after_off_ms": -576.5999798895791,
+          "peak_mV": -18.34627955094681,
+          "rise_mV_ms": 6.661615798820956,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7850000277976505,
+          "after_off_ms": -414.999972213991,
+          "peak_mV": -19.710489887655314,
+          "rise_mV_ms": 5.980282517505134,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.9366000349982642,
+          "after_off_ms": -263.39996501337737,
+          "peak_mV": -20.894507869172436,
+          "rise_mV_ms": 5.428225409779326,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.0802000418188982,
+          "after_off_ms": -119.79995819274336,
+          "peak_mV": -22.081240563172017,
+          "rise_mV_ms": 4.892415492129325,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_post108_control_Selvaraj-Con2_25_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 25.0,
+      "start_s": 388800.0,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.10099471341862,
+        "peak_mV": -8.467678384501166,
+        "post_min_mV": -5.521339467148657,
+        "post_100ms_min_mV": -5.521339467148657,
+        "post_area_mVs": -0.877666719585086,
+        "tail_delta_mV": -0.13963408548823963
+      },
+      "historical_count_target": 6,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -0.0009950243933687375,
+        "peak_mV": 0.0026436776328786493,
+        "post_min_mV": -0.005604088712708233,
+        "post_100ms_min_mV": -0.005604088712708233,
+        "post_area_mVs": -0.0014126413494202072,
+        "tail_delta_mV": 3.127225441801329e-05
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.21660000080009922,
+          "after_off_ms": -983.3999992115423,
+          "peak_mV": -8.467671535663381,
+          "rise_mV_ms": 12.141011150043274,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3898000090266578,
+          "after_off_ms": -810.1999909849837,
+          "peak_mV": -9.880763936603993,
+          "rise_mV_ms": 11.755723558280993,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.5606000171392225,
+          "after_off_ms": -639.3999828724191,
+          "peak_mV": -10.252254549135422,
+          "rise_mV_ms": 11.529902729232136,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7286000251187943,
+          "after_off_ms": -471.39997489284724,
+          "peak_mV": -10.662575932218617,
+          "rise_mV_ms": 11.25216612596283,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.8930000329273753,
+          "after_off_ms": -306.99996708426625,
+          "peak_mV": -11.08876542122029,
+          "rise_mV_ms": 10.952247561150317,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.054000040574465,
+          "after_off_ms": -145.99995943717659,
+          "peak_mV": -11.555440402267273,
+          "rise_mV_ms": 10.651812775492788,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_post108_control_Selvaraj-Con2_50_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50.0,
+      "start_s": 388800.0,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.10099471341862,
+        "peak_mV": -0.28978479401504614,
+        "post_min_mV": -23.525713575651032,
+        "post_100ms_min_mV": -23.525713575651032,
+        "post_area_mVs": -4.343475845739015,
+        "tail_delta_mV": -0.30419153855675773
+      },
+      "historical_count_target": 7,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -0.0009950243933687375,
+        "peak_mV": -0.0009767042067072018,
+        "post_min_mV": 0.011449809772848596,
+        "post_100ms_min_mV": 0.011449809772848596,
+        "post_area_mVs": 0.007761731743753941,
+        "tail_delta_mV": -0.0002825987744827785
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.2110000005341135,
+          "after_off_ms": -988.999999477528,
+          "peak_mV": -5.471269373984165,
+          "rise_mV_ms": 13.986078077122798,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3302000061958097,
+          "after_off_ms": -869.7999938158318,
+          "peak_mV": -6.513535405776693,
+          "rise_mV_ms": 14.599278667409076,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.45620001218048856,
+          "after_off_ms": -743.799987831153,
+          "peak_mV": -4.946189143466544,
+          "rise_mV_ms": 15.894189831356439,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.590600018564146,
+          "after_off_ms": -609.3999814474955,
+          "peak_mV": -3.1542079544722363,
+          "rise_mV_ms": 17.388371561768615,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.735000025422778,
+          "after_off_ms": -464.99997458886355,
+          "peak_mV": -1.5794713450360949,
+          "rise_mV_ms": 18.852124588239544,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.887600032670889,
+          "after_off_ms": -312.3999673407525,
+          "peak_mV": -0.6690214137753472,
+          "rise_mV_ms": 19.666857620255076,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.044600040127989,
+          "after_off_ms": -155.39995988365263,
+          "peak_mV": -0.2897785591173838,
+          "rise_mV_ms": 20.101194782930214,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.2034000001731329,
+          "after_off_ms": 3.4000001614913344,
+          "peak_mV": -2.549381305181608,
+          "rise_mV_ms": 18.794200320089868,
+          "phase": "post"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_post108_repeated_Selvaraj-Con2_15_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 15.0,
+      "start_s": 388800.0,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.10095331899756,
+        "peak_mV": -10.896681677778245,
+        "post_min_mV": -2.318973660578564,
+        "post_100ms_min_mV": -2.318973660578564,
+        "post_area_mVs": -0.2948257567917327,
+        "tail_delta_mV": -0.08789117432525728
+      },
+      "historical_count_target": 5,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -0.0009536299723080788,
+        "peak_mV": 0.0016375426159314088,
+        "post_min_mV": -0.003468370625078876,
+        "post_100ms_min_mV": -0.003468370625078876,
+        "post_area_mVs": -0.001480933170598886,
+        "tail_delta_mV": 3.470409961181531e-05
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.2232000011135824,
+          "after_off_ms": -976.7999988980591,
+          "peak_mV": -10.896681319628366,
+          "rise_mV_ms": 10.65326519588088,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.4456000116770156,
+          "after_off_ms": -754.399988334626,
+          "peak_mV": -16.40879496531212,
+          "rise_mV_ms": 7.675798089197841,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.6234000201220624,
+          "after_off_ms": -576.5999798895791,
+          "peak_mV": -18.346192033778223,
+          "rise_mV_ms": 6.661712694400053,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7850000277976505,
+          "after_off_ms": -414.999972213991,
+          "peak_mV": -19.7102316682027,
+          "rise_mV_ms": 5.979887322800807,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.9366000349982642,
+          "after_off_ms": -263.39996501337737,
+          "peak_mV": -20.894491877564548,
+          "rise_mV_ms": 5.428448206205156,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.0802000418188982,
+          "after_off_ms": -119.79995819274336,
+          "peak_mV": -22.081234481400262,
+          "rise_mV_ms": 4.892702285534973,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_post108_repeated_Selvaraj-Con2_25_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 25.0,
+      "start_s": 388800.0,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.10095331899756,
+        "peak_mV": -8.46779480983054,
+        "post_min_mV": -5.52096668969839,
+        "post_100ms_min_mV": -5.52096668969839,
+        "post_area_mVs": -0.8775734356691242,
+        "tail_delta_mV": -0.13963587519949527
+      },
+      "historical_count_target": 6,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -0.0009536299723080788,
+        "peak_mV": 0.0025272523035049232,
+        "post_min_mV": -0.005231311262441807,
+        "post_100ms_min_mV": -0.005231311262441807,
+        "post_area_mVs": -0.0013193574334583458,
+        "tail_delta_mV": 2.948254316237353e-05
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.21660000080009922,
+          "after_off_ms": -983.3999992115423,
+          "peak_mV": -8.467787960303513,
+          "rise_mV_ms": 12.140953002790207,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3898000090266578,
+          "after_off_ms": -810.1999909849837,
+          "peak_mV": -9.881027752237033,
+          "rise_mV_ms": 11.754831110508587,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.5606000171392225,
+          "after_off_ms": -639.3999828724191,
+          "peak_mV": -10.251709164963724,
+          "rise_mV_ms": 11.530047635724923,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.7286000251187943,
+          "after_off_ms": -471.39997489284724,
+          "peak_mV": -10.663358223580037,
+          "rise_mV_ms": 11.252093976376099,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.8930000329273753,
+          "after_off_ms": -306.99996708426625,
+          "peak_mV": -11.088713234332836,
+          "rise_mV_ms": 10.953306922855209,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.054000040574465,
+          "after_off_ms": -145.99995943717659,
+          "peak_mV": -11.555053508263082,
+          "rise_mV_ms": 10.65243591566178,
+          "phase": "pulse"
+        }
+      ]
+    },
+    {
+      "file": "A14_electric_post108_repeated_Selvaraj-Con2_50_features_codex.json",
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50.0,
+      "start_s": 388800.0,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.10095331899756,
+        "peak_mV": -0.2880662375098471,
+        "post_min_mV": -23.526356191691995,
+        "post_100ms_min_mV": -23.526356191691995,
+        "post_area_mVs": -4.343877643125172,
+        "tail_delta_mV": -0.30417808897570353
+      },
+      "historical_count_target": 7,
+      "matches_initial_historical_count": true,
+      "differences_from_previous_initial": {
+        "spikes": 0,
+        "rest_mV": -0.0009536299723080788,
+        "peak_mV": 0.0007418522984918297,
+        "post_min_mV": 0.010807193731885434,
+        "post_100ms_min_mV": 0.010807193731885434,
+        "post_area_mVs": 0.007359934357596742,
+        "tail_delta_mV": -0.000269149193428575
+      },
+      "events": [
+        {
+          "time_from_start_s": 0.2110000005341135,
+          "after_off_ms": -988.999999477528,
+          "peak_mV": -5.471377613193757,
+          "rise_mV_ms": 13.986001246757056,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.3302000061958097,
+          "after_off_ms": -869.7999938158318,
+          "peak_mV": -6.51338527543945,
+          "rise_mV_ms": 14.599432011424248,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.45620001218048856,
+          "after_off_ms": -743.799987831153,
+          "peak_mV": -4.947643393677308,
+          "rise_mV_ms": 15.893809281772832,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.590600018564146,
+          "after_off_ms": -609.3999814474955,
+          "peak_mV": -3.152577498617101,
+          "rise_mV_ms": 17.395316365936313,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.735000025422778,
+          "after_off_ms": -464.99997458886355,
+          "peak_mV": -1.5791182337936858,
+          "rise_mV_ms": 18.84237262881624,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 0.887600032670889,
+          "after_off_ms": -312.3999673407525,
+          "peak_mV": -0.6768434172315666,
+          "rise_mV_ms": 19.67162886631011,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.044600040127989,
+          "after_off_ms": -155.39995988365263,
+          "peak_mV": -0.28805911340584484,
+          "rise_mV_ms": 20.10946218955115,
+          "phase": "pulse"
+        },
+        {
+          "time_from_start_s": 1.2034000001731329,
+          "after_off_ms": 3.4000001614913344,
+          "peak_mV": -2.5416022734530697,
+          "rise_mV_ms": 18.793819882231336,
+          "phase": "post"
+        }
+      ]
+    }
+  ],
+  "initial_conditions": 9,
+  "initial_count_matches": 9,
+  "paired_post108": [
+    {
+      "current_pA": 15,
+      "control_features": {
+        "spikes": 5,
+        "rest_mV": -59.10099471341862,
+        "peak_mV": -10.896605774718584,
+        "post_min_mV": -2.3191078313406805,
+        "post_100ms_min_mV": -2.3191078313406805,
+        "post_area_mVs": -0.294883464901852,
+        "tail_delta_mV": -0.0878894908461163
+      },
+      "loaded_features": {
+        "spikes": 5,
+        "rest_mV": -59.10095331899756,
+        "peak_mV": -10.896681677778245,
+        "post_min_mV": -2.318973660578564,
+        "post_100ms_min_mV": -2.318973660578564,
+        "post_area_mVs": -0.2948257567917327,
+        "tail_delta_mV": -0.08789117432525728
+      },
+      "matched_count": true,
+      "delta": {
+        "spikes": 0,
+        "rest_mV": 4.1394421060658715e-05,
+        "peak_mV": -7.590305966154176e-05,
+        "post_min_mV": 0.00013417076211652557,
+        "post_100ms_min_mV": 0.00013417076211652557,
+        "post_area_mVs": 5.770811011934773e-05,
+        "tail_delta_mV": -1.683479140979216e-06
+      }
+    },
+    {
+      "current_pA": 25,
+      "control_features": {
+        "spikes": 6,
+        "rest_mV": -59.10099471341862,
+        "peak_mV": -8.467678384501166,
+        "post_min_mV": -5.521339467148657,
+        "post_100ms_min_mV": -5.521339467148657,
+        "post_area_mVs": -0.877666719585086,
+        "tail_delta_mV": -0.13963408548823963
+      },
+      "loaded_features": {
+        "spikes": 6,
+        "rest_mV": -59.10095331899756,
+        "peak_mV": -8.46779480983054,
+        "post_min_mV": -5.52096668969839,
+        "post_100ms_min_mV": -5.52096668969839,
+        "post_area_mVs": -0.8775734356691242,
+        "tail_delta_mV": -0.13963587519949527
+      },
+      "matched_count": true,
+      "delta": {
+        "spikes": 0,
+        "rest_mV": 4.1394421060658715e-05,
+        "peak_mV": -0.00011642532937372607,
+        "post_min_mV": 0.00037277745026642606,
+        "post_100ms_min_mV": 0.00037277745026642606,
+        "post_area_mVs": 9.328391596186147e-05,
+        "tail_delta_mV": -1.7897112556397587e-06
+      }
+    },
+    {
+      "current_pA": 50,
+      "control_features": {
+        "spikes": 7,
+        "rest_mV": -59.10099471341862,
+        "peak_mV": -0.28978479401504614,
+        "post_min_mV": -23.525713575651032,
+        "post_100ms_min_mV": -23.525713575651032,
+        "post_area_mVs": -4.343475845739015,
+        "tail_delta_mV": -0.30419153855675773
+      },
+      "loaded_features": {
+        "spikes": 7,
+        "rest_mV": -59.10095331899756,
+        "peak_mV": -0.2880662375098471,
+        "post_min_mV": -23.526356191691995,
+        "post_100ms_min_mV": -23.526356191691995,
+        "post_area_mVs": -4.343877643125172,
+        "tail_delta_mV": -0.30417808897570353
+      },
+      "matched_count": true,
+      "delta": {
+        "spikes": 0,
+        "rest_mV": 4.1394421060658715e-05,
+        "peak_mV": 0.0017185565051990315,
+        "post_min_mV": -0.000642616040963162,
+        "post_100ms_min_mV": -0.000642616040963162,
+        "post_area_mVs": -0.00040179738615719884,
+        "tail_delta_mV": 1.3449581054203463e-05
+      }
+    }
+  ],
+  "interpretation": "Counts are historical regression, not a human waveform calibration. Peaks outside the pulse remain reported. Saved 0.2ms samples; detector matches J13 audit."
+}

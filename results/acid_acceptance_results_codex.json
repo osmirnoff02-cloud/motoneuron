@@ -1,0 +1,300 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "complete_main_queue": true,
+  "declared_criteria": "acceptance_codex.json",
+  "main_runs": [
+    {
+      "file": "A14_electric_initial_Burley_15_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 1.9152462671367942e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Burley_25_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 5.3923940868116915e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Burley_50_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 4.05679090320632e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con1_15_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 3.802028913924005e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con1_25_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 2.292836143169552e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con1_50_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 2.2497488316730596e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con2_15_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 7.661128620384261e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con2_25_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 9.239556675311178e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_initial_Selvaraj-Con2_50_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 7.991000305906937e-09,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_post108_control_Selvaraj-Con2_15_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 8.106231689453125e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_post108_control_Selvaraj-Con2_25_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 8.106231689453125e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_post108_control_Selvaraj-Con2_50_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 1.1682510375976562e-05,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_post108_repeated_Selvaraj-Con2_15_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 4.0531158447265625e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_post108_repeated_Selvaraj-Con2_25_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 6.4373016357421875e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_electric_post108_repeated_Selvaraj-Con2_50_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 7.3909759521484375e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_load_tau120_continuous_0.001_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 6.67572021484375e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_load_tau120_control_0_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 4.76837158203125e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_load_tau120_repeated_0.001_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 4.0531158447265625e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_load_tau20_control_0_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 3.5642459828011397e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_load_tau20_repeated_0.001_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 1.33514404296875e-05,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_load_tau600_control_0_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 2.911075667633156e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_load_tau600_repeated_0.001_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 1.1682510375976562e-05,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_rest_tau120_72h_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 1.9073486328125e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_rest_tau20_72h_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 1.870518438806812e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    },
+    {
+      "file": "A14_rest_tau600_72h_metadata_codex.json",
+      "states": 4431,
+      "finite": true,
+      "largest_check": 1.5497207641601562e-06,
+      "within_check_tolerance": true,
+      "no_reset": true
+    }
+  ],
+  "K_recovery": [
+    {
+      "tau_s": 120.0,
+      "branch": "continuous",
+      "compartments": {
+        "soma": {
+          "previous_uM": -764.8132672913198,
+          "now_uM": 0.06037526982254349,
+          "residual_reduction_fraction": 0.99992105880951,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        },
+        "process": {
+          "previous_uM": -1205.7529805508675,
+          "now_uM": -1.220252339495346,
+          "residual_reduction_fraction": 0.998987974851252,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        }
+      },
+      "total_exchange_nonnegative": true
+    },
+    {
+      "tau_s": 120.0,
+      "branch": "repeated",
+      "compartments": {
+        "soma": {
+          "previous_uM": -711.3342838288227,
+          "now_uM": 0.062061346339760355,
+          "residual_reduction_fraction": 0.9999127536128222,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        },
+        "process": {
+          "previous_uM": -1202.2588702326466,
+          "now_uM": -1.2197376317926683,
+          "residual_reduction_fraction": 0.9989854617320838,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        }
+      },
+      "total_exchange_nonnegative": true
+    },
+    {
+      "tau_s": 20.0,
+      "branch": "repeated",
+      "compartments": {
+        "soma": {
+          "previous_uM": -711.3342838288227,
+          "now_uM": 0.06214619943057187,
+          "residual_reduction_fraction": 0.9999126343256,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        },
+        "process": {
+          "previous_uM": -1202.2588702326466,
+          "now_uM": -1.2201262085291091,
+          "residual_reduction_fraction": 0.9989851385265363,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        }
+      },
+      "total_exchange_nonnegative": true
+    },
+    {
+      "tau_s": 600.0,
+      "branch": "repeated",
+      "compartments": {
+        "soma": {
+          "previous_uM": -711.3342838288227,
+          "now_uM": 0.06165418529417366,
+          "residual_reduction_fraction": 0.9999133260034054,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        },
+        "process": {
+          "previous_uM": -1202.2588702326466,
+          "now_uM": -1.2178996634320356,
+          "residual_reduction_fraction": 0.9989869904946541,
+          "relative_pass": true,
+          "absolute_engineering_pass": true
+        }
+      },
+      "total_exchange_nonnegative": true
+    }
+  ],
+  "initial_counts_pass": true,
+  "post108_all_three_counts_match_control": true,
+  "all_full_state_checks_pass": true,
+  "human_calibration": false,
+  "healthy_default_adopted": false,
+  "scope": "Initial 9 cases; long runs and all post-load probes use Con2 only. Ranges are scenarios. Molecular equilibrium and human waveform remain open."
+}

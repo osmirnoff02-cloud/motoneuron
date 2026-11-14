@@ -1,0 +1,23 @@
+{
+  "author": "codex",
+  "version": "0.3.0",
+  "changed_runtime": [
+    "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron_codex.py",
+    "data/neuron-model/integrated_neuron_codex.py",
+    "data/neuron-model/model_contracts_codex.py",
+    "data/neuron-model/state_layout_v1_codex.json",
+    "data/neuron-model/model_api_codex.py",
+    "data/2026-11-13-acid-extrusion/acid_extrusion_claude.py"
+  ],
+  "exact_runtime_files_checked": 192,
+  "prior_portable_transformations": [
+    "data/2026-10-19-recovery-protocols/recovery_model_codex.py",
+    "data/2026-10-20-coupled-ampa-calcium-spikes/model_api_codex.py"
+  ],
+  "license": "Inherited unchanged from 0.2.0; no relicensing of earlier AGPL release",
+  "existing_controls": "Current tested core/API includes prior optional pump controls and readout helpers; no additional scientific validation is claimed for unused branches.",
+  "private_history": false,
+  "emails_sent": 0,
+  "large_reference_reason": "Full 20ms 4431-state reference supports independent numerical comparison; selected deliberate inclusion.",
+  "independent_package_validation": "acid_validation_codex.json; passed"
+}

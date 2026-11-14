@@ -1,6 +1,6 @@
 # Motoneuron / Мотонейрон
 
-**Research snapshot 0.2.0, 2026-11-14. Research prototype; not a calibrated human motor neuron or a predictor of treatment efficacy.**
+**Research snapshot 0.3.0, 2026-11-14. Research prototype; not a calibrated human motor neuron or a predictor of treatment efficacy.**
 
 This repository makes a selected computational branch of the ALS research project inspectable and reproducible. It contains the full coupled neuron model used by the included examples, its actual runtime inputs, a parameter inventory, selected historical results and an explicit account of limitations. It is not the complete private research archive.
 
@@ -22,7 +22,7 @@ The integrated numerical model has **4425 state variables, including bookkeeping
 
 **Free for noncommercial scientific research; commercial use requires a separate written agreement.** Licensors: **Максим Смирнов (Maxim Smirnov) and Олег Смирнов (Oleg Smirnov)**. The custom [research license](LICENSE.txt) permits research use, modification and sharing. See [commercial enquiries](COMMERCIAL_LICENSE_codex.md). This is source-available software, not OSI open source.
 
-The new terms start with **0.2.0** and later releases expressly carrying them. **[0.1.2 remains AGPL-3.0-only](https://github.com/osmirnoff02-cloud/motoneuron/tree/bfd151cb24cc057af04efe7ea8c6aed129729385)**; existing rights cannot be withdrawn. This release changes licensing/documentation only: unchanged computational code remains available from 0.1.2 under AGPL, including for compliant commercial use. [Version boundary and third-party scope](docs/LICENSE_SCOPE_codex.md).
+The new terms start with **0.3.0** and later releases expressly carrying them. **[0.1.2 remains AGPL-3.0-only](https://github.com/osmirnoff02-cloud/motoneuron/tree/bfd151cb24cc057af04efe7ea8c6aed129729385)**; existing rights cannot be withdrawn. This release changes licensing/documentation only: unchanged computational code remains available from 0.1.2 under AGPL, including for compliant commercial use. [Version boundary and third-party scope](docs/LICENSE_SCOPE_codex.md).
 
 ## Quick start
 
@@ -84,3 +84,8 @@ The computational source layout retains dated directories to preserve path-based
 Original project material in this release is offered under **Motoneuron Noncommercial Research License 1.0**, subject to the prior-license and third-party exceptions described above. The [mission](MISSION_codex.md) is a statement of purpose, not an extra license condition. Third-party software and data retain their own terms; [AGPL for 0.1.2 is preserved](provenance/AGPL-3.0-0.1.2.txt).
 
 Repository: [https://github.com/osmirnoff02-cloud/motoneuron](https://github.com/osmirnoff02-cloud/motoneuron). Maintained through the `osmirnoff02-cloud` account. Citation uses project-level attribution; a complete list of human contributors has not been supplied. This snapshot does not include later development in the private workspace. See [third-party notes](THIRD_PARTY_NOTICES_codex.md), [citation](CITATION.cff) and [release checklist](PUBLICATION_CHECKLIST_codex.md). Computational code was developed with AI assistance.
+
+
+## Acid-removal stage 0.3.0
+
+[New optional 4431-state scenario, results and commands](docs/ACID_STAGE_0.3.0_codex.md). Prior 4425-state demo remains available with acid disabled. Human calibration and waveform limitations remain.

@@ -1,0 +1,39 @@
+{
+  "author": "codex",
+  "version": "0.3.0",
+  "status": "scenarios, not human calibration",
+  "H_per_Ca": 2.0,
+  "recovery_tau_s": [
+    20,
+    120,
+    600
+  ],
+  "buffer_mM_per_pH": [
+    10,
+    20,
+    46
+  ],
+  "resting_pH": [
+    7.02,
+    7.18,
+    7.24
+  ],
+  "measured_human_MN": false,
+  "buffer_and_pH_observer_only": true,
+  "basal_NaH": "assumed included in fitted Na background",
+  "missing": [
+    "Paired Ca/pH/Na recordings in healthy human iPSC motor neurons",
+    "Na/H flux and buffering",
+    "pH dependence of channels/metabolism",
+    "bicarbonate pathway"
+  ],
+  "potential_methods_authors": [
+    "Thomas",
+    "Brechenmacher and Rodeau",
+    "Bevensee",
+    "Amos and Richards",
+    "Ritucci",
+    "Rossano"
+  ],
+  "availability": "No claim these authors have human motor-neuron recordings; no emails sent for this release."
+}

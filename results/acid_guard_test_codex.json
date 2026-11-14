@@ -1,0 +1,7 @@
+{
+  "author": "codex",
+  "rejected": "Host electroneutral PMCA requires H_per_Ca=2; 0 is only a zero-coupling control",
+  "valid_trace_max_abs_difference": 0.0,
+  "same_equations": true,
+  "numerical_scope": "20ms full 4431-state comparison; main long runs preceded only this preflight guard"
+}

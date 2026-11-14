@@ -1144,6 +1144,9 @@ wei_mouse_reference_indices=_ion_sources11.wei_mouse_reference_indices
 # [codex]2026-11-11. Optional passive Cl with finite pools and one leak owner.
 _passivecl11=_module(B.parent/'2026-11-11-kcnq-passive/passive_chloride_codex.py','_stable_passive_chloride11')
 PassiveChlorideParameters=_passivecl11.PassiveChlorideParameters
+# [claude] 2026-11-13. Optional acid-extrusion closure for PMCA counter-protons (plan N05.1.4); scenario, not human calibration.
+_acid13_claude=_module(B.parent/'2026-11-13-acid-extrusion/acid_extrusion_claude.py','_stable_acid_extrusion13_claude')
+AcidExtrusionParameters=_acid13_claude.AcidExtrusionParameters
 _kcnqsources11=_module(B.parent/'2026-11-11-kcnq-passive/source_constraints_codex.py','_stable_kcnq_sources11')
 kcnq_passive_source_constraints=_kcnqsources11.source_constraints
 gerkau_recovery_comparison=_kcnqsources11.gerkau_recovery_comparison

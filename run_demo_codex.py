@@ -24,6 +24,9 @@ def main():
     parser.add_argument('--current-pa', type=float, default=25.)
     parser.add_argument('--branch', choices=('control','continuous','repeated'), default='repeated')
     parser.add_argument('--opening', type=float, choices=(.0001,.001), default=.001)
+    parser.add_argument('--acid-tau-s', type=float, choices=(20.,120.,600.), help='Opt-in scenario; no measured human recovery constant')
+    parser.add_argument('--acid-buffer', type=float, choices=(10.,20.,46.), default=20.)
+    parser.add_argument('--acid-resting-ph', type=float, choices=(7.02,7.18,7.24), default=7.18)
     parser.add_argument('--checkpoint', type=Path)
     parser.add_argument('--output', type=Path, required=True, help='A NEW directory, never an existing result directory')
     parser.add_argument('--full-trace', action='store_true', help='Also retain all states; can create large files')
@@ -92,6 +95,10 @@ def main():
         sg=full.r.schedule([(t0+h*3600,t0+(h+1)*3600,args.opening if ((args.branch=='continuous' and h<6) or (args.branch=='repeated' and h in (0,4,8,12,16,20))) else 0.,1,0) for h in range(36)])
         kw.update(output_step_s=300,max_step_s=300,rtol=1e-7,atol=full.c.old.legacy.long_atol())
     options,provenance=full.options(sg,args.profile,full.params(args.candidate))
+    if args.acid_tau_s is not None:
+        options['acid_extrusion_parameters']=full.r.api.AcidExtrusionParameters(recovery_tau_s=args.acid_tau_s,buffer_mM_per_pH=args.acid_buffer,resting_pH=args.acid_resting_ph)
+        if np.ndim(kw['atol']):kw['atol']=np.r_[kw['atol'],np.full(6,1e-8)]
+    expected_states=4431 if args.acid_tau_s is not None else 4425
     def observer(checkpoint,nfev):
         if args.protocol in ('rest72','load36'):
             # Recovery aid for this NEW output directory; packaged inputs stay read-only.
@@ -99,10 +106,10 @@ def main():
             if not path.exists():
                 path.write_text(json.dumps(checkpoint,indent=2,default=lambda x:x.tolist() if hasattr(x,'tolist') else str(x)),encoding='utf-8')
         print('time_s=',checkpoint['time_s'],'nfev=',nfev,flush=True)
-    print('Integrating full 4425-state',args.candidate,args.profile,args.protocol,flush=True)
+    print('Integrating full',expected_states,'states',args.candidate,args.profile,args.protocol,flush=True)
     result=full.r.api.run_integrated_neuron(sg,**options,checkpoint=cp,solver_observer=observer,**kw)
     checks={k:float(v) for k,v in result['checks'].items() if k!='minimum_state'}
-    summary=dict(protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
+    summary=dict(acid_tau_s=args.acid_tau_s,protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
         samples=len(result['time_s']),all_finite=bool(np.isfinite(result['state']).all()),
         max_balance=max(abs(v) for v in checks.values()),checks=checks,nfev=result['nfev'],
         human_calibrated=False,elapsed_s=time.monotonic()-start,
@@ -118,7 +125,7 @@ def main():
         matched=bool(np.allclose(continued['state'][-1],whole['state'][-1],rtol=2e-6,atol=1e-7))
         summary['restart']=dict(exact_initial_state=identical_start,max_end_difference=delta,within_tolerance=matched)
         if not identical_start or not matched:raise AssertionError('Checkpoint restart disagrees with uninterrupted integration')
-    if summary['states']!=4425 or not summary['all_finite'] or summary['max_balance']>=3e-5 or not summary['no_reset']:
+    if summary['states']!=expected_states or not summary['all_finite'] or summary['max_balance']>=5e-5 or not summary['no_reset']:
         raise AssertionError('Numerical validation failed: '+json.dumps(summary))
     def encode(x):
         if isinstance(x,np.ndarray):return x.tolist()

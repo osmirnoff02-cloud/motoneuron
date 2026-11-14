@@ -4517,5 +4517,14 @@
   "process_Cl_membrane_out_uM",
   "process_Cl_bath_added_uM",
   "process_Cl_bath_removed_uM"
+],
+  "acid_extrusion_claude_note": "[claude] 2026-11-13: optional six-state acid-extrusion block after passive_chloride; plan N05.1.4; module data/2026-11-13-acid-extrusion/acid_extrusion_claude.py",
+  "acid_extrusion_claude": [
+  "soma_acid_excess_uM",
+  "soma_acid_PMCA_excess_in_uM",
+  "soma_acid_NaH_exchange_out_uM",
+  "process_acid_excess_uM",
+  "process_acid_PMCA_excess_in_uM",
+  "process_acid_NaH_exchange_out_uM"
 ]
 }

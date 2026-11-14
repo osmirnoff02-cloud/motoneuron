@@ -1,3 +1,7 @@
+# Current 0.3.0 stage
+
+[Acid stage and current limits](../docs/ACID_STAGE_0.3.0_codex.md). Earlier validation below is historical; it does not substitute for the new isolated package checks.
+
 # Scope of the exported project
 
 Codex, 2026-11-13. [Home](../README.md).

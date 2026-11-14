@@ -1,0 +1,8 @@
+{
+  "analytic_step_and_recovery_max_uM": 2.46885150545495e-07,
+  "proton_balance_uM": 5.684341886080802e-14,
+  "no_direct_ATP_voltage_K_debit": true,
+  "Na_inside_outside_amount_and_exchange_charge": true,
+  "pH_water_capacity": true,
+  "invalid_parameters_rejected": true
+}

@@ -1,9 +1,7 @@
 {
   "author": "codex",
+  "version": "0.3.0",
   "date": "2026-11-14",
-  "version": "0.2.0",
-  "repository": "https://github.com/osmirnoff02-cloud/motoneuron",
-  "scope": "Publication files excluding this self-referential manifest and .git.",
   "files": [
     {
       "path": ".gitattributes",
@@ -27,8 +25,8 @@
     },
     {
       "path": ".github/README.md",
-      "bytes": 2073,
-      "sha256": "927bb944d8ea621055fccb42067d1f88aef5970993442a3efe288d7190abc792"
+      "bytes": 2141,
+      "sha256": "65494bde1fe1992600e932702d118edc335c852a58fee921ba1767131b640ee7"
     },
     {
       "path": ".gitignore",
@@ -37,13 +35,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2790,
-      "sha256": "c19b76f592945d3b850de09b99adb0778f9fa5be2704396fb9247d49d55bd8ca"
+      "bytes": 3111,
+      "sha256": "0a3e37898a71582af30562b5f5f53ecd4da757b4171965dbbe9de461f7dc09dd"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 798,
-      "sha256": "4406ea2bb77d108689f2978dcb4639ac8ad128105f0e24906adf6178a6e769ef"
+      "bytes": 814,
+      "sha256": "12704110d39d85570ff09df226d1ad7ed7e7081c84b809de6a36d9a367ebe323"
     },
     {
       "path": "COMMERCIAL_LICENSE_codex.md",
@@ -842,8 +840,8 @@
     },
     {
       "path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron_codex.py",
-      "bytes": 121874,
-      "sha256": "c68d684f9214afe7bca0f795a3086b50b0141bf463258d469230ed114b023e0a"
+      "bytes": 124735,
+      "sha256": "5932cb2655bdaa5eba362620b5df36ea7c1522c7b056b63c278130e1399d9ae4"
     },
     {
       "path": "data/2026-10-28-takeuchi-balaji/README.md",
@@ -1756,6 +1754,16 @@
       "sha256": "58e22654eb18e17060a81db3c5fc65b61302e7bb20e8d4aed101eced1382ec11"
     },
     {
+      "path": "data/2026-11-13-acid-extrusion/acid_extrusion_claude.py",
+      "bytes": 7086,
+      "sha256": "0ebae52b198f394ecb2e4f78f4a6e9b814f2de070f31b9845fd877187579c39f"
+    },
+    {
+      "path": "data/2026-11-13-acid-extrusion/README.md",
+      "bytes": 141,
+      "sha256": "365c77782fb29549947dc993365cb258870c9930c194792a717319c2aa095c87"
+    },
+    {
       "path": "data/2026-11-13-coupled-assumption-validation/README.md",
       "bytes": 469,
       "sha256": "6ce3a57351ac3a106594fed806f635641e283d613ae6e1d81317262e1e3cbfc2"
@@ -1952,18 +1960,18 @@
     },
     {
       "path": "data/neuron-model/integrated_neuron_codex.py",
-      "bytes": 6871,
-      "sha256": "935f9ebf2046801a558ab4426b0859b209584f3073bf92586ca818e3e5725078"
+      "bytes": 7550,
+      "sha256": "77fd68762b9329d99cd170eeea794b1d06947e74ed2750fae5240470a8065873"
     },
     {
       "path": "data/neuron-model/model_api_codex.py",
-      "bytes": 87794,
-      "sha256": "a82487d45cc7dcc476b2971ccb14cecd545679476d86212855343a7dcdff4b61"
+      "bytes": 88109,
+      "sha256": "6d7683f64d1bbf7f23e7aaba9bb9d1c5c59e616f38c43e32a31d3bd87b8db4fc"
     },
     {
       "path": "data/neuron-model/model_contracts_codex.py",
-      "bytes": 5999,
-      "sha256": "b04dd3d0350238fc786f8caae0ba80d62f17d504cc94ecf47d2164434b903a36"
+      "bytes": 6191,
+      "sha256": "6a87cb42c987f3feb7e10bdcec51818a541cf9ae091b895d74f4d00e90406daf"
     },
     {
       "path": "data/neuron-model/README.md",
@@ -1972,13 +1980,18 @@
     },
     {
       "path": "data/neuron-model/state_layout_v1_codex.json",
-      "bytes": 164814,
-      "sha256": "6bd3727ac568a7eb2423cc613d25e8e0bd474628d915699ffd39c0707856084c"
+      "bytes": 165246,
+      "sha256": "7fc519b8abed21776e67f4f3df79e53734545d325eec96d116200e8d4f1563ca"
     },
     {
       "path": "data/README.md",
       "bytes": 10087,
       "sha256": "5fd00013cd5b68dbea12b9f95ca5f7d46c19a6782831a481c0b5ba04d4bf78da"
+    },
+    {
+      "path": "docs/ACID_STAGE_0.3.0_codex.md",
+      "bytes": 3794,
+      "sha256": "b92771d8e56014af5fd379a555c9edd0748f8563486413b35e0ba4bc4981754a"
     },
     {
       "path": "docs/ASSUMPTIONS_codex.md",
@@ -2012,13 +2025,13 @@
     },
     {
       "path": "docs/SCOPE_codex.md",
-      "bytes": 2150,
-      "sha256": "4848b5ad1642a0d1bbaf68ce43c493c8f4a507d46ac9d331f602d760f1ee772d"
+      "bytes": 2364,
+      "sha256": "0b10233b94b94eddb10f8dac9d2dc5ab209ae490f3dbee5c7c8221bb571b0bdc"
     },
     {
       "path": "docs/VALIDATION_codex.md",
-      "bytes": 4462,
-      "sha256": "e77ba8b6de7d3dd87f6730465dc2cf40a6fbe8be932207d6a32c25b16cb89b7e"
+      "bytes": 4699,
+      "sha256": "e0d3b3ad8d922e95bfea18750fa7efb9e3b7c54ef6214aa14d5699b291bb93e7"
     },
     {
       "path": "LICENSE.txt",
@@ -2029,6 +2042,16 @@
       "path": "MISSION_codex.md",
       "bytes": 2638,
       "sha256": "1de7283dc8c1bfbd1129560b9c4348a65848f2cbd54867d9dacf8b6bea2e49ba"
+    },
+    {
+      "path": "parameters/acid_C08_active_config_codex.json",
+      "bytes": 86170,
+      "sha256": "b3e62ec21616d98a33f1ac139fd387f58a8491342aff697d6f3894fd248e1915"
+    },
+    {
+      "path": "parameters/acid_extrusion_codex.json",
+      "bytes": 894,
+      "sha256": "861824ca2fe550d8dc80d23f7c2529fb736087f498b8adbe675ccfc39ac1ac15"
     },
     {
       "path": "parameters/README.md",
@@ -2044,6 +2067,16 @@
       "path": "parameters/registry_codex.json",
       "bytes": 879151,
       "sha256": "1d065f34c4a5ccbd47197c6ab286b6c1c33aa657496cc2d947be094a076ca723"
+    },
+    {
+      "path": "provenance/acid_release_codex.json",
+      "bytes": 1169,
+      "sha256": "84e4232aded820c8a8946e5b83701e0f1575a47702d4bf1f3188e6b68cdd5d7a"
+    },
+    {
+      "path": "provenance/acid_validation_codex.json",
+      "bytes": 52520,
+      "sha256": "adf6cccf8592c250df4e03e4cef03bf79f509c6b2a5c2a950dedde103b5214a0"
     },
     {
       "path": "provenance/AGPL-3.0-0.1.2.txt",
@@ -2062,8 +2095,8 @@
     },
     {
       "path": "provenance/README.md",
-      "bytes": 870,
-      "sha256": "3ca26a315250ca7911e12a8019da4bc236fd9d53c83980ce3d7c00d68266008c"
+      "bytes": 1264,
+      "sha256": "127750a3d9644d3fed84fedca1190c2989eaf729b82c1c34a00024603084bd8b"
     },
     {
       "path": "provenance/source_manifest_codex.json",
@@ -2077,8 +2110,8 @@
     },
     {
       "path": "PUBLICATION_CHECKLIST_codex.md",
-      "bytes": 1707,
-      "sha256": "a71f285b72d5feb3cc01bbdef23aa6944931528bfb9c82605428c86ff7d43a54"
+      "bytes": 1912,
+      "sha256": "68278a8106563bbaed2c074d53a5fca664bacdc5d5ca36f68d74738eee4fe0c0"
     },
     {
       "path": "publication_optional_neuron_codex.py",
@@ -2087,13 +2120,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7815,
-      "sha256": "1920a5806da0434a0c21224b12615cba3af302392ed202bfa8aaaf65f8e3e05a"
+      "bytes": 8138,
+      "sha256": "4604ad3a8bc086e475c9dbb7a6c2d534c26baecb65d71004e14f29e599e34b06"
     },
     {
       "path": "README_RU_codex.md",
-      "bytes": 6917,
-      "sha256": "60564022cb569995492d538a618870419f2e8837c13528a1012ee54c3b2925cf"
+      "bytes": 7207,
+      "sha256": "b2e8fbd22e83ca198734e4a1ab969f78d6f7644d4c3a8de2192c17674da5e923"
     },
     {
       "path": "references/README.md",
@@ -2114,6 +2147,51 @@
       "path": "requirements.txt",
       "bytes": 25,
       "sha256": "c5c47ecfbac90e9ce72b9e8a547f723374dc09af7dd51685093d122c8199671f"
+    },
+    {
+      "path": "results/acid_acceptance_results_codex.json",
+      "bytes": 9282,
+      "sha256": "922182a42abd73be1405b08aac300a2d3bd11213d256fd5af011b8db92aa60d1"
+    },
+    {
+      "path": "results/acid_electrical_audit_codex.json",
+      "bytes": 39022,
+      "sha256": "08c28607c7c6bd595c8bcd9fd5994030f5d7edd67183401fd8c438318bb312df"
+    },
+    {
+      "path": "results/acid_guard_test_codex.json",
+      "bytes": 302,
+      "sha256": "c1122bfc38055e6ca407080d573155d0dabd24932492b9ff284a8409bf4339d0"
+    },
+    {
+      "path": "results/acid_recovery_codex.png",
+      "bytes": 253707,
+      "sha256": "b60c298ea2cac2084842eaadb072651f7d6a96c0418ef0a2f83c4bb370cf8110"
+    },
+    {
+      "path": "results/acid_reference_smoke_codex.npz",
+      "bytes": 1643820,
+      "sha256": "930baa8a3d5305128091968adf240e84e829d1b9ddbfba7fa5eacccbf52fabd0"
+    },
+    {
+      "path": "results/acid_refinement_comparison_codex.json",
+      "bytes": 1358,
+      "sha256": "ea8fd213775dc1a391e100cc9f104adcf19f223d076a7244745cc0435da98710"
+    },
+    {
+      "path": "results/acid_summary_codex.json",
+      "bytes": 131962,
+      "sha256": "f0b4d0e7c1c85324a09f6b2b9ebd28c5e41e565973c67c94d7e5104ffbc6470a"
+    },
+    {
+      "path": "results/acid_unit_checks_codex.json",
+      "bytes": 283,
+      "sha256": "6e6a6fed3ee03a7d1c02086a2ae2ec0dd6e4b38396fe05bd88d6198bc717d67e"
+    },
+    {
+      "path": "results/electrical_comparison_codex.png",
+      "bytes": 176026,
+      "sha256": "3e9c43911413b526b6f6a31b0a67a178302c164352773426ea6c8c12cb7d48c7"
     },
     {
       "path": "results/README.md",
@@ -2147,8 +2225,8 @@
     },
     {
       "path": "run_demo_codex.py",
-      "bytes": 10311,
-      "sha256": "1adb2816fb85dd15d47d13b0367d1e08ec7b016408022a2b86166ef32fbc5d92"
+      "bytes": 11197,
+      "sha256": "88432fdb135b705861db53c2779b1f2f628212be935097a8597cc409f7fca2c5"
     },
     {
       "path": "tests/check_output_codex.py",
@@ -2171,5 +2249,5 @@
       "sha256": "e499c11b96a7a8fe3232e8eb3b79633b6fa3f4049627f0b80722f336eb051401"
     }
   ],
-  "documentation_revision": "GitHub landing-page license visibility"
+  "scope": "Separate public source snapshot; private history, correspondence, primary downloads and long arrays excluded. Prior licensing notices retained."
 }

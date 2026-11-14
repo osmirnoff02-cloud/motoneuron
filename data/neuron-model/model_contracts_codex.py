@@ -72,6 +72,9 @@ def state_schema(columns, config):
         expected += manifest['RNA_export_full' if 'individual_RP' in config else 'RNA_export_minimal']
     if 'passive_chloride' in config:
         expected += manifest['passive_chloride']
+    # [claude] 2026-11-13: optional six-state acid-extrusion block after passive Cl (plan N05.1.4).
+    if 'acid_extrusion' in config:
+        expected += manifest['acid_extrusion_claude']
     # Alternate names describe the same legacy slot, not an allowed permutation.
     for index, aliases in manifest['legacy_aliases'].items():
         index = int(index)

@@ -309,6 +309,17 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         chloride_parameters.validate()
         if pump_leak_fraction is None:raise ValueError('Passive Cl requires explicit joint pump/passive-leak closure')
         chloride_module=load_module(B.parent/'2026-11-11-kcnq-passive/passive_chloride_codex.py','_stable_passive_chloride11')
+    # [claude] 2026-11-13: optional acid-extrusion closure for PMCA counter-protons (plan N05.1.4); default None leaves the model unchanged.
+    acid_parameters=kw.pop('acid_extrusion_parameters',None)
+    acid_module=None;acid_ref=None;acid_offset=None
+    if acid_parameters is not None:
+        acid_parameters.validate()
+        # [codex] 2026-11-14: host PMCA has no voltage current; do not vary H/Ca independently.
+        # Zero is reserved for the engineering zero-coupling control.
+        if acid_parameters.H_per_Ca not in (0.,2.):
+            raise ValueError('Host electroneutral PMCA requires H_per_Ca=2; 0 is only a zero-coupling control')
+        if not (ion_parameters or IonParameters()).enabled:raise ValueError('Acid extrusion requires active Na/K ions')
+        acid_module=load_module(B.parent/'2026-11-13-acid-extrusion/acid_extrusion_claude.py','_stable_acid_extrusion13_claude')
     if ctv is not None and rsv is None:raise ValueError('Coupled codon branch requires full RNA salvage topology')
     if rsv is not None and precursor_quality_parameters is None:raise ValueError("RNA salvage requires explicit precursor quality")
     if rsv is None and rna_salvage_schedule is not None:raise ValueError("RNA controls require parameters")
@@ -678,7 +689,15 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         base,chloride_ref=chloride_module.prepare(base,ionvec,background_ref,chloride_parameters)
         config.update(passive_chloride=asdict(chloride_parameters),passive_chloride_offset=chloride_offset,
             passive_chloride_reference=chloride_ref.tolist(),topology=config['topology']+'_passiveCl12')
+    # [claude] 2026-11-13: six acid states follow the optional Cl block; resting PMCA fluxes pm0/pmp0 are the reference.
+    if acid_module is not None:
+        acid_offset=len(base)
+        base,acid_ref=acid_module.prepare(base,np.array([pm0,pmp0]),ionvec,acid_parameters)
+        config.update(acid_extrusion=asdict(acid_parameters),acid_extrusion_offset=acid_offset,acid_extrusion_version=acid_module.VERSION,
+            acid_extrusion_reference=acid_ref.tolist(),topology=config['topology']+'_acidNaH13')
     def checked_cycle(z,initial):
+        # [codex] 2026-11-14: legacy molecular positivity views exclude signed optional acid states.
+        z=z[:,:acid_offset];initial=initial[:acid_offset]
         ch=cycle_checks(z,initial)
         return nrt_module.revise_host_checks(ch,z,initial,nrtv,nrtshape,nrt_offset,lmrv) if nrtv is not None else ch
     def checked_shared(z,initial):
@@ -695,6 +714,8 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         ch=shared_checks(zz,bb,nucv,biov,shv,shref)
         return rp_production.revise_shared(ch,actual_rpp,initial_rpp,biov[0],shref) if rppv is not None else ch
     def checked_recycling(z,initial):
+        # [codex] 2026-11-14: legacy molecular positivity views exclude signed optional acid states.
+        z=z[:,:acid_offset];initial=initial[:acid_offset]
         actual=z
         if nctv is not None:z,initial=nct_module.revise_somatic_checks(None,z,initial,nct_offset)
         ch=nrec_checks(z,initial,nrv,sub)
@@ -707,6 +728,8 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         ch['substrate_nonnegative']=float(max(0.,-actual[:,497:513].min()))
         return ch
     def checked_local(z,initial):
+        # [codex] 2026-11-14: legacy molecular positivity views exclude signed optional acid states.
+        z=z[:,:acid_offset];initial=initial[:acid_offset]
         actual=z;actual_initial=initial
         extra=local_translation.checks(z,initial,ltv,biov[0],vs/vp) if ltv is not None else {}
         if lmrv is not None:extra.update(local_mrna.checks(z,initial,lmrv,biov[0],vs/vp))
@@ -737,6 +760,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         return dict(local_ribo.checks(z,initial,lrv,biov[0],vs/vp),**extra)
     state_columns=old['columns']+EXTRA_NAMES+tuple('process_'+q for q in li['columns'])+tuple(k+'_'+q for k in ('soma','process') for q in ('voltage_mV','m','h','n','w','VG_gate','SK_gate'))+ION_NAMES+MITO_NAMES+BUDGET_NAMES+tuple(q.replace('TDP_UPS_ATP','UPS_pool_and_overhead_ATP') for q in PROTEOSTASIS_NAMES)+TERMINAL_NAMES+ACTIVITY_NAMES+tuple('terminal_internal_alkaline_quanta' if adv[0] and q=='terminal_maturation_queue_quanta' else q for q in RECYCLING_NAMES)+ADAPTIVE_NAMES+(CARGO_NAMES if cv is not None else ())+(UNCOATING_NAMES if uv is not None else ())+(CREATINE_NAMES if ckv is not None else ())+(RNA_CALCIUM_NAMES if rnav is not None else ())+(NUCLEUS_NAMES if nucv is not None else ())+(NUCLEAR_CYCLE_NAMES if cyc is not None else ())+(BIOGENESIS_NAMES if biov is not None else ())+(SHARED_NAMES if shv is not None else ())+(SUBSTRATE_NAMES if sub is not None else ())+(NUC_REC_NAMES if nrv is not None else ())+(isr_module.NAMES if isrv is not None else ())+(local_ribo.NAMES if lrv is not None else ())+(local_translation.NAMES if ltv is not None else ())+(local_mrna.NAMES if lmrv is not None else ())+(gap43_regrowth.NAMES if grv is not None else ())+(local_rqc.NAMES if rqv is not None else ())+(maintenance.NAMES if rmv is not None else ())+(renewal.NAMES if rnv is not None else ())+(surplus.NAMES if spv is not None else ())+(precursor_quality.NAMES if pqv is not None else ())+(rna_salvage.NAMES if rsv is not None else ())+(coupled_translation.NAMES if ctv is not None else ())+(individual_rp.NAMES if irates is not None else ())+(rp_production.NAMES if rppv is not None else ())+(nct_module.NAMES if nctv is not None else ())+(nrt_module.names(nrtshape) if nrtv is not None else ())
     if chloride_module is not None:state_columns+=chloride_module.NAMES
+    if acid_module is not None:state_columns+=acid_module.NAMES  # [claude] 2026-11-13
     if len(state_columns)!=len(base):raise ValueError('State labels and vector lengths differ')
     if water_module is not None:
         water_scale,water_config=water_module.prepare(water_parameters,g,len(base),chloride_offset if chloride_module is not None else None)
@@ -745,6 +769,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
     if pump_response_module is not None:
         pump_response_vector,pump_response_config=pump_response_module.prepare(pump_response_parameters,base,ionbase,g)
         config['pump_response']=pump_response_config
+    # [codex] 2026-11-14: acid deviations/counters are signed; old nonnegative tail checks stop before this block.
     schema=state_schema(state_columns,config)
     checkpoint_schema_status=check_checkpoint_schema(checkpoint,schema)
     atol=solver_atol(atol,len(base))
@@ -759,7 +784,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
             raise ValueError('Checkpoint geometry/parameters/baseline/time changed')
         y=np.asarray(checkpoint['state'],float);origin=checkpoint['origin_time_s']
         if y.shape!=base.shape or not np.isfinite(y).all() or minimum(y[None,:]) < -1e-7 or np.any(y[[105,106,133,135]]>1+1e-7):raise ValueError('Invalid checkpoint state')
-        if cv is not None and (min(y[308:]) < -1e-7 or y[308]>npv[5]*y[276]+1e-7 or y[309]>y[303]+1e-7):raise ValueError('Invalid checkpoint cargo pools')
+        if cv is not None and (min(y[308:acid_offset]) < -1e-7 or y[308]>npv[5]*y[276]+1e-7 or y[309]>y[303]+1e-7):raise ValueError('Invalid checkpoint cargo pools')
         if ckv is not None and (np.min(y[315:318]) < -1e-7 or np.max(y[315:318]-ckv[:3])>1e-7):raise ValueError('Invalid checkpoint PCr pools')
         if rnav is not None and (np.min(y[318:320]) < -1e-7 or np.max(y[318:320])>1+1e-7):raise ValueError('Invalid CaV surface checkpoint')
         if nucv is not None:
@@ -961,6 +986,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         if nrtv is not None:result=nrt_module.finish(z,result,nrtv,nctv,nrtcontrol,nctcontrol,nrtshape,nrt_offset,nct_offset,biov[0],nucv,kp,individual_assembly,rppv if rppv is not None else np.ones((2,80)),rppcontrol)
         if rmkv is not None:result=rmk_module.replace_rates(z,result,rmkv,rmkcontrol,nrtv,nrtcontrol,nrtshape,nrt_offset,rppv,rppcontrol,base[120])
         if chloride_module is not None:result=chloride_module.finish(z,result,ionvec,chloride_ref,chloride_offset)
+        if acid_module is not None:result=acid_module.finish(z,result,acid_ref,acid_offset)  # [claude] 2026-11-13: after all PMCA terms, before water scaling
         if absolute_module is not None and absolute_parameters.gate_on_s is not None:
             if absolute_parameters.gate_scheme=='voltage_anchors_v2':
                 result=absolute_module.finish_voltage_gates(z,result,current_kp,absolute_parameters.gate_on_s,absolute_parameters.gate_off_s,absolute_parameters.gate_low_voltage_mV,absolute_parameters.gate_high_voltage_mV)
@@ -1143,7 +1169,9 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         if np.min(z[:,q]) < -1e-8 or np.max(z[:,q]) > mv[1]*(1+mv[2])*mv[4]+1e-7:raise ArithmeticError('Matrix Ca bounds')
     for j,label in enumerate(('soma','process')):
         b=199+20*j;vol=vs if j==0 else vp
-        checks[label+'_Na_balance_uM']=err(dc[:,b]+z[:,b+5]+3*z[:,b+4]-z[:,b+7]-z[:,b+8]-z[:,b+12]/vol)
+        # [claude] 2026-11-13: Na entering by electroneutral Na/H exchange has its own ledger (acid block); the term is 0. when the block is off.
+        acid_na=z[:,acid_offset+3*j+2] if acid_module is not None else 0.
+        checks[label+'_Na_balance_uM']=err(dc[:,b]+z[:,b+5]+3*z[:,b+4]-z[:,b+7]-z[:,b+8]-z[:,b+12]/vol-acid_na)
         checks[label+'_K_balance_uM']=err(dc[:,b+1]+z[:,b+6]-2*z[:,b+4]-z[:,b+9]-z[:,b+13]/vol)
         checks[label+'_Na_cell_bath_uM']=err(dc[:,b]+ionvec[10]*(z[:,b+2]-base[b+2])-z[:,b+10]-z[:,b+12]/vol)
         checks[label+'_K_cell_bath_uM']=err(dc[:,b+1]+ionvec[10]*(z[:,b+3]-base[b+3])-z[:,b+11]-z[:,b+13]/vol)
@@ -1187,7 +1215,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
             checks['terminal_acidification_cost']=err(z[:,306]-npv[15]*(1-recv[4])*adv[4]*z[:,305])
             checks['terminal_priming_cost']=err(z[:,307]-npv[15]*(1-recv[4])*(1-adv[4])*z[:,280])
             checks['terminal_maturation_cost']=err(z[:,300]-z[:,306]-z[:,307])
-            checks['terminal_adaptive_nonnegative']=float(max(0.,-z[:,303:].min()))
+            checks['terminal_adaptive_nonnegative']=float(max(0.,-z[:,303:acid_offset].min()))
         else:checks['terminal_maturation_cost']=err(z[:,300]-npv[15]*(1-recv[4])*z[:,280])
         checks['terminal_queues_nonnegative']=float(max(0.,-z[:,296:301].min()))
     else:checks['terminal_recycling_cost']=err(z[:,281]-npv[15]*z[:,280])
@@ -1198,7 +1226,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
     checks['K_axial_amount']=err(z[:,212]+z[:,232])
     if cv is not None:
         checks['ACh_cargo_balance']=err(z[:,308]+z[:,309]-base[308]-z[:,310]+z[:,311])
-        checks['ACh_cargo_bounds']=float(max(0.,-z[:,308:].min(),(z[:,308]-npv[5]*z[:,276]).max(),(z[:,309]-z[:,303]).max()))
+        checks['ACh_cargo_bounds']=float(max(0.,-z[:,308:acid_offset].min(),(z[:,308]-npv[5]*z[:,276]).max(),(z[:,309]-z[:,303]).max()))
         checks['ACh_release_not_above_membrane']=float(max(0.,(z[:,311]-z[:,279]).max()))
     if uv is not None:
         checks['uncoating_membrane_balance']=err(z[:,312]-uv[1]*z[:,298]+z[:,313])
@@ -1208,6 +1236,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         cl_checks=chloride_module.checks(cz,base,ionvec,chloride_offset)
         for j in range(2):cl_checks[f'chloride_{j}_negative_pool']=float(max(0.,-z[:,chloride_offset+6*j:chloride_offset+6*j+6].min()))
         checks.update(cl_checks)
+    if acid_module is not None:checks.update(acid_module.checks(z,base,acid_ref,acid_offset,t-origin))  # [claude] 2026-11-13
     if not np.isfinite(z).all() or checks['minimum_state'] < -1e-7 or max(v for k,v in checks.items() if k!='minimum_state')>5e-5:raise ArithmeticError(str(checks))
     background_obs=ion_homeostasis.observe(z,ionvec,background_ref,background_parameters.passive_fraction) if background_ref is not None else None
     if water_module is not None:background_obs=water_module.background_observation(background_obs,config['mobile_water_volumes'])
@@ -1229,6 +1258,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         individual_RP_observation=individual_rp.observe(z,biov[0],individual_rp_parameters) if irates is not None else None,
         ion_background_observation=background_obs,
         passive_chloride_observation=chloride_module.observe(z,ionvec,chloride_ref,chloride_offset) if chloride_module is not None else None,
+        acid_extrusion_observation=acid_module.observe(z,acid_ref,acid_offset,acid_parameters,config.get('mobile_water_volumes')) if acid_module is not None else None,  # [claude] 2026-11-13
         absolute_kcnq_observation=absolute_module.observe(z,config,base) if absolute_module is not None else None,
         mobile_water_volume_observation=config.get('mobile_water_volumes'),
         rate_diagnostics=rate_diagnostics,
