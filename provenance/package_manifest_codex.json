@@ -27,8 +27,8 @@
     },
     {
       "path": ".github/README.md",
-      "bytes": 113,
-      "sha256": "0811d70fd481fe28af7d8a8939547afe77c61b5e19278957cde7e2b9f4678db1"
+      "bytes": 2073,
+      "sha256": "927bb944d8ea621055fccb42067d1f88aef5970993442a3efe288d7190abc792"
     },
     {
       "path": ".gitignore",
@@ -2170,5 +2170,6 @@
       "bytes": 2112,
       "sha256": "e499c11b96a7a8fe3232e8eb3b79633b6fa3f4049627f0b80722f336eb051401"
     }
-  ]
+  ],
+  "documentation_revision": "GitHub landing-page license visibility"
 }
