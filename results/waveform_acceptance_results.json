@@ -1,0 +1,354 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "complete_main_queue": true,
+  "main_runs": [
+    {
+      "file": "W14_electric_initial_Burley_100_single_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.124577846984721e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Burley_15_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.5672746428728743e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Burley_25_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 3.154042360620224e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Burley_50_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.4001565179787576e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con1_100_single_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.9459487314864585e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con1_15_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 3.802028913924005e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con1_25_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.292836143169552e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con1_50_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.2497488316730596e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con2_100_single_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.6122322083210747e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con2_15_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 6.942627805983648e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con2_25_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 6.0870206652907655e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con2_50_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 1.1392330634407699e-08,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_initial_Selvaraj-Con2_50_tight_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 5.372385203372687e-09,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_post108_control_Selvaraj-Con2_15_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 4.76837158203125e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_post108_control_Selvaraj-Con2_25_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 6.4373016357421875e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_post108_control_Selvaraj-Con2_50_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 4.5299530029296875e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_post108_repeated_Selvaraj-Con2_15_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 6.4373016357421875e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_post108_repeated_Selvaraj-Con2_25_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 6.4373016357421875e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_electric_post108_repeated_Selvaraj-Con2_50_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 6.4373016357421875e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_load_tau120_continuous_0.001_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 5.0067901611328125e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_load_tau120_control_0_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 2.9366366849359338e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_load_tau120_repeated_0.001_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 5.9604644775390625e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_rest_tau120_72h_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 1.5370786350388244e-06,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    },
+    {
+      "file": "W14_smoke_metadata.json",
+      "states": 4431,
+      "finite": true,
+      "max_balance": 3.6525416101119446e-10,
+      "no_reset": true,
+      "finite_checks": true,
+      "pass_checks": true
+    }
+  ],
+  "initial": [
+    {
+      "profile": "Burley",
+      "current_pA": 15,
+      "count": 3,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": -2.1178492308573595,
+      "return_from_last_change_ms": -257.5999999999618
+    },
+    {
+      "profile": "Burley",
+      "current_pA": 25,
+      "count": 4,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": -1.1027815031750023,
+      "return_from_last_change_ms": -254.99999999997038
+    },
+    {
+      "profile": "Burley",
+      "current_pA": 50,
+      "count": 3,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": -0.27629994555697146,
+      "return_from_last_change_ms": -90.59999999999104
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current_pA": 15,
+      "count": 5,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": 0.0,
+      "return_from_last_change_ms": 0.0
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current_pA": 25,
+      "count": 6,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": 0.0,
+      "return_from_last_change_ms": 0.0
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current_pA": 50,
+      "count": 4,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": 0.0,
+      "return_from_last_change_ms": 0.0
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 15,
+      "count": 5,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": 0.016869791656820232,
+      "return_from_last_change_ms": -4.3999999999995225
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 25,
+      "count": 6,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": 0.028914967304419226,
+      "return_from_last_change_ms": -6.0
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50,
+      "count": 7,
+      "count_pass": true,
+      "post_events": 0,
+      "no_extra_post_events": true,
+      "absolute_AHP_area_change_mVs": -2.5667122470657913,
+      "return_from_last_change_ms": -162.5999999999874
+    }
+  ],
+  "initial_counts_pass": true,
+  "no_extra_post_events": true,
+  "post108": [
+    {
+      "current_pA": 15,
+      "control": 5,
+      "load": 5,
+      "matched": true,
+      "control_post_events": 0,
+      "load_post_events": 0
+    },
+    {
+      "current_pA": 25,
+      "control": 6,
+      "load": 6,
+      "matched": true,
+      "control_post_events": 0,
+      "load_post_events": 0
+    },
+    {
+      "current_pA": 50,
+      "control": 7,
+      "load": 7,
+      "matched": true,
+      "control_post_events": 0,
+      "load_post_events": 0
+    }
+  ],
+  "post108_counts_pass": true,
+  "post108_no_extra_events": true,
+  "potassium_residual_uM": {
+    "repeated": -1.2197376377007458,
+    "continuous": -1.220252336584963
+  },
+  "potassium_preserved": true,
+  "all_full_state_checks_pass": true,
+  "human_calibrated": false,
+  "healthy_default_adopted": false,
+  "limits": "Historical count regressions; not nine human observations. Long runs cover Con2 only. Gate factors are scenarios; molecular drift and publication bath differences remain."
+}

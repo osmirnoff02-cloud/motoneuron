@@ -1,3 +1,7 @@
+# 0.5.0 - 2026-11-14
+
+Optional effective-gate waveform refinement, preserved historical counts and paired long potassium recovery. [Validation and limits](docs/WAVEFORM_STAGE_0.5.0.md). The 0.4.0 data-request work below is retained.
+
 # 0.3.0 — 2026-11-14
 
 ## 0.4.0 — 2026-11-14

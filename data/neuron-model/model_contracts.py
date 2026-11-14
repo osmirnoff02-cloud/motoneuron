@@ -74,7 +74,7 @@ def state_schema(columns, config):
         expected += manifest['passive_chloride']
     # [claude] 2026-11-13: optional six-state acid-extrusion block after passive Cl (plan N05.1.4).
     if 'acid_extrusion' in config:
-        expected += manifest['acid_extrusion']
+        expected += manifest['acid_extrusion_claude']
     # Alternate names describe the same legacy slot, not an allowed permutation.
     for index, aliases in manifest['legacy_aliases'].items():
         index = int(index)

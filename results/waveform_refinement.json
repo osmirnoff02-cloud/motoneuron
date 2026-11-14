@@ -1,0 +1,30 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "passed": true,
+  "spike_counts": [
+    7,
+    7
+  ],
+  "max_interpolated_difference": {
+    "soma_V_mV": 0.015836343562121158,
+    "process_V_mV": 0.015981324346412862,
+    "soma_K_uM": 0.00235387435532175,
+    "process_K_uM": 0.007789942290401086,
+    "process_ATP_uM": 2.6841917588171782e-05,
+    "process_PCr_uM": 2.2292579160421155e-07
+  },
+  "regular": {
+    "rtol": 1e-08,
+    "atol": 1e-10,
+    "max_step_s": 0.0025,
+    "output_step_s": 0.0002
+  },
+  "tight": {
+    "rtol": 2.5e-09,
+    "atol": 2.5e-11,
+    "max_step_s": 0.00125,
+    "output_step_s": 0.0001
+  },
+  "scope": "Selected Con2 50 pA, all equations active. Electrical/ion/energy readouts; not a new long convergence proof."
+}

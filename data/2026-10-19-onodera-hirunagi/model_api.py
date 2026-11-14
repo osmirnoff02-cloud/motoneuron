@@ -35,7 +35,7 @@ def source_training_data():
 def healthy_gene_reference(gene,*,fraction='P4'):
     """Descriptive normalized expression only, with shared-donor provenance."""
     if fraction not in ('P4','NT'):raise ValueError('P4/NT fractions must remain separate')
-    with (B/'model_gene_evidence_codex.tsv').open(encoding='utf-8',newline='') as f:
+    with (B/'model_gene_evidence.tsv').open(encoding='utf-8',newline='') as f:
         rows=[r for r in csv.DictReader(f,delimiter='\t') if r['gene']==gene]
     if len(rows)!=1 or rows[0]['usable']!='True':raise ValueError('No unambiguous source row for this gene')
     clones=['EKA','TIGE9','YFE16','YFE19']

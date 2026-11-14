@@ -1,0 +1,182 @@
+[
+  {
+    "profile": "Burley",
+    "parameter": "thmin",
+    "index": 9,
+    "unit": "ms",
+    "baseline": 2.2625165307867703,
+    "range": [
+      1.357509918472062,
+      3.1675231431014783
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Burley",
+    "parameter": "threc",
+    "index": 10,
+    "unit": "ms",
+    "baseline": 89.3048746922289,
+    "range": [
+      53.58292481533734,
+      125.02682456912046
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Burley",
+    "parameter": "ta",
+    "index": 13,
+    "unit": "ms",
+    "baseline": 196.1489929894386,
+    "range": [
+      117.68939579366315,
+      274.60859018521404
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Burley",
+    "parameter": "tmfast",
+    "index": 14,
+    "unit": "ms",
+    "baseline": 0.40565014863256843,
+    "range": [
+      0.24339008917954105,
+      0.5679102080855958
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Burley",
+    "parameter": "tndeact",
+    "index": 15,
+    "unit": "ms",
+    "baseline": 50.169200062202634,
+    "range": [
+      30.101520037321578,
+      70.23688008708368
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con1",
+    "parameter": "thmin",
+    "index": 9,
+    "unit": "ms",
+    "baseline": 2.6097069287365295,
+    "range": [
+      1.5658241572419176,
+      3.6535897002311413
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con1",
+    "parameter": "threc",
+    "index": 10,
+    "unit": "ms",
+    "baseline": 33.5270728305768,
+    "range": [
+      20.11624369834608,
+      46.937901962807516
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con1",
+    "parameter": "ta",
+    "index": 13,
+    "unit": "ms",
+    "baseline": 125.53976686946041,
+    "range": [
+      75.32386012167625,
+      175.75567361724455
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con1",
+    "parameter": "tmfast",
+    "index": 14,
+    "unit": "ms",
+    "baseline": 0.2628533966502123,
+    "range": [
+      0.15771203799012737,
+      0.3679947553102972
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con1",
+    "parameter": "tndeact",
+    "index": 15,
+    "unit": "ms",
+    "baseline": 22.659368146355714,
+    "range": [
+      13.595620887813428,
+      31.723115404897996
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con2",
+    "parameter": "thmin",
+    "index": 9,
+    "unit": "ms",
+    "baseline": 2.80841497443854,
+    "range": [
+      1.685048984663124,
+      3.9317809642139556
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con2",
+    "parameter": "threc",
+    "index": 10,
+    "unit": "ms",
+    "baseline": 23.617086398819914,
+    "range": [
+      14.170251839291948,
+      33.06392095834788
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con2",
+    "parameter": "ta",
+    "index": 13,
+    "unit": "ms",
+    "baseline": 101.31719323552643,
+    "range": [
+      60.79031594131585,
+      141.844070529737
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con2",
+    "parameter": "tmfast",
+    "index": 14,
+    "unit": "ms",
+    "baseline": 0.26196358341121895,
+    "range": [
+      0.15717815004673136,
+      0.3667490167757065
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  },
+  {
+    "profile": "Selvaraj-Con2",
+    "parameter": "tndeact",
+    "index": 15,
+    "unit": "ms",
+    "baseline": 31.445148287443164,
+    "range": [
+      18.867088972465897,
+      44.02320760242043
+    ],
+    "basis": "Engineering search bounds; effective mixed channel gates, not measured human confidence interval"
+  }
+]

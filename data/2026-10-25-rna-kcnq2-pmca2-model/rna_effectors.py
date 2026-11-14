@@ -86,7 +86,7 @@ def run_rna_effector_probe(*,expression,pmca2_share=.5,**kwargs):
     if ratios.shape!=(2,) or not np.isfinite(ratios).all() or (ratios<0).any():raise ValueError('Invalid effector state')
     if any(k in kwargs for k in ('channel_ratio','pmca2_ratio','pmca2_share')):raise ValueError('Effector multipliers set by expression state')
     sys.path.insert(0,str(B))
-    from electrical_rna_codex import run_rna_coupled
+    from electrical_rna import run_rna_coupled
     out=run_rna_coupled(channel_ratio=float(ratios[0]),pmca2_ratio=float(ratios[1]),pmca2_share=pmca2_share,**kwargs)
     out['expression_snapshot']=dict(line=expression['line'],time_h=float(expression['time_h'][-1]),
         parameters=expression['parameters'],functional_capacity=ratios.tolist(),

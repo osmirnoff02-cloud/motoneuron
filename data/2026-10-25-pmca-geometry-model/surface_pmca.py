@@ -91,7 +91,7 @@ def map_surface_pmca(surface,*,area_um2,accessible_volume_um3,basal_ca_uM,gamma_
     return mapped,meta
 
 def run_surface_pmca_probe(*,surface_parameters=None,memory_parameters=None,energy_parameters=None,**kwargs):
-    from electrical_pmca_codex import run_pmca_coupled,CouplingParameters,refined_profile
+    from electrical_pmca import run_pmca_coupled,CouplingParameters,refined_profile
     mp=memory_parameters or PMCAMemoryParameters();en=energy_parameters or EnergyParameters()
     meta=None
     if surface_parameters is not None:

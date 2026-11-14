@@ -1,0 +1,9 @@
+{
+  "author": "codex",
+  "version": "0.5.0",
+  "private_history": false,
+  "emails_sent": 0,
+  "license_unchanged": true,
+  "independent_validation": "passed; waveform_validation.json",
+  "scope": "Source snapshot with two inherited lazy-NEURON portability transforms; no new changes to RHS or legacy defaults"
+}

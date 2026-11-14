@@ -1,0 +1,20 @@
+{
+  "Burley": {
+    "unchanged_other_parameters": true,
+    "copy_isolated": true,
+    "invalid_factors_rejected": true,
+    "identity_exact": true
+  },
+  "Selvaraj-Con1": {
+    "unchanged_other_parameters": true,
+    "copy_isolated": true,
+    "invalid_factors_rejected": true,
+    "identity_exact": true
+  },
+  "Selvaraj-Con2": {
+    "unchanged_other_parameters": true,
+    "copy_isolated": true,
+    "invalid_factors_rejected": true,
+    "identity_exact": true
+  }
+}

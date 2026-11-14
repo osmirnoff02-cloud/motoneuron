@@ -1,3 +1,7 @@
+## Current version 0.5.0
+
+[Waveform and voltage recovery stage](docs/WAVEFORM_STAGE_0.5.0.md). Includes the 0.4.0 data requests and filename migration. Conditional research prototype; human calibration remains open.
+
 # Мотонейрон — пакет для научной проверки
 
 **[Help improve the model: experimental data requests (U01–U43)](DATA_REQUESTS.md)** — share measurements, dataset links or corrections for unresolved parameters.
@@ -52,7 +56,7 @@ Smoke проверяет запуск всех состояний на 20 мс �
 
 Английский текст подготовлен для внешних коллег; часть исходных комментариев и параметрического реестра остаётся по-русски. Статусы реализации, подключения, численной проверки и человеческой калибровки разделены. Не все направления БАС и все исторические анализы включены в исполняемую часть.
 
-Версия снимка — **0.4.0** (2026-11-14), [Motoneuron Noncommercial Research License 1.0](LICENSE.txt); правообладатели — Максим Смирнов и Олег Смирнов. Численная модель и её ограничения сохранены. [Проверка выпуска](PUBLICATION_CHECKLIST.md), [сторонние права и прежняя AGPL](docs/LICENSE_SCOPE.md).
+Версия снимка — **0.5.0** (2026-11-14), [Motoneuron Noncommercial Research License 1.0](LICENSE.txt); правообладатели — Максим Смирнов и Олег Смирнов. Численная модель и её ограничения сохранены. [Проверка выпуска](PUBLICATION_CHECKLIST.md), [сторонние права и прежняя AGPL](docs/LICENSE_SCOPE.md).
 
 
 ## Acid-removal stage 0.3.0

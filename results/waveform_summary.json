@@ -1,0 +1,4919 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "waveforms": [
+    {
+      "profile": "Burley",
+      "current_pA": 100,
+      "features": {
+        "spikes": 0,
+        "rest_mV": -69.99999958177347,
+        "peak_mV": -62.14377703936799,
+        "post_min_mV": -21.156191271170016,
+        "post_100ms_min_mV": -21.156191271170016,
+        "post_area_mVs": -1.7235472959741727,
+        "tail_delta_mV": -0.15023702741332556
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 0.202,
+      "single": true,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Burley",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            0.9987322366118286,
+            1.2095751146965028,
+            0.6384102118882631,
+            1.2971910060482843,
+            1.3863662725064816
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -69.99999958234736,
+        "events": [
+          {
+            "time_s": 0.23940000000000108,
+            "peak_mV": 56.75786865116301,
+            "rise_mV_ms": 54.424614185728245,
+            "width_rest_half_ms": 8.00000000000023,
+            "phase": "post"
+          }
+        ],
+        "post_events": 1,
+        "mean_height_mV": null,
+        "mean_width_rest_half_ms": null,
+        "post_min_mV": -21.156191270596125,
+        "post_abs_area_mVs": 4.565279750093494,
+        "delta200_mV": -7.829428385181586,
+        "return_from_off_ms": 458.00000000001313,
+        "return_from_last_peak_ms": null,
+        "last_pulse_peak_s": null,
+        "observed_post_duration_s": 1.0
+      },
+      "file": "W14_electric_initial_Burley_100_single_features.json"
+    },
+    {
+      "profile": "Burley",
+      "current_pA": 15,
+      "features": {
+        "spikes": 3,
+        "rest_mV": -69.99999958177347,
+        "peak_mV": 60.72563683989954,
+        "post_min_mV": -5.656209563320331,
+        "post_100ms_min_mV": -5.656209563320331,
+        "post_area_mVs": -1.2969904427633197,
+        "tail_delta_mV": -0.363780926204484
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 0.7,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Burley",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            0.9987322366118286,
+            1.2095751146965028,
+            0.6384102118882631,
+            1.2971910060482843,
+            1.3863662725064816
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -69.99999958234736,
+        "events": [
+          {
+            "time_s": 0.2274000000000008,
+            "peak_mV": 60.72563683990114,
+            "rise_mV_ms": 60.4315672106783,
+            "width_rest_half_ms": 7.800000000000224,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.39740000000000564,
+            "peak_mV": 55.90026501812358,
+            "rise_mV_ms": 54.12316646852835,
+            "width_rest_half_ms": 7.800000000000251,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.5678000000000105,
+            "peak_mV": 55.52442496945577,
+            "rise_mV_ms": 53.52374300816588,
+            "width_rest_half_ms": 8.00000000000023,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 127.38344185817418,
+        "mean_width_rest_half_ms": 7.866666666666902,
+        "post_min_mV": -5.65620956274644,
+        "post_abs_area_mVs": 1.3470770854631542,
+        "delta200_mV": -2.7747416868067916,
+        "return_from_off_ms": 330.99999999996356,
+        "return_from_last_peak_ms": 463.199999999953,
+        "last_pulse_peak_s": 0.5678000000000105,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 3,
+          "rest_mV": -69.99999958817635,
+          "peak_mV": 61.14971964161951,
+          "post_min_mV": -11.375955693817005,
+          "post_100ms_min_mV": -11.375955693817005,
+          "post_area_mVs": -3.4648790385767043,
+          "tail_delta_mV": -0.4745935669565995
+        },
+        "waveform": {
+          "rest_mV": -69.99999958873515,
+          "events": [
+            {
+              "time_s": 0.2276000000000008,
+              "peak_mV": 61.14971964161957,
+              "rise_mV_ms": 65.12765692638955,
+              "width_rest_half_ms": 7.800000000000224,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.43160000000000664,
+              "peak_mV": 52.6558090604381,
+              "rise_mV_ms": 51.90024137436722,
+              "width_rest_half_ms": 7.800000000000196,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.6388000000000126,
+              "peak_mV": 51.777851995991206,
+              "rise_mV_ms": 50.697453862642746,
+              "width_rest_half_ms": 8.00000000000023,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 125.1944598214181,
+          "mean_width_rest_half_ms": 7.866666666666883,
+          "post_min_mV": -11.375955693258206,
+          "post_abs_area_mVs": 3.464926316320514,
+          "delta200_mV": -6.735243065315046,
+          "return_from_off_ms": 659.5999999999274,
+          "return_from_last_peak_ms": 720.7999999999148,
+          "last_pulse_peak_s": 0.6388000000000126,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_initial_Burley_15_features.json"
+    },
+    {
+      "profile": "Burley",
+      "current_pA": 25,
+      "features": {
+        "spikes": 4,
+        "rest_mV": -69.99999958177347,
+        "peak_mV": 62.123737786924835,
+        "post_min_mV": -5.7007396279004325,
+        "post_100ms_min_mV": -5.7007396279004325,
+        "post_area_mVs": -1.032986065739417,
+        "tail_delta_mV": -0.4398887537954863
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 0.7,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Burley",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            0.9987322366118286,
+            1.2095751146965028,
+            0.6384102118882631,
+            1.2971910060482843,
+            1.3863662725064816
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -69.99999958234736,
+        "events": [
+          {
+            "time_s": 0.21920000000000056,
+            "peak_mV": 62.12373778692567,
+            "rise_mV_ms": 62.373043619582,
+            "width_rest_half_ms": 7.800000000000224,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.3418000000000041,
+            "peak_mV": 50.0186751822932,
+            "rise_mV_ms": 46.79354644633645,
+            "width_rest_half_ms": 8.00000000000023,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.46400000000000763,
+            "peak_mV": 48.5906308066314,
+            "rise_mV_ms": 44.971929924038776,
+            "width_rest_half_ms": 8.00000000000023,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.5866000000000111,
+            "peak_mV": 48.031959148179176,
+            "rise_mV_ms": 44.35529297260505,
+            "width_rest_half_ms": 8.200000000000319,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 122.19125031335471,
+        "mean_width_rest_half_ms": 8.000000000000249,
+        "post_min_mV": -5.700739627326541,
+        "post_abs_area_mVs": 1.7164194017761756,
+        "delta200_mV": -3.374156278715219,
+        "return_from_off_ms": 368.5999999999594,
+        "return_from_last_peak_ms": 481.9999999999482,
+        "last_pulse_peak_s": 0.5866000000000111,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 4,
+          "rest_mV": -69.99999958817635,
+          "peak_mV": 62.74328768561039,
+          "post_min_mV": -8.751803378891069,
+          "post_100ms_min_mV": -8.751803378891069,
+          "post_area_mVs": -2.7091529490542623,
+          "tail_delta_mV": -0.5098831420430514
+        },
+        "waveform": {
+          "rest_mV": -69.99999958873515,
+          "events": [
+            {
+              "time_s": 0.21920000000000056,
+              "peak_mV": 62.74328768561058,
+              "rise_mV_ms": 67.97450965481944,
+              "width_rest_half_ms": 8.00000000000023,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.3436000000000041,
+              "peak_mV": 48.588421961847715,
+              "rise_mV_ms": 46.824349496884395,
+              "width_rest_half_ms": 8.00000000000023,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.4704000000000078,
+              "peak_mV": 46.15489387994184,
+              "rise_mV_ms": 43.77080913005343,
+              "width_rest_half_ms": 8.200000000000207,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.5978000000000114,
+              "peak_mV": 45.20367748349302,
+              "rise_mV_ms": 42.687964067020765,
+              "width_rest_half_ms": 8.200000000000319,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 120.67256984145844,
+          "mean_width_rest_half_ms": 8.100000000000247,
+          "post_min_mV": -8.75180337833227,
+          "post_abs_area_mVs": 2.819200904951178,
+          "delta200_mV": -5.871481570842363,
+          "return_from_off_ms": 634.79999999993,
+          "return_from_last_peak_ms": 736.9999999999186,
+          "last_pulse_peak_s": 0.5978000000000114,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_initial_Burley_25_features.json"
+    },
+    {
+      "profile": "Burley",
+      "current_pA": 50,
+      "features": {
+        "spikes": 3,
+        "rest_mV": -69.99999958177347,
+        "peak_mV": 63.968325574644176,
+        "post_min_mV": -3.8931878724918505,
+        "post_100ms_min_mV": -3.8931878724918505,
+        "post_area_mVs": -0.23662077013599137,
+        "tail_delta_mV": -0.10985321447917329
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 0.7,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Burley",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            0.9987322366118286,
+            1.2095751146965028,
+            0.6384102118882631,
+            1.2971910060482843,
+            1.3863662725064816
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -69.99999958234736,
+        "events": [
+          {
+            "time_s": 0.21240000000000037,
+            "peak_mV": 63.96832557464458,
+            "rise_mV_ms": 64.65147713093903,
+            "width_rest_half_ms": 8.00000000000023,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.29460000000000275,
+            "peak_mV": 30.738817939934748,
+            "rise_mV_ms": 28.486882652272065,
+            "width_rest_half_ms": 9.07606361298907,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.3780000000000051,
+            "peak_mV": 13.742141849845984,
+            "rise_mV_ms": 16.43084405936415,
+            "width_rest_half_ms": 12.000000000000345,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 106.14976137048912,
+        "mean_width_rest_half_ms": 9.692021204329881,
+        "post_min_mV": -3.8931878719179593,
+        "post_abs_area_mVs": 1.119082775374325,
+        "delta200_mV": -1.7398673661452762,
+        "return_from_off_ms": 257.5999999999716,
+        "return_from_last_peak_ms": 579.5999999999665,
+        "last_pulse_peak_s": 0.3780000000000051,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 3,
+          "rest_mV": -69.99999958817635,
+          "peak_mV": 64.75585804995418,
+          "post_min_mV": -4.308235709074353,
+          "post_100ms_min_mV": -4.308235709074353,
+          "post_area_mVs": -0.5615968220227129,
+          "tail_delta_mV": -0.09374174406251257
+        },
+        "waveform": {
+          "rest_mV": -69.99999958873515,
+          "events": [
+            {
+              "time_s": 0.21232316252834746,
+              "peak_mV": 64.76699329878149,
+              "rise_mV_ms": 70.66212415605106,
+              "width_rest_half_ms": 8.00000000000023,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.28800000000000253,
+              "peak_mV": 26.497434442733443,
+              "rise_mV_ms": 25.706806240506786,
+              "width_rest_half_ms": 9.400000000000242,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.3706000000000049,
+              "peak_mV": 1.2482343467475345,
+              "rise_mV_ms": 10.143971176263323,
+              "width_rest_half_ms": 16.80000000000048,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 100.83755361815598,
+          "mean_width_rest_half_ms": 11.400000000000318,
+          "post_min_mV": -4.308235708515554,
+          "post_abs_area_mVs": 1.3953827209312966,
+          "delta200_mV": -2.489491788491023,
+          "return_from_off_ms": 340.79999999996244,
+          "return_from_last_peak_ms": 670.1999999999575,
+          "last_pulse_peak_s": 0.3706000000000049,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_initial_Burley_50_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current_pA": 100,
+      "features": {
+        "spikes": 0,
+        "rest_mV": -60.499999675159664,
+        "peak_mV": -52.51098987577947,
+        "post_min_mV": -15.941831021675021,
+        "post_100ms_min_mV": -15.941831021675021,
+        "post_area_mVs": -2.6396603100123475,
+        "tail_delta_mV": -0.06145654453905536
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 0.202,
+      "single": true,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con1",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -60.499999675498486,
+        "events": [
+          {
+            "time_s": 0.21100000000000027,
+            "peak_mV": -7.3422851795154935,
+            "rise_mV_ms": 14.225784490296201,
+            "width_rest_half_ms": 9.000000000000258,
+            "phase": "post"
+          }
+        ],
+        "post_events": 1,
+        "mean_height_mV": null,
+        "mean_width_rest_half_ms": null,
+        "post_min_mV": -15.9418310213362,
+        "post_abs_area_mVs": 3.7070542754219877,
+        "delta200_mV": -7.417112642904954,
+        "return_from_off_ms": 486.80000000001394,
+        "return_from_last_peak_ms": null,
+        "last_pulse_peak_s": null,
+        "observed_post_duration_s": 1.0
+      },
+      "file": "W14_electric_initial_Selvaraj-Con1_100_single_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current_pA": 15,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -60.499999675159664,
+        "peak_mV": -8.261688872018631,
+        "post_min_mV": -3.7726324745902318,
+        "post_100ms_min_mV": -3.7726324745902318,
+        "post_area_mVs": -0.6500904579144693,
+        "tail_delta_mV": -0.05054642315735691
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 1.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con1",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -60.499999675498486,
+        "events": [
+          {
+            "time_s": 0.22140000000000062,
+            "peak_mV": -8.261688872018105,
+            "rise_mV_ms": 13.14851255491552,
+            "width_rest_half_ms": 9.600000000000275,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.4870000000000082,
+            "peak_mV": -15.015920785531064,
+            "rise_mV_ms": 8.94363678759732,
+            "width_rest_half_ms": 13.200000000000323,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.686800000000014,
+            "peak_mV": -17.86241822452885,
+            "rise_mV_ms": 7.295996360022312,
+            "width_rest_half_ms": 15.200000000000436,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.8596000000000189,
+            "peak_mV": -20.050641798482104,
+            "rise_mV_ms": 6.121238509059801,
+            "width_rest_half_ms": 17.00000000000046,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 1.0152000000000234,
+            "peak_mV": -22.0580756321143,
+            "rise_mV_ms": 5.128320156539946,
+            "width_rest_half_ms": 18.800000000000594,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 43.8502506129636,
+        "mean_width_rest_half_ms": 14.760000000000417,
+        "post_min_mV": -3.7726324742514095,
+        "post_abs_area_mVs": 0.6889065712576319,
+        "delta200_mV": -1.3073172695031374,
+        "return_from_off_ms": 235.39999999997409,
+        "return_from_last_peak_ms": 420.1999999999506,
+        "last_pulse_peak_s": 1.0152000000000234,
+        "observed_post_duration_s": 1.0000000000000002
+      },
+      "previous": {
+        "features": {
+          "spikes": 5,
+          "rest_mV": -60.499999675159664,
+          "peak_mV": -8.261688872018631,
+          "post_min_mV": -3.7726324745902318,
+          "post_100ms_min_mV": -3.7726324745902318,
+          "post_area_mVs": -0.6500904579144693,
+          "tail_delta_mV": -0.05054642315735691
+        },
+        "waveform": {
+          "rest_mV": -60.499999675498486,
+          "events": [
+            {
+              "time_s": 0.22140000000000062,
+              "peak_mV": -8.261688872018105,
+              "rise_mV_ms": 13.14851255491552,
+              "width_rest_half_ms": 9.600000000000275,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.4870000000000082,
+              "peak_mV": -15.015920785531064,
+              "rise_mV_ms": 8.94363678759732,
+              "width_rest_half_ms": 13.200000000000323,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.686800000000014,
+              "peak_mV": -17.86241822452885,
+              "rise_mV_ms": 7.295996360022312,
+              "width_rest_half_ms": 15.200000000000436,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.8596000000000189,
+              "peak_mV": -20.050641798482104,
+              "rise_mV_ms": 6.121238509059801,
+              "width_rest_half_ms": 17.00000000000046,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 1.0152000000000234,
+              "peak_mV": -22.0580756321143,
+              "rise_mV_ms": 5.128320156539946,
+              "width_rest_half_ms": 18.800000000000594,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 43.8502506129636,
+          "mean_width_rest_half_ms": 14.760000000000417,
+          "post_min_mV": -3.7726324742514095,
+          "post_abs_area_mVs": 0.6889065712576319,
+          "delta200_mV": -1.3073172695031374,
+          "return_from_off_ms": 235.39999999997409,
+          "return_from_last_peak_ms": 420.1999999999506,
+          "last_pulse_peak_s": 1.0152000000000234,
+          "observed_post_duration_s": 1.0000000000000002
+        }
+      },
+      "file": "W14_electric_initial_Selvaraj-Con1_15_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current_pA": 25,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -60.499999675159664,
+        "peak_mV": -6.1967859499451645,
+        "post_min_mV": -7.771458156262021,
+        "post_100ms_min_mV": -7.771458156262021,
+        "post_area_mVs": -1.431539066708387,
+        "tail_delta_mV": -0.0855568613058395
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 1.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con1",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -60.499999675498486,
+        "events": [
+          {
+            "time_s": 0.21500000000000044,
+            "peak_mV": -6.196785949944773,
+            "rise_mV_ms": 14.548992326695853,
+            "width_rest_half_ms": 9.000000000000258,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.41160000000000607,
+            "peak_mV": -8.422274519722874,
+            "rise_mV_ms": 13.610722992641596,
+            "width_rest_half_ms": 9.400000000000297,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.6004000000000115,
+            "peak_mV": -9.35706476298633,
+            "rise_mV_ms": 12.919715384123267,
+            "width_rest_half_ms": 10.000000000000231,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.7808000000000167,
+            "peak_mV": -10.41713145341467,
+            "rise_mV_ms": 12.14687925961075,
+            "width_rest_half_ms": 10.600000000000275,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.9512000000000216,
+            "peak_mV": -11.753692787506875,
+            "rise_mV_ms": 11.215188633453428,
+            "width_rest_half_ms": 11.20000000000032,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 1.110200000000026,
+            "peak_mV": -13.530946755658448,
+            "rise_mV_ms": 10.027827083560638,
+            "width_rest_half_ms": 12.200000000000433,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 50.55368363729283,
+        "mean_width_rest_half_ms": 10.400000000000302,
+        "post_min_mV": -7.771458155923199,
+        "post_abs_area_mVs": 1.433181289280848,
+        "delta200_mV": -2.756138736700663,
+        "return_from_off_ms": 337.59999999996285,
+        "return_from_last_peak_ms": 427.39999999993677,
+        "last_pulse_peak_s": 1.110200000000026,
+        "observed_post_duration_s": 1.0000000000000002
+      },
+      "previous": {
+        "features": {
+          "spikes": 6,
+          "rest_mV": -60.499999675159664,
+          "peak_mV": -6.1967859499451645,
+          "post_min_mV": -7.771458156262021,
+          "post_100ms_min_mV": -7.771458156262021,
+          "post_area_mVs": -1.431539066708387,
+          "tail_delta_mV": -0.0855568613058395
+        },
+        "waveform": {
+          "rest_mV": -60.499999675498486,
+          "events": [
+            {
+              "time_s": 0.21500000000000044,
+              "peak_mV": -6.196785949944773,
+              "rise_mV_ms": 14.548992326695853,
+              "width_rest_half_ms": 9.000000000000258,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.41160000000000607,
+              "peak_mV": -8.422274519722874,
+              "rise_mV_ms": 13.610722992641596,
+              "width_rest_half_ms": 9.400000000000297,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.6004000000000115,
+              "peak_mV": -9.35706476298633,
+              "rise_mV_ms": 12.919715384123267,
+              "width_rest_half_ms": 10.000000000000231,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.7808000000000167,
+              "peak_mV": -10.41713145341467,
+              "rise_mV_ms": 12.14687925961075,
+              "width_rest_half_ms": 10.600000000000275,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.9512000000000216,
+              "peak_mV": -11.753692787506875,
+              "rise_mV_ms": 11.215188633453428,
+              "width_rest_half_ms": 11.20000000000032,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 1.110200000000026,
+              "peak_mV": -13.530946755658448,
+              "rise_mV_ms": 10.027827083560638,
+              "width_rest_half_ms": 12.200000000000433,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 50.55368363729283,
+          "mean_width_rest_half_ms": 10.400000000000302,
+          "post_min_mV": -7.771458155923199,
+          "post_abs_area_mVs": 1.433181289280848,
+          "delta200_mV": -2.756138736700663,
+          "return_from_off_ms": 337.59999999996285,
+          "return_from_last_peak_ms": 427.39999999993677,
+          "last_pulse_peak_s": 1.110200000000026,
+          "observed_post_duration_s": 1.0000000000000002
+        }
+      },
+      "file": "W14_electric_initial_Selvaraj-Con1_25_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current_pA": 50,
+      "features": {
+        "spikes": 4,
+        "rest_mV": -60.499999675159664,
+        "peak_mV": -3.534822818293469,
+        "post_min_mV": -3.303699415491991,
+        "post_100ms_min_mV": -3.303699415491991,
+        "post_area_mVs": -0.2092637735315487,
+        "tail_delta_mV": 0.15265456693560964
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 1.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con1",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 3.539904729650989e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036403e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.039691558809975956,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -60.499999675498486,
+        "events": [
+          {
+            "time_s": 0.2100000000000003,
+            "peak_mV": -3.5348228182931183,
+            "rise_mV_ms": 16.29188117233418,
+            "width_rest_half_ms": 8.200000000000236,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.33820000000000394,
+            "peak_mV": -7.875613915704781,
+            "rise_mV_ms": 14.484191367042115,
+            "width_rest_half_ms": 9.368596213016778,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.4568000000000074,
+            "peak_mV": -11.43671441236068,
+            "rise_mV_ms": 11.835774816362424,
+            "width_rest_half_ms": 10.800000000000365,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.5560000000000103,
+            "peak_mV": -19.966060812289264,
+            "rise_mV_ms": 6.554432518848838,
+            "width_rest_half_ms": 16.80000000000048,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 49.79669668583652,
+        "mean_width_rest_half_ms": 11.292149053254464,
+        "post_min_mV": -3.3036994151531687,
+        "post_abs_area_mVs": 0.754997069676384,
+        "delta200_mV": -1.1109760427949809,
+        "return_from_off_ms": 211.39999999997673,
+        "return_from_last_peak_ms": 855.3999999999664,
+        "last_pulse_peak_s": 0.5560000000000103,
+        "observed_post_duration_s": 1.0000000000000002
+      },
+      "previous": {
+        "features": {
+          "spikes": 4,
+          "rest_mV": -60.499999675159664,
+          "peak_mV": -3.534822818293469,
+          "post_min_mV": -3.303699415491991,
+          "post_100ms_min_mV": -3.303699415491991,
+          "post_area_mVs": -0.2092637735315487,
+          "tail_delta_mV": 0.15265456693560964
+        },
+        "waveform": {
+          "rest_mV": -60.499999675498486,
+          "events": [
+            {
+              "time_s": 0.2100000000000003,
+              "peak_mV": -3.5348228182931183,
+              "rise_mV_ms": 16.29188117233418,
+              "width_rest_half_ms": 8.200000000000236,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.33820000000000394,
+              "peak_mV": -7.875613915704781,
+              "rise_mV_ms": 14.484191367042115,
+              "width_rest_half_ms": 9.368596213016778,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.4568000000000074,
+              "peak_mV": -11.43671441236068,
+              "rise_mV_ms": 11.835774816362424,
+              "width_rest_half_ms": 10.800000000000365,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.5560000000000103,
+              "peak_mV": -19.966060812289264,
+              "rise_mV_ms": 6.554432518848838,
+              "width_rest_half_ms": 16.80000000000048,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 49.79669668583652,
+          "mean_width_rest_half_ms": 11.292149053254464,
+          "post_min_mV": -3.3036994151531687,
+          "post_abs_area_mVs": 0.754997069676384,
+          "delta200_mV": -1.1109760427949809,
+          "return_from_off_ms": 211.39999999997673,
+          "return_from_last_peak_ms": 855.3999999999664,
+          "last_pulse_peak_s": 0.5560000000000103,
+          "observed_post_duration_s": 1.0000000000000002
+        }
+      },
+      "file": "W14_electric_initial_Selvaraj-Con1_50_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 100,
+      "features": {
+        "spikes": 0,
+        "rest_mV": -59.099999689389385,
+        "peak_mV": -52.5068533230765,
+        "post_min_mV": -16.29811956188035,
+        "post_100ms_min_mV": -16.29811956188035,
+        "post_area_mVs": -2.1887843837874312,
+        "tail_delta_mV": -0.056438237247753875
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 0.202,
+      "single": true,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.099999689693625,
+        "events": [
+          {
+            "time_s": 0.21400000000000036,
+            "peak_mV": -9.900105464193029,
+            "rise_mV_ms": 11.031094501870399,
+            "width_rest_half_ms": 10.400000000000297,
+            "phase": "post"
+          }
+        ],
+        "post_events": 1,
+        "mean_height_mV": null,
+        "mean_width_rest_half_ms": null,
+        "post_min_mV": -16.298119561576108,
+        "post_abs_area_mVs": 3.3402087602991153,
+        "delta200_mV": -6.526563051469431,
+        "return_from_off_ms": 413.8000000000119,
+        "return_from_last_peak_ms": null,
+        "last_pulse_peak_s": null,
+        "observed_post_duration_s": 1.0
+      },
+      "file": "W14_electric_initial_Selvaraj-Con2_100_single_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 15,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.099999689389385,
+        "peak_mV": -10.669117641789146,
+        "post_min_mV": -2.131349151745006,
+        "post_100ms_min_mV": -2.131349151745006,
+        "post_area_mVs": -0.21765704900850338,
+        "tail_delta_mV": -0.09285876117391467
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 1.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.099999689693625,
+        "events": [
+          {
+            "time_s": 0.2236000000000007,
+            "peak_mV": -10.669117641789038,
+            "rise_mV_ms": 10.26966140115829,
+            "width_rest_half_ms": 11.000000000000314,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.4498000000000072,
+            "peak_mV": -16.811577366730116,
+            "rise_mV_ms": 7.118600445230465,
+            "width_rest_half_ms": 14.800000000000423,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.6258000000000122,
+            "peak_mV": -18.742355499331524,
+            "rise_mV_ms": 6.193593693241073,
+            "width_rest_half_ms": 16.400000000000524,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.7860000000000167,
+            "peak_mV": -20.061786334742067,
+            "rise_mV_ms": 5.589355782790027,
+            "width_rest_half_ms": 17.600000000000506,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.936400000000021,
+            "peak_mV": -21.211591714803777,
+            "rise_mV_ms": 5.091189377043815,
+            "width_rest_half_ms": 18.800000000000594,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 41.60071397821432,
+        "mean_width_rest_half_ms": 15.720000000000471,
+        "post_min_mV": -2.131349151440766,
+        "post_abs_area_mVs": 0.5007601129874728,
+        "delta200_mV": -0.7272372466361574,
+        "return_from_off_ms": 166.79999999998162,
+        "return_from_last_peak_ms": 430.39999999996064,
+        "last_pulse_peak_s": 0.936400000000021,
+        "observed_post_duration_s": 1.0000000000000002
+      },
+      "previous": {
+        "features": {
+          "spikes": 5,
+          "rest_mV": -59.09999968902527,
+          "peak_mV": -10.898319200444035,
+          "post_min_mV": -2.315503922722918,
+          "post_100ms_min_mV": -2.315503922722918,
+          "post_area_mVs": -0.29334416713652123,
+          "tail_delta_mV": -0.08792616296167921
+        },
+        "waveform": {
+          "rest_mV": -59.09999968932951,
+          "events": [
+            {
+              "time_s": 0.22320000000000068,
+              "peak_mV": -10.898319200443664,
+              "rise_mV_ms": 10.652096628926252,
+              "width_rest_half_ms": 11.000000000000314,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.445400000000007,
+              "peak_mV": -16.40889831465978,
+              "rise_mV_ms": 7.667354541857164,
+              "width_rest_half_ms": 14.20000000000038,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.6234000000000122,
+              "peak_mV": -18.345363103421686,
+              "rise_mV_ms": 6.661218432442274,
+              "width_rest_half_ms": 15.80000000000048,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.7850000000000168,
+              "peak_mV": -19.705941467196986,
+              "rise_mV_ms": 5.987815024169534,
+              "width_rest_half_ms": 16.800000000000594,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.936600000000021,
+              "peak_mV": -20.89583176870536,
+              "rise_mV_ms": 5.430775590083024,
+              "width_rest_half_ms": 18.000000000000462,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 41.84912891844401,
+          "mean_width_rest_half_ms": 15.160000000000446,
+          "post_min_mV": -2.315503922418678,
+          "post_abs_area_mVs": 0.4838903213306526,
+          "delta200_mV": -0.7636647205851546,
+          "return_from_off_ms": 171.39999999998113,
+          "return_from_last_peak_ms": 434.79999999996016,
+          "last_pulse_peak_s": 0.936600000000021,
+          "observed_post_duration_s": 1.0000000000000002
+        }
+      },
+      "file": "W14_electric_initial_Selvaraj-Con2_15_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 25,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.099999689389385,
+        "peak_mV": -8.131875512468625,
+        "post_min_mV": -5.891108233742635,
+        "post_100ms_min_mV": -5.891108233742635,
+        "post_area_mVs": -0.9533576677090225,
+        "tail_delta_mV": -0.14820248949428816
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 1.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.099999689693625,
+        "events": [
+          {
+            "time_s": 0.2166000000000005,
+            "peak_mV": -8.131875512468298,
+            "rise_mV_ms": 11.795945780727575,
+            "width_rest_half_ms": 10.000000000000286,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.39400000000000557,
+            "peak_mV": -9.814616259902554,
+            "rise_mV_ms": 11.20626518539173,
+            "width_rest_half_ms": 10.400000000000297,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.5666000000000105,
+            "peak_mV": -10.338776468693693,
+            "rise_mV_ms": 10.885629238631038,
+            "width_rest_half_ms": 10.800000000000365,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.7348000000000153,
+            "peak_mV": -10.82533409896715,
+            "rise_mV_ms": 10.555624251450826,
+            "width_rest_half_ms": 11.000000000000231,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.89920000000002,
+            "peak_mV": -11.295456740814178,
+            "rise_mV_ms": 10.285130243192718,
+            "width_rest_half_ms": 11.20000000000032,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 1.0598000000000245,
+            "peak_mV": -11.73769042752003,
+            "rise_mV_ms": 10.006091354000262,
+            "width_rest_half_ms": 11.600000000000277,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 48.74270810496597,
+        "mean_width_rest_half_ms": 10.833333333333629,
+        "post_min_mV": -5.891108233438395,
+        "post_abs_area_mVs": 0.9891456147877938,
+        "delta200_mV": -1.7273381307160562,
+        "return_from_off_ms": 259.19999999997145,
+        "return_from_last_peak_ms": 399.3999999999469,
+        "last_pulse_peak_s": 1.0598000000000245,
+        "observed_post_duration_s": 1.0000000000000002
+      },
+      "previous": {
+        "features": {
+          "spikes": 6,
+          "rest_mV": -59.09999968902527,
+          "peak_mV": -8.470322079124424,
+          "post_min_mV": -5.515695949386384,
+          "post_100ms_min_mV": -5.515695949386384,
+          "post_area_mVs": -0.8762442091863996,
+          "tail_delta_mV": -0.13966537976936877
+        },
+        "waveform": {
+          "rest_mV": -59.09999968932951,
+          "events": [
+            {
+              "time_s": 0.2166000000000005,
+              "peak_mV": -8.470322079124417,
+              "rise_mV_ms": 12.13967743046086,
+              "width_rest_half_ms": 9.800000000000281,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.3898000000000055,
+              "peak_mV": -9.8879137883276,
+              "rise_mV_ms": 11.74027585832803,
+              "width_rest_half_ms": 10.200000000000319,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.5606000000000103,
+              "peak_mV": -10.243161884079662,
+              "rise_mV_ms": 11.524379101354691,
+              "width_rest_half_ms": 10.400000000000297,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.7284000000000151,
+              "peak_mV": -10.655435531540022,
+              "rise_mV_ms": 11.238865377554399,
+              "width_rest_half_ms": 10.600000000000275,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.89300000000002,
+              "peak_mV": -11.09206376486438,
+              "rise_mV_ms": 10.959323833637907,
+              "width_rest_half_ms": 10.800000000000365,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 1.0540000000000245,
+              "peak_mV": -11.552632816363454,
+              "rise_mV_ms": 10.650970857213071,
+              "width_rest_half_ms": 11.000000000000343,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 48.78307804527959,
+          "mean_width_rest_half_ms": 10.46666666666698,
+          "post_min_mV": -5.515695949082144,
+          "post_abs_area_mVs": 0.9602306474833746,
+          "delta200_mV": -1.7176439735391185,
+          "return_from_off_ms": 259.39999999997144,
+          "return_from_last_peak_ms": 405.3999999999469,
+          "last_pulse_peak_s": 1.0540000000000245,
+          "observed_post_duration_s": 1.0000000000000002
+        }
+      },
+      "file": "W14_electric_initial_Selvaraj-Con2_25_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.099999689389385,
+        "peak_mV": -0.4075956578551792,
+        "post_min_mV": -14.738425926424163,
+        "post_100ms_min_mV": -14.738425926424163,
+        "post_area_mVs": -2.582248734768092,
+        "tail_delta_mV": -0.2585439744269067
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 1.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.099999689693625,
+        "events": [
+          {
+            "time_s": 0.21120000000000033,
+            "peak_mV": -5.05722269295568,
+            "rise_mV_ms": 13.685942159748892,
+            "width_rest_half_ms": 9.000000000000258,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.33400000000000385,
+            "peak_mV": -5.262596697693478,
+            "rise_mV_ms": 14.827405230572422,
+            "width_rest_half_ms": 8.600000000000275,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.4676000000000077,
+            "peak_mV": -3.0763502227772332,
+            "rise_mV_ms": 16.61475253207417,
+            "width_rest_half_ms": 7.80000000000014,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.6130000000000119,
+            "peak_mV": -1.3843859882314886,
+            "rise_mV_ms": 18.136163404805348,
+            "width_rest_half_ms": 7.600000000000273,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.7670000000000162,
+            "peak_mV": -0.6005785851833776,
+            "rise_mV_ms": 18.87487034532633,
+            "width_rest_half_ms": 7.400000000000184,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.9246000000000208,
+            "peak_mV": -0.40759565783339324,
+            "rise_mV_ms": 18.969244312209714,
+            "width_rest_half_ms": 7.400000000000295,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 1.0830000000000253,
+            "peak_mV": -0.5579469363506936,
+            "rise_mV_ms": 18.8741096408864,
+            "width_rest_half_ms": 7.400000000000295,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 56.76476014954715,
+        "mean_width_rest_half_ms": 7.885714285714532,
+        "post_min_mV": -14.738425926119923,
+        "post_abs_area_mVs": 2.582275090164909,
+        "delta200_mV": -4.704736477185897,
+        "return_from_off_ms": 379.5999999999582,
+        "return_from_last_peak_ms": 496.59999999993283,
+        "last_pulse_peak_s": 1.0830000000000253,
+        "observed_post_duration_s": 1.0000000000000002
+      },
+      "previous": {
+        "features": {
+          "spikes": 7,
+          "rest_mV": -59.09999968902527,
+          "peak_mV": -0.2888173183909821,
+          "post_min_mV": -23.53717320477351,
+          "post_100ms_min_mV": -23.53717320477351,
+          "post_area_mVs": -4.351247289935251,
+          "tail_delta_mV": -0.3039083249496599
+        },
+        "waveform": {
+          "rest_mV": -59.09999968932951,
+          "events": [
+            {
+              "time_s": 0.21100000000000033,
+              "peak_mV": -5.473738732086909,
+              "rise_mV_ms": 13.98428925934117,
+              "width_rest_half_ms": 9.000000000000258,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.3302000000000037,
+              "peak_mV": -6.510901296734009,
+              "rise_mV_ms": 14.60015288450106,
+              "width_rest_half_ms": 8.800000000000253,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.4560000000000074,
+              "peak_mV": -4.9518326263133385,
+              "rise_mV_ms": 15.863876926517271,
+              "width_rest_half_ms": 8.200000000000207,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.5906000000000112,
+              "peak_mV": -3.1541988425039005,
+              "rise_mV_ms": 17.44011748725434,
+              "width_rest_half_ms": 7.800000000000251,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.7348000000000153,
+              "peak_mV": -1.6010606365965647,
+              "rise_mV_ms": 18.87638687517457,
+              "width_rest_half_ms": 7.400000000000184,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 0.8874000000000197,
+              "peak_mV": -0.6717543247793146,
+              "rise_mV_ms": 19.66686810145656,
+              "width_rest_half_ms": 7.200000000000206,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 1.0444000000000242,
+              "peak_mV": -0.28881731836796054,
+              "rise_mV_ms": 20.113458403188204,
+              "width_rest_half_ms": 7.000000000000339,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 1.2031999999999996,
+              "peak_mV": -2.5131883930948615,
+              "rise_mV_ms": 18.7687179503511,
+              "width_rest_half_ms": 7.151971355957798,
+              "phase": "post"
+            }
+          ],
+          "post_events": 1,
+          "mean_height_mV": 55.86395629256066,
+          "mean_width_rest_half_ms": 7.914285714285958,
+          "post_min_mV": -23.53719229181567,
+          "post_abs_area_mVs": 5.1489873372307,
+          "delta200_mV": -10.687003587561094,
+          "return_from_off_ms": 503.59999999994454,
+          "return_from_last_peak_ms": 659.1999999999202,
+          "last_pulse_peak_s": 1.0444000000000242,
+          "observed_post_duration_s": 1.0000000000000002
+        }
+      },
+      "file": "W14_electric_initial_Selvaraj-Con2_50_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.09999968938972,
+        "peak_mV": -0.40754547677206165,
+        "post_min_mV": -14.738325992350312,
+        "post_100ms_min_mV": -14.738325992350312,
+        "post_area_mVs": -2.582228816068744,
+        "tail_delta_mV": -0.2585423506011537
+      },
+      "start_s": 0,
+      "on_s": 0.2,
+      "off_s": 1.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.09999968950178,
+        "events": [
+          {
+            "time_s": 0.21119999999999878,
+            "peak_mV": -5.057220983783119,
+            "rise_mV_ms": 13.71084778703148,
+            "width_rest_half_ms": 8.89999999999902,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.33389999999998526,
+            "peak_mV": -5.239394220106992,
+            "rise_mV_ms": 14.85533465802508,
+            "width_rest_half_ms": 8.499999999999064,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.46749999999997055,
+            "peak_mV": -3.068355832007117,
+            "rise_mV_ms": 16.66342824773749,
+            "width_rest_half_ms": 7.799999999999141,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.6128999999999545,
+            "peak_mV": -1.3678623644700372,
+            "rise_mV_ms": 18.157377645488044,
+            "width_rest_half_ms": 7.399999999999185,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.7668999999999375,
+            "peak_mV": -0.5596911463682889,
+            "rise_mV_ms": 18.87769628504005,
+            "width_rest_half_ms": 7.299999999999196,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 0.9245999999999202,
+            "peak_mV": -0.40754547675057146,
+            "rise_mV_ms": 19.039596885024714,
+            "width_rest_half_ms": 7.199999999999207,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 1.0828999999999027,
+            "peak_mV": -0.5503436804954082,
+            "rise_mV_ms": 18.918343081342343,
+            "width_rest_half_ms": 7.299999999999196,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 56.77851201750441,
+        "mean_width_rest_half_ms": 7.771428571427715,
+        "post_min_mV": -14.738325992238252,
+        "post_abs_area_mVs": 2.582255043827122,
+        "delta200_mV": -4.704692468421527,
+        "return_from_off_ms": 379.5999999999582,
+        "return_from_last_peak_ms": 496.7000000000554,
+        "last_pulse_peak_s": 1.0828999999999027,
+        "observed_post_duration_s": 1.0000000000000002
+      },
+      "file": "W14_electric_initial_Selvaraj-Con2_50_tight_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 15,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.10099471355949,
+        "peak_mV": -10.666802619665665,
+        "post_min_mV": -2.137248964835095,
+        "post_100ms_min_mV": -2.137248964835095,
+        "post_area_mVs": -0.2210166677548897,
+        "tail_delta_mV": -0.09277776169184904
+      },
+      "start_s": 388800.0,
+      "on_s": 388800.2,
+      "off_s": 388801.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.10099471355706,
+        "events": [
+          {
+            "time_s": 388800.22360000113,
+            "peak_mV": -10.666798855958444,
+            "rise_mV_ms": 10.271425084484347,
+            "width_rest_half_ms": 11.000000522471964,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.4498000119,
+            "peak_mV": -16.810963459588347,
+            "rise_mV_ms": 7.1237126465747025,
+            "width_rest_half_ms": 14.80000070296228,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.62580002024,
+            "peak_mV": -18.747625710120733,
+            "rise_mV_ms": 6.192030977762562,
+            "width_rest_half_ms": 16.4000007789582,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.78600002785,
+            "peak_mV": -20.062544722125207,
+            "rise_mV_ms": 5.59292840713097,
+            "width_rest_half_ms": 17.600000835955143,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.936400035,
+            "peak_mV": -21.20985971225229,
+            "rise_mV_ms": 5.095087985895205,
+            "width_rest_half_ms": 18.600000883452594,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 41.60143622154805,
+        "mean_width_rest_half_ms": 15.680000744760036,
+        "post_min_mV": -2.1372489721444268,
+        "post_abs_area_mVs": 0.49911277591879005,
+        "delta200_mV": -0.7272044126392245,
+        "return_from_off_ms": 166.80000792257488,
+        "return_from_last_peak_ms": 430.39997294545174,
+        "last_pulse_peak_s": 388800.936400035,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 5,
+          "rest_mV": -59.10099471341862,
+          "peak_mV": -10.896605774718584,
+          "post_min_mV": -2.3191078313406805,
+          "post_100ms_min_mV": -2.3191078313406805,
+          "post_area_mVs": -0.294883464901852,
+          "tail_delta_mV": -0.0878894908461163
+        },
+        "waveform": {
+          "rest_mV": -59.1009947134162,
+          "events": [
+            {
+              "time_s": 388800.2232000011,
+              "peak_mV": -10.89660541849964,
+              "rise_mV_ms": 10.653319378148835,
+              "width_rest_half_ms": 11.000000522471964,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.4456000117,
+              "peak_mV": -16.408626444459337,
+              "rise_mV_ms": 7.676047627738138,
+              "width_rest_half_ms": 14.200000674463809,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.6234000201,
+              "peak_mV": -18.34627955094681,
+              "rise_mV_ms": 6.661615798820956,
+              "width_rest_half_ms": 15.60000074096024,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.7850000278,
+              "peak_mV": -19.710489887655314,
+              "rise_mV_ms": 5.980282517505134,
+              "width_rest_half_ms": 17.000000807456672,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.936600035,
+              "peak_mV": -20.894507869172436,
+              "rise_mV_ms": 5.428225409779326,
+              "width_rest_half_ms": 18.000000854954123,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 41.84969287926948,
+          "mean_width_rest_half_ms": 15.160000720061362,
+          "post_min_mV": -2.319107840495775,
+          "post_abs_area_mVs": 0.48344078344971625,
+          "delta200_mV": -0.7639316332765773,
+          "return_from_off_ms": 171.40000814106315,
+          "return_from_last_peak_ms": 434.7999731544405,
+          "last_pulse_peak_s": 388800.936600035,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_post108_control_Selvaraj-Con2_15_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 25,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.10099471355949,
+        "peak_mV": -8.129610180734844,
+        "post_min_mV": -5.892979333857284,
+        "post_100ms_min_mV": -5.892979333857284,
+        "post_area_mVs": -0.9537035202768244,
+        "tail_delta_mV": -0.1481856732758544
+      },
+      "start_s": 388800.0,
+      "on_s": 388800.2,
+      "off_s": 388801.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.10099471355706,
+        "events": [
+          {
+            "time_s": 388800.2166000008,
+            "peak_mV": -8.129609280733149,
+            "rise_mV_ms": 11.798048314626945,
+            "width_rest_half_ms": 10.000000474974513,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.3940000092,
+            "peak_mV": -9.821041929449004,
+            "rise_mV_ms": 11.207646667105552,
+            "width_rest_half_ms": 10.400000493973494,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.5666000174,
+            "peak_mV": -10.343246217501294,
+            "rise_mV_ms": 10.886071244539627,
+            "width_rest_half_ms": 10.800000512972474,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.7348000254,
+            "peak_mV": -10.831070980318431,
+            "rise_mV_ms": 10.572338679135216,
+            "width_rest_half_ms": 11.000000522471964,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.8992000332,
+            "peak_mV": -11.289234972691583,
+            "rise_mV_ms": 10.284760408310003,
+            "width_rest_half_ms": 11.200000531971455,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388801.05980004085,
+            "peak_mV": -11.745503352990658,
+            "rise_mV_ms": 9.990471720188985,
+            "width_rest_half_ms": 11.600000550970435,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 48.74104359127637,
+        "mean_width_rest_half_ms": 10.833333847889056,
+        "post_min_mV": -5.89297936778209,
+        "post_abs_area_mVs": 0.9893411316047585,
+        "delta200_mV": -1.727604011738542,
+        "return_from_off_ms": 259.2000123113394,
+        "return_from_last_peak_ms": 399.39997147303075,
+        "last_pulse_peak_s": 388801.05980004085,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 6,
+          "rest_mV": -59.10099471341862,
+          "peak_mV": -8.467678384501166,
+          "post_min_mV": -5.521339467148657,
+          "post_100ms_min_mV": -5.521339467148657,
+          "post_area_mVs": -0.877666719585086,
+          "tail_delta_mV": -0.13963408548823963
+        },
+        "waveform": {
+          "rest_mV": -59.1009947134162,
+          "events": [
+            {
+              "time_s": 388800.2166000008,
+              "peak_mV": -8.467671535663381,
+              "rise_mV_ms": 12.141011150043274,
+              "width_rest_half_ms": 9.800000465475023,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.389800009,
+              "peak_mV": -9.880763936603993,
+              "rise_mV_ms": 11.755723558280993,
+              "width_rest_half_ms": 10.200000484474003,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.56060001714,
+              "peak_mV": -10.252254549135422,
+              "rise_mV_ms": 11.529902729232136,
+              "width_rest_half_ms": 10.400000493973494,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.7286000251,
+              "peak_mV": -10.662575932218617,
+              "rise_mV_ms": 11.25216612596283,
+              "width_rest_half_ms": 10.600000503472984,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.8930000329,
+              "peak_mV": -11.08876542122029,
+              "rise_mV_ms": 10.952247561150317,
+              "width_rest_half_ms": 11.000000522471964,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388801.0540000406,
+              "peak_mV": -11.555440402267273,
+              "rise_mV_ms": 10.651812775492788,
+              "width_rest_half_ms": 11.200000531971455,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 48.78308275056471,
+          "mean_width_rest_half_ms": 10.533333833639821,
+          "post_min_mV": -5.521339481240119,
+          "post_abs_area_mVs": 0.9605561427277798,
+          "delta200_mV": -1.7181207238806095,
+          "return_from_off_ms": 259.40001232083887,
+          "return_from_last_peak_ms": 405.39997175801545,
+          "last_pulse_peak_s": 388801.0540000406,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_post108_control_Selvaraj-Con2_25_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.10099471355949,
+        "peak_mV": -0.432165060573708,
+        "post_min_mV": -14.74824247421104,
+        "post_100ms_min_mV": -14.74824247421104,
+        "post_area_mVs": -2.5841347561285315,
+        "tail_delta_mV": -0.2585991288229792
+      },
+      "start_s": 388800.0,
+      "on_s": 388800.2,
+      "off_s": 388801.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.10099471355706,
+        "events": [
+          {
+            "time_s": 388800.21120000054,
+            "peak_mV": -5.054749606530295,
+            "rise_mV_ms": 13.688202953525689,
+            "width_rest_half_ms": 9.000000427477062,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.3340000064,
+            "peak_mV": -5.249560481232508,
+            "rise_mV_ms": 14.8171119266256,
+            "width_rest_half_ms": 8.600000408478081,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.4676000127,
+            "peak_mV": -3.059445439491441,
+            "rise_mV_ms": 16.57990166684501,
+            "width_rest_half_ms": 8.00000037997961,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.6130000196,
+            "peak_mV": -1.361600661106248,
+            "rise_mV_ms": 18.115378344371997,
+            "width_rest_half_ms": 7.40000035148114,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.76700002694,
+            "peak_mV": -0.5586893420565521,
+            "rise_mV_ms": 18.77576119635714,
+            "width_rest_half_ms": 7.40000035148114,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.92480003444,
+            "peak_mV": -0.43215151407266955,
+            "rise_mV_ms": 19.006203388455926,
+            "width_rest_half_ms": 7.200000341981649,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388801.08300004195,
+            "peak_mV": -0.5533549193525414,
+            "rise_mV_ms": 18.86643242307588,
+            "width_rest_half_ms": 7.40000035148114,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 56.77677300443674,
+        "mean_width_rest_half_ms": 7.857143230337117,
+        "post_min_mV": -14.748242561164403,
+        "post_abs_area_mVs": 2.5841612268458323,
+        "delta200_mV": -4.708379174323625,
+        "return_from_off_ms": 379.800018039532,
+        "return_from_last_peak_ms": 496.7999760992825,
+        "last_pulse_peak_s": 388801.08300004195,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 7,
+          "rest_mV": -59.10099471341862,
+          "peak_mV": -0.28978479401504614,
+          "post_min_mV": -23.525713575651032,
+          "post_100ms_min_mV": -23.525713575651032,
+          "post_area_mVs": -4.343475845739015,
+          "tail_delta_mV": -0.30419153855675773
+        },
+        "waveform": {
+          "rest_mV": -59.1009947134162,
+          "events": [
+            {
+              "time_s": 388800.21100000053,
+              "peak_mV": -5.471269373984165,
+              "rise_mV_ms": 13.986078077122798,
+              "width_rest_half_ms": 9.000000427477062,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.3302000062,
+              "peak_mV": -6.513535405776693,
+              "rise_mV_ms": 14.599278667409076,
+              "width_rest_half_ms": 8.800000417977571,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.4562000122,
+              "peak_mV": -4.946189143466544,
+              "rise_mV_ms": 15.894189831356439,
+              "width_rest_half_ms": 8.2000003894791,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.59060001856,
+              "peak_mV": -3.1542079544722363,
+              "rise_mV_ms": 17.388371561768615,
+              "width_rest_half_ms": 7.60000036098063,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.7350000254,
+              "peak_mV": -1.5794713450360949,
+              "rise_mV_ms": 18.852124588239544,
+              "width_rest_half_ms": 7.40000035148114,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.88760003267,
+              "peak_mV": -0.6690214137753472,
+              "rise_mV_ms": 19.666857620255076,
+              "width_rest_half_ms": 7.200000341981649,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388801.0446000401,
+              "peak_mV": -0.2897785591173838,
+              "rise_mV_ms": 20.101194782930214,
+              "width_rest_half_ms": 7.000000332482159,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388801.2034000002,
+              "peak_mV": -2.549381305181608,
+              "rise_mV_ms": 18.794200320089868,
+              "width_rest_half_ms": 7.032820489257574,
+              "phase": "post"
+            }
+          ],
+          "post_events": 1,
+          "mean_height_mV": 55.869069971183556,
+          "mean_width_rest_half_ms": 7.885714660265616,
+          "post_min_mV": -23.525713662551794,
+          "post_abs_area_mVs": 5.150307904772216,
+          "delta200_mV": -10.697050863370904,
+          "return_from_off_ms": 503.80002392921597,
+          "return_from_last_peak_ms": 659.1999838128686,
+          "last_pulse_peak_s": 388801.0446000401,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_post108_control_Selvaraj-Con2_50_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 15,
+      "features": {
+        "spikes": 5,
+        "rest_mV": -59.100953319135144,
+        "peak_mV": -10.666902796393247,
+        "post_min_mV": -2.1370132325683358,
+        "post_100ms_min_mV": -2.1370132325683358,
+        "post_area_mVs": -0.22088211722782142,
+        "tail_delta_mV": -0.09278128278198494
+      },
+      "start_s": 388800.0,
+      "on_s": 388800.2,
+      "off_s": 388801.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.1009533191327,
+        "events": [
+          {
+            "time_s": 388800.22360000113,
+            "peak_mV": -10.666899030891036,
+            "rise_mV_ms": 10.271350510082607,
+            "width_rest_half_ms": 11.000000522471964,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.4498000119,
+            "peak_mV": -16.810959145645835,
+            "rise_mV_ms": 7.12354928962753,
+            "width_rest_half_ms": 14.80000070296228,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.62580002024,
+            "peak_mV": -18.747342813339845,
+            "rise_mV_ms": 6.192197424217971,
+            "width_rest_half_ms": 16.4000007789582,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.78600002785,
+            "peak_mV": -20.062473913461606,
+            "rise_mV_ms": 5.592861762198343,
+            "width_rest_half_ms": 17.600000835955143,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.936400035,
+            "peak_mV": -21.209878692432536,
+            "rise_mV_ms": 5.095010540349675,
+            "width_rest_half_ms": 18.600000883452594,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 41.60144259997853,
+        "mean_width_rest_half_ms": 15.680000744760036,
+        "post_min_mV": -2.137013239036804,
+        "post_abs_area_mVs": 0.4991788831433105,
+        "delta200_mV": -0.7272066022402655,
+        "return_from_off_ms": 166.80000792257488,
+        "return_from_last_peak_ms": 430.39997294545174,
+        "last_pulse_peak_s": 388800.936400035,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 5,
+          "rest_mV": -59.10095331899756,
+          "peak_mV": -10.896681677778245,
+          "post_min_mV": -2.318973660578564,
+          "post_100ms_min_mV": -2.318973660578564,
+          "post_area_mVs": -0.2948257567917327,
+          "tail_delta_mV": -0.08789117432525728
+        },
+        "waveform": {
+          "rest_mV": -59.10095331899513,
+          "events": [
+            {
+              "time_s": 388800.2232000011,
+              "peak_mV": -10.896681319628366,
+              "rise_mV_ms": 10.65326519588088,
+              "width_rest_half_ms": 11.000000522471964,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.4456000117,
+              "peak_mV": -16.40879496531212,
+              "rise_mV_ms": 7.675798089197841,
+              "width_rest_half_ms": 14.200000674463809,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.6234000201,
+              "peak_mV": -18.346192033778223,
+              "rise_mV_ms": 6.661712694400053,
+              "width_rest_half_ms": 15.60000074096024,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.7850000278,
+              "peak_mV": -19.7102316682027,
+              "rise_mV_ms": 5.979887322800807,
+              "width_rest_half_ms": 17.000000807456672,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.936600035,
+              "peak_mV": -20.894491877564548,
+              "rise_mV_ms": 5.428448206205156,
+              "width_rest_half_ms": 18.000000854954123,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 41.849674946097934,
+          "mean_width_rest_half_ms": 15.160000720061362,
+          "post_min_mV": -2.318973669348793,
+          "post_abs_area_mVs": 0.4834581220740401,
+          "delta200_mV": -0.7639226253139668,
+          "return_from_off_ms": 171.40000814106315,
+          "return_from_last_peak_ms": 434.7999731544405,
+          "last_pulse_peak_s": 388800.936600035,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_post108_repeated_Selvaraj-Con2_15_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 25,
+      "features": {
+        "spikes": 6,
+        "rest_mV": -59.100953319135144,
+        "peak_mV": -8.129710213788593,
+        "post_min_mV": -5.892842884637233,
+        "post_100ms_min_mV": -5.892842884637233,
+        "post_area_mVs": -0.9536776444659731,
+        "tail_delta_mV": -0.14818656260737129
+      },
+      "start_s": 388800.0,
+      "on_s": 388800.2,
+      "off_s": 388801.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.1009533191327,
+        "events": [
+          {
+            "time_s": 388800.2166000008,
+            "peak_mV": -8.129709312971688,
+            "rise_mV_ms": 11.797957950261738,
+            "width_rest_half_ms": 10.000000474974513,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.3940000092,
+            "peak_mV": -9.82073556803506,
+            "rise_mV_ms": 11.206831864509823,
+            "width_rest_half_ms": 10.400000493973494,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.5666000174,
+            "peak_mV": -10.342941977313926,
+            "rise_mV_ms": 10.886318086038957,
+            "width_rest_half_ms": 10.800000512972474,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.7348000254,
+            "peak_mV": -10.83065602886079,
+            "rise_mV_ms": 10.5718390510673,
+            "width_rest_half_ms": 11.000000522471964,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.8992000332,
+            "peak_mV": -11.289442279678429,
+            "rise_mV_ms": 10.285113483790589,
+            "width_rest_half_ms": 11.200000531971455,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388801.05980004085,
+            "peak_mV": -11.74497241231378,
+            "rise_mV_ms": 9.991631943023302,
+            "width_rest_half_ms": 11.600000550970435,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 48.741210389270414,
+        "mean_width_rest_half_ms": 10.833333847889056,
+        "post_min_mV": -5.8928429183264655,
+        "post_abs_area_mVs": 0.9893251446657451,
+        "delta200_mV": -1.7275804177048073,
+        "return_from_off_ms": 259.2000123113394,
+        "return_from_last_peak_ms": 399.39997147303075,
+        "last_pulse_peak_s": 388801.05980004085,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 6,
+          "rest_mV": -59.10095331899756,
+          "peak_mV": -8.46779480983054,
+          "post_min_mV": -5.52096668969839,
+          "post_100ms_min_mV": -5.52096668969839,
+          "post_area_mVs": -0.8775734356691242,
+          "tail_delta_mV": -0.13963587519949527
+        },
+        "waveform": {
+          "rest_mV": -59.10095331899513,
+          "events": [
+            {
+              "time_s": 388800.2166000008,
+              "peak_mV": -8.467787960303513,
+              "rise_mV_ms": 12.140953002790207,
+              "width_rest_half_ms": 9.800000465475023,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.389800009,
+              "peak_mV": -9.881027752237033,
+              "rise_mV_ms": 11.754831110508587,
+              "width_rest_half_ms": 10.200000484474003,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.56060001714,
+              "peak_mV": -10.251709164963724,
+              "rise_mV_ms": 11.530047635724923,
+              "width_rest_half_ms": 10.400000493973494,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.7286000251,
+              "peak_mV": -10.663358223580037,
+              "rise_mV_ms": 11.252093976376099,
+              "width_rest_half_ms": 10.600000503472984,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.8930000329,
+              "peak_mV": -11.088713234332836,
+              "rise_mV_ms": 10.953306922855209,
+              "width_rest_half_ms": 11.000000522471964,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388801.0540000406,
+              "peak_mV": -11.555053508263082,
+              "rise_mV_ms": 10.65243591566178,
+              "width_rest_half_ms": 11.200000531971455,
+              "phase": "pulse"
+            }
+          ],
+          "post_events": 0,
+          "mean_height_mV": 48.78301167838176,
+          "mean_width_rest_half_ms": 10.533333833639821,
+          "post_min_mV": -5.52096670279618,
+          "post_abs_area_mVs": 0.9605315625176067,
+          "delta200_mV": -1.718082925793766,
+          "return_from_off_ms": 259.40001232083887,
+          "return_from_last_peak_ms": 405.39997175801545,
+          "last_pulse_peak_s": 388801.0540000406,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_post108_repeated_Selvaraj-Con2_25_features.json"
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current_pA": 50,
+      "features": {
+        "spikes": 7,
+        "rest_mV": -59.100953319135144,
+        "peak_mV": -0.4354888101458998,
+        "post_min_mV": -14.74774021502364,
+        "post_100ms_min_mV": -14.74774021502364,
+        "post_area_mVs": -2.58403766033591,
+        "tail_delta_mV": -0.2585970848037462
+      },
+      "start_s": 388800.0,
+      "on_s": 388800.2,
+      "off_s": 388801.2,
+      "single": false,
+      "conditions": {
+        "author": "codex",
+        "date": "2026-11-04",
+        "profile": "Selvaraj-Con2",
+        "healthy_human_calibrated": false,
+        "status": "conditional joint candidate; full-network stationary state not imposed",
+        "thermodynamics": {
+          "Kobs": 440.2878738006308,
+          "Kdouble_M_inv": 1579899999.9999995,
+          "beta": 0.9364132678,
+          "temperature_C": 23.0,
+          "pH": 7.0,
+          "free_Mg_mM": 1.0,
+          "ionic_strength_M": 0.25,
+          "source": "10.3390/ijms241713244 Eq12/13 ExcelFileS1 Figure5&A1 and named regression coefficients",
+          "solution_Na_mM": 145.0,
+          "solution_K_mM": 6.5,
+          "beta_interpolation": "pH then pMg then temperature, no extrapolation",
+          "interpretation": "All chemical species sums in source solution; transfer to neuronal cytosol is conditional; not measured neuronal ADP"
+        },
+        "energy": {
+          "ATP0_uM": 2912.4641381971614,
+          "ADP0_uM": 11.486441422872206,
+          "AMP0_uM": 0.04942037996632628,
+          "PCr0_uM": 3654.373142896929,
+          "Cr0_uM": 6345.6268571030705,
+          "AK_Kobs": 1.0909269291975268,
+          "AK_source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+          "respiratory_reserve": 2.0,
+          "adenylate_total_preserved": true,
+          "Cr_total_preserved": true,
+          "initial_energy_charge_not_conserved_between_distinct_baseline_candidates": true
+        },
+        "TDP": {
+          "reference_half_h": 48.0,
+          "target_temperature_half_h": 48.0,
+          "Q10": 1.0,
+          "assumed_cleavage_share": 0.2,
+          "cleavage1_per_s": 4.391978327386072e-05,
+          "intrinsic_half_h": 60.0,
+          "effective_cleavage_hazard_s_inv": 8.022536812036404e-07,
+          "intrinsic_hazard_s_inv": 3.2090147248145617e-06,
+          "reconstructed_synthesis_per_s": 4.111268406018204e-06,
+          "calpain_activity": 0.03199112706967222,
+          "interpretation": "Two first-order intact loss paths only; NOT total dSILAC/Dendra2 half-life or total turnover including aggregate exchange"
+        },
+        "RNA": {
+          "source": "retained_prior",
+          "source_changed_genes": [],
+          "source_changed_count": 0,
+          "Q10": 1.0,
+          "rate_scale": 1.0,
+          "synthesis_rule": "k*original declared total abundance; conditional stationarity budget, not measured RNA synthesis",
+          "source_reference_temperature_C": 37.0,
+          "median_half_h": 5.114901386867221
+        },
+        "temperatures": {
+          "electrical_reference_C": 23.0,
+          "target_C": 23.0,
+          "biochemical_reference_C": 37.0,
+          "electrical_reference_scope": "Implementation reference only; experimental bath temperature must be checked per publication, not inferred from this number",
+          "TDP_Q10": 1.0,
+          "RNA_Q10": 1.0,
+          "unknown_fast_rates": "Effective hypotheses assigned to target temperature; their Q10 remains unmeasured",
+          "electrical_kinetic_temperature_correction": false,
+          "global_temperature_calibration": false
+        },
+        "changed_conductances": false,
+        "source_scenario_13_residual_parameters_retained": true,
+        "Q3": {
+          "healthy_human_calibrated": false,
+          "nuclear_reference_fraction": 0.6733782240461704,
+          "basal_initiation_gain": 1.0,
+          "calibration_donor": "E:\\data_als\\data\\2026-11-04-Q2-ion-energy\\Q2_no_dynamic_KCNQ_rest_72.0h_trace.npz",
+          "CK_source": "Wiseman2023",
+          "Teague1996": {
+            "CK_Kobs": 222.52142794429312,
+            "AK_Kobs": 1.0909269291975268,
+            "ATP_hydrolysis_Kobs_M": 553868.2074282564,
+            "reference_constants": {
+              "HATP": 3.477405491322529e-07,
+              "HADP": 4.7529836345655417e-07,
+              "HAMP": 6.970429904131237e-07,
+              "HPCr": 3.242525469141532e-05,
+              "HPi": 2.201206901008242e-07,
+              "MgATP": 7681.893092763227,
+              "MgHATP": 81.16204833007657,
+              "MgADP": 844.8241080983522,
+              "MgHADP": 22.466121314970035,
+              "MgAMP": 43.93207758950618,
+              "MgPCr": 16.67309301592995,
+              "MgPi": 36.452881400208106,
+              "CK": 519791407.3750009,
+              "AK": 0.4335273463877614,
+              "ATP_hydrolysis": 0.16219645618690093
+            },
+            "binding_polynomials": {
+              "ATP": 8.992803641167203,
+              "ADP": 2.059945008974004,
+              "AMP": 1.1873952518490047,
+              "PCr": 1.0197571088841686,
+              "Pi": 1.4907491129547972
+            },
+            "temperature_C": 23.0,
+            "pH": 7.0,
+            "free_Mg_mM": 1.0,
+            "ionic_strength_M": 0.25,
+            "source": "10.1242/jeb.199.2.509 Table1, equations6-10",
+            "limits": "Only listed proton/Mg species; no K/Na binding, crowding or neuronal concentration measurement; constant enthalpy approximation"
+          },
+          "assumptions": "Fixed conditional basal reference and constant initiation capacity; derived before challenge, not adjusted during a trajectory. Shared ribosomes, AA, GTP and ATP remain finite.",
+          "differential_KCNQ_conductance_nS": 0.5,
+          "state_clamps": false,
+          "state_resets": false,
+          "conditional_RNA_export_initialization": true,
+          "whole_network_stationarity_validated": false,
+          "gene_specific_RP_translation_reference": true
+        },
+        "waveform14": {
+          "multipliers": [
+            1.1353981337335315,
+            0.9302274272533534,
+            0.9780340323053123,
+            1.3346121994680453,
+            1.1345591090675222
+          ],
+          "indices": [
+            9,
+            10,
+            13,
+            14,
+            15
+          ],
+          "human_calibrated": false
+        }
+      },
+      "historical_count_not_human": true,
+      "waveform": {
+        "rest_mV": -59.1009533191327,
+        "events": [
+          {
+            "time_s": 388800.21120000054,
+            "peak_mV": -5.0548593657496035,
+            "rise_mV_ms": 13.688104395619595,
+            "width_rest_half_ms": 9.000000427477062,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.3340000064,
+            "peak_mV": -5.250100966523289,
+            "rise_mV_ms": 14.817655127716312,
+            "width_rest_half_ms": 8.600000408478081,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.4676000127,
+            "peak_mV": -3.0599052124387214,
+            "rise_mV_ms": 16.5765468802005,
+            "width_rest_half_ms": 7.80000037048012,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.6130000196,
+            "peak_mV": -1.3616785852343,
+            "rise_mV_ms": 18.11881412699208,
+            "width_rest_half_ms": 7.40000035148114,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.76700002694,
+            "peak_mV": -0.5590379915000755,
+            "rise_mV_ms": 18.784620823717926,
+            "width_rest_half_ms": 7.40000035148114,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388800.92480003444,
+            "peak_mV": -0.43547491214603457,
+            "rise_mV_ms": 19.009375782525847,
+            "width_rest_half_ms": 7.200000341981649,
+            "phase": "pulse"
+          },
+          {
+            "time_s": 388801.08300004195,
+            "peak_mV": -0.5514205243722197,
+            "rise_mV_ms": 18.860862876742303,
+            "width_rest_half_ms": 7.40000035148114,
+            "phase": "pulse"
+          }
+        ],
+        "post_events": 0,
+        "mean_height_mV": 56.77631366799495,
+        "mean_width_rest_half_ms": 7.828571800408619,
+        "post_min_mV": -14.747740301587768,
+        "post_abs_area_mVs": 2.5840641307892063,
+        "delta200_mV": -4.70819124987819,
+        "return_from_off_ms": 379.800018039532,
+        "return_from_last_peak_ms": 496.7999760992825,
+        "last_pulse_peak_s": 388801.08300004195,
+        "observed_post_duration_s": 1.0
+      },
+      "previous": {
+        "features": {
+          "spikes": 7,
+          "rest_mV": -59.10095331899756,
+          "peak_mV": -0.2880662375098471,
+          "post_min_mV": -23.526356191691995,
+          "post_100ms_min_mV": -23.526356191691995,
+          "post_area_mVs": -4.343877643125172,
+          "tail_delta_mV": -0.30417808897570353
+        },
+        "waveform": {
+          "rest_mV": -59.10095331899513,
+          "events": [
+            {
+              "time_s": 388800.21100000053,
+              "peak_mV": -5.471377613193757,
+              "rise_mV_ms": 13.986001246757056,
+              "width_rest_half_ms": 9.000000427477062,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.3302000062,
+              "peak_mV": -6.51338527543945,
+              "rise_mV_ms": 14.599432011424248,
+              "width_rest_half_ms": 8.800000417977571,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.4562000122,
+              "peak_mV": -4.947643393677308,
+              "rise_mV_ms": 15.893809281772832,
+              "width_rest_half_ms": 8.2000003894791,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.59060001856,
+              "peak_mV": -3.152577498617101,
+              "rise_mV_ms": 17.395316365936313,
+              "width_rest_half_ms": 7.60000036098063,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.7350000254,
+              "peak_mV": -1.5791182337936858,
+              "rise_mV_ms": 18.84237262881624,
+              "width_rest_half_ms": 7.40000035148114,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388800.88760003267,
+              "peak_mV": -0.6768434172315666,
+              "rise_mV_ms": 19.67162886631011,
+              "width_rest_half_ms": 7.200000341981649,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388801.0446000401,
+              "peak_mV": -0.28805911340584484,
+              "rise_mV_ms": 20.10946218955115,
+              "width_rest_half_ms": 7.000000332482159,
+              "phase": "pulse"
+            },
+            {
+              "time_s": 388801.2034000002,
+              "peak_mV": -2.5416022734530697,
+              "rise_mV_ms": 18.793819882231336,
+              "width_rest_half_ms": 7.032820489257574,
+              "phase": "post"
+            }
+          ],
+          "post_events": 1,
+          "mean_height_mV": 55.86823838394389,
+          "mean_width_rest_half_ms": 7.885714660265616,
+          "post_min_mV": -23.526356289288508,
+          "post_abs_area_mVs": 5.150281634847118,
+          "delta200_mV": -10.696586021509553,
+          "return_from_off_ms": 503.80002392921597,
+          "return_from_last_peak_ms": 659.1999838128686,
+          "last_pulse_peak_s": 388801.0446000401,
+          "observed_post_duration_s": 1.0
+        }
+      },
+      "file": "W14_electric_post108_repeated_Selvaraj-Con2_50_features.json"
+    }
+  ],
+  "long": {
+    "control": {
+      "final": {
+        "0": -1.2102877929764952e-06,
+        "134": -2.258118867355796e-07,
+        "185": -59.10099471159849,
+        "192": -59.10099409123832,
+        "199": 10528.354030519315,
+        "200": 139999.5162803492,
+        "219": 10528.354350523457,
+        "220": 139999.51508252326,
+        "120": 2912.459543826893,
+        "136": 2912.4639493394434,
+        "315": 3653.4498014904243,
+        "316": 3654.3376388401225
+      },
+      "min_ATP_process_percent": 100.0,
+      "min_PCr_process_percent": 100.0
+    },
+    "repeated": {
+      "final": {
+        "0": -1.1395253108213233e-06,
+        "134": -2.442452498596132e-07,
+        "185": -59.100953317166706,
+        "192": -59.10093879574792,
+        "199": 10528.356707694797,
+        "200": 139999.5783416967,
+        "219": 10528.33501283763,
+        "220": 139998.29534488556,
+        "120": 2912.4595279578352,
+        "136": 2912.4640583221008,
+        "315": 3653.4465924785586,
+        "316": 3648.5770465768715
+      },
+      "min_ATP_process_percent": 99.97250679289793,
+      "min_PCr_process_percent": 98.71961122948238,
+      "minus_control": {
+        "0": 7.076248215517187e-08,
+        "134": -1.8433363124033586e-08,
+        "185": 4.13944317827486e-05,
+        "192": 5.529549039806625e-05,
+        "199": 0.0026771754819492344,
+        "200": 0.062061347503913566,
+        "219": -0.019337685827849782,
+        "220": -1.2197376377007458,
+        "120": -1.586905773365288e-05,
+        "136": 0.00010898265736614121,
+        "315": -0.003209011865692446,
+        "316": -5.7605922632510556
+      },
+      "global_charge_residual_uM": -2.1073411848415053e-09
+    },
+    "continuous": {
+      "final": {
+        "0": -1.1436473532942185e-06,
+        "134": -2.449721509871116e-07,
+        "185": -59.10095671201432,
+        "192": -59.10094219067553,
+        "199": 10528.356674602097,
+        "200": 139999.5766556231,
+        "219": 10528.335018284393,
+        "220": 139998.29483018667,
+        "120": 2912.459529149445,
+        "136": 2912.4640738570142,
+        "315": 3653.446835008391,
+        "316": 3652.9924516517995
+      },
+      "min_ATP_process_percent": 99.97250007810888,
+      "min_PCr_process_percent": 97.53925359204473,
+      "minus_control": {
+        "0": 6.664043968227675e-08,
+        "134": -1.9160264251532018e-08,
+        "185": 3.799958416550453e-05,
+        "192": 5.190056278792099e-05,
+        "199": 0.0026440827823535074,
+        "200": 0.06037527389707975,
+        "219": -0.0193322390641697,
+        "220": -1.220252336584963,
+        "120": -1.467744777983171e-05,
+        "136": 0.00012451757083908888,
+        "315": -0.0029664820331163355,
+        "316": -1.3451871883230524
+      },
+      "global_charge_residual_uM": -7.748864446132219e-10
+    }
+  },
+  "rest": {
+    "intact_TDP_fraction_change": 0.021344547899692312,
+    "delta": {
+      "K_soma_uM": 0.3222563778690528,
+      "K_process_uM": 0.3334480940538924,
+      "ATP_process_uM": -0.0002994204173774051,
+      "PCr_process_uM": -0.05699046108793482
+    }
+  },
+  "human_calibrated": false
+}

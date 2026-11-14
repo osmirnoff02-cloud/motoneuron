@@ -9,3 +9,6 @@ The inventory is not a complete certificate of calibration: implicit constants m
 ## Experimental data requests
 
 [English invitation and all 43 groups](../DATA_REQUESTS.md) · [Catalogue of 1,044 records](data_requests.json). This wider snapshot includes unbundled research branches and protocol/optimization entries. It supplements, rather than replaces, the released-runtime inventory.
+
+
+[Current waveform stage](../docs/WAVEFORM_STAGE_0.5.0.md).

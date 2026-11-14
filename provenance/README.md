@@ -1,3 +1,7 @@
+# Current version 0.5.0
+
+[Current path map](public_path_map.json), [current package manifest](package_manifest.json) and [0.4.0 merge record](parallel_release_merge.json). Older provenance retains its original scope and hashes.
+
 # Provenance
 
 [codex] 2026-11-13. [Home](../README.md).

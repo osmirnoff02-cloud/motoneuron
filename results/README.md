@@ -25,3 +25,6 @@ These are dated historical results. Their original row-level evidence is include
 - [verified_pulse_figure.png](verified_pulse_figure.png)
 - [verified_pulse_summary.json](verified_pulse_summary.json)
 - [verified_pulse_timeseries.csv](verified_pulse_timeseries.csv)
+
+
+[Current waveform stage](../docs/WAVEFORM_STAGE_0.5.0.md).

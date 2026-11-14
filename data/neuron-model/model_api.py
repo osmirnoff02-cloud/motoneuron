@@ -1260,3 +1260,9 @@ for _name in ('mn_modulation_energy_sources','sharples2021_hcn_reference',
               'adenylate_extract_observer','ateam_flim_observer',
               'compare_cart_response','observe_mn_compartment_energy'):
     globals()[_name]=getattr(_mn_modulation13,_name)
+
+# [codex] 2026-11-14. Explicit effective-gate scenarios; unchanged default ODE.
+_waveform14 = _module(B.parent/'2026-11-14-waveform-recovery/kinetics.py',
+                       '_stable_waveform_recovery14')
+apply_waveform_kinetics = _waveform14.apply_waveform_kinetics
+waveform_kinetic_reference = _waveform14.waveform_kinetic_reference

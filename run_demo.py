@@ -27,6 +27,7 @@ def main():
     parser.add_argument('--acid-tau-s', type=float, choices=(20.,120.,600.), help='Opt-in scenario; no measured human recovery constant')
     parser.add_argument('--acid-buffer', type=float, choices=(10.,20.,46.), default=20.)
     parser.add_argument('--acid-resting-ph', type=float, choices=(7.02,7.18,7.24), default=7.18)
+    parser.add_argument('--waveform-v14', action='store_true', help='Explicit tested C08 + acid120 effective-gate scenario')
     parser.add_argument('--checkpoint', type=Path)
     parser.add_argument('--output', type=Path, required=True, help='A NEW directory, never an existing result directory')
     parser.add_argument('--full-trace', action='store_true', help='Also retain all states; can create large files')
@@ -98,6 +99,10 @@ def main():
     if args.acid_tau_s is not None:
         options['acid_extrusion_parameters']=full.r.api.AcidExtrusionParameters(recovery_tau_s=args.acid_tau_s,buffer_mM_per_pH=args.acid_buffer,resting_pH=args.acid_resting_ph)
         if np.ndim(kw['atol']):kw['atol']=np.r_[kw['atol'],np.full(6,1e-8)]
+    if args.waveform_v14:
+        if args.candidate!='C08' or args.acid_tau_s!=120.:parser.error('--waveform-v14 requires C08 and --acid-tau-s 120; other mixtures were not validated')
+        options=full.r.api.apply_waveform_kinetics(options)
+        provenance=options['control_context']
     expected_states=4431 if args.acid_tau_s is not None else 4425
     def observer(checkpoint,nfev):
         if args.protocol in ('rest72','load36'):
@@ -109,7 +114,7 @@ def main():
     print('Integrating full',expected_states,'states',args.candidate,args.profile,args.protocol,flush=True)
     result=full.r.api.run_integrated_neuron(sg,**options,checkpoint=cp,solver_observer=observer,**kw)
     checks={k:float(v) for k,v in result['checks'].items() if k!='minimum_state'}
-    summary=dict(acid_tau_s=args.acid_tau_s,protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
+    summary=dict(waveform_v14=args.waveform_v14,acid_tau_s=args.acid_tau_s,protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
         samples=len(result['time_s']),all_finite=bool(np.isfinite(result['state']).all()),
         max_balance=max(abs(v) for v in checks.values()),checks=checks,nfev=result['nfev'],
         human_calibrated=False,elapsed_s=time.monotonic()-start,

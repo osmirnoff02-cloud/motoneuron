@@ -1,0 +1,451 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "base_public_commit": "de0e5f8d8b66d6ef3903e30d6c7e47c0e064e5a1",
+  "runtime_files_equivalent_after_path_alias_normalization": [
+    "data/2026-10-14-ipsc-electrical-multisource/electrical_model.py",
+    "data/2026-10-14-ipsc-electrical-multisource/neuron_replay.py",
+    "data/2026-10-16-calcium-data-integration/cascade_observer.py",
+    "data/2026-10-16-calcium-data-integration/dandrea_fit.py",
+    "data/2026-10-16-calcium-data-integration/model_api.py",
+    "data/2026-10-16-selvaraj-waveform/waveform_fit.py",
+    "data/2026-10-19-adar2-ampa-chain/adar2_ampa.py",
+    "data/2026-10-19-adar2-ampa-chain/model_api.py",
+    "data/2026-10-19-adar2-qr-calibration/ampa_constraints.py",
+    "data/2026-10-19-adar2-qr-calibration/model_api.py",
+    "data/2026-10-19-calcium-buffer-calibration/calcium_calibration.py",
+    "data/2026-10-19-calcium-buffer-calibration/model_api.py",
+    "data/2026-10-19-calpain-tdp-scenarios/calpain_tdp.py",
+    "data/2026-10-19-calpain-tdp-scenarios/model_api.py",
+    "data/2026-10-19-electrical-recovery-refinement/model_api.py",
+    "data/2026-10-19-equal-calcium-load/equal_load.py",
+    "data/2026-10-19-equal-calcium-load/model_api.py",
+    "data/2026-10-19-onodera-hirunagi/model_api.py",
+    "data/2026-10-19-recovery-protocols/er_exchange.py",
+    "data/2026-10-19-recovery-protocols/model_api.py",
+    "data/2026-10-19-recovery-protocols/recovery_model.py",
+    "data/2026-10-19-source-model-update/assay_observers.py",
+    "data/2026-10-19-source-model-update/model_api.py",
+    "data/2026-10-19-source-model-update/model_api_observers.py",
+    "data/2026-10-19-source-model-update/optical_qc.py",
+    "data/2026-10-19-source-model-update/source_observers.py",
+    "data/2026-10-20-ampa-current-permeability/model_api.py",
+    "data/2026-10-20-coupled-ampa-calcium-spikes/model_api.py",
+    "data/2026-10-20-coupled-calpain-tdp/model_api.py",
+    "data/2026-10-20-substrate-model-update/model_api.py",
+    "data/2026-10-21-calcium-protease-update/model_api.py",
+    "data/2026-10-21-cascella-cast-source-update/model_api.py",
+    "data/2026-10-21-chan-stmn2-neurite/model_api.py",
+    "data/2026-10-21-integrated-adar2-stmn2/model_api.py",
+    "data/2026-10-21-protease-memory-clearance/model_api.py",
+    "data/2026-10-21-spectrin-tdp-state-update/model_api.py",
+    "data/2026-10-21-tdp-transport-clearance/model_api.py",
+    "data/2026-10-23-calpain-reactivation/model_api.py",
+    "data/2026-10-23-calpain-seven-papers/model_api.py",
+    "data/2026-10-23-chou-cascella-supplement/model_api.py",
+    "data/2026-10-23-iron-neuron-network/model_api.py",
+    "data/2026-10-23-library-functional-update/model_api.py",
+    "data/2026-10-23-ling-ayala-supplement/model_api.py",
+    "data/2026-10-23-ling-ayala-synthesis/model_api.py",
+    "data/2026-10-23-long-calcium-memory/model_api.py",
+    "data/2026-10-23-pkn-organelle-network/model_api.py",
+    "data/2026-10-23-six-papers-calpain-stmn2/model_api.py",
+    "data/2026-10-23-tdp-aggregation-chain/model_api.py",
+    "data/2026-10-23-tdp-homeostasis/model_api.py",
+    "data/2026-10-23-yamashita-phospho/model_api.py",
+    "data/2026-10-24-atp-calcium-feedback/energy_parameters.py",
+    "data/2026-10-24-kcnq2-transport/transport.py",
+    "data/2026-10-24-ncoa4-transport-update/model_api.py",
+    "data/2026-10-25-gerencser-field-model/field_observer.py",
+    "data/2026-10-25-gerencser-fret/fret_bridge.py",
+    "data/2026-10-25-pmca-geometry-model/bk_protocol.py",
+    "data/2026-10-25-pmca-geometry-model/surface_pmca.py",
+    "data/2026-10-25-pmca-memory-model/bk_observer.py",
+    "data/2026-10-25-pmca-memory-model/long_pmca.py",
+    "data/2026-10-25-pmca-memory-model/pmca_memory.py",
+    "data/2026-10-25-pmca-spatial-model/spatial_pmca.py",
+    "data/2026-10-25-rna-kcnq2-pmca2-model/rna_effectors.py",
+    "data/2026-10-25-spatial-electrical-injury/electrical_geometry.py",
+    "data/2026-10-25-spatial-electrical-injury/local_injury.py",
+    "data/2026-10-25-watt-liu-kiehn/source_extensions.py",
+    "data/2026-10-26-connected-spatial-neuron/compiled_kernels.py",
+    "data/2026-10-26-connected-spatial-neuron/connected_parameters.py",
+    "data/2026-10-26-geometry-mito-nmj/energy_terminal.py",
+    "data/2026-10-26-geometry-mito-nmj/inputs.py",
+    "data/2026-10-26-geometry-mito-nmj/proteasome_sources.py",
+    "data/2026-10-26-nak-energy-neuron/ion_parameters.py",
+    "data/2026-10-26-nak-energy-neuron/mito_ion_model.py",
+    "data/2026-10-26-nak-energy-neuron/mito_parameters.py",
+    "data/2026-10-26-nak-source-calibration/energetic_neuron.py",
+    "data/2026-10-26-nak-source-calibration/extension_parameters.py",
+    "data/2026-10-26-nak-source-calibration/nmj.py",
+    "data/2026-10-26-nak-source-calibration/recovery_inputs.py",
+    "data/2026-10-26-nak-source-calibration/validate_model.py",
+    "data/2026-10-26-prakash-activity-atp/activity_energy.py",
+    "data/2026-10-26-prakash-activity-atp/source_observers.py",
+    "data/2026-10-26-proteasome-ampa/proteasome_work.py",
+    "data/2026-10-26-proteasome-energy/proteostasis_parameters.py",
+    "data/2026-10-26-proteasome-energy/source_assays.py",
+    "data/2026-10-26-takeuchi-recycling-atp/recycling_energy.py",
+    "data/2026-10-28-atluri-tabares/synaptic_observers.py",
+    "data/2026-10-28-donor-energy-integration/creatine.py",
+    "data/2026-10-28-donor-energy-integration/energy_observer.py",
+    "data/2026-10-28-parsons-grabe/cholinergic_cargo.py",
+    "data/2026-10-28-parsons-grabe/organelle_acidity.py",
+    "data/2026-10-28-takeuchi-balaji/adaptive_recycling.py",
+    "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron.py",
+    "data/2026-10-28-vesicle-supplements/proton_surface.py",
+    "data/2026-10-28-vesicle-supplements/quantal_observer.py",
+    "data/2026-10-28-vesicle-supplements/uncoating.py",
+    "data/2026-10-29-rna-calcium-modules/rna_calcium.py",
+    "data/2026-10-29-rna-calcium-modules/validate.py",
+    "data/2026-10-30-fusco-supplement/maturation.py",
+    "data/2026-10-30-fusco-supplement/validate.py",
+    "data/2026-10-30-isr-selective/isr_observers.py",
+    "data/2026-10-30-isr-selective/selective_isr.py",
+    "data/2026-10-30-isr-selective/validate.py",
+    "data/2026-10-30-nuclear-recycling/recycling.py",
+    "data/2026-10-30-nuclear-recycling/validate.py",
+    "data/2026-10-30-nuclear-targets-cycle/nuclear_cycle.py",
+    "data/2026-10-30-nuclear-targets-cycle/validate.py",
+    "data/2026-10-30-nucleus-ribosome/nucleus_ribosome.py",
+    "data/2026-10-30-nucleus-ribosome/validate.py",
+    "data/2026-10-30-ribosome-biogenesis/biogenesis.py",
+    "data/2026-10-30-ribosome-biogenesis/validate.py",
+    "data/2026-10-30-shared-translation/shared_translation.py",
+    "data/2026-10-30-shared-translation/validate.py",
+    "data/2026-10-30-translation-substrates/substrates.py",
+    "data/2026-10-30-translation-substrates/validate.py",
+    "data/2026-10-31-local-ribosomes/local_ribosomes.py",
+    "data/2026-10-31-local-ribosomes/organelle_observers.py",
+    "data/2026-10-31-local-ribosomes/validate.py",
+    "data/2026-11-02-axon-growth-supplements/growth_stages.py",
+    "data/2026-11-02-gap43-regrowth/gap43_regrowth.py",
+    "data/2026-11-02-gap43-regrowth/validate.py",
+    "data/2026-11-02-local-mrna/local_mrna.py",
+    "data/2026-11-02-local-mrna/validate.py",
+    "data/2026-11-02-local-rqc/local_rqc.py",
+    "data/2026-11-02-local-rqc/validate.py",
+    "data/2026-11-02-local-translation/local_translation.py",
+    "data/2026-11-02-local-translation/validate.py",
+    "data/2026-11-02-ribosome-maintenance/maintenance.py",
+    "data/2026-11-02-ribosome-maintenance/validate.py",
+    "data/2026-11-02-ribosome-renewal/renewal.py",
+    "data/2026-11-02-ribosome-renewal/validate.py",
+    "data/2026-11-02-ribosome-surplus/surplus.py",
+    "data/2026-11-02-ribosome-surplus/validate.py",
+    "data/2026-11-03-codon-translation/codon_translation.py",
+    "data/2026-11-03-ion-homeostasis/ion_homeostasis.py",
+    "data/2026-11-03-ion-homeostasis/potassium_sources.py",
+    "data/2026-11-03-ion-pump-papers/ion_references.py",
+    "data/2026-11-03-nuclear-transport/transport.py",
+    "data/2026-11-03-precursor-quality/precursor_quality.py",
+    "data/2026-11-03-precursor-quality/validate.py",
+    "data/2026-11-03-rna-ribosome-transport/rna_transport.py",
+    "data/2026-11-03-rna-salvage/rna_salvage.py",
+    "data/2026-11-03-rna-salvage/validate.py",
+    "data/2026-11-03-rp-mrna-kinetics/kinetics.py",
+    "data/2026-11-03-rp-neuron-coupling/rp_coupling.py",
+    "data/2026-11-03-rp-production/production.py",
+    "data/2026-11-03-translation-coupling/coupled_translation.py",
+    "data/2026-11-03-translation-coupling/validate.py",
+    "data/2026-11-04-Q1-control-passports/control_passports.py",
+    "data/2026-11-04-Q2-ion-energy/ion_energy.py",
+    "data/2026-11-04-U41-Helton-Markmiller/human_mn_reference.py",
+    "data/2026-11-04-U41-compartment-data/compartment_calibration.py",
+    "data/2026-11-04-U41-supplied-export/supplied_export_reference.py",
+    "data/2026-11-04-calpain-baseline-evidence/baseline_observers.py",
+    "data/2026-11-04-calpain-fulltext-integration/fragment_observers.py",
+    "data/2026-11-04-calpain-turnover-review/turnover_constraints.py",
+    "data/2026-11-04-human-MN-rp-mrna/human_mn_evidence.py",
+    "data/2026-11-04-human-pet-axon/human_reference.py",
+    "data/2026-11-04-integrated-neuron/validate.py",
+    "data/2026-11-04-joint-baseline-calibration/profile.py",
+    "data/2026-11-04-joint-baseline-calibration/run.py",
+    "data/2026-11-04-protein-turnover-review/turnover_evidence.py",
+    "data/2026-11-04-resting-state-review/energy_baseline.py",
+    "data/2026-11-04-rna-supplied-papers/supplied_rna_evidence.py",
+    "data/2026-11-05-Golding-Q3-recovery/prepared_state.py",
+    "data/2026-11-05-Golding-Q3-recovery/source_chemistry.py",
+    "data/2026-11-05-Q3-nuclear-baseline/profile.py",
+    "data/2026-11-05-Q3-nuclear-baseline/source_observers.py",
+    "data/2026-11-05-Q3-nuclear-baseline/thermodynamics.py",
+    "data/2026-11-11-Con2-neurite-energy/source_constraints.py",
+    "data/2026-11-11-human-electrical-numbers/electrical_references.py",
+    "data/2026-11-11-ion-balance/source_constraints.py",
+    "data/2026-11-11-kcnq-passive/current_partition.py",
+    "data/2026-11-11-kcnq-passive/passive_chloride.py",
+    "data/2026-11-11-kcnq-passive/run.py",
+    "data/2026-11-11-kcnq-passive/source_constraints.py",
+    "data/2026-11-11-mn-pump-loads/source_assays.py",
+    "data/2026-11-11-neuronal-maturity-assays/source_assays.py",
+    "data/2026-11-11-user-pdf-batch/source_assays.py",
+    "data/2026-11-12-absolute-kcnq/absolute_kcnq.py",
+    "data/2026-11-12-ion-water-kcnq/absolute_current_coupling.py",
+    "data/2026-11-12-ion-water-kcnq/compartment_volumes.py",
+    "data/2026-11-12-kcnq-joint-calibration/source_constraints.py",
+    "data/2026-11-12-kcnq-kinetics-search/kinetic_assays.py",
+    "data/2026-11-12-kcnq-pump-primary/assay_constraints.py",
+    "data/2026-11-12-potassium-flux-audit/instantaneous.py",
+    "data/2026-11-12-potassium-flux-audit/ledger_audit.py",
+    "data/2026-11-12-potassium-flux-audit/source_assays.py",
+    "data/2026-11-13-acid-extrusion/acid_extrusion.py",
+    "data/2026-11-13-mn-modulation-atp/source_assays.py",
+    "data/2026-11-13-pump-response-test/pump_response.py",
+    "data/neuron-model/evidence_extensions.py",
+    "data/neuron-model/integrated_neuron.py",
+    "data/neuron-model/model_api.py",
+    "data/neuron-model/model_contracts.py",
+    "data/neuron-model/state_layout_v1.json"
+  ],
+  "runtime_code_modified_during_merge": false,
+  "imports": [
+    {
+      "path": ".github/README.md",
+      "base_sha256": "d889ae20916e478355592424ba9ffb9ae9e15feb3e285b7529d2cbe3390ce647",
+      "previous_sha256": "87f139fb1cbf76f7d24fb0597d7400aae63761ff7a760f88e9e938a9ab1c76d3",
+      "merged_sha256": "616432a050e3212e37bb4b38de9bbe06326d08fc0ec5962b9b6adae7ce143857"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "base_sha256": "0c04f58ef4590ff1049548b2e01a6213b57b8b291775612e3e167ec6e3d44707",
+      "previous_sha256": "bf019a1bf6c85694818ef4f95754d2c6a4410dfa7415db937e0d61def2f84606",
+      "merged_sha256": "02b27a1bbfb6614e60c9b57ce33171d0656bc18fe3891d91a309aa1598943bf2"
+    },
+    {
+      "path": "CITATION.cff",
+      "base_sha256": "82461d059bfad6d637d1a10fd5259acfa32fe3e014df06aa5c12cfd38dd82d8f",
+      "previous_sha256": "ed7c57425316e9e41c81243e7380eac5165a4bc99ffef2af09c0fb7eab25b99f",
+      "merged_sha256": "11a928b677e83eb19c672b310dc62ec5af1ef9923936981f0cd1e86cd016e4bd"
+    },
+    {
+      "path": "DATA_REQUESTS.md",
+      "base_sha256": "dfa5abae29c2ec81cc3ca29bc07c72d78ae744e442eec10197fdf9b771bef4d1",
+      "previous_sha256": null,
+      "merged_sha256": "dfa5abae29c2ec81cc3ca29bc07c72d78ae744e442eec10197fdf9b771bef4d1"
+    },
+    {
+      "path": "README.md",
+      "base_sha256": "1460f94b1a8689e1cf9274ef7091965cfb7787beec6c49fc8cd1b2fba3282817",
+      "previous_sha256": "6295052a087ae0d9208953ba7e33d2ccd2409c69916643f319a95e9ef03513cd",
+      "merged_sha256": "263ca488b6701ed1f3877a846535eb8f4cfade824cfbc050eab992f732281c87"
+    },
+    {
+      "path": "README_RU.md",
+      "base_sha256": "62c976780374b3135052a5a138a995817c751bc79d629ddb6551924ff1a153a6",
+      "previous_sha256": "ea9135762c28e564af33d8f6ab6b97882eab3555c5f0be55d60091ca8b6b89da",
+      "merged_sha256": "5cd5923ec00616a57a54f5d92ab150036562d30e5ab271f4eb71acdc9ec9e898"
+    },
+    {
+      "path": "data/2026-10-16-ipsc-expanded-calibration/profiles-frozen.json",
+      "base_sha256": "64326b69a9e192e065563c815c7f5327999086ea858699d0e5d4a1c71946b90f",
+      "previous_sha256": "804d72934356facb07f1166a5f3807fab00e000713cacf48bb6eb25e3c9ce9cf",
+      "merged_sha256": "64326b69a9e192e065563c815c7f5327999086ea858699d0e5d4a1c71946b90f"
+    },
+    {
+      "path": "data/2026-11-03-individual-ribosomal-proteins/protein_inputs.json",
+      "base_sha256": "3f68fe8ca1fde9a55abedda6d94afbb61d65c163a5df8c87198bc6d9efa54f87",
+      "previous_sha256": "a5f8799fcfff5542b128ffd68b1a995899046fbbd519654bcdd0d0e4e56cd6f6",
+      "merged_sha256": "3f68fe8ca1fde9a55abedda6d94afbb61d65c163a5df8c87198bc6d9efa54f87"
+    },
+    {
+      "path": "data/2026-11-03-rp-mrna-kinetics/model_profiles.json",
+      "base_sha256": "8470af8b71cee283ee302f7dfd3b5c4cf37a19080c07433de566e0cf41d13e3f",
+      "previous_sha256": "a348d8484ae934b20245642fc35af897cdeb0940e6d9ab6c5f77a20bd31d9fd9",
+      "merged_sha256": "8470af8b71cee283ee302f7dfd3b5c4cf37a19080c07433de566e0cf41d13e3f"
+    },
+    {
+      "path": "data/2026-11-04-Q1-control-passports/cell_passports.json",
+      "base_sha256": "47ec9bd777c2cb351582b9fe635817652e802bc84862b6afd6229c513e74a1fd",
+      "previous_sha256": "02d9064c43f74f51e8f22d91f0505fa7be329427d19039a281617efb36b377d1",
+      "merged_sha256": "47ec9bd777c2cb351582b9fe635817652e802bc84862b6afd6229c513e74a1fd"
+    },
+    {
+      "path": "data/2026-11-04-human-MN-rp-mrna/ercc_bru_recovery.json",
+      "base_sha256": "619deccdbfde13c7f2270dab6734acebfd49840c1794fad1a61b1bb12efce697",
+      "previous_sha256": "c428cdcb0c2c06117b0244fb885648c3b64d03fbc8e01e6ed53f107d68261efe",
+      "merged_sha256": "619deccdbfde13c7f2270dab6734acebfd49840c1794fad1a61b1bb12efce697"
+    },
+    {
+      "path": "data/2026-11-05-Q3-nuclear-baseline/Q2_donor_constraints.json",
+      "base_sha256": "131d559f0509b4d73a5ae270b78d87632c51935a6ae75fb97b764eaa1ca4f3e0",
+      "previous_sha256": "635d0a82b684e2a5c6c64bfb96ee4c9911d68a885a75729e0bed7aa6c2749aaa",
+      "merged_sha256": "131d559f0509b4d73a5ae270b78d87632c51935a6ae75fb97b764eaa1ca4f3e0"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_15_features.json",
+      "base_sha256": "19ae0141e616cb64bf12842045271696519eb0be11d9bb272f6b9440de9122e1",
+      "previous_sha256": "b3aded2b0facbc028a3a084e8abc8687387f0f71fccade4853108b7dcb552b4e",
+      "merged_sha256": "19ae0141e616cb64bf12842045271696519eb0be11d9bb272f6b9440de9122e1"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_25_features.json",
+      "base_sha256": "d3cb1103d7e6171003fa610455988e1b27e05efc60f8d79f4eb5f24f58109c05",
+      "previous_sha256": "13c61444c90c69c2a7a65b09641b09a2f4ab5e604a2d6b305d9171a2fc368ab7",
+      "merged_sha256": "d3cb1103d7e6171003fa610455988e1b27e05efc60f8d79f4eb5f24f58109c05"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_50_features.json",
+      "base_sha256": "c6a8cfeb8251de1ea6116b47b6175a144a08bc4e86ae60db5420a178209d4512",
+      "previous_sha256": "8bc8ec95d6d616dea8ca29ae332f3c1d7f4d9473b35611f76f21f9b6c8f9895b",
+      "merged_sha256": "c6a8cfeb8251de1ea6116b47b6175a144a08bc4e86ae60db5420a178209d4512"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_15_features.json",
+      "base_sha256": "d599d44f0d613cd213458bb93c9043dee7f78ad74333fd1eb07a33dfd8dc8558",
+      "previous_sha256": "e5eedbfb746e5bb33d2ed9d082d6813653621fb5ce107568e539ba177de70f93",
+      "merged_sha256": "d599d44f0d613cd213458bb93c9043dee7f78ad74333fd1eb07a33dfd8dc8558"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_25_features.json",
+      "base_sha256": "c47ebb97b5e4e987923a22f1d14afb616973273771998cd718edf7fe4a178475",
+      "previous_sha256": "00bf2649adec284a70ee385afc87fbb52518bbd895b3f520d799e559046ef3be",
+      "merged_sha256": "c47ebb97b5e4e987923a22f1d14afb616973273771998cd718edf7fe4a178475"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con1_50_features.json",
+      "base_sha256": "fd6417026b702c1e7f1938a45c38e223f70d49912fb0727857b29578c0dae57c",
+      "previous_sha256": "b933dbbcfd0537357c825f2213d695ec0596f8c2973bcf55b4a84b381d974931",
+      "merged_sha256": "fd6417026b702c1e7f1938a45c38e223f70d49912fb0727857b29578c0dae57c"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_15_features.json",
+      "base_sha256": "32444c29116ec97973c6ecf6abdb7beb5d766fd6dde9cf29331632c3653f5dd1",
+      "previous_sha256": "ba8914cc5eb11ad5174d3913c1fb2f2e83112240dd5faa56e3e8289a3bbbea9b",
+      "merged_sha256": "32444c29116ec97973c6ecf6abdb7beb5d766fd6dde9cf29331632c3653f5dd1"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_25_features.json",
+      "base_sha256": "862030301d985e36f8d4f98bb1fc1e1a54fafb52bef245b7f04a138bdd734b7b",
+      "previous_sha256": "635329f9c7addedfa7d1c5c57a7f6c55b919c966c7a58793fb8189da758076cf",
+      "merged_sha256": "862030301d985e36f8d4f98bb1fc1e1a54fafb52bef245b7f04a138bdd734b7b"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_25post108_control_features.json",
+      "base_sha256": "e928157124cb19fde1c82c5a4a49dd9224fbfebe6057dd55aa6da9a9e5a69693",
+      "previous_sha256": "1002e900ed0b9cb83e4e1758f38a976565d1d73a0e87eb1cb8fd36db51abfcfe",
+      "merged_sha256": "e928157124cb19fde1c82c5a4a49dd9224fbfebe6057dd55aa6da9a9e5a69693"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Selvaraj-Con2_50_features.json",
+      "base_sha256": "7aef16efd9e81640dcbadf74ae0e91a99cc3d2fcbf9299bc2de7617ba1d7d19e",
+      "previous_sha256": "a1f426a483df18a97f09300312cd08c372dbf05eeb2b972d1af8159a68723f4f",
+      "merged_sha256": "7aef16efd9e81640dcbadf74ae0e91a99cc3d2fcbf9299bc2de7617ba1d7d19e"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_P01_Selvaraj-Con1_15_features.json",
+      "base_sha256": "ed65272a73cf778478b41f267d9f0c6c4d374fca613754a795b8a231d2288586",
+      "previous_sha256": "eacff17bec4d9803c24c26e54cb1b51283fae8c0d468d5a8322b79ed5f1efa06",
+      "merged_sha256": "ed65272a73cf778478b41f267d9f0c6c4d374fca613754a795b8a231d2288586"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_P01_Selvaraj-Con2_15_features.json",
+      "base_sha256": "e25705772b67f137e4115e59f832941f778ac93a1c7e8404f9b23c687db75e97",
+      "previous_sha256": "df6403ac48c5d0e9490bca653dc7e0cd2526593f2fd61e4d5e2ca0a92a06b06f",
+      "merged_sha256": "e25705772b67f137e4115e59f832941f778ac93a1c7e8404f9b23c687db75e97"
+    },
+    {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/charge_diagnostic.json",
+      "base_sha256": "18dadd855955990ea070d30fa9190c339f92fba1459dc9b8e83d7582d2f40403",
+      "previous_sha256": "d50d1fa2ac1d0a5fb69bd46d222e68d673599af3a5ea1dc1e4624aaba7ca8933",
+      "merged_sha256": "18dadd855955990ea070d30fa9190c339f92fba1459dc9b8e83d7582d2f40403"
+    },
+    {
+      "path": "docs/DATA_REQUESTS_RELEASE.md",
+      "base_sha256": "f5ec132a53b739474101664d17b91645ce983fc91e065a59a8cb6dd12ff51f8a",
+      "previous_sha256": null,
+      "merged_sha256": "f5ec132a53b739474101664d17b91645ce983fc91e065a59a8cb6dd12ff51f8a"
+    },
+    {
+      "path": "docs/MODEL.md",
+      "base_sha256": "fa44a469fe2558742faa21727b2be63fec526510eba0254335e63ee33acb0097",
+      "previous_sha256": "b842c81f7b5edbc53c2315ddae758e1472a3173557323d3d89e1168536f048dd",
+      "merged_sha256": "fa44a469fe2558742faa21727b2be63fec526510eba0254335e63ee33acb0097"
+    },
+    {
+      "path": "docs/README.md",
+      "base_sha256": "b56671e487e66f85d980c0eec4d15b30e8d0b5600dbaf3e9bfdb1f233b289c14",
+      "previous_sha256": "be6926c5a88647a6cd77d7e2fb33b447d34e7ae58904c4942790cdd93944bb31",
+      "merged_sha256": "3086729ab5f3b1bb0cff32969c8279630d5b8bcaddc8d1b3881c945c6f4affa1"
+    },
+    {
+      "path": "docs/RUNNING.md",
+      "base_sha256": "c663f62c6f1f0774fa68054097bdf4441eaac666e5af14a0825a0ac4f1561b8f",
+      "previous_sha256": "121670b0646f02d23236a9fc1600eedc8b583b06822068215ee4444a9e159ffc",
+      "merged_sha256": "c663f62c6f1f0774fa68054097bdf4441eaac666e5af14a0825a0ac4f1561b8f"
+    },
+    {
+      "path": "parameters/README.md",
+      "base_sha256": "a75f3d5a6063e9055c32fd54d4600ea95953dde9a31616fc92dd7d4d42efed82",
+      "previous_sha256": "34177a3833873b9b27175f12f28436a2302681adf0dc281b1081894f159e4283",
+      "merged_sha256": "b2c7af2db596ce596be49c341eacf12819ecc454ce4c7e110de4a66ffb27ca9b"
+    },
+    {
+      "path": "parameters/data_requests.json",
+      "base_sha256": "bd58c8e2d67a0a66dd31553b54c04a6aaf76d37fcd447fe691221ddd2f729f2b",
+      "previous_sha256": null,
+      "merged_sha256": "bd58c8e2d67a0a66dd31553b54c04a6aaf76d37fcd447fe691221ddd2f729f2b"
+    },
+    {
+      "path": "parameters/registry.json",
+      "base_sha256": "c379e72039f2efd58492d848ade7ccf22e984d814a022cc66c4f39a6b7e4b14d",
+      "previous_sha256": "c937d293e3633285b6ff9f8918b2dab4509e51bb714cb0594af645f6bbeb4d75",
+      "merged_sha256": "c379e72039f2efd58492d848ade7ccf22e984d814a022cc66c4f39a6b7e4b14d"
+    },
+    {
+      "path": "provenance/README.md",
+      "base_sha256": "92d42a4c805a8534c273df049f14fedc625043720065af3d0877a8a6eb05fcab",
+      "previous_sha256": "4a259d911d6e2a94eca0434768bb8ae69fea143894c40d24316662fc40a4dff2",
+      "merged_sha256": "73ec25b05d8fe475fd5a65fe3bd7336955d7c61db88a44b94f483127ce0f9c43"
+    },
+    {
+      "path": "provenance/data_requests_validation.json",
+      "base_sha256": "8d87c375bef3e08d65a49aeca634ed71a6dd8e928064c731a5ebb0b5b0659040",
+      "previous_sha256": null,
+      "merged_sha256": "8d87c375bef3e08d65a49aeca634ed71a6dd8e928064c731a5ebb0b5b0659040"
+    },
+    {
+      "path": "provenance/publication_path_map.json",
+      "base_sha256": "0af852de9f607dccda4673f2eefed3c5cdbd158cff253ca78bf8b7329b38c6c0",
+      "previous_sha256": null,
+      "merged_sha256": "0af852de9f607dccda4673f2eefed3c5cdbd158cff253ca78bf8b7329b38c6c0"
+    },
+    {
+      "path": "provenance/source_manifest.json",
+      "base_sha256": "7db25f6ed43d165b45d21ada971bb349fc26c3caaa2f4ef0d2f7b3416e2f5af8",
+      "previous_sha256": "5e036d253c0114a0908e448d6b9889259f85334bd5aaebab6ea1e2bb023aba33",
+      "merged_sha256": "7db25f6ed43d165b45d21ada971bb349fc26c3caaa2f4ef0d2f7b3416e2f5af8"
+    },
+    {
+      "path": "publication_optional_neuron.py",
+      "base_sha256": "42f4a070240dd418188351cea738b30e158eb627ad1951014d2d175e9d539610",
+      "previous_sha256": "1f4612a6c3c49244dde269a9d73be16d070720d81870e93e7189ec798a2dd732",
+      "merged_sha256": "42f4a070240dd418188351cea738b30e158eb627ad1951014d2d175e9d539610"
+    },
+    {
+      "path": "results/README.md",
+      "base_sha256": "1b318b28a04ab8e89bb5d6a7fe13123d57cd42e2a18db3e4a9f2b041a40bf2ea",
+      "previous_sha256": "1b318b28a04ab8e89bb5d6a7fe13123d57cd42e2a18db3e4a9f2b041a40bf2ea",
+      "merged_sha256": "58242b2396b861e39c6ea533259291d7dea5a2dec061de7862d652e6a3be2f40"
+    },
+    {
+      "path": "results/acid_acceptance_results.json",
+      "base_sha256": "922182a42abd73be1405b08aac300a2d3bd11213d256fd5af011b8db92aa60d1",
+      "previous_sha256": "2f008da7630c471c2eae406069b7994be179bc28e6d910f45fbb2f429c1b9e5d",
+      "merged_sha256": "922182a42abd73be1405b08aac300a2d3bd11213d256fd5af011b8db92aa60d1"
+    },
+    {
+      "path": "results/acid_electrical_audit.json",
+      "base_sha256": "08c28607c7c6bd595c8bcd9fd5994030f5d7edd67183401fd8c438318bb312df",
+      "previous_sha256": "0fc6572c7b9be2c1843d21c98d5c468b220cc7bf7e061ab396e5d834b9ecfcb0",
+      "merged_sha256": "08c28607c7c6bd595c8bcd9fd5994030f5d7edd67183401fd8c438318bb312df"
+    },
+    {
+      "path": "results/acid_summary.json",
+      "base_sha256": "f0b4d0e7c1c85324a09f6b2b9ebd28c5e41e565973c67c94d7e5104ffbc6470a",
+      "previous_sha256": "1bbdcb4d2740dae714b78a8b155d75db958a0bb3dd9f86e48bb711e335ec5bb2",
+      "merged_sha256": "f0b4d0e7c1c85324a09f6b2b9ebd28c5e41e565973c67c94d7e5104ffbc6470a"
+    }
+  ],
+  "note": "Core runtime retained from the independently tested waveform export. 0.4.0 scientific equations/inputs match after name normalization; data requests, documentation and history preserved. Pure import-name corrections in the new export are covered by its isolated run."
+}

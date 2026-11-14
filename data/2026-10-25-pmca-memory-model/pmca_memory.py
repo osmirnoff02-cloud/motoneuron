@@ -92,7 +92,7 @@ def pmca_density_capacity(*,density_per_um2,area_um2,accessible_volume_um3,cycle
 def run_pmca_memory_probe(*,pmca_parameters,**kwargs):
     import sys
     sys.path.insert(0,str(B))
-    from electrical_pmca_codex import run_pmca_coupled
+    from electrical_pmca import run_pmca_coupled
     return run_pmca_coupled(pmca_parameters=pmca_parameters,**kwargs)
 
 def run_pmca_memory_network(segments,*,pmca_parameters,**kwargs):

@@ -4500,7 +4500,7 @@
     "nrt_pre60_export_released_uM"
   ],
   "provenance": {
-    "source": "E:\\data_als\\data\\2026-11-03-ion-ahp-mechanisms\\columns_codex.json",
+    "source": "E:\\data_als\\data\\2026-11-03-ion-ahp-mechanisms\\columns.json",
     "sha256": "98e9fd334bd8604931bb9530123fa795656498c9697c08598db634e11fc77e0e",
     "note": "Position contract, not scientific parameters; update only with explicit migration."
   },
@@ -4518,8 +4518,8 @@
   "process_Cl_bath_added_uM",
   "process_Cl_bath_removed_uM"
 ],
-  "acid_extrusion_note": "[claude] 2026-11-13: optional six-state acid-extrusion block after passive_chloride; plan N05.1.4; module data/2026-11-13-acid-extrusion/acid_extrusion.py",
-  "acid_extrusion": [
+  "acid_extrusion_claude_note": "[claude] 2026-11-13: optional six-state acid-extrusion block after passive_chloride; plan N05.1.4; module data/2026-11-13-acid-extrusion/acid_extrusion.py",
+  "acid_extrusion_claude": [
   "soma_acid_excess_uM",
   "soma_acid_PMCA_excess_in_uM",
   "soma_acid_NaH_exchange_out_uM",

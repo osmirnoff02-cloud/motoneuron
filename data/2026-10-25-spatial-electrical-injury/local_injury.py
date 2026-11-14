@@ -136,7 +136,7 @@ def injury_from_electrical(recording,*,injury_parameters,compartment='process',s
 def run_spatial_electrical_injury(*,injury_parameters,compartment='process',sample_ms=.5,**electrical_parameters):
     if electrical_parameters.get('geometry') is None:raise ValueError('Explicit electrical two-section geometry required')
     sys.path.insert(0,str(B))
-    from electrical_spatial_codex import run_spatial_electrical
+    from electrical_spatial import run_spatial_electrical
     r=run_spatial_electrical(**electrical_parameters)
     injury=injury_from_electrical(r,injury_parameters=injury_parameters,compartment=compartment,sample_ms=sample_ms)
     return dict(electrical=r,local_injury=injury,protein_damage_feedback=False,human_kinetic_fit=False)

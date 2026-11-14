@@ -1,8 +1,12 @@
+## Current version 0.5.0
+
+[Waveform and voltage recovery stage](../docs/WAVEFORM_STAGE_0.5.0.md). Includes the 0.4.0 data requests and filename migration. Conditional research prototype; human calibration remains open.
+
 # Мотонейрон / Motoneuron
 
 **[Help improve the model: experimental data requests (U01–U43)](../DATA_REQUESTS.md)** — share measurements, dataset links or corrections for unresolved parameters.
 
-**Research snapshot 0.4.0.** A conditional mechanistic neuron model for ALS research; not a human-calibrated predictor of treatment efficacy.
+**Research snapshot 0.5.0.** A conditional mechanistic neuron model for ALS research; not a human-calibrated predictor of treatment efficacy.
 
 **Некоммерческие научные исследования — бесплатно. Коммерческое использование — по отдельному письменному договору.**
 
