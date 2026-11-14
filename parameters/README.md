@@ -12,3 +12,6 @@ The inventory is not a complete certificate of calibration: implicit constants m
 
 
 [Current waveform stage](../docs/WAVEFORM_STAGE_0.5.0.md).
+
+
+0.6.0 supplement: [seven effective-gate search bounds and active factors](phase_ranges.json). These supplement the historical inventory; they are not human calibration.

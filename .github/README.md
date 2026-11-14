@@ -1,4 +1,8 @@
-## Current version 0.5.0
+## Current version 0.6.0
+
+[Stimulus offsets, recovery and expanded kinetic search](../docs/PHASE_STAGE_0.6.0.md). Explicit opt-in: `--acid-tau-s 120 --phase-v14`, with 4431 states. Legacy defaults use 4425 states; prior scenarios remain available. Conditional prototype; human calibration remains open.
+
+## Previous stage 0.5.0
 
 [Waveform and voltage recovery stage](../docs/WAVEFORM_STAGE_0.5.0.md). Includes the 0.4.0 data requests and filename migration. Conditional research prototype; human calibration remains open.
 
@@ -6,7 +10,7 @@
 
 **[Help improve the model: experimental data requests (U01–U43)](../DATA_REQUESTS.md)** — share measurements, dataset links or corrections for unresolved parameters.
 
-**Research snapshot 0.5.0.** A conditional mechanistic neuron model for ALS research; not a human-calibrated predictor of treatment efficacy.
+**Research snapshot 0.6.0.** A conditional mechanistic neuron model for ALS research; not a human-calibrated predictor of treatment efficacy.
 
 **Некоммерческие научные исследования — бесплатно. Коммерческое использование — по отдельному письменному договору.**
 

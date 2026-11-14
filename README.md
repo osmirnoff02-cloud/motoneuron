@@ -1,4 +1,8 @@
-## Current version 0.5.0
+## Current version 0.6.0
+
+[Stimulus offsets, recovery and expanded kinetic search](docs/PHASE_STAGE_0.6.0.md). Explicit opt-in: `--acid-tau-s 120 --phase-v14`, with 4431 states. Legacy defaults use 4425 states; prior scenarios remain available. Conditional prototype; human calibration remains open.
+
+## Previous stage 0.5.0
 
 [Waveform and voltage recovery stage](docs/WAVEFORM_STAGE_0.5.0.md). Includes the 0.4.0 data requests and filename migration. Conditional research prototype; human calibration remains open.
 
@@ -6,7 +10,7 @@
 
 **[Help improve the model: experimental data requests (U01–U43)](DATA_REQUESTS.md)** — share measurements, dataset links or corrections for unresolved parameters.
 
-**Research snapshot 0.5.0, 2026-11-14. Research prototype; not a calibrated human motor neuron or a predictor of treatment efficacy.**
+**Research snapshot 0.6.0, 2026-11-14. Research prototype; not a calibrated human motor neuron or a predictor of treatment efficacy.**
 
 This repository makes a selected computational branch of the ALS research project inspectable and reproducible. It contains the full coupled neuron model used by the included examples, its actual runtime inputs, a parameter inventory, selected historical results and an explicit account of limitations. It is not the complete private research archive.
 

@@ -1,0 +1,80 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "question_id": "U01",
+  "ranges": {
+    "tm": [
+      0.5,
+      1.5
+    ],
+    "tn": [
+      0.25,
+      2.0
+    ],
+    "thmin": [
+      0.6,
+      1.4
+    ],
+    "threc": [
+      0.6,
+      1.4
+    ],
+    "ta": [
+      0.6,
+      1.4
+    ],
+    "tmfast": [
+      0.6,
+      1.4
+    ],
+    "tndeact": [
+      0.6,
+      1.4
+    ]
+  },
+  "units": "dimensionless multipliers on original A14 effective gate time parameters in ms",
+  "status": "search bounds and conditional selected values, not measured human intervals",
+  "conditions": "23 C, C08 + acid tau120; three separate electrical profiles",
+  "dependency": "tm/tmfast jointly set tau_m(V); tn/tndeact jointly set tau_n(V)",
+  "needed": "Matched per-cell Na/K voltage-clamp and action-potential recovery traces, bath composition and temperature in healthy human iPSC motor neurons",
+  "possible_sources": "Authors of Burley and Selvaraj/Devlin; Miles/Sharples. Availability unconfirmed.",
+  "active_factors": {
+    "Burley": [
+      1.4956516716069377,
+      0.9971937165065128,
+      1.4,
+      1.0010683422657367,
+      0.6,
+      1.4,
+      1.3759631558396799
+    ],
+    "Selvaraj-Con1": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Selvaraj-Con2": [
+      1.0,
+      1.1353981337335315,
+      0.9302274272533534,
+      1.0,
+      0.9780340323053123,
+      1.3346121994680453,
+      1.1345591090675222
+    ]
+  },
+  "active_order": [
+    "tm",
+    "thmin",
+    "threc",
+    "tn",
+    "ta",
+    "tmfast",
+    "tndeact"
+  ],
+  "human_calibrated": false
+}

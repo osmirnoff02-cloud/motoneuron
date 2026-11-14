@@ -1,0 +1,129 @@
+{
+  "author": "codex",
+  "version": "0.6.0",
+  "adopted_profiles": [
+    "Burley"
+  ],
+  "independent_validation": "smoke/restart and Burley25: all4431states bitwise equal; custom0.35s pulse within full-state tolerance; long export not rerun",
+  "source_mapping": [
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/kinetics_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/kinetics.py",
+      "source_sha256": "33ee89b53b9155fba8a32dfbd752fb6e65c82977b14d10066f9820de71686ac4",
+      "public_sha256": "ce17060a286537da08acae6269cf10baf0a3c88b6d1f271c3185f39cf8ea6da6",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/observer_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/observer.py",
+      "source_sha256": "9a77386a9ea3d8d0d60b2913fbeea2f6cec7b561ca2a9aa3b47491b1e0aeea04",
+      "public_sha256": "9a77386a9ea3d8d0d60b2913fbeea2f6cec7b561ca2a9aa3b47491b1e0aeea04",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/accepted_codex.json",
+      "public_path": "data/2026-11-14-phase-aware-waveform/accepted.json",
+      "source_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "public_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/test_kinetics_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/test_kinetics.py",
+      "source_sha256": "e273d3ea288e5530c8ea8c5d9784b86813e06c91abf41a154f9a837b25c8b809",
+      "public_sha256": "485738e711d2a2c4e7c9915d76a4ec101c114c089facd9e3cd783fbf8e902b30",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/test_observer_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/test_observer.py",
+      "source_sha256": "5d67467622eed89ce01054b2e6b2b44c89ad898d54ac218424d0e4e6ba3bb1f4",
+      "public_sha256": "b74d10ddc88eed156e470830fad2579f495e7feb525c98509a4a5ae4abc4ca71",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/neuron-model/model_api_codex.py",
+      "public_path": "data/neuron-model/model_api.py",
+      "source_sha256": "c5348ea420ddce842ab336e3c9976bb895cd7d266a2cccbdfc68ca9b8fcc8ec9",
+      "public_sha256": "684c9a4bf0c5dabed305d3fafda6cfa8f2a6c9715a5d89c17325c29e729ea45b",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/phase_summary_codex.json",
+      "public_path": "results/phase_phase_summary.json",
+      "source_sha256": "b214dd7786c41db3a2eb0c516fe55389a77f8cb36289c74f32d9d3986431d442",
+      "public_sha256": "ba71db0ffbad85cb96c6c18086ca7a2edf04e2e884616050b9b31dc576403974",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/phase_checks_codex.json",
+      "public_path": "results/phase_phase_checks.json",
+      "source_sha256": "33b3b3b675d208f5c0e55eba3381de781f20676738ebdf221c9ecc24c12f1394",
+      "public_sha256": "33b3b3b675d208f5c0e55eba3381de781f20676738ebdf221c9ecc24c12f1394",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/search_summary_codex.json",
+      "public_path": "results/phase_search_summary.json",
+      "source_sha256": "09b2fd04ef59f3c1f686d65279b2b9f63eb9cf80acaad7a6d0eb932735149aaf",
+      "public_sha256": "09b2fd04ef59f3c1f686d65279b2b9f63eb9cf80acaad7a6d0eb932735149aaf",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/candidate_panel_codex.json",
+      "public_path": "results/phase_candidate_panel.json",
+      "source_sha256": "83e6b59949875bfc08a8fe6f5d667b5da352776560932d248ae4c661cf5df0f2",
+      "public_sha256": "83e6b59949875bfc08a8fe6f5d667b5da352776560932d248ae4c661cf5df0f2",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/candidate_phase_acceptance_codex.json",
+      "public_path": "results/phase_candidate_phase_acceptance.json",
+      "source_sha256": "f3b68063a5edf2d038e87d1cffe56c418ba1e5cdfb43fe22494e58e7d5af87bd",
+      "public_sha256": "f3b68063a5edf2d038e87d1cffe56c418ba1e5cdfb43fe22494e58e7d5af87bd",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/acceptance_results_codex.json",
+      "public_path": "results/phase_acceptance_results.json",
+      "source_sha256": "06ee1edfbfb16d0c76c01148df67c881b4f2460154631e56dc9135ab2cf1becf",
+      "public_sha256": "06ee1edfbfb16d0c76c01148df67c881b4f2460154631e56dc9135ab2cf1becf",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/criteria_codex.json",
+      "public_path": "results/phase_criteria.json",
+      "source_sha256": "9350a18d863be36f9311ae572c1978db33d433073fb258691ae001e05c40ada8",
+      "public_sha256": "9350a18d863be36f9311ae572c1978db33d433073fb258691ae001e05c40ada8",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/phase_comparison_codex.png",
+      "public_path": "results/phase_comparison.png",
+      "source_sha256": "b8922d2ca0d487a941fc3d8925fe538a598508fe965aa8878f53499b15bccb78",
+      "public_sha256": "b8922d2ca0d487a941fc3d8925fe538a598508fe965aa8878f53499b15bccb78",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/candidate_phase_Burley_codex.png",
+      "public_path": "results/candidate_phase_Burley.png",
+      "source_sha256": "c93f120b5a18e96075f692c2b27ed8fd52a054207a424096b0e8cf83b9207743",
+      "public_sha256": "c93f120b5a18e96075f692c2b27ed8fd52a054207a424096b0e8cf83b9207743",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/selected_codex.json",
+      "public_path": "parameters/phase_selected.json",
+      "source_sha256": "ece21596a4d39d6021814399dee19f6b9ceb8af67473b1f8de9e7788220726fe",
+      "public_sha256": "ece21596a4d39d6021814399dee19f6b9ceb8af67473b1f8de9e7788220726fe",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/accepted_codex.json",
+      "public_path": "parameters/phase_accepted.json",
+      "source_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "public_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "transform": "public filename/import suffix normalization"
+    }
+  ]
+}

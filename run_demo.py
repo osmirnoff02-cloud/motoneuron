@@ -28,16 +28,20 @@ def main():
     parser.add_argument('--acid-buffer', type=float, choices=(10.,20.,46.), default=20.)
     parser.add_argument('--acid-resting-ph', type=float, choices=(7.02,7.18,7.24), default=7.18)
     parser.add_argument('--waveform-v14', action='store_true', help='Explicit tested C08 + acid120 effective-gate scenario')
+    parser.add_argument('--phase-v14', action='store_true', help='Explicit phase-tested scenario; legacy defaults remain')
+    parser.add_argument('--pulse-duration-s', type=float, help='Override pulse duration; phase-tested durations are documented')
     parser.add_argument('--checkpoint', type=Path)
     parser.add_argument('--output', type=Path, required=True, help='A NEW directory, never an existing result directory')
     parser.add_argument('--full-trace', action='store_true', help='Also retain all states; can create large files')
     parser.add_argument('--check-restart', action='store_true', help='Smoke only: continue 20 to 40 ms and compare with an uninterrupted run')
     parser.add_argument('--forbid-root', type=Path, action='append', default=[], help=argparse.SUPPRESS)
     args = parser.parse_args()
+    if args.phase_v14 and args.waveform_v14:parser.error('Choose either --phase-v14 or --waveform-v14')
+    if args.pulse_duration_s is not None and (args.protocol!='pulse' or not 0<args.pulse_duration_s<float('inf')):parser.error('A finite positive pulse duration requires --protocol pulse')
     if args.check_restart and args.protocol!='smoke':parser.error('--check-restart requires smoke')
     if args.protocol=='load36' and args.checkpoint is None:parser.error('load36 requires a matching rest72 checkpoint')
     if args.protocol=='rest72' and args.checkpoint is not None:parser.error('rest72 starts a new preparation')
-    if args.protocol in ('rest72','load36') and args.profile!='Selvaraj-Con2':parser.error('published long protocol uses Selvaraj-Con2')
+    if args.protocol in ('rest72','load36') and args.profile!='Selvaraj-Con2' and not args.phase_v14:parser.error('legacy long protocol uses Selvaraj-Con2; see phase validation for other profiles')
     out=args.output.expanduser().resolve()
     if out==ROOT or (out.is_relative_to(ROOT) and not out.is_relative_to(ROOT/'outputs')):
         parser.error('Inside the repository, output must be a new directory below outputs/')
@@ -85,7 +89,7 @@ def main():
         sg=full.r.schedule([(t0,t0+.02,0,1,0)])
         kw.update(output_step_s=.002,max_step_s=.002)
     elif args.protocol=='pulse':
-        on=t0+.2;off=on+(.5 if args.profile=='Burley' else 1.)
+        on=t0+.2;off=on+(args.pulse_duration_s if args.pulse_duration_s is not None else .5 if args.profile=='Burley' else 1.)
         sg=full.r.schedule([(t0,on,0,1,0),(on,off,0,1,0),(off,off+1,0,1,0)])
         kw.update(output_step_s=.0002,max_step_s=.0025,electrical_schedule=np.c_[sg[:,:2],[0,args.current_pa,0],[0,0,0]])
     elif args.protocol=='rest72':
@@ -103,6 +107,10 @@ def main():
         if args.candidate!='C08' or args.acid_tau_s!=120.:parser.error('--waveform-v14 requires C08 and --acid-tau-s 120; other mixtures were not validated')
         options=full.r.api.apply_waveform_kinetics(options)
         provenance=options['control_context']
+    if args.phase_v14:
+        if args.candidate!='C08' or args.acid_tau_s!=120.:parser.error('--phase-v14 requires C08 and --acid-tau-s 120')
+        options=full.r.api.apply_phase_kinetics(options)
+        provenance=options['control_context']
     expected_states=4431 if args.acid_tau_s is not None else 4425
     def observer(checkpoint,nfev):
         if args.protocol in ('rest72','load36'):
@@ -114,12 +122,13 @@ def main():
     print('Integrating full',expected_states,'states',args.candidate,args.profile,args.protocol,flush=True)
     result=full.r.api.run_integrated_neuron(sg,**options,checkpoint=cp,solver_observer=observer,**kw)
     checks={k:float(v) for k,v in result['checks'].items() if k!='minimum_state'}
-    summary=dict(waveform_v14=args.waveform_v14,acid_tau_s=args.acid_tau_s,protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
+    summary=dict(phase_v14=args.phase_v14,pulse_duration_s=args.pulse_duration_s,waveform_v14=args.waveform_v14,acid_tau_s=args.acid_tau_s,protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
         samples=len(result['time_s']),all_finite=bool(np.isfinite(result['state']).all()),
         max_balance=max(abs(v) for v in checks.values()),checks=checks,nfev=result['nfev'],
         human_calibrated=False,elapsed_s=time.monotonic()-start,
         final_voltage_mV=float(result['state'][-1,185]),no_reset=bool(cp is None or np.array_equal(result['state'][0],cp['state'])))
     if args.protocol=='pulse':summary['features']=full.r.features_mod.features(result,on,off,args.profile)
+    if args.protocol=='pulse':summary['recovery']=full.r.api.waveform_recovery_metrics(result['time_s']-t0,result['state'][:,185],off-t0)
     if args.check_restart:
         if cp is not None:parser.error('--check-restart requires a fresh smoke run')
         follow=full.r.schedule([(.02,.04,0,1,0)])

@@ -18,3 +18,6 @@ The registry preserves original values, units, classifications, source-code loca
 Record a new value with its units, source DOI/URL, species/cells, measurement or assumption status, correlated parameters, protocol and result affected, and a falsifiable test. Do not convert an unmeasured quantity to zero. Do not remove a mechanism solely because human data are missing. Fix numerical defects independently of biological uncertainty.
 
 No personal contact list, correspondence status or promise of data access is included. Potential collaborators should be approached separately by the project owner. Implementation, coupling, numerical verification and human calibration are separate milestones.
+
+
+0.6.0 supplement: [seven effective-gate search bounds and active factors](../parameters/phase_ranges.json). These supplement the historical inventory; they are not human calibration.

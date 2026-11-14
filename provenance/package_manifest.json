@@ -1,7 +1,7 @@
 {
   "author": "codex",
   "date": "2026-11-14",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "files": [
     {
       "path": ".gitattributes",
@@ -25,8 +25,8 @@
     },
     {
       "path": ".github/README.md",
-      "bytes": 2535,
-      "sha256": "616432a050e3212e37bb4b38de9bbe06326d08fc0ec5962b9b6adae7ce143857"
+      "bytes": 2846,
+      "sha256": "1b48632a05079b9faf6541e528d0159a362df8cc591939f16ba6122d75733343"
     },
     {
       "path": ".gitignore",
@@ -35,13 +35,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4166,
-      "sha256": "02b27a1bbfb6614e60c9b57ce33171d0656bc18fe3891d91a309aa1598943bf2"
+      "bytes": 4375,
+      "sha256": "e39ad46eebca3f66c2ee75de9bb4f379f00d74e5b1e8c690cd42d13c0de89a2f"
     },
     {
       "path": "CITATION.cff",
       "bytes": 814,
-      "sha256": "11a928b677e83eb19c672b310dc62ec5af1ef9923936981f0cd1e86cd016e4bd"
+      "sha256": "5841d16db32a750d109e77933df45b7a301f1fec21e9a367507255987a0baa19"
     },
     {
       "path": "COMMERCIAL_LICENSE.md",
@@ -1954,6 +1954,31 @@
       "sha256": "791980058685fd304bb5ce333b61cb6f7a62b4dc2bb44cf8858d8271a0e24713"
     },
     {
+      "path": "data/2026-11-14-phase-aware-waveform/accepted.json",
+      "bytes": 4167,
+      "sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5"
+    },
+    {
+      "path": "data/2026-11-14-phase-aware-waveform/kinetics.py",
+      "bytes": 2039,
+      "sha256": "ce17060a286537da08acae6269cf10baf0a3c88b6d1f271c3185f39cf8ea6da6"
+    },
+    {
+      "path": "data/2026-11-14-phase-aware-waveform/observer.py",
+      "bytes": 1410,
+      "sha256": "9a77386a9ea3d8d0d60b2913fbeea2f6cec7b561ca2a9aa3b47491b1e0aeea04"
+    },
+    {
+      "path": "data/2026-11-14-phase-aware-waveform/test_kinetics.py",
+      "bytes": 1399,
+      "sha256": "485738e711d2a2c4e7c9915d76a4ec101c114c089facd9e3cd783fbf8e902b30"
+    },
+    {
+      "path": "data/2026-11-14-phase-aware-waveform/test_observer.py",
+      "bytes": 916,
+      "sha256": "b74d10ddc88eed156e470830fad2579f495e7feb525c98509a4a5ae4abc4ca71"
+    },
+    {
       "path": "data/2026-11-14-waveform-recovery/kinetic_ranges.json",
       "bytes": 4979,
       "sha256": "30f49c54df37a9b2339b9b0ae61900beabdae8175d35fa6a26f2ea7d61e05ff8"
@@ -1985,8 +2010,8 @@
     },
     {
       "path": "data/neuron-model/model_api.py",
-      "bytes": 87644,
-      "sha256": "2f61e05fca3c33a1fa855e36a3a73b9f61d97eb80480d43adb13f5101e5b9d28"
+      "bytes": 88114,
+      "sha256": "684c9a4bf0c5dabed305d3fafda6cfa8f2a6c9715a5d89c17325c29e729ea45b"
     },
     {
       "path": "data/neuron-model/model_contracts.py",
@@ -2010,8 +2035,8 @@
     },
     {
       "path": "DATA_REQUESTS.md",
-      "bytes": 27745,
-      "sha256": "dfa5abae29c2ec81cc3ca29bc07c72d78ae744e442eec10197fdf9b771bef4d1"
+      "bytes": 27930,
+      "sha256": "03f9b8fb6c4faed318d1adfb69f231da4d6143251b0ddffaf7a7a54f0ebd4299"
     },
     {
       "path": "docs/ACID_STAGE_0.3.0.md",
@@ -2020,8 +2045,8 @@
     },
     {
       "path": "docs/ASSUMPTIONS.md",
-      "bytes": 2904,
-      "sha256": "6af27ede0e1740d05a767808a05efff89dcdbda6d0573afb199e4f6f7150ea5d"
+      "bytes": 3092,
+      "sha256": "4b031c2dac4f49427162d8c73031e41475cdedb88446c3131c47832993e612f3"
     },
     {
       "path": "docs/DATA.md",
@@ -2042,6 +2067,11 @@
       "path": "docs/MODEL.md",
       "bytes": 3551,
       "sha256": "fa44a469fe2558742faa21727b2be63fec526510eba0254335e63ee33acb0097"
+    },
+    {
+      "path": "docs/PHASE_STAGE_0.6.0.md",
+      "bytes": 4049,
+      "sha256": "c8d433558bb0522e2d59f7197a7d58f459459f58bc1c5996872b28a8bc33b7a8"
     },
     {
       "path": "docs/README.md",
@@ -2094,9 +2124,24 @@
       "sha256": "bd58c8e2d67a0a66dd31553b54c04a6aaf76d37fcd447fe691221ddd2f729f2b"
     },
     {
+      "path": "parameters/phase_accepted.json",
+      "bytes": 4167,
+      "sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5"
+    },
+    {
+      "path": "parameters/phase_ranges.json",
+      "bytes": 1686,
+      "sha256": "fc54fbd60514716dd34b9d651fb5dc0398b654bb564e375098ec10826e743fa2"
+    },
+    {
+      "path": "parameters/phase_selected.json",
+      "bytes": 21075,
+      "sha256": "ece21596a4d39d6021814399dee19f6b9ceb8af67473b1f8de9e7788220726fe"
+    },
+    {
       "path": "parameters/README.md",
-      "bytes": 1189,
-      "sha256": "b2c7af2db596ce596be49c341eacf12819ecc454ce4c7e110de4a66ffb27ca9b"
+      "bytes": 1363,
+      "sha256": "f56daf5a9d80de75cfd987c734094dcd067f9aa0cac3587113e12b18d3b65ef7"
     },
     {
       "path": "parameters/registry.csv",
@@ -2154,9 +2199,19 @@
       "sha256": "001874ef068dad17940c0afa58eaf90c23b49197984174c3acab2c6f97040d35"
     },
     {
+      "path": "provenance/phase_release.json",
+      "bytes": 7317,
+      "sha256": "ba9e57078e91c76b969e2fc4532e231bbd0bf071f19565e56e0cd234595bc81b"
+    },
+    {
+      "path": "provenance/phase_validation.json",
+      "bytes": 154670,
+      "sha256": "e065030e9bed8557293ed685a95546e35cf3ac44532615ae73e154b0ac667b4f"
+    },
+    {
       "path": "provenance/public_path_map.json",
-      "bytes": 332901,
-      "sha256": "6c4c055a78b2f71d26e64eca2e70997df0247b2e4d70b277c4729abdf9603edf"
+      "bytes": 339803,
+      "sha256": "8e787a7671d8051696b9fc3e7a96a99cb7f6d150b263682e9bdb2fe74819cff2"
     },
     {
       "path": "provenance/publication_path_map.json",
@@ -2205,13 +2260,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8422,
-      "sha256": "263ca488b6701ed1f3877a846535eb8f4cfade824cfbc050eab992f732281c87"
+      "bytes": 8730,
+      "sha256": "756266bef464f0ea87c3dfd51d7163a017f320fbb46ae56f5be88dcb216a8f72"
     },
     {
       "path": "README_RU.md",
-      "bytes": 7662,
-      "sha256": "5cd5923ec00616a57a54f5d92ab150036562d30e5ab271f4eb71acdc9ec9e898"
+      "bytes": 7970,
+      "sha256": "edbca1a56a3aef450bec5fb82a44be87c11e3858eff54f6d09f1f2840035cd79"
     },
     {
       "path": "references/README.md",
@@ -2274,9 +2329,54 @@
       "sha256": "6e6a6fed3ee03a7d1c02086a2ae2ec0dd6e4b38396fe05bd88d6198bc717d67e"
     },
     {
+      "path": "results/candidate_phase_Burley.png",
+      "bytes": 237861,
+      "sha256": "c93f120b5a18e96075f692c2b27ed8fd52a054207a424096b0e8cf83b9207743"
+    },
+    {
       "path": "results/electrical_comparison.png",
       "bytes": 176026,
       "sha256": "3e9c43911413b526b6f6a31b0a67a178302c164352773426ea6c8c12cb7d48c7"
+    },
+    {
+      "path": "results/phase_acceptance_results.json",
+      "bytes": 118245,
+      "sha256": "06ee1edfbfb16d0c76c01148df67c881b4f2460154631e56dc9135ab2cf1becf"
+    },
+    {
+      "path": "results/phase_candidate_panel.json",
+      "bytes": 472,
+      "sha256": "83e6b59949875bfc08a8fe6f5d667b5da352776560932d248ae4c661cf5df0f2"
+    },
+    {
+      "path": "results/phase_candidate_phase_acceptance.json",
+      "bytes": 10115,
+      "sha256": "f3b68063a5edf2d038e87d1cffe56c418ba1e5cdfb43fe22494e58e7d5af87bd"
+    },
+    {
+      "path": "results/phase_comparison.png",
+      "bytes": 318794,
+      "sha256": "b8922d2ca0d487a941fc3d8925fe538a598508fe965aa8878f53499b15bccb78"
+    },
+    {
+      "path": "results/phase_criteria.json",
+      "bytes": 1184,
+      "sha256": "9350a18d863be36f9311ae572c1978db33d433073fb258691ae001e05c40ada8"
+    },
+    {
+      "path": "results/phase_phase_checks.json",
+      "bytes": 1016,
+      "sha256": "33b3b3b675d208f5c0e55eba3381de781f20676738ebdf221c9ecc24c12f1394"
+    },
+    {
+      "path": "results/phase_phase_summary.json",
+      "bytes": 727645,
+      "sha256": "ba71db0ffbad85cb96c6c18086ca7a2edf04e2e884616050b9b31dc576403974"
+    },
+    {
+      "path": "results/phase_search_summary.json",
+      "bytes": 7255,
+      "sha256": "09b2fd04ef59f3c1f686d65279b2b9f63eb9cf80acaad7a6d0eb932735149aaf"
     },
     {
       "path": "results/potassium_energy.png",
@@ -2345,8 +2445,8 @@
     },
     {
       "path": "run_demo.py",
-      "bytes": 11612,
-      "sha256": "361e3d8594a5b398e3cb225d36e8663a28bdcb514c88d1c767974b66527aae16"
+      "bytes": 12739,
+      "sha256": "ac4da6eb3b8b95de71052605f44b1e426d80b401d64ed000b25fb5fd6b8dea47"
     },
     {
       "path": "tests/check_output.py",

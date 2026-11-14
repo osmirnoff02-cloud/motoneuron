@@ -334,3 +334,6 @@ This is a curated English rendering of the project's parameter-request registry 
 The released execution interface remains described in [the README](README.md). Source files now use names without author suffixes; original-to-public paths and hashes are retained in [the publication path map](provenance/publication_path_map.json). Development attribution and prior release history are preserved.
 
 Prepared with Codex assistance on 2026-11-14 from existing project records. Scientific calibration remains open.
+
+
+0.6.0 supplement: [seven effective-gate search bounds and active factors](parameters/phase_ranges.json). These supplement the historical inventory; they are not human calibration.

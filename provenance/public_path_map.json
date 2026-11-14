@@ -29,7 +29,7 @@
       "source_path": "CHANGELOG.md",
       "public_path": "CHANGELOG.md",
       "source_sha256": "40a342df7765d6d4e473be6002f2f98c711300847924ec733088bc0b72c71613",
-      "public_sha256": "02b27a1bbfb6614e60c9b57ce33171d0656bc18fe3891d91a309aa1598943bf2",
+      "public_sha256": "e39ad46eebca3f66c2ee75de9bb4f379f00d74e5b1e8c690cd42d13c0de89a2f",
       "conversion_public_sha256": "bf019a1bf6c85694818ef4f95754d2c6a4410dfa7415db937e0d61def2f84606",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -47,7 +47,7 @@
       "source_path": "CITATION.cff",
       "public_path": "CITATION.cff",
       "source_sha256": "ed7c57425316e9e41c81243e7380eac5165a4bc99ffef2af09c0fb7eab25b99f",
-      "public_sha256": "11a928b677e83eb19c672b310dc62ec5af1ef9923936981f0cd1e86cd016e4bd",
+      "public_sha256": "5841d16db32a750d109e77933df45b7a301f1fec21e9a367507255987a0baa19",
       "conversion_public_sha256": "ed7c57425316e9e41c81243e7380eac5165a4bc99ffef2af09c0fb7eab25b99f",
       "research_runtime_sha256": null,
       "transform": "filename only or unchanged",
@@ -138,7 +138,7 @@
       "source_path": "README.md",
       "public_path": "README.md",
       "source_sha256": "a379326053b8a46301507ad6d7d292649351f47281205f8f708a4b5f41aa2626",
-      "public_sha256": "263ca488b6701ed1f3877a846535eb8f4cfade824cfbc050eab992f732281c87",
+      "public_sha256": "756266bef464f0ea87c3dfd51d7163a017f320fbb46ae56f5be88dcb216a8f72",
       "conversion_public_sha256": "6295052a087ae0d9208953ba7e33d2ccd2409c69916643f319a95e9ef03513cd",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -156,7 +156,7 @@
       "source_path": "README_RU_codex.md",
       "public_path": "README_RU.md",
       "source_sha256": "98aef87d6c802574b36b75290703ebf175c89aee359d99ec3ab2fd84c5cd3c98",
-      "public_sha256": "5cd5923ec00616a57a54f5d92ab150036562d30e5ab271f4eb71acdc9ec9e898",
+      "public_sha256": "edbca1a56a3aef450bec5fb82a44be87c11e3858eff54f6d09f1f2840035cd79",
       "conversion_public_sha256": "ea9135762c28e564af33d8f6ab6b97882eab3555c5f0be55d60091ca8b6b89da",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -196,7 +196,7 @@
       "source_path": "run_demo_codex.py",
       "public_path": "run_demo.py",
       "source_sha256": "3c87191e72182fcd7d91c3d713fbbc00edc2520a493f23ed77537c94d47a5629",
-      "public_sha256": "361e3d8594a5b398e3cb225d36e8663a28bdcb514c88d1c767974b66527aae16",
+      "public_sha256": "ac4da6eb3b8b95de71052605f44b1e426d80b401d64ed000b25fb5fd6b8dea47",
       "conversion_public_sha256": "361e3d8594a5b398e3cb225d36e8663a28bdcb514c88d1c767974b66527aae16",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -229,7 +229,7 @@
       "source_path": ".github/README.md",
       "public_path": ".github/README.md",
       "source_sha256": "a6b5e61f5b3dc3348c19e095d852ca9b5eeba485a0bf2b39e8af819b34e726ff",
-      "public_sha256": "616432a050e3212e37bb4b38de9bbe06326d08fc0ec5962b9b6adae7ce143857",
+      "public_sha256": "1b48632a05079b9faf6541e528d0159a362df8cc591939f16ba6122d75733343",
       "conversion_public_sha256": "87f139fb1cbf76f7d24fb0597d7400aae63761ff7a760f88e9e938a9ab1c76d3",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -269,7 +269,7 @@
       "source_path": "docs/ASSUMPTIONS_codex.md",
       "public_path": "docs/ASSUMPTIONS.md",
       "source_sha256": "fca2f3eacb52864347ba80739bf30f7216fe86194933c3f69e129c3fc850b832",
-      "public_sha256": "6af27ede0e1740d05a767808a05efff89dcdbda6d0573afb199e4f6f7150ea5d",
+      "public_sha256": "4b031c2dac4f49427162d8c73031e41475cdedb88446c3131c47832993e612f3",
       "conversion_public_sha256": "6af27ede0e1740d05a767808a05efff89dcdbda6d0573afb199e4f6f7150ea5d",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -411,7 +411,7 @@
       "source_path": "parameters/README.md",
       "public_path": "parameters/README.md",
       "source_sha256": "fc0cc23bedc658a79ea065ceab8f8b417b1de857c3b079e12921a84348580c99",
-      "public_sha256": "b2c7af2db596ce596be49c341eacf12819ecc454ce4c7e110de4a66ffb27ca9b",
+      "public_sha256": "f56daf5a9d80de75cfd987c734094dcd067f9aa0cac3587113e12b18d3b65ef7",
       "conversion_public_sha256": "34177a3833873b9b27175f12f28436a2302681adf0dc281b1081894f159e4283",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -535,7 +535,7 @@
       "source_path": "provenance/package_manifest_codex.json",
       "public_path": "provenance/package_manifest.json",
       "source_sha256": "24bc115bb433da5448f80bfec4f6476390147e68fd04db174d39186c6a2b2f1d",
-      "public_sha256": null,
+      "public_sha256": "584a6bbfd3ef24184f4db8488bc0a4cf6d1886551e9508b42d5031085ce80365",
       "conversion_public_sha256": "0e065aa84be248f8e34195281cb54327252e2ae349457eeb8ca2255e1746853a",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -5329,13 +5329,9 @@
     {
       "source_path": "data/neuron-model/model_api_codex.py",
       "public_path": "data/neuron-model/model_api.py",
-      "source_sha256": "18285231b34ef8151d17e9b7b0a6bd879b55648c614465a0eb625eead986d8d5",
-      "public_sha256": "2f61e05fca3c33a1fa855e36a3a73b9f61d97eb80480d43adb13f5101e5b9d28",
-      "conversion_public_sha256": "2f61e05fca3c33a1fa855e36a3a73b9f61d97eb80480d43adb13f5101e5b9d28",
-      "research_runtime_sha256": "18285231b34ef8151d17e9b7b0a6bd879b55648c614465a0eb625eead986d8d5",
-      "transform": "filename plus text import/path suffix substitution",
-      "historical_provenance_contents_retained": false,
-      "regenerated_manifest": false
+      "source_sha256": "c5348ea420ddce842ab336e3c9976bb895cd7d266a2cccbdfc68ca9b8fcc8ec9",
+      "public_sha256": "684c9a4bf0c5dabed305d3fafda6cfa8f2a6c9715a5d89c17325c29e729ea45b",
+      "transform": "public filename/import suffix normalization"
     },
     {
       "source_path": "data/neuron-model/model_contracts_codex.py",
@@ -5369,6 +5365,128 @@
       "transform": "filename plus text import/path suffix substitution",
       "historical_provenance_contents_retained": false,
       "regenerated_manifest": false
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/kinetics_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/kinetics.py",
+      "source_sha256": "33ee89b53b9155fba8a32dfbd752fb6e65c82977b14d10066f9820de71686ac4",
+      "public_sha256": "ce17060a286537da08acae6269cf10baf0a3c88b6d1f271c3185f39cf8ea6da6",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/observer_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/observer.py",
+      "source_sha256": "9a77386a9ea3d8d0d60b2913fbeea2f6cec7b561ca2a9aa3b47491b1e0aeea04",
+      "public_sha256": "9a77386a9ea3d8d0d60b2913fbeea2f6cec7b561ca2a9aa3b47491b1e0aeea04",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/accepted_codex.json",
+      "public_path": "data/2026-11-14-phase-aware-waveform/accepted.json",
+      "source_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "public_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/test_kinetics_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/test_kinetics.py",
+      "source_sha256": "e273d3ea288e5530c8ea8c5d9784b86813e06c91abf41a154f9a837b25c8b809",
+      "public_sha256": "485738e711d2a2c4e7c9915d76a4ec101c114c089facd9e3cd783fbf8e902b30",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/test_observer_codex.py",
+      "public_path": "data/2026-11-14-phase-aware-waveform/test_observer.py",
+      "source_sha256": "5d67467622eed89ce01054b2e6b2b44c89ad898d54ac218424d0e4e6ba3bb1f4",
+      "public_sha256": "b74d10ddc88eed156e470830fad2579f495e7feb525c98509a4a5ae4abc4ca71",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/phase_summary_codex.json",
+      "public_path": "results/phase_phase_summary.json",
+      "source_sha256": "b214dd7786c41db3a2eb0c516fe55389a77f8cb36289c74f32d9d3986431d442",
+      "public_sha256": "ba71db0ffbad85cb96c6c18086ca7a2edf04e2e884616050b9b31dc576403974",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/phase_checks_codex.json",
+      "public_path": "results/phase_phase_checks.json",
+      "source_sha256": "33b3b3b675d208f5c0e55eba3381de781f20676738ebdf221c9ecc24c12f1394",
+      "public_sha256": "33b3b3b675d208f5c0e55eba3381de781f20676738ebdf221c9ecc24c12f1394",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/search_summary_codex.json",
+      "public_path": "results/phase_search_summary.json",
+      "source_sha256": "09b2fd04ef59f3c1f686d65279b2b9f63eb9cf80acaad7a6d0eb932735149aaf",
+      "public_sha256": "09b2fd04ef59f3c1f686d65279b2b9f63eb9cf80acaad7a6d0eb932735149aaf",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/candidate_panel_codex.json",
+      "public_path": "results/phase_candidate_panel.json",
+      "source_sha256": "83e6b59949875bfc08a8fe6f5d667b5da352776560932d248ae4c661cf5df0f2",
+      "public_sha256": "83e6b59949875bfc08a8fe6f5d667b5da352776560932d248ae4c661cf5df0f2",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/candidate_phase_acceptance_codex.json",
+      "public_path": "results/phase_candidate_phase_acceptance.json",
+      "source_sha256": "f3b68063a5edf2d038e87d1cffe56c418ba1e5cdfb43fe22494e58e7d5af87bd",
+      "public_sha256": "f3b68063a5edf2d038e87d1cffe56c418ba1e5cdfb43fe22494e58e7d5af87bd",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/acceptance_results_codex.json",
+      "public_path": "results/phase_acceptance_results.json",
+      "source_sha256": "06ee1edfbfb16d0c76c01148df67c881b4f2460154631e56dc9135ab2cf1becf",
+      "public_sha256": "06ee1edfbfb16d0c76c01148df67c881b4f2460154631e56dc9135ab2cf1becf",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/criteria_codex.json",
+      "public_path": "results/phase_criteria.json",
+      "source_sha256": "9350a18d863be36f9311ae572c1978db33d433073fb258691ae001e05c40ada8",
+      "public_sha256": "9350a18d863be36f9311ae572c1978db33d433073fb258691ae001e05c40ada8",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/phase_comparison_codex.png",
+      "public_path": "results/phase_comparison.png",
+      "source_sha256": "b8922d2ca0d487a941fc3d8925fe538a598508fe965aa8878f53499b15bccb78",
+      "public_sha256": "b8922d2ca0d487a941fc3d8925fe538a598508fe965aa8878f53499b15bccb78",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/candidate_phase_Burley_codex.png",
+      "public_path": "results/candidate_phase_Burley.png",
+      "source_sha256": "c93f120b5a18e96075f692c2b27ed8fd52a054207a424096b0e8cf83b9207743",
+      "public_sha256": "c93f120b5a18e96075f692c2b27ed8fd52a054207a424096b0e8cf83b9207743",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/selected_codex.json",
+      "public_path": "parameters/phase_selected.json",
+      "source_sha256": "ece21596a4d39d6021814399dee19f6b9ceb8af67473b1f8de9e7788220726fe",
+      "public_sha256": "ece21596a4d39d6021814399dee19f6b9ceb8af67473b1f8de9e7788220726fe",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-phase-aware-waveform/accepted_codex.json",
+      "public_path": "parameters/phase_accepted.json",
+      "source_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "public_sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "generated-for-phase06/docs/PHASE_STAGE_0.6.0.md",
+      "public_path": "docs/PHASE_STAGE_0.6.0.md",
+      "public_sha256": "c8d433558bb0522e2d59f7197a7d58f459459f58bc1c5996872b28a8bc33b7a8"
+    },
+    {
+      "source_path": "generated-for-phase06/parameters/phase_ranges.json",
+      "public_path": "parameters/phase_ranges.json",
+      "public_sha256": "fc54fbd60514716dd34b9d651fb5dc0398b654bb564e375098ec10826e743fa2"
     }
   ],
   "workspace_sources_renamed": false,
@@ -5377,5 +5495,6 @@
   "authority": "AGENTS.md github-public-filenames-20261114_codex; user instruction",
   "scope": "Filename/import/path conversion, retaining author IDs and module aliases; no equation refit. License filenames updated, terms unchanged. Historical provenance retains original names; use this mapping for current locations.",
   "parallel_release_preserved": "de0e5f8d8b66d6ef3903e30d6c7e47c0e064e5a1",
-  "final_hashes_after_validation": true
+  "final_hashes_after_validation": true,
+  "phase06_updated": true
 }

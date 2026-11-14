@@ -1,3 +1,7 @@
+# 0.6.0 — phase-aware recovery
+
+Added full stimulus-offset comparisons, corrected actual-last-spike recovery, and expanded kinetic search with full acceptance. [Details](docs/PHASE_STAGE_0.6.0.md).
+
 # 0.5.0 - 2026-11-14
 
 Optional effective-gate waveform refinement, preserved historical counts and paired long potassium recovery. [Validation and limits](docs/WAVEFORM_STAGE_0.5.0.md). The 0.4.0 data-request work below is retained.

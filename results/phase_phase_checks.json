@@ -1,0 +1,51 @@
+{
+  "author": "codex",
+  "full_phase_runs": 28,
+  "all_no_reset": true,
+  "states": 4431,
+  "worst_balance": [
+    1.219086698256433e-08,
+    "Selvaraj-Con2",
+    "W14",
+    0.9,
+    "process_K_balance_uM"
+  ],
+  "original_offset_replays": [
+    {
+      "profile": "Burley",
+      "version": "A14",
+      "current_pA": 25.0,
+      "max_V_delta": 0.0
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "version": "A14",
+      "current_pA": 25.0,
+      "max_V_delta": 0.0
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "version": "A14",
+      "current_pA": 50.0,
+      "max_V_delta": 0.0
+    },
+    {
+      "profile": "Burley",
+      "version": "W14",
+      "current_pA": 25.0,
+      "max_V_delta": 0.0
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "version": "W14",
+      "current_pA": 25.0,
+      "max_V_delta": 0.0
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "version": "W14",
+      "current_pA": 50.0,
+      "max_V_delta": 0.0
+    }
+  ]
+}

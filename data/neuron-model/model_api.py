@@ -1266,3 +1266,10 @@ _waveform14 = _module(B.parent/'2026-11-14-waveform-recovery/kinetics.py',
                        '_stable_waveform_recovery14')
 apply_waveform_kinetics = _waveform14.apply_waveform_kinetics
 waveform_kinetic_reference = _waveform14.waveform_kinetic_reference
+
+# [codex] 2026-11-14. Phase-aware recovery and seven-coordinate opt-in kinetics.
+_phase14 = _module(B.parent/'2026-11-14-phase-aware-waveform/kinetics.py', '_stable_phase_kinetics14')
+apply_phase_kinetics = _phase14.apply_phase_kinetics
+phase_kinetic_reference = _phase14.phase_kinetic_reference
+_phase_observer14 = _module(B.parent/'2026-11-14-phase-aware-waveform/observer.py', '_stable_phase_observer14')
+waveform_recovery_metrics = _phase_observer14.observe
