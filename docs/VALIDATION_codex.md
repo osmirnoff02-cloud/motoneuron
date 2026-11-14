@@ -28,6 +28,8 @@ Version `0.1.1-prepublication` changes licensing, mission, documentation and met
 
 Version `0.1.2` adds public repository metadata and download instructions only. The same executable files and numerical references remain byte-identical; no new biological validation is claimed.
 
+Version **0.2.0** changes licensing/documentation and restores two third-party notice files. All existing Python source, runtime numerical inputs, dependency pins and numerical references are byte-identical to 0.1.2. No numerical simulations were rerun for this change; the earlier results apply to that unchanged executable snapshot.
+
 ## Practical limits
 
 - This is a computational reproduction check, not human calibration or proof of treatment efficacy.

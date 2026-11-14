@@ -1,0 +1,7 @@
+CK equation adaptation, 2026-10-28, Codex.
+Copyright (c) 2023/2024 Blue Brain Project/EPFL.
+Author of the original notebook: Polina Shichkova.
+Source: BlueBrain/metabolism-in-aging, commit1204a605a8d2397f2b78952f74d163df217ed2f9.
+Original license: Apache License2.0, included as LICENSE_BlueBrain.txt.
+Changes: Python implementation of CKc_n; mM-to-uM conversion; explicit conserved ATP/ADP/PCr pools; independent soma/process/terminal coupling; initial equilibrium in our existing adenylate states. No claim of reproducing the full original model.
+No source code from MultiscaleRun or Allen IPFX is integrated into the model in this change.

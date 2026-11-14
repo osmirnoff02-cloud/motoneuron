@@ -1,6 +1,6 @@
 # Motoneuron / Мотонейрон
 
-**Research snapshot 0.1.2, 2026-11-14. Research prototype; not a calibrated human motor neuron or a predictor of treatment efficacy.**
+**Research snapshot 0.2.0, 2026-11-14. Research prototype; not a calibrated human motor neuron or a predictor of treatment efficacy.**
 
 This repository makes a selected computational branch of the ALS research project inspectable and reproducible. It contains the full coupled neuron model used by the included examples, its actual runtime inputs, a parameter inventory, selected historical results and an explicit account of limitations. It is not the complete private research archive.
 
@@ -17,6 +17,12 @@ The mission of Motoneuron is to keep the model open and accessible for research 
 How do membrane currents, ion transport, energy supply, protein/RNA maintenance and nuclear transport interact in conditional motor-neuron scenarios? Which missing measurements most constrain these mechanisms? Current examples examine joint KCNQ/passive-current/Na-K-pump configurations. They do not establish ALS causation or therapeutic benefit.
 
 The integrated numerical model has **4425 state variables, including bookkeeping counters and projections**. This is not 4425 experimentally measured independent biological quantities. The documented example uses candidate **C08**, which is an explicit experimental configuration, not an accepted healthy default. The wider project also investigates TDP-43, TMEM106B/lysosomes, iron/GPX4, microglia, membranes and resistant/vulnerable motor-neuron populations; these directions are not all implemented in this executable model. See [scope](docs/SCOPE_codex.md).
+
+## License and commercial use
+
+**Free for noncommercial scientific research; commercial use requires a separate written agreement.** Licensors: **Максим Смирнов (Maxim Smirnov) and Олег Смирнов (Oleg Smirnov)**. The custom [research license](LICENSE.txt) permits research use, modification and sharing. See [commercial enquiries](COMMERCIAL_LICENSE_codex.md). This is source-available software, not OSI open source.
+
+The new terms start with **0.2.0** and later releases expressly carrying them. **[0.1.2 remains AGPL-3.0-only](https://github.com/osmirnoff02-cloud/motoneuron/tree/bfd151cb24cc057af04efe7ea8c6aed129729385)**; existing rights cannot be withdrawn. This release changes licensing/documentation only: unchanged computational code remains available from 0.1.2 under AGPL, including for compliant commercial use. [Version boundary and third-party scope](docs/LICENSE_SCOPE_codex.md).
 
 ## Quick start
 
@@ -75,6 +81,6 @@ Core limitations include unresolved long-duration potassium recovery, incomplete
 
 The computational source layout retains dated directories to preserve path-based imports. [The source manifest](provenance/source_manifest_codex.json) identifies each original relative path and both source/export SHA-256 values. Two legacy import paths were made lazy to avoid loading NEURON for a SciPy/Numba calculation; equations and numerical parameter values were not changed. The original private Git history, correspondence, patient records, downloaded papers and software installations are not included.
 
-Project software is licensed under **GNU AGPL version 3 only (`AGPL-3.0-only`)**, selected by the owner on 2026-11-14. See the unmodified [LICENSE.txt](LICENSE.txt) and [licensing scope](docs/LICENSE_SCOPE_codex.md). The [mission](MISSION_codex.md) is a statement of purpose, not an extra license condition. Third-party software and data retain their own terms.
+Original project material in this release is offered under **Motoneuron Noncommercial Research License 1.0**, subject to the prior-license and third-party exceptions described above. The [mission](MISSION_codex.md) is a statement of purpose, not an extra license condition. Third-party software and data retain their own terms; [AGPL for 0.1.2 is preserved](provenance/AGPL-3.0-0.1.2.txt).
 
 Repository: [https://github.com/osmirnoff02-cloud/motoneuron](https://github.com/osmirnoff02-cloud/motoneuron). Maintained through the `osmirnoff02-cloud` account. Citation uses project-level attribution; a complete list of human contributors has not been supplied. This snapshot does not include later development in the private workspace. See [third-party notes](THIRD_PARTY_NOTICES_codex.md), [citation](CITATION.cff) and [release checklist](PUBLICATION_CHECKLIST_codex.md). Computational code was developed with AI assistance.

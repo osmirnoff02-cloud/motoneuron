@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite this research software using the project attribution below. A complete human contributor list is not yet supplied."
+message: "Please cite this research software using the project attribution below. Named rightsholders are Maxim Smirnov and Oleg Smirnov; project citation is not a complete scientific contributor list."
 title: "Мотонейрон / Motoneuron"
 type: software
-version: 0.1.2
+version: 0.2.0
 repository-code: "https://github.com/osmirnoff02-cloud/motoneuron"
 url: "https://github.com/osmirnoff02-cloud/motoneuron"
-license: AGPL-3.0-only
+license-url: "https://github.com/osmirnoff02-cloud/motoneuron/blob/v0.2.0/LICENSE.txt"
 authors:
   - name: "Motoneuron project"
 abstract: "Conditional coupled neuron research model with explicit assumptions, source provenance and numerical checks; not a human-calibrated predictor of treatment response."

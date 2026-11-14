@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0 — 2026-11-14
+
+- Adopted Motoneuron Noncommercial Research License 1.0 for releases carrying these terms: noncommercial scientific research is free; commercial use requires a separate agreement.
+- Named rightsholders: Maxim Smirnov and Oleg Smirnov, as explicitly supplied by the user.
+- Preserved 0.1.2 and previously granted AGPL rights. Unchanged code remains available from that release under AGPL, including compliant commercial use.
+- Updated bilingual guidance, mission interpretation, contribution policy and citation license URL; no model code or numerical input changes.
+- Restored the Apache-2.0 license and attribution notice referenced by the Blue Brain/EPFL CK adaptation but missing from the earlier package.
+- Numerical tests were not rerun for this documentation/notice-only change. Package hashes, links, citation fields and retained executable bytes were checked.
+
+
 ## 0.1.2 — 2026-11-14
 
 - Prepared the owner-authorized public snapshot for `osmirnoff02-cloud/motoneuron`.

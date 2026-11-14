@@ -7,4 +7,6 @@
 Use the supported root wrapper; individual historical scripts may need optional data or mechanisms outside this release.
 
 - [creatine_codex.py](creatine_codex.py)
+- [LICENSE_BlueBrain.txt](LICENSE_BlueBrain.txt) — preserved Apache-2.0 license
+- [NOTICE_codex.txt](NOTICE_codex.txt) — attribution and adaptation notice
 - [energy_observer_codex.py](energy_observer_codex.py)

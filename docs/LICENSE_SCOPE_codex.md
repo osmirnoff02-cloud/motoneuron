@@ -1,21 +1,32 @@
-# License and attribution
+# Лицензирование / Licensing
 
-Codex, 2026-11-14. License selected by the project owner for this research package. [Home](../README.md) · [Mission](../MISSION_codex.md).
+[codex] 2026-11-14. [Home](../README.md) · [Точный текст лицензии](../LICENSE.txt) · [Коммерческий договор](../COMMERCIAL_LICENSE_codex.md).
 
-## Project code
+## Версии и правообладатели
 
-The original project software in this package, including its model modules, public runner, helpers and verification scripts, is licensed under the GNU Affero General Public License, version 3 only. SPDX identifier: **AGPL-3.0-only**. You may use, modify and redistribute that software under the terms of [LICENSE.txt](../LICENSE.txt).
+С версии **0.2.0** для оригинальных материалов, на которые распространяется новая лицензия, действует **Motoneuron Noncommercial Research License 1.0**. Правообладатели, указанные пользователем: **Максим Смирнов и Олег Смирнов**. Это указание правообладателей, а не утверждение о соавторстве каждой научной публикации или владении чужими материалами.
 
-The software is provided without warranty, including the implied warranties of merchantability or fitness for a particular purpose, as set out in the license. The standard license text has not been modified. The mission adds no usage restriction, additional obligation or disease-dependent expiration date.
+- Некоммерческие научные исследования: бесплатно; разрешены запуск, изучение, копирование, изменения, совместная работа и распространение исследовательских версий с сохранением условий и уведомлений.
+- Коммерческое использование: отдельный письменный договор с обоими правообладателями либо их уполномоченным представителем. Это включает платные услуги/консалтинг, контрактные исследования и разработку коммерческих продуктов, в том числе лекарств. Академическое место работы само по себе не делает коммерческий заказ некоммерческим.
+- Обычная научная зарплата, публичные/благотворительные гранты и платная публикация статьи сами по себе не превращают исследование в коммерческое.
+- Научные результаты разрешено публиковать. Лицензия не делает авторов модели владельцами результатов пользователя; содержащиеся в них копии защищённого кода сохраняют свои условия.
 
-Preserve existing copyright, license and author notices and identify modifications as required by the license. Personal rightsholder names and human scientific attribution have not yet been supplied; the project name is not an assertion that the AI owns copyright. Existing Codex/Claude annotations document development provenance. They are not claims of human scientific authorship. The owner's selection is recorded here without inventing a personal identity.
+Полные условия, включая пределы ответственности, изложены в английском [LICENSE.txt](../LICENSE.txt). Это лицензия с доступными исходниками и ограничением коммерческого использования, **не open source в смысле OSI**. Отдельный коммерческий договор ещё не заключён; цена не установлена.
 
-## Third-party materials and data
+## Уже опубликованная версия сохраняет права
 
-This project license does not replace licenses or notices of third-party software, dependencies, or third-party data. No new blanket AGPL license is asserted over cited publications, input datasets, scientific facts or third-party material. Preserve their original terms and attribution; see [third-party notes](../THIRD_PARTY_NOTICES_codex.md). Metadata files can contain both project configuration and externally sourced numerical observations. Inclusion in this folder alone does not establish redistribution rights in the latter.
+Версия **0.1.2**, commit [`bfd151c`](https://github.com/osmirnoff02-cloud/motoneuron/tree/bfd151cb24cc057af04efe7ea8c6aed129729385), остаётся **AGPL-3.0-only**. [Точный прежний текст AGPL](../provenance/AGPL-3.0-0.1.2.txt) сохранён. Замена лицензии для следующих выпусков не отзывает ранее предоставленные права, включая коммерческое использование при соблюдении AGPL.
 
-Simulation outputs are not automatically covered by AGPL solely because the program produced them; section 2 of the license governs whether the output itself is a covered work. Academic citation is described in [CITATION.cff](../CITATION.cff); retaining legal notices does not confer coauthorship in a paper.
+**0.2.0 меняет документы и лицензирование, а не вычислительную модель.** Код и численные входы этого выпуска совпадают с 0.1.2. Поэтому смена номера не лишает пользователей возможности брать тот же ранее опубликованный код из 0.1.2 по AGPL. Новые условия имеют значение для последующих оригинальных дополнений, которые будут явно выпущены под ними.
 
-## License source and release status
+## Third-party scope and contributions
 
-The exact text was obtained from [GNU / Free Software Foundation](https://www.gnu.org/licenses/agpl-3.0.txt). License selection and mission adoption are complete. The owner subsequently authorized public sharing at [https://github.com/osmirnoff02-cloud/motoneuron](https://github.com/osmirnoff02-cloud/motoneuron). Citation uses the project name without inventing individual authors. Third-party notices and terms remain applicable; inclusion is not a blanket rights-clearance claim.
+The new license covers only rights held by the named licensors. Third-party software, observations, publications and dependencies retain their terms. In particular, the Blue Brain/EPFL CK adaptation retains its Apache-2.0 notice and license; see [third-party notices](../THIRD_PARTY_NOTICES_codex.md). No new restriction is imposed on independently licensed third-party material or on scientific facts.
+
+Existing Codex/Claude annotations record development provenance, not human authorship or AI copyright ownership. Contributors retain their rights; commercial licensing of their contributions requires the necessary separate permission. The publication does not establish a complete chain-of-title audit or replace third-party terms.
+
+## English summary
+
+From 0.2.0, original project material expressly carrying the new license is free for noncommercial scientific research. Commercial use requires a separate written agreement with Maxim Smirnov and Oleg Smirnov, or their jointly authorized representative. Previously granted AGPL rights remain intact, including for unchanged code available in 0.1.2. Source access alone is not a commercial license. The operative terms are in LICENSE.txt.
+
+References checked for the transition: [GNU AGPL, sections 2 and 13](https://www.gnu.org/licenses/agpl-3.0.html), [FSF on relicensing](https://www.fsf.org/blogs/licensing/relicensing-versus-compatibility), [OSI definition](https://opensource.org/osd). These references do not endorse this custom license.

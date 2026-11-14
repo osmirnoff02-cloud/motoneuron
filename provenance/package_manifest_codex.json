@@ -1,9 +1,9 @@
 {
   "author": "codex",
   "date": "2026-11-14",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "repository": "https://github.com/osmirnoff02-cloud/motoneuron",
-  "scope": "Publication files excluding this self-referential manifest.",
+  "scope": "Publication files excluding this self-referential manifest and .git.",
   "files": [
     {
       "path": ".gitattributes",
@@ -37,18 +37,23 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1895,
-      "sha256": "bc9262675fe6c90f3f88eb7a9480e91b2888608267f1a74d02209c7b29d1e438"
+      "bytes": 2790,
+      "sha256": "c19b76f592945d3b850de09b99adb0778f9fa5be2704396fb9247d49d55bd8ca"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 669,
-      "sha256": "818626c2921e94a02fd5dfb8995704ac329f2aa122f8e3ea5af026be12a7246f"
+      "bytes": 798,
+      "sha256": "4406ea2bb77d108689f2978dcb4639ac8ad128105f0e24906adf6178a6e769ef"
+    },
+    {
+      "path": "COMMERCIAL_LICENSE_codex.md",
+      "bytes": 1853,
+      "sha256": "3cccb319bcfbfe6d5261043b00b2d6850a99614a2583a1d1d42b93ecd4a874cc"
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1240,
-      "sha256": "a74bb90a100bb57a040e8611dd936536163e0ed383e613951e2e6e1f3c390280"
+      "bytes": 1646,
+      "sha256": "d0bad30983ba5c7f641c3e92ce9d4ee63299ba7d43380ec9a637e612ef03faac"
     },
     {
       "path": "data/2026-10-14-healthy-ipsc-electrical/README.md",
@@ -801,9 +806,19 @@
       "sha256": "90cc1b93e74e0bdc350e0f999f8f52852b55c1a6ac228f32d8c5b418796a2442"
     },
     {
+      "path": "data/2026-10-28-donor-energy-integration/LICENSE_BlueBrain.txt",
+      "bytes": 10139,
+      "sha256": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe"
+    },
+    {
+      "path": "data/2026-10-28-donor-energy-integration/NOTICE_codex.txt",
+      "bytes": 642,
+      "sha256": "236d2a4ec0ec43c604cb595569634d4ec85421e10ab60186dea80471a5208017"
+    },
+    {
       "path": "data/2026-10-28-donor-energy-integration/README.md",
-      "bytes": 486,
-      "sha256": "55a241ea063f06e97edc5670f06c74dc386ed58524c87d2a508c709d767e1202"
+      "bytes": 635,
+      "sha256": "f83b0a3756f32f6754cbab41c1a442a06c9a7d055f5f1153943aa84f6e4a6ee6"
     },
     {
       "path": "data/2026-10-28-parsons-grabe/cholinergic_cargo_codex.py",
@@ -1977,8 +1992,8 @@
     },
     {
       "path": "docs/LICENSE_SCOPE_codex.md",
-      "bytes": 2694,
-      "sha256": "c2406f8c5d5317e642b30d0a940ed00f83e462292eeb2833097f3013b67217d3"
+      "bytes": 5734,
+      "sha256": "186839c755d4cc47f5d4445254cfcd6b74b28e00364cb6a9db00e897b2aa7330"
     },
     {
       "path": "docs/MODEL_codex.md",
@@ -2002,18 +2017,18 @@
     },
     {
       "path": "docs/VALIDATION_codex.md",
-      "bytes": 4126,
-      "sha256": "bd8669145a13b79bcd684a68134306455395ec2594243c2516c0100549bc39de"
+      "bytes": 4462,
+      "sha256": "e77ba8b6de7d3dd87f6730465dc2cf40a6fbe8be932207d6a32c25b16cb89b7e"
     },
     {
       "path": "LICENSE.txt",
-      "bytes": 34523,
-      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+      "bytes": 5893,
+      "sha256": "ee1f54bc1fb23719913a095c4bbb4f51e30dc0ff2d762c66ae8a6d232720b547"
     },
     {
       "path": "MISSION_codex.md",
-      "bytes": 1961,
-      "sha256": "51becf5b3d61e896cd283b36e82dd3c865f2c1053d66abce5904c2064d3c2118"
+      "bytes": 2638,
+      "sha256": "1de7283dc8c1bfbd1129560b9c4348a65848f2cbd54867d9dacf8b6bea2e49ba"
     },
     {
       "path": "parameters/README.md",
@@ -2031,14 +2046,24 @@
       "sha256": "1d065f34c4a5ccbd47197c6ab286b6c1c33aa657496cc2d947be094a076ca723"
     },
     {
+      "path": "provenance/AGPL-3.0-0.1.2.txt",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
       "path": "provenance/license_adoption_codex.json",
       "bytes": 606,
       "sha256": "d558ee15b84c527b0bc55409ffc3a8d2db1944fd1b79fd7052986f7cb94e04ab"
     },
     {
+      "path": "provenance/license_transition_0.2.0_codex.json",
+      "bytes": 996,
+      "sha256": "97b1eb5ca258959be10b8239a01c52f4c26bfa03f36f979d5199960fea24bc81"
+    },
+    {
       "path": "provenance/README.md",
-      "bytes": 336,
-      "sha256": "33b5d0ffba65b737560931ff1d496ea7c863ac619ce60ff4f0241c7512f2318d"
+      "bytes": 870,
+      "sha256": "3ca26a315250ca7911e12a8019da4bc236fd9d53c83980ce3d7c00d68266008c"
     },
     {
       "path": "provenance/source_manifest_codex.json",
@@ -2052,8 +2077,8 @@
     },
     {
       "path": "PUBLICATION_CHECKLIST_codex.md",
-      "bytes": 1489,
-      "sha256": "9c792206634a18e5b740ef9631d6a58f106a8c86dfe5ba26cb7002df0034b589"
+      "bytes": 1707,
+      "sha256": "a71f285b72d5feb3cc01bbdef23aa6944931528bfb9c82605428c86ff7d43a54"
     },
     {
       "path": "publication_optional_neuron_codex.py",
@@ -2062,13 +2087,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6867,
-      "sha256": "a56c1702c85fe96711c91e9d8f3de3b41f06324c2ed57578de6aa285f97dc34f"
+      "bytes": 7815,
+      "sha256": "1920a5806da0434a0c21224b12615cba3af302392ed202bfa8aaaf65f8e3e05a"
     },
     {
       "path": "README_RU_codex.md",
-      "bytes": 6069,
-      "sha256": "01534f08d3261311b0c2788d2547bbf71abe7208b7b143ae5fb942fef4754f53"
+      "bytes": 6917,
+      "sha256": "60564022cb569995492d538a618870419f2e8837c13528a1012ee54c3b2925cf"
     },
     {
       "path": "references/README.md",
@@ -2137,8 +2162,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES_codex.md",
-      "bytes": 1176,
-      "sha256": "e4d97ad03939d59e0dbb273df80ed729cba852fd81334100782805d9add05be3"
+      "bytes": 2156,
+      "sha256": "361eaf3170122ac38077fef939d930f8b2998dc459b6a814851cd30fa166ca3f"
     },
     {
       "path": "verify_package_codex.py",

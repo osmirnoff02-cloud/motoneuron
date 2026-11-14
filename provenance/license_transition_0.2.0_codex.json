@@ -1,0 +1,22 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "version": "0.2.0",
+  "license_name": "Motoneuron Noncommercial Research License 1.0",
+  "rightsholders": [
+    "Максим Смирнов",
+    "Олег Смирнов"
+  ],
+  "authorization": "Explicit user instruction: free noncommercial scientific research, commercial use by separate agreement; update future versions on GitHub. Latest instruction names both rightsholders.",
+  "prior_version": "0.1.2",
+  "prior_commit": "bfd151cb24cc057af04efe7ea8c6aed129729385",
+  "prior_license": "AGPL-3.0-only",
+  "prior_license_sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+  "prior_rights_retained": true,
+  "unchanged_code_still_available_under_prior_agpl": true,
+  "commercial_contract_signed": false,
+  "fees_set": false,
+  "third_party_terms_preserved": true,
+  "historical_adoption_record": "license_adoption_codex.json",
+  "license_sha256": "ee1f54bc1fb23719913a095c4bbb4f51e30dc0ff2d762c66ae8a6d232720b547"
+}
