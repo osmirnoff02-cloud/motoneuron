@@ -34,6 +34,11 @@
       "sha256": "9712c6e4ed74dd81c0332c512eddf7caa085ea9ad6bdb81a3d5c6d0483becb63"
     },
     {
+      "path": "AGENTS.md",
+      "bytes": 9997,
+      "sha256": "a4806add159b85de7a4a11d48df4c578969fb8a84a32e85118727698f966c999"
+    },
+    {
       "path": "CHANGELOG.md",
       "bytes": 4614,
       "sha256": "64b262e348a1e6f7cc6159f444bbf50dd9aba1cc869bce5ba78cb7385711102d"
@@ -42,6 +47,11 @@
       "path": "CITATION.cff",
       "bytes": 669,
       "sha256": "055df68418cf46e1ff1a2ab908a11edc559e8745bf5ee5885c079a210c3d53f4"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 151,
+      "sha256": "a814eb2522a4afdd26b0d5f37f47fa90ed2db95995a229f1ed465b4584ea3350"
     },
     {
       "path": "COMMERCIAL_LICENSE.md",
