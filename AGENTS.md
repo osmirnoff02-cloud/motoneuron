@@ -12,6 +12,16 @@ Motoneuron is a published research model of a motor neuron in the context of ALS
 - Do not commit, push, tag, or publish a release unless the owner asks. The repository is public.
 - Never rewrite Git history. The licence boundary refers to the 0.1.2 commit by hash.
 
+Before editing, read the guides for the area you’re changing. Start with the relevant row below and read the local README if there is one.
+
+| Area | Read first |
+| --- | --- |
+| Model equations, parameters, or state layout | [Model](docs/MODEL.md), [Assumptions](docs/ASSUMPTIONS.md), and the relevant dated stage note |
+| Runner, protocols, or experiment definitions | [Running guide](docs/RUNNING.md) and [Experiment index](experiments/README.md) |
+| Package integrity, release records, or archived results | [Provenance](provenance/README.md) and [Validation](docs/VALIDATION.md) |
+
+If a guide, the implementation, and a reference result disagree, identify the discrepancy before relying on any of them for the change.
+
 ## Running the model
 
 - Use Python 3.12 and `requirements-lock.txt` only. Do not upgrade, add, or unpin dependencies; numerical references depend on the exact versions.
@@ -35,12 +45,15 @@ Exact commands and expected results are in the [experiment index](experiments/RE
 
 ## Verification
 
-There is no pytest suite. Verification is a set of scripts, mirrored in `.github/workflows/verify.yml`:
+Run the checks that cover the change. If several rows apply, run the checks from each. See the [CI workflow](.github/workflows/verify.yml) for the automated checks and the [experiment index](experiments/README.md) for exact commands and expected results.
 
-1. `python -I -B -X utf8 verify_package.py` checks hashes, syntax, links, and sensitive patterns.
-2. A smoke run with `--check-restart`, then `tests/check_output.py OUTPUT --experiment ID`.
-3. `tests/check_rejected_inputs.py OUTPUT` for the rejection paths.
-4. `python -I -B -X utf8 tests/check_catalog.py` checks that `models/` and `experiments/` agree. Run it after editing either.
+| What changed | What to run |
+| --- | --- |
+| Any packaged file, including documentation | Update the affected manifest entries, then run `python -I -B -X utf8 verify_package.py`. |
+| Anything under `models/` or `experiments/` | Also run `python -I -B -X utf8 tests/check_catalog.py` to check that the catalogs agree. |
+| Runtime code, model inputs, or numerical behavior | Run the applicable smoke scenario with `--check-restart`, then check its output with `tests/check_output.py OUTPUT --experiment ID`. If the change concerns behavior the smoke run does not exercise, use the relevant documented regression and follow the run limits above. |
+| Argument validation, checkpoint acceptance, or output-path guards | Also run `tests/check_rejected_inputs.py OUTPUT` using the default smoke output. |
+| Phase kinetics or the recovery observer | Also run the applicable focused test listed in the CI workflow. |
 
 Rules that follow from this:
 
