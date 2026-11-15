@@ -4,6 +4,8 @@
   "status": "runnable",
   "question": "Does the fresh C08/Burley simulation retain the historical spike count and peak voltage during this current step?",
   "model": {
+    "id": "c08-burley",
+    "manifest": "models/c08-burley.json",
     "release": "0.7.0",
     "state_count": 4425,
     "state_layout_sha256": "eb9a6e61808a699e5a27b84ba3b92cc8b9408b9aed3a860e0a5be9202726d107",

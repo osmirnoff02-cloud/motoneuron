@@ -38,6 +38,7 @@ Each run writes a summary, configuration, provenance, checkpoint, selected time 
 
 | Path | Contents |
 | --- | --- |
+| [models](models/README.md) | Supported configurations, parameter sources, and evaluations |
 | [experiments](experiments/README.md) | Reference protocols, expected results, and reproduction status |
 | [run_demo.py](run_demo.py) | Supported entry point for simulations |
 | [data/neuron-model](data/neuron-model/README.md) | Integrated model, interface, and state layout |

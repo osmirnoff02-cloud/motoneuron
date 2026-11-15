@@ -2230,23 +2230,23 @@
     },
     {
       "path": "experiments/burley-pulse-25pa.json",
-      "bytes": 2708,
-      "sha256": "b479ae4c1ff2e1cc435d9366df938ef484276908a165c7d6004a716ef721dce8"
+      "bytes": 2774,
+      "sha256": "2a76c21310a3dc2a52fb1459343630f30ca5b03a5920cbbfc234310ef70aa6c9"
     },
     {
       "path": "experiments/default-smoke.json",
-      "bytes": 2607,
-      "sha256": "452dde07d755cb5f24c40a72a75314e0d6bada37ca9a881626e0dc9adbd6aae1"
+      "bytes": 2673,
+      "sha256": "04bf57edd652df6024313761478acd7aa893e447556fea292a91621f1028bf6e"
     },
     {
       "path": "experiments/README.md",
-      "bytes": 3446,
-      "sha256": "c76151a52ebcdfd44541b9de426505245aee5bba59fab41eca42112a914d337a"
+      "bytes": 3717,
+      "sha256": "fa9629715eb9823ba08de7fef1c32e0792051eca0d28f08dffca0d4e961be0a2"
     },
     {
       "path": "experiments/redox-smoke.json",
-      "bytes": 2853,
-      "sha256": "37e6c355e08552096e262eb9bd977c4e6401bdaf9280392a526b89dfd3e53245"
+      "bytes": 2931,
+      "sha256": "1dd6b2f68bd18f2c0cd0cb1073caf0241e0a74984990c19b9272f3c331d4dba6"
     },
     {
       "path": "LICENSE.txt",
@@ -2257,6 +2257,31 @@
       "path": "MISSION.md",
       "bytes": 970,
       "sha256": "b00a7db69d13b0f9a8b0c9d73764f06c6f5e72cb4e4870b4ad23009c0ed807c1"
+    },
+    {
+      "path": "models/c08-burley-evaluation.md",
+      "bytes": 1961,
+      "sha256": "7b98e61a5586af3922755fda50c03da1af66167fd39b2e45add447785ea7339f"
+    },
+    {
+      "path": "models/c08-burley-redox-evaluation.md",
+      "bytes": 2261,
+      "sha256": "52fd345f775716e31a1a9f85416093fb5e41f37c0b506f7b98f23db5bc19e409"
+    },
+    {
+      "path": "models/c08-burley-redox.json",
+      "bytes": 1734,
+      "sha256": "82db54e699a9c5252911620336b0cdb283abcedc8d81836a8d222738c4248808"
+    },
+    {
+      "path": "models/c08-burley.json",
+      "bytes": 1448,
+      "sha256": "8a9ecdcfd4380e578a6142e0ccc4dc46cc7c00609e649ded0106a0334dce65ea"
+    },
+    {
+      "path": "models/README.md",
+      "bytes": 1257,
+      "sha256": "e80f62b8ed31e97cafadabafd76b350158edc541b8b40887b397337bbcc92c74"
     },
     {
       "path": "parameters/acid_C08_active_config.json",
@@ -2425,8 +2450,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4652,
-      "sha256": "069c02df42a6b3ef3af749c0412673ab9aac33f7137a02e9b870dac6880beed6"
+      "bytes": 4746,
+      "sha256": "c567bec24ad1bc37229631b3ce20dfcc36d706f4d3a9a3a23af652e66dfdffa4"
     },
     {
       "path": "references/README.md",

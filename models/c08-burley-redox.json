@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "c08-burley-redox",
+  "title": "C08 / Burley with redox supply",
+  "release": "0.7.0",
+  "base_model": "models/c08-burley.json",
+  "profile": "Burley",
+  "candidate": "C08",
+  "human_calibrated": false,
+  "runtime": {
+    "entry_point": "run_demo.py",
+    "model_arguments": ["--profile", "Burley", "--candidate", "C08", "--redox-v15"],
+    "initialization": "The public short experiments construct a fresh baseline for the fixed C08/Burley redox configuration.",
+    "acid_extrusion": true,
+    "acid_recovery_tau_s": 120,
+    "kinetics": "Burley effective gates selected by the phase study",
+    "redox_v15": true,
+    "state_count": 4503,
+    "state_layout": "data/neuron-model/state_layout_v1.json",
+    "state_layout_sha256": "a29b420fa59261b64d5c3cc6dffe5769f3e48ac575d708fb8a7eb56dd9905632"
+  },
+  "parameter_sources": [
+    {
+      "role": "Inherited C08 candidate declaration",
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/declared_candidates.json",
+      "json_pointer": "/8"
+    },
+    {
+      "role": "Fixed acid-removal configuration used by the redox model",
+      "path": "data/2026-11-14-acid-coupling/run.py"
+    },
+    {
+      "role": "Burley phase-tested effective gate parameters",
+      "path": "data/2026-11-14-phase-aware-waveform/accepted.json",
+      "json_pointer": "/profiles/Burley"
+    },
+    {
+      "role": "Middle-supply values, ranges, and evidence",
+      "path": "parameters/redox_assumptions.json"
+    },
+    {
+      "role": "Redox supply parameter definitions and equations",
+      "path": "data/2026-11-15-aa-gsh-nadph/supply.py"
+    }
+  ],
+  "experiments": [
+    "experiments/redox-smoke.json"
+  ],
+  "evaluation": "models/c08-burley-redox-evaluation.md"
+}

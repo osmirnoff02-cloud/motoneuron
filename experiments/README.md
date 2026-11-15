@@ -8,6 +8,8 @@ Install the [pinned Python 3.12 environment](../README.md#quick-start) and run c
 | Burley 25 pA pulse | A fresh C08 run produces the historical target of four spikes during the step and a peak voltage within 0.25 mV of the reference. | [Burley 25 pA](burley-pulse-25pa.json) |
 | Redox smoke | 4,503 states, including the amino-acid, glutathione, and NADPH extension, pass the 20 ms integration and 40 ms restart checks. | [Redox smoke](redox-smoke.json) |
 
+The [model catalog](../models/README.md) links each configuration to its parameters and evaluation. The default smoke and Burley pulse use [C08 / Burley](../models/c08-burley.json). The redox smoke uses [C08 / Burley with redox supply](../models/c08-burley-redox.json).
+
 ## Commands
 
 ```bash

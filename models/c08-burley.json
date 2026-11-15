@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "id": "c08-burley",
+  "title": "C08 / Burley",
+  "release": "0.7.0",
+  "profile": "Burley",
+  "candidate": "C08",
+  "human_calibrated": false,
+  "runtime": {
+    "entry_point": "run_demo.py",
+    "model_arguments": ["--profile", "Burley", "--candidate", "C08"],
+    "initialization": "The reference experiments construct a fresh Burley baseline with the C08 parameter set.",
+    "acid_extrusion": false,
+    "kinetics": "Inherited Burley effective gates",
+    "redox_v15": false,
+    "state_count": 4425,
+    "state_layout": "data/neuron-model/state_layout_v1.json",
+    "state_layout_sha256": "eb9a6e61808a699e5a27b84ba3b92cc8b9408b9aed3a860e0a5be9202726d107"
+  },
+  "parameter_sources": [
+    {
+      "role": "C08 candidate declaration",
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/declared_candidates.json",
+      "json_pointer": "/8"
+    },
+    {
+      "role": "Construction of the joint KCNQ, passive current, and pump options",
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/options.py"
+    },
+    {
+      "role": "Burley source-cell and condition evidence",
+      "path": "data/2026-11-04-Q1-control-passports/cell_passports.json"
+    },
+    {
+      "role": "Parameter assumptions and evidence limits",
+      "path": "docs/ASSUMPTIONS.md"
+    }
+  ],
+  "experiments": [
+    "experiments/default-smoke.json",
+    "experiments/burley-pulse-25pa.json"
+  ],
+  "evaluation": "models/c08-burley-evaluation.md"
+}
