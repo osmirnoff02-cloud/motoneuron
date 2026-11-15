@@ -78,7 +78,9 @@ ATP supply is not retuned here: full neuron electrical initial transients remain
 
 def controls(sg,supplied=None):
  a=np.c_[sg[:,:2],np.ones((len(sg),4))] if supplied is None else np.asarray(supplied,float)
- if a.shape!=(len(sg),6) or not np.array_equal(a[:,:2],sg[:,:2]) or not np.isfinite(a).all() or np.any(a[:,2:]<0) or np.any(a[:,2:]>2):raise ValueError('mRNA schedule:start,end,production,departure,arrival,local decay supports0..2')
+ # [codex] gcc14: explicit compensation scenarios; no change to default1.
+ # Production and two transport rates may reach4x, local decay remains0..2.
+ if a.shape!=(len(sg),6) or not np.array_equal(a[:,:2],sg[:,:2]) or not np.isfinite(a).all() or np.any(a[:,2:]<0) or np.any(a[:,2:5]>4) or np.any(a[:,5]>2):raise ValueError('mRNA schedule:start,end,production/departure/arrival0..4,local decay0..2')
  return a.copy()
 
 @njit

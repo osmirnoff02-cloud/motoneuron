@@ -1,0 +1,243 @@
+{
+  "author": "codex",
+  "date": "2026-11-15",
+  "ranges": {
+    "AA_delivery_capacity_uM_s": [
+      0.0,
+      0.1,
+      0.3
+    ],
+    "AA_boundary_uM": [
+      10.0,
+      50.0,
+      200.0
+    ],
+    "GSH_recovery_fraction": [
+      0.0,
+      0.5,
+      0.9
+    ],
+    "GSH_hydrolysis_tau_s": [
+      60.0,
+      600.0,
+      3600.0
+    ],
+    "AA_return_tau_s": [
+      60.0,
+      600.0,
+      3600.0
+    ],
+    "AA_recovery_capacity_uM_s": [
+      0.0,
+      0.1,
+      1.0
+    ],
+    "GSH_delivery_tau_s": [
+      600.0,
+      3600.0,
+      36000.0
+    ],
+    "soma_GSH_synthesis_capacity_uM_s": [
+      0.03,
+      0.2,
+      0.6
+    ],
+    "soma_GSH_initial_uM": [
+      1000.0,
+      2000.0,
+      5000.0
+    ],
+    "soma_GSH_export_tau_s": [
+      3600.0,
+      21600.0,
+      86400.0
+    ],
+    "AA_delivery_ATP_equiv": [
+      0.0,
+      1.0,
+      2.0
+    ],
+    "G6PD_Ki_NADPH_uM": [
+      9.0,
+      18.0,
+      36.0
+    ],
+    "PPP_reserve_fold": [
+      11.0,
+      30.0,
+      89.0
+    ]
+  },
+  "active_defaults": {
+    "active_water_fraction": 1.0,
+    "AA_half_uM": 100.0,
+    "conjugate_export_tau_s": 600.0,
+    "coupling_enabled": true,
+    "provenance": "Conditional AA boundary/GSH recycling and finite somatic delivery; human purified G6PD Ki anchor, no human MN calibration; external glucose and other NADPH donors remain open.",
+    "AA_delivery_capacity_uM_s": 0.1,
+    "AA_boundary_uM": 50.0,
+    "GSH_recovery_fraction": 0.5,
+    "GSH_hydrolysis_tau_s": 600.0,
+    "AA_return_tau_s": 600.0,
+    "AA_recovery_capacity_uM_s": 0.1,
+    "GSH_delivery_tau_s": 3600.0,
+    "soma_GSH_synthesis_capacity_uM_s": 0.2,
+    "soma_GSH_initial_uM": 2000.0,
+    "soma_GSH_export_tau_s": 21600.0,
+    "AA_delivery_ATP_equiv": 1.0,
+    "G6PD_Ki_NADPH_uM": 9.0,
+    "PPP_reserve_fold": 30.0,
+    "explicit_NADPH": true
+  },
+  "units": "Concentrations uM; fluxes uM/s; times seconds; fractions and ATP equivalents dimensionless. AA/GSH ledgers distinguish reference volumes from mobile water.",
+  "basis": "Only Ki9uM is a measured human-enzyme anchor (Wang2002,25C,pH8,10mM MgCl2). Remaining new rates are scenarios; inherited human G6PD Km from Hernandez-Ochoa2025,25C,pH8,3mM MgCl2. Not one matched experiment.",
+  "measurement": "Same-culture 13C/15N Cys/Glu/Gly and GSH pulse-chase, soma/axon GSH/GSSG; NADPH/NADP and 13C glucose/PPP flux with ATP/ADP and volume.",
+  "owners": "Human G6PD kinetic assay: Wang/Engel/Lam laboratory, current availability unconfirmed. Human ALS-MN GSH relative endpoint: Mariana Pehar group. HEK glucose sensor: Alejandro San Martin group. No confirmed owner of complete healthy iPSC-MN dataset.",
+  "dependencies": "AA packet composition, bath concentrations, active water, somatic coarse AA, GSH loss partition, source glucose boundary, fixed enzyme levels",
+  "tests": "Unit ATP/AA/carbon; finite recovery split;8x72h+tighter repeat;9 initial electrical and post672h Burley25. See runs_v2/verification.json",
+  "additional_assumptions": {
+    "AA_packet": {
+      "value": "Cys:Glu:Gly=1:1:1",
+      "status": "scenario aggregate delivery, not identified EAAT or membrane current",
+      "needed": "Species-specific uptake/release fluxes; possible owner unknown"
+    },
+    "soma_species": {
+      "value": "each species availability = coarse soma AA/20",
+      "status": "uniform surrogate, not human pool measurement"
+    },
+    "GSH_delivery": {
+      "value": "passive soma-axon concentration-gradient exchange",
+      "status": "scenario, no motor-driven vesicle transport asserted"
+    },
+    "GSH_export_energy": {
+      "value": 0,
+      "unit": "additional ATP per generic GSH loss/export",
+      "status": "unidentified loss process, not a calibrated ATP-dependent MRP exporter; energy cost remains a missing mechanism"
+    },
+    "somatic_redox": {
+      "value": "finite reduced GSH pool and synthesis only",
+      "status": "no newly resolved somatic GSSG/NADPH cycle; detailed antioxidant redox is in axon branch"
+    },
+    "GSH_loss": {
+      "value": "generic GSH loss routed to recoverable exported pool; recovery fraction0/.5/.9; GS-HNE excluded",
+      "status": "scenario partition, requires isotope tracing"
+    },
+    "extracellular_volume": {
+      "value": "sum of active soma and axon water",
+      "status": "scenario volume for a shared precursor compartment; not extracellular anatomy"
+    },
+    "recovery_partition": {
+      "value": "separate finite capacity and inward-gradient uptake by soma and axon, scaled to their active water",
+      "status": "replaces invalid delivery of all somatic GSH products into axon; not specific transporters"
+    },
+    "AA_delivery_energy": {
+      "values": [
+        0,
+        1,
+        2
+      ],
+      "unit": "ATP equivalent per imported or recovered residue",
+      "status": "effective transport cost; not explicit Na-coupled transport"
+    },
+    "NADPH_carbon": {
+      "value": "external glucose/G6P and other reducing-substrate boundary",
+      "status": "PPP material ledger connected; whole-neuron glucose competition unimplemented"
+    },
+    "ATP_opportunity": {
+      "value": "32/12 per PPP NADPH",
+      "status": "diagnostic maximum theoretical yield, NOT added hydrolysis"
+    },
+    "temperature": {
+      "value": "source assays25C; transfer factor1; no neuronal Q10 calibration",
+      "status": "assumption"
+    },
+    "enzyme_production": {
+      "value": "fixed G6PD/GR/GPX4/Prx/Trx capacities",
+      "status": "protein turnover not coupled"
+    },
+    "PPP_reserve": {
+      "values": [
+        11,
+        30,
+        89
+      ],
+      "status": "rat-culture fold changes are source scenarios, not human boundaries. Flux>fresh glucose is possible with carbon recycling; no blanket exclusion of89"
+    }
+  },
+  "inherited_NADPH": {
+    "active_defaults": {
+      "PPP_reserve_fold": 30.0,
+      "G6PD_Km_NADP_uM": 7.8,
+      "G6PD_Km_G6P_uM": 42.8,
+      "G6PD_Ki_NADPH_uM": 9.0,
+      "other_source_share": 0.3,
+      "other_source_Km_NADP_uM": 10.0,
+      "G6P_uM": 100.0,
+      "glucose_flux_uM_s": 8.0,
+      "pentose_return_tau_s": 60.0,
+      "recycle_fraction": 0.5,
+      "ATP_per_glucose": 32.0
+    },
+    "ranges": {
+      "PPP_reserve_fold": [
+        11.0,
+        30.0,
+        89.0
+      ],
+      "G6PD_Km_NADP_uM": [
+        6.1,
+        7.8,
+        7.8
+      ],
+      "G6PD_Km_G6P_uM": [
+        38.4,
+        42.8,
+        42.8
+      ],
+      "G6PD_Ki_NADPH_uM": [
+        9.0,
+        18.0,
+        36.0
+      ],
+      "other_source_share": [
+        0.0,
+        0.3,
+        0.6
+      ],
+      "other_source_Km_NADP_uM": [
+        3.0,
+        10.0,
+        30.0
+      ],
+      "G6P_uM": [
+        30.0,
+        100.0,
+        300.0
+      ],
+      "glucose_flux_uM_s": [
+        3.0,
+        8.0,
+        15.0
+      ],
+      "pentose_return_tau_s": [
+        10.0,
+        60.0,
+        600.0
+      ],
+      "recycle_fraction": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ATP_per_glucose": [
+        30.0,
+        32.0,
+        36.0
+      ]
+    },
+    "units": "uM for pools/Km/Ki; uM/s for glucose flux; s for return tau; fractions/folds/ATP-per-glucose dimensionless",
+    "status": "Exact inherited scenario constants, not healthy human bounds. Human-enzyme Km/Ki anchors have different assay Mg conditions; glucose, recycling and non-PPP donors are uncalibrated.",
+    "measurement": "Isotope-resolved glucose/PPP and alternate-donor fluxes with NADPH/NADP, G6P/pentoses and compartment volume in healthy human iPSC-MNs",
+    "owner": "Complete human-MN dataset owner unknown; enzyme and HEK benchmarks listed under owners"
+  }
+}

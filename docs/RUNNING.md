@@ -43,3 +43,8 @@ Long runs also save per-segment progress checkpoints in their new output directo
 The compact CSV does not preserve every possible future analysis. Use `--full-trace` for experiments requiring full trajectory retention, then keep the large output outside ordinary Git. A checkpoint is sufficient for a compatible continuation, not for reconstructing the path that preceded it.
 
 Solver: SciPy BDF, complete numerical Jacobian represented sparsely, with the inherited Numba kernels. Short tests use rtol 1e−8 / atol 1e−10; long protocols use the inherited per-state tolerance vector. Sparse storage is not removal of biological states. Source diagnostics can include additional solver points, so output sample counts need not equal duration/output_step.
+
+
+## 0.7.0: redox-supply scenario
+
+`--redox-v15` runs the 4503-state branch for fresh `smoke` and `pulse` protocols only; see [the stage description](REDOX_STAGE_0.7.0.md) for commands, fixed settings and limits. Prepared long runs of this branch are not reproducible from the package alone.

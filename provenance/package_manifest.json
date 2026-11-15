@@ -1,7 +1,7 @@
 {
-  "author": "codex",
-  "date": "2026-11-14",
-  "version": "0.6.0",
+  "author": "claude",
+  "date": "2026-11-15",
+  "version": "0.7.0",
   "files": [
     {
       "path": ".gitattributes",
@@ -25,8 +25,8 @@
     },
     {
       "path": ".github/README.md",
-      "bytes": 2846,
-      "sha256": "1b48632a05079b9faf6541e528d0159a362df8cc591939f16ba6122d75733343"
+      "bytes": 3231,
+      "sha256": "aafd3bc4776f863ac3047e63a98bf509af0c96cfc0d1d368132e63a767139c54"
     },
     {
       "path": ".gitignore",
@@ -35,13 +35,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4375,
-      "sha256": "e39ad46eebca3f66c2ee75de9bb4f379f00d74e5b1e8c690cd42d13c0de89a2f"
+      "bytes": 4764,
+      "sha256": "c63fc8580d764c8cb4071bedac8a11d2669b3a1c7f25a8f93c88a814f1afa575"
     },
     {
       "path": "CITATION.cff",
       "bytes": 814,
-      "sha256": "5841d16db32a750d109e77933df45b7a301f1fec21e9a367507255987a0baa19"
+      "sha256": "e2d84f0605e06f9f434d2da3d8e4f4a56646c486cce3e53d7e43a884630437ba"
     },
     {
       "path": "COMMERCIAL_LICENSE.md",
@@ -840,8 +840,8 @@
     },
     {
       "path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron.py",
-      "bytes": 124404,
-      "sha256": "39a943f71a4fcdc7fcf3e22c643e3d2eeef4a302074ae707ed44d623525fe5b9"
+      "bytes": 129383,
+      "sha256": "d9ac148f30f3e71aaf6101498874804eec43cea5a152d475ffdb2074cce5b1fa"
     },
     {
       "path": "data/2026-10-28-takeuchi-balaji/README.md",
@@ -1055,8 +1055,8 @@
     },
     {
       "path": "data/2026-11-02-local-mrna/local_mrna.py",
-      "bytes": 6034,
-      "sha256": "41255c644383f3e0ba33a4d622e4575c938419b274d920a5c3974aaeb9bd3f72"
+      "bytes": 6200,
+      "sha256": "4bff4100fead96b1eb23d0d014bed2e549f43f30b6c0400f83292956afaa97c5"
     },
     {
       "path": "data/2026-11-02-local-mrna/README.md",
@@ -1954,6 +1954,46 @@
       "sha256": "791980058685fd304bb5ce333b61cb6f7a62b4dc2bb44cf8858d8271a0e24713"
     },
     {
+      "path": "data/2026-11-14-acid-coupling/run.py",
+      "bytes": 6387,
+      "sha256": "530fe2b914603f0105d1fc3eb7b732e0c3692a6ad37a297d6ca650b19e6defbf"
+    },
+    {
+      "path": "data/2026-11-14-gap43-compensation/compensation_observer.py",
+      "bytes": 4824,
+      "sha256": "62c49900d5b7ae2ecda883553fbc756bd934ba860cc5ccbdf40a591fd4cafe78"
+    },
+    {
+      "path": "data/2026-11-14-gap43-compensation/protocol.json",
+      "bytes": 713,
+      "sha256": "c3ef23150e8ae032d0d7ac0daed587b6b8dc631c92d7700cd0f08f19e7a995f8"
+    },
+    {
+      "path": "data/2026-11-14-gap43-compensation/run.py",
+      "bytes": 3054,
+      "sha256": "af0102166c2339fe7294ef858e5e0d03dc390a5f45b7e4887efbbcdc6cd3f496"
+    },
+    {
+      "path": "data/2026-11-14-lipid-redox/lipid_redox.py",
+      "bytes": 21958,
+      "sha256": "c53737f4252d651e970cee809c617c27c50d64e89ac9bcf16525298fc2bb992d"
+    },
+    {
+      "path": "data/2026-11-14-nadph-supply/nadph_supply.py",
+      "bytes": 9087,
+      "sha256": "6b81bb7afc4c2cfc5c7b74bf18676619e8a1efe45bc7c48aed54501b0e6f0df8"
+    },
+    {
+      "path": "data/2026-11-14-peroxide/coupled_redox.py",
+      "bytes": 13744,
+      "sha256": "4134483ec9e9a905e515355b2c169f834702bcf1c35e25f12a7e60ef99289aef"
+    },
+    {
+      "path": "data/2026-11-14-peroxide/peroxide.py",
+      "bytes": 13801,
+      "sha256": "9bc5ef872e9f49e7deaa070fdeb93cc097062e85d629a2f58bd3f5280cb139c3"
+    },
+    {
       "path": "data/2026-11-14-phase-aware-waveform/accepted.json",
       "bytes": 4167,
       "sha256": "4456cd0b217a29f1fb8014b7e8c78a78d92000bce454fa3bed9d6350dbab7fc5"
@@ -1979,6 +2019,31 @@
       "sha256": "b74d10ddc88eed156e470830fad2579f495e7feb525c98509a4a5ae4abc4ca71"
     },
     {
+      "path": "data/2026-11-14-prepared-loads-gap43/protocol.json",
+      "bytes": 2945,
+      "sha256": "c3baca1229e20dbdb29fcf5d239b0c43bff6c7764ef67295a628a9730d94e8eb"
+    },
+    {
+      "path": "data/2026-11-14-prepared-loads-gap43/run.py",
+      "bytes": 3736,
+      "sha256": "eb79930f3f86bffd8b4426c49ae5c23085f51d59599827806bc7abd78a5694ce"
+    },
+    {
+      "path": "data/2026-11-14-prepared-loads-gap43/turnover.py",
+      "bytes": 1268,
+      "sha256": "a4fa715d52d4acf1bba7b432b95483aabf59943cbc95943d06785660e3f470bd"
+    },
+    {
+      "path": "data/2026-11-14-ribosome-gap43-balance/balance_observer.py",
+      "bytes": 8685,
+      "sha256": "832e23e5c8bc3de26be8b94b0a8cf11e5b04862493172fdc31f57c181bfcf7c9"
+    },
+    {
+      "path": "data/2026-11-14-ribosome-gap43-balance/run.py",
+      "bytes": 4464,
+      "sha256": "a7a22dc29e17470c9a9f3ddd788bc358878e1c8565b1496f520e9fa457b54e52"
+    },
+    {
       "path": "data/2026-11-14-waveform-recovery/kinetic_ranges.json",
       "bytes": 4979,
       "sha256": "30f49c54df37a9b2339b9b0ae61900beabdae8175d35fa6a26f2ea7d61e05ff8"
@@ -1999,24 +2064,69 @@
       "sha256": "0d1f0f321c1a1aecebc1db8fcb7bc128fe25c74e168ea9c5c6e7c323cebe937f"
     },
     {
+      "path": "data/2026-11-15-aa-gsh-nadph/run.py",
+      "bytes": 3076,
+      "sha256": "c1d639668d74b6dad0d020db2db45470a167b853d02f147dadaf1eaa9b5154a4"
+    },
+    {
+      "path": "data/2026-11-15-aa-gsh-nadph/supply.py",
+      "bytes": 13060,
+      "sha256": "e88d9d2251a76194f38ad767cbec17b5c2be9072acaf6bd2dd953fd9155417a0"
+    },
+    {
+      "path": "data/2026-11-15-carbon-coupling/coupling.py",
+      "bytes": 11117,
+      "sha256": "e06dded712ee56e6d3a0e73188bbd26293f5c3b1f19be5dfdaa506b32adda9f5"
+    },
+    {
+      "path": "data/2026-11-15-donor-carbon/carbon.py",
+      "bytes": 9649,
+      "sha256": "7d919c57370290fb7f6a6d81275a9ce43007f428e17d2c9a09e14a29565b8817"
+    },
+    {
+      "path": "data/2026-11-15-donor-carbon/LICENSE_BlueBrain.txt",
+      "bytes": 10139,
+      "sha256": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe"
+    },
+    {
+      "path": "data/2026-11-15-donor-carbon/NOTICE.txt",
+      "bytes": 305,
+      "sha256": "241bd8f23e98ace3259d3bed53d009d34118863e62b07d436ba111e302b44444"
+    },
+    {
+      "path": "data/2026-11-15-gsh-turnover-review/turnover_observer.py",
+      "bytes": 4735,
+      "sha256": "ce1d330ab5363ffec7a060d1fae11e884e783a346ecfb7cf1482b510c78ed016"
+    },
+    {
+      "path": "data/2026-11-15-shared-redox-budget/run.py",
+      "bytes": 5484,
+      "sha256": "b22b6c375d2e6a84bcaaf3438b07ffe8829c69cfa9f3a5c0dc81d5e73cbac9e7"
+    },
+    {
+      "path": "data/2026-11-15-shared-redox-budget/shared_budget.py",
+      "bytes": 6114,
+      "sha256": "1d0c771686bc681eb8f0dab9358ca5642c93954640ee57bfb03dd459128829b1"
+    },
+    {
       "path": "data/neuron-model/evidence_extensions.py",
       "bytes": 9087,
       "sha256": "dc634a64ad7f8885b7db0f01e0886f8f6d3bd1dd4abd9db450810636b5a8ab5f"
     },
     {
       "path": "data/neuron-model/integrated_neuron.py",
-      "bytes": 7520,
-      "sha256": "97d616ba0ec49825610c940ae7be9ceba34166b824ad1212e5ffc4f7bee1368d"
+      "bytes": 7871,
+      "sha256": "8f14ba997f687ed93af384ff6f794c353483c623e099580aff9edc0fdce7a6f9"
     },
     {
       "path": "data/neuron-model/model_api.py",
-      "bytes": 88114,
-      "sha256": "684c9a4bf0c5dabed305d3fafda6cfa8f2a6c9715a5d89c17325c29e729ea45b"
+      "bytes": 90969,
+      "sha256": "2eca504a47c27dfd0021210adf9103850ef3f0ef9f0eb22257d8c39c4ffb02ab"
     },
     {
       "path": "data/neuron-model/model_contracts.py",
-      "bytes": 6173,
-      "sha256": "36b7143733411d93d6f2c377112d812405936f52be388bfe0f4848a232c16529"
+      "bytes": 6414,
+      "sha256": "4bb314b717d788847374fd743de8d4805e209fc16b6ed5d2415a13f402adb7b5"
     },
     {
       "path": "data/neuron-model/README.md",
@@ -2025,8 +2135,8 @@
     },
     {
       "path": "data/neuron-model/state_layout_v1.json",
-      "bytes": 165233,
-      "sha256": "4ae16122ba360135047c6539458c61ba832608b09a738c30540c318902d155be"
+      "bytes": 169493,
+      "sha256": "96a2ec00ec5241b425255e5ede087337a75ad8e7d8b7abb492be2649be61800d"
     },
     {
       "path": "data/README.md",
@@ -2035,8 +2145,8 @@
     },
     {
       "path": "DATA_REQUESTS.md",
-      "bytes": 27930,
-      "sha256": "03f9b8fb6c4faed318d1adfb69f231da4d6143251b0ddffaf7a7a54f0ebd4299"
+      "bytes": 28286,
+      "sha256": "b5a33a3c86e4cb15404fe21ac55c658ff094add0fe83060c7893bc92b72373a5"
     },
     {
       "path": "docs/ACID_STAGE_0.3.0.md",
@@ -2045,8 +2155,8 @@
     },
     {
       "path": "docs/ASSUMPTIONS.md",
-      "bytes": 3092,
-      "sha256": "4b031c2dac4f49427162d8c73031e41475cdedb88446c3131c47832993e612f3"
+      "bytes": 3451,
+      "sha256": "6857d98ed7568e2b2e707af395029336c7c6063eb2211737b2cf8e55b8ec3187"
     },
     {
       "path": "docs/DATA.md",
@@ -2079,9 +2189,14 @@
       "sha256": "3086729ab5f3b1bb0cff32969c8279630d5b8bcaddc8d1b3881c945c6f4affa1"
     },
     {
+      "path": "docs/REDOX_STAGE_0.7.0.md",
+      "bytes": 6903,
+      "sha256": "9ed4bb6be0dcd784eb984d55b55d4c6f8354805f8ff0af2f13f0e322fade8a9d"
+    },
+    {
       "path": "docs/RUNNING.md",
-      "bytes": 3895,
-      "sha256": "c663f62c6f1f0774fa68054097bdf4441eaac666e5af14a0825a0ac4f1561b8f"
+      "bytes": 4192,
+      "sha256": "237c8998cb3ed740f48cffe4792cf3225f3a2ff0c8c7c57ece238964cc4380e3"
     },
     {
       "path": "docs/SCOPE.md",
@@ -2090,8 +2205,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 4669,
-      "sha256": "469c5b09c9a7ed24a25a14bc6e3f8e3d6de11bb21d335c3233957c94107e6bda"
+      "bytes": 4836,
+      "sha256": "9c083c48e43a23c90a0e47f01ef52b8ca290beb3c68fda1c07cc1cfb09625320"
     },
     {
       "path": "docs/WAVEFORM_STAGE_0.5.0.md",
@@ -2140,8 +2255,13 @@
     },
     {
       "path": "parameters/README.md",
-      "bytes": 1363,
-      "sha256": "f56daf5a9d80de75cfd987c734094dcd067f9aa0cac3587113e12b18d3b65ef7"
+      "bytes": 1708,
+      "sha256": "1bc91936cf695862c3399803be87f3b34dcb8d6d98ae1b571a860a282cbc8eaa"
+    },
+    {
+      "path": "parameters/redox_assumptions.json",
+      "bytes": 7621,
+      "sha256": "0ae543231fba50a02cc4cb3393a3a09fd54b0c1875076294fce646aa3ea0a892"
     },
     {
       "path": "parameters/registry.csv",
@@ -2210,8 +2330,8 @@
     },
     {
       "path": "provenance/public_path_map.json",
-      "bytes": 339803,
-      "sha256": "8e787a7671d8051696b9fc3e7a96a99cb7f6d150b263682e9bdb2fe74819cff2"
+      "bytes": 353958,
+      "sha256": "66d93e95c13593d6dbdee767d29fc62c913e792d16166f33bcbaa4a69f8040d0"
     },
     {
       "path": "provenance/publication_path_map.json",
@@ -2222,6 +2342,16 @@
       "path": "provenance/README.md",
       "bytes": 1514,
       "sha256": "73ec25b05d8fe475fd5a65fe3bd7336955d7c61db88a44b94f483127ce0f9c43"
+    },
+    {
+      "path": "provenance/redox_release.json",
+      "bytes": 18788,
+      "sha256": "67e7a3dcabdee4f46672c655e9f18e46c68b61e2ab43757b633260ecf8657888"
+    },
+    {
+      "path": "provenance/redox_validation.json",
+      "bytes": 122384,
+      "sha256": "7b6edcbef895a4d27af0f43780aade4163f036cd31cc9d061605133007b676ff"
     },
     {
       "path": "provenance/source_manifest.json",
@@ -2260,13 +2390,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 8730,
-      "sha256": "756266bef464f0ea87c3dfd51d7163a017f320fbb46ae56f5be88dcb216a8f72"
+      "bytes": 9112,
+      "sha256": "9d1cedfac698e6b3593fa9df56cbf89e4850378b6bfbfcf78de94c9541643c7a"
     },
     {
       "path": "README_RU.md",
-      "bytes": 7970,
-      "sha256": "edbca1a56a3aef450bec5fb82a44be87c11e3858eff54f6d09f1f2840035cd79"
+      "bytes": 8352,
+      "sha256": "6afcc3e7a8c3fcf32abd8085690e42c7b12499a9f5e14b83028843b6a2801505"
     },
     {
       "path": "references/README.md",
@@ -2389,6 +2519,76 @@
       "sha256": "58242b2396b861e39c6ea533259291d7dea5a2dec061de7862d652e6a3be2f40"
     },
     {
+      "path": "results/redox_electric_Burley_15_features.json",
+      "bytes": 333,
+      "sha256": "3457f033c70c5e69e215a5405be6e4f04613d296ba3c63beb50a98919f4455f6"
+    },
+    {
+      "path": "results/redox_electric_Burley_25_features.json",
+      "bytes": 334,
+      "sha256": "d4b979624fbc3a8e68e7f7fff44a5f37cc6a0927edcc75fb405c8a5eeae742d3"
+    },
+    {
+      "path": "results/redox_electric_Burley_50_features.json",
+      "bytes": 337,
+      "sha256": "12ad6844fcb759bc2be08e1a24c199b7915d6f4ad9fa332c9a721684c4cd66db"
+    },
+    {
+      "path": "results/redox_electric_Selvaraj-Con1_15_features.json",
+      "bytes": 343,
+      "sha256": "5cdba36469ae037379c2bd16b8c1b490d092473cf31067b0e8dbd1cfa51544a9"
+    },
+    {
+      "path": "results/redox_electric_Selvaraj-Con1_25_features.json",
+      "bytes": 342,
+      "sha256": "a6c85213cbbc9815091d3f0a57a7e4516314ad4a8c08e82e0d6dd3603e74dce5"
+    },
+    {
+      "path": "results/redox_electric_Selvaraj-Con1_50_features.json",
+      "bytes": 343,
+      "sha256": "1525e625ced6d19288c2fc687952525bc68a42f6da7704427ab4170c68e07d8b"
+    },
+    {
+      "path": "results/redox_electric_Selvaraj-Con2_15_features.json",
+      "bytes": 345,
+      "sha256": "ecc3ba65c912f08f94912e439dd50cf397bbe7e086d3cda9e0c619213d2662eb"
+    },
+    {
+      "path": "results/redox_electric_Selvaraj-Con2_25_features.json",
+      "bytes": 340,
+      "sha256": "4182599d9edc7502e41c0d12f033ac10463724992e87c54039ba069b52983326"
+    },
+    {
+      "path": "results/redox_electric_Selvaraj-Con2_50_features.json",
+      "bytes": 345,
+      "sha256": "602ca34062212db64805ebae9f61fcc8de959080c47f2e76220b95701a6f947e"
+    },
+    {
+      "path": "results/redox_post672_Burley_25_features.json",
+      "bytes": 428,
+      "sha256": "e8f5aad57bb13bb491f05ff9651f53f3cb7549dd5e52aa586f80e2bec5770e48"
+    },
+    {
+      "path": "results/redox_results.json",
+      "bytes": 62164,
+      "sha256": "49f00b9cfa4932d3c157022625d3d8ad5f1a591d95dc9e6a26927fefc63174ad"
+    },
+    {
+      "path": "results/redox_trajectories.png",
+      "bytes": 233990,
+      "sha256": "77d367a3bb1bfc97a871ba1f0134f85611327a802c7ac25ad6ca8a54b86932ee"
+    },
+    {
+      "path": "results/redox_unit_checks.json",
+      "bytes": 2041,
+      "sha256": "0be25c8e654e0006be7c73778ab5892e2b8909190148b4dbffe1d07b1e7a801b"
+    },
+    {
+      "path": "results/redox_verification.json",
+      "bytes": 14936,
+      "sha256": "f36d839c04992ba15edec70ad53382647f82b6efe76de3fb2872f88d9e8e44d9"
+    },
+    {
       "path": "results/reference_smoke.npz",
       "bytes": 1640147,
       "sha256": "b997f42b4fe20f2f5dd20e415d19d2c310f1b178fd5f860d530a19e411a0da0e"
@@ -2445,8 +2645,8 @@
     },
     {
       "path": "run_demo.py",
-      "bytes": 12739,
-      "sha256": "ac4da6eb3b8b95de71052605f44b1e426d80b401d64ed000b25fb5fd6b8dea47"
+      "bytes": 14385,
+      "sha256": "dbb8a62d3ea24ad3cbe2237bc962d6869fc63503426246855eb79860600fc8c7"
     },
     {
       "path": "tests/check_output.py",
@@ -2460,8 +2660,8 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2132,
-      "sha256": "7374690def1e408656e4393aac51d5562154f2e4bc748be7444809a064b30878"
+      "bytes": 2632,
+      "sha256": "38fd84f8610582d25daa123fcb7ee840cda47e443f87b4e6f7534e250cb7b937"
     },
     {
       "path": "verify_package.py",

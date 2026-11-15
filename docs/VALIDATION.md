@@ -43,3 +43,8 @@ Version **0.2.0** changes licensing/documentation and restores two third-party n
 - Package scanning checks known sensitive patterns and excludes private source categories. It does not substitute for the owner's final authorship, rights and publication review.
 
 Run `verify_package.py` for hashes, syntax and documentation links; run `tests/check_output.py OUTPUT_DIR` after a numerical example. The reference tolerances are numerical regression criteria, not biological confidence intervals.
+
+
+## 0.7.0
+
+Working-project checks and independent package verification of the 4503-state branch are summarized in [the stage description](REDOX_STAGE_0.7.0.md).

@@ -15,3 +15,6 @@ The inventory is not a complete certificate of calibration: implicit constants m
 
 
 0.6.0 supplement: [seven effective-gate search bounds and active factors](phase_ranges.json). These supplement the historical inventory; they are not human calibration.
+
+
+0.7.0 supplement: [amino-acid/GSH recycling and NADPH supply scenario ranges, active values and needed measurements](redox_assumptions.json). Scenario grids, not measured human intervals; needed: same-culture labelled Cys/Glu/Gly and GSH pulse-chase, soma/axon GSH/GSSG, NADPH/NADP and glucose/PPP flux in healthy human iPSC motor neurons.

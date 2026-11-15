@@ -1,3 +1,7 @@
+# 0.7.0 — 2026-11-15
+
+Opt-in 4503-state branch: GAP43/ribosomal budgets, lipid and peroxide blocks, shared antioxidant budget, finite amino-acid/GSH recycling and explicit NADPH supply; new `--redox-v15` run option. Out-of-turn snapshot; open items and limits are listed in the [details](docs/REDOX_STAGE_0.7.0.md). Earlier scenarios, license terms and prior AGPL rights unchanged.
+
 # 0.6.0 — phase-aware recovery
 
 Added full stimulus-offset comparisons, corrected actual-last-spike recovery, and expanded kinetic search with full acceptance. [Details](docs/PHASE_STAGE_0.6.0.md).

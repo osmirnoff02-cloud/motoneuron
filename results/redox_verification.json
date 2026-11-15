@@ -1,0 +1,451 @@
+{
+  "author": "codex",
+  "date": "2026-11-15",
+  "passed": true,
+  "trajectories": [
+    {
+      "tag": "continuous_middle_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 1.1641532182693481e-09,
+        "extra_ATP_axon": 6.402842700481415e-10,
+        "extra_ATP_soma": 8.36735125631094e-11,
+        "NADPH_one_source": 1.2005330063402653e-10
+      },
+      "sha256": "6793192c157db92f55dccfd66713397c47413b08864a8a7811c5c1d4782b5264"
+    },
+    {
+      "tag": "control_high_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 2.7939677238464355e-09,
+        "extra_ATP_axon": 1.5133991837501526e-09,
+        "extra_ATP_soma": 3.637978807091713e-11,
+        "NADPH_one_source": 2.0736479200422764e-10
+      },
+      "sha256": "c93b3bc9341dd0b54c596cf138429191425f2fcf81348ef0238b2bd7568e09ae"
+    },
+    {
+      "tag": "control_middle_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 2.3283064365386963e-09,
+        "extra_ATP_axon": 4.0745362639427185e-10,
+        "extra_ATP_soma": 5.820766091346741e-11,
+        "NADPH_one_source": 1.3096723705530167e-10
+      },
+      "sha256": "93d34b14527ca3df617524eabb562144885a98137121a832dc860caf6ec5b64a"
+    },
+    {
+      "tag": "control_soma_high_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 4.6566128730773926e-09,
+        "extra_ATP_axon": 5.238689482212067e-10,
+        "extra_ATP_soma": 1.0913936421275139e-10,
+        "NADPH_one_source": 2.4010660126805305e-10
+      },
+      "sha256": "28a2ddb17b7e1ee7253a6c290057a344861e16cb82b25b56daa222c4da496c92"
+    },
+    {
+      "tag": "repeated_high_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 5.587935447692871e-09,
+        "extra_ATP_axon": 5.820766091346741e-10,
+        "extra_ATP_soma": 7.275957614183426e-11,
+        "NADPH_one_source": 1.4915713109076023e-10
+      },
+      "sha256": "9e7848fe2f0ed8327a82a64083861eec5f4cdf7b40cbbbbfe8be3472751e92a7"
+    },
+    {
+      "tag": "repeated_middle_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 2.3283064365386963e-09,
+        "extra_ATP_axon": 1.1641532182693481e-09,
+        "extra_ATP_soma": 8.731149137020111e-11,
+        "NADPH_one_source": 1.6370904631912708e-10
+      },
+      "sha256": "eef227e4dce0554460d764e53120f521c750f6fe511834f2ca1a7c4d4ae01942"
+    },
+    {
+      "tag": "repeated_middle_72h_tight",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 4.190951585769653e-09,
+        "extra_ATP_axon": 4.0745362639427185e-10,
+        "extra_ATP_soma": 6.548361852765083e-11,
+        "NADPH_one_source": 3.019522409886122e-10
+      },
+      "sha256": "71f4e526647c953c1d0a4df80449d0336436aac78d7b38ad6050a667974cfa24"
+    },
+    {
+      "tag": "repeated_noPPP_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 2.3283064365386963e-09,
+        "extra_ATP_axon": 5.820766091346741e-10,
+        "extra_ATP_soma": 4.3655745685100555e-11
+      },
+      "sha256": "8290b29921a8bd7460e5df70b201a0a1d0b6c8e7ddd239454ee1000deca56927"
+    },
+    {
+      "tag": "repeated_soma_high_72h",
+      "no_reset": true,
+      "states": 4503,
+      "checks": {
+        "recovery_partition": 2.7939677238464355e-09,
+        "extra_ATP_axon": 5.238689482212067e-10,
+        "extra_ATP_soma": 2.255546860396862e-10,
+        "NADPH_one_source": 1.709850039333105e-10
+      },
+      "sha256": "4231360268933663386c02fc5637bd2acd07f73d8114927af26309c9cf563463"
+    }
+  ],
+  "electrical": [
+    {
+      "profile": "Burley",
+      "current": 15,
+      "old": {
+        "spikes": 3,
+        "rest_mV": -69.99999919051784,
+        "peak_mV": 60.802679356278574,
+        "post_min_mV": -5.255733829724818,
+        "post_100ms_min_mV": -5.255733829724818,
+        "post_area_mVs": -1.160816850797184,
+        "tail_delta_mV": -0.35494236668964163
+      },
+      "new": {
+        "spikes": 3,
+        "rest_mV": -69.99999701744422,
+        "peak_mV": 60.80268175416328,
+        "post_min_mV": -5.255725707324146,
+        "post_100ms_min_mV": -5.255725707324146,
+        "post_area_mVs": -1.1608098405559546,
+        "tail_delta_mV": -0.3549359628513997
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 2.173073625044708e-06,
+        "peak_mV": 2.397884706795139e-06,
+        "post_min_mV": 8.12240067205039e-06,
+        "post_100ms_min_mV": 8.12240067205039e-06,
+        "post_area_mVs": 7.010241229510328e-06,
+        "tail_delta_mV": 6.403838241908488e-06
+      }
+    },
+    {
+      "profile": "Burley",
+      "current": 25,
+      "old": {
+        "spikes": 4,
+        "rest_mV": -69.99999919051784,
+        "peak_mV": 62.016168357183794,
+        "post_min_mV": -5.816091036384165,
+        "post_100ms_min_mV": -5.816091036384165,
+        "post_area_mVs": -1.158421900811148,
+        "tail_delta_mV": -0.41214319553169787
+      },
+      "new": {
+        "spikes": 4,
+        "rest_mV": -69.99999701744422,
+        "peak_mV": 62.01617101301118,
+        "post_min_mV": -5.816091965631102,
+        "post_100ms_min_mV": -5.816091965631102,
+        "post_area_mVs": -1.1584170718989797,
+        "tail_delta_mV": -0.41213611335676603
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 2.173073625044708e-06,
+        "peak_mV": 2.655827387343379e-06,
+        "post_min_mV": -9.292469371757761e-07,
+        "post_100ms_min_mV": -9.292469371757761e-07,
+        "post_area_mVs": 4.828912168353128e-06,
+        "tail_delta_mV": 7.082174931838381e-06
+      }
+    },
+    {
+      "profile": "Burley",
+      "current": 50,
+      "old": {
+        "spikes": 3,
+        "rest_mV": -69.99999919051784,
+        "peak_mV": 63.79776139006715,
+        "post_min_mV": -3.694364566534034,
+        "post_100ms_min_mV": -3.694364566534034,
+        "post_area_mVs": -0.17088150253007078,
+        "tail_delta_mV": -0.07467801284894904
+      },
+      "new": {
+        "spikes": 3,
+        "rest_mV": -69.99999701744422,
+        "peak_mV": 63.797758261455094,
+        "post_min_mV": -3.6943613055108955,
+        "post_100ms_min_mV": -3.6943613055108955,
+        "post_area_mVs": -0.1708757908912864,
+        "tail_delta_mV": -0.07467161197756411
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 2.173073625044708e-06,
+        "peak_mV": -3.128612057423652e-06,
+        "post_min_mV": 3.2610231386343003e-06,
+        "post_100ms_min_mV": 3.2610231386343003e-06,
+        "post_area_mVs": 5.711638784378081e-06,
+        "tail_delta_mV": 6.400871384926177e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current": 15,
+      "old": {
+        "spikes": 5,
+        "rest_mV": -60.49999946697982,
+        "peak_mV": -8.261688395674916,
+        "post_min_mV": -3.772627319439785,
+        "post_100ms_min_mV": -3.772627319439785,
+        "post_area_mVs": -0.6500896106087517,
+        "tail_delta_mV": -0.050546385388329895
+      },
+      "new": {
+        "spikes": 5,
+        "rest_mV": -60.49999786726303,
+        "peak_mV": -8.261693075977414,
+        "post_min_mV": -3.772626200639138,
+        "post_100ms_min_mV": -3.772626200639138,
+        "post_area_mVs": -0.6500874508892501,
+        "tail_delta_mV": -0.050543808979909954
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.5997167892578545e-06,
+        "peak_mV": -4.680302497561684e-06,
+        "post_min_mV": 1.118800646793261e-06,
+        "post_100ms_min_mV": 1.118800646793261e-06,
+        "post_area_mVs": 2.1597195015710113e-06,
+        "tail_delta_mV": 2.57640841994089e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current": 25,
+      "old": {
+        "spikes": 6,
+        "rest_mV": -60.49999946697982,
+        "peak_mV": -6.196786551073678,
+        "post_min_mV": -7.771506980508313,
+        "post_100ms_min_mV": -7.771506980508313,
+        "post_area_mVs": -1.4315488189901475,
+        "tail_delta_mV": -0.08555715098250971
+      },
+      "new": {
+        "spikes": 6,
+        "rest_mV": -60.49999786726303,
+        "peak_mV": -6.196790729005317,
+        "post_min_mV": -7.771424948043872,
+        "post_100ms_min_mV": -7.771424948043872,
+        "post_area_mVs": -1.4315302346581114,
+        "tail_delta_mV": -0.08555401224410275
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.5997167892578545e-06,
+        "peak_mV": -4.177931638871257e-06,
+        "post_min_mV": 8.203246444082879e-05,
+        "post_100ms_min_mV": 8.203246444082879e-05,
+        "post_area_mVs": 1.8584332036164497e-05,
+        "tail_delta_mV": 3.1387384069603286e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current": 50,
+      "old": {
+        "spikes": 4,
+        "rest_mV": -60.49999946697982,
+        "peak_mV": -3.5348233658679087,
+        "post_min_mV": -3.3036994238353685,
+        "post_100ms_min_mV": -3.3036994238353685,
+        "post_area_mVs": -0.20926386064138208,
+        "tail_delta_mV": 0.1526543658409807
+      },
+      "new": {
+        "spikes": 4,
+        "rest_mV": -60.49999786726303,
+        "peak_mV": -3.5348262065656217,
+        "post_min_mV": -3.3036981445672495,
+        "post_100ms_min_mV": -3.3036981445672495,
+        "post_area_mVs": -0.2092613484811295,
+        "tail_delta_mV": 0.1526572028250328
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.5997167892578545e-06,
+        "peak_mV": -2.840697713057949e-06,
+        "post_min_mV": 1.2792681189921495e-06,
+        "post_100ms_min_mV": 1.2792681189921495e-06,
+        "post_area_mVs": 2.5121602525712827e-06,
+        "tail_delta_mV": 2.8369840521236256e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current": 15,
+      "old": {
+        "spikes": 5,
+        "rest_mV": -59.09999938281186,
+        "peak_mV": -10.66911724875499,
+        "post_min_mV": -2.1313647067380472,
+        "post_100ms_min_mV": -2.1313647067380472,
+        "post_area_mVs": -0.21766535332974266,
+        "tail_delta_mV": -0.09285850272817697
+      },
+      "new": {
+        "spikes": 5,
+        "rest_mV": -59.09999768675813,
+        "peak_mV": -10.669121797520445,
+        "post_min_mV": -2.1313764152544152,
+        "post_100ms_min_mV": -2.1313764152544152,
+        "post_area_mVs": -0.2176695651534118,
+        "tail_delta_mV": -0.09285657314654117
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.6960537294608002e-06,
+        "peak_mV": -4.548765454970294e-06,
+        "post_min_mV": -1.1708516368003075e-05,
+        "post_100ms_min_mV": -1.1708516368003075e-05,
+        "post_area_mVs": -4.2118236691368605e-06,
+        "tail_delta_mV": 1.9295816358066986e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current": 25,
+      "old": {
+        "spikes": 6,
+        "rest_mV": -59.09999938281186,
+        "peak_mV": -8.131876451750344,
+        "post_min_mV": -5.891114191413109,
+        "post_100ms_min_mV": -5.891114191413109,
+        "post_area_mVs": -0.9533584948262039,
+        "tail_delta_mV": -0.14820232171920367
+      },
+      "new": {
+        "spikes": 6,
+        "rest_mV": -59.09999768675813,
+        "peak_mV": -8.131880613147217,
+        "post_min_mV": -5.891108679995654,
+        "post_100ms_min_mV": -5.891108679995654,
+        "post_area_mVs": -0.9533556329282945,
+        "tail_delta_mV": -0.148200303576985
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.6960537294608002e-06,
+        "peak_mV": -4.161396873314516e-06,
+        "post_min_mV": 5.511417455750234e-06,
+        "post_100ms_min_mV": 5.511417455750234e-06,
+        "post_area_mVs": 2.8618979094341412e-06,
+        "tail_delta_mV": 2.018142218673802e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current": 50,
+      "old": {
+        "spikes": 7,
+        "rest_mV": -59.09999938281186,
+        "peak_mV": -0.40753944118551333,
+        "post_min_mV": -14.738386026620162,
+        "post_100ms_min_mV": -14.738386026620162,
+        "post_area_mVs": -2.5822401422119157,
+        "tail_delta_mV": -0.2585431354167298
+      },
+      "new": {
+        "spikes": 7,
+        "rest_mV": -59.09999768675813,
+        "peak_mV": -0.4075782483739063,
+        "post_min_mV": -14.738405918510551,
+        "post_100ms_min_mV": -14.738405918510551,
+        "post_area_mVs": -2.5822419020417007,
+        "tail_delta_mV": -0.25854080090640963
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.6960537294608002e-06,
+        "peak_mV": -3.880718839299746e-05,
+        "post_min_mV": -1.9891890389089895e-05,
+        "post_100ms_min_mV": -1.9891890389089895e-05,
+        "post_area_mVs": -1.7598297850085487e-06,
+        "tail_delta_mV": 2.3345103201677375e-06
+      }
+    }
+  ],
+  "refinement": {
+    "GAP43": {
+      "max_abs": 2.0445687087811137e-08,
+      "endpoint": 2.2258614951198297e-09,
+      "tolerance": 1e-05
+    },
+    "K": {
+      "max_abs": 0.0013787071802653372,
+      "endpoint": -3.821332938969135e-08,
+      "tolerance": 0.01
+    },
+    "ATP": {
+      "max_abs": 1.199706412080559e-05,
+      "endpoint": -1.1368683772161603e-11,
+      "tolerance": 0.1
+    },
+    "PCr": {
+      "max_abs": 0.0002385764551036118,
+      "endpoint": 3.496097633615136e-09,
+      "tolerance": 1.0
+    },
+    "GSH": {
+      "max_abs": 0.00010865880881283374,
+      "endpoint": 1.137408389695338e-07,
+      "tolerance": 0.1
+    },
+    "NADPH": {
+      "max_abs": 4.009397670756698e-06,
+      "endpoint": -7.105427357601002e-14,
+      "tolerance": 0.01
+    },
+    "Cys": {
+      "max_abs": 6.236314883523164e-05,
+      "endpoint": 2.025664258553661e-08,
+      "tolerance": 0.1
+    }
+  },
+  "post": {
+    "profile": "Burley",
+    "current_pA": 25,
+    "start_s": 2419200.0,
+    "features": {
+      "spikes": 4,
+      "rest_mV": -70.00416368830396,
+      "peak_mV": 62.02301725402928,
+      "post_min_mV": -5.833999043476922,
+      "post_100ms_min_mV": -5.833999043476922,
+      "post_area_mVs": -1.167667347786353,
+      "tail_delta_mV": -0.411941470822228
+    },
+    "no_reset": true,
+    "historical_regression_not_human_target": true
+  },
+  "original_Claude_sources_unchanged": true,
+  "dependencies_and_equations_unchanged_during_runs": true,
+  "scope": "Conditional common ATP/AA/GTP bookkeeping and finite GSH recovery; human MN kinetics and host glucose competition not calibrated"
+}

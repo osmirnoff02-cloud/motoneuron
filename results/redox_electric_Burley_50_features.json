@@ -1,0 +1,13 @@
+{
+  "profile": "Burley",
+  "current_pA": 50,
+  "features": {
+    "spikes": 3,
+    "rest_mV": -69.99999701744422,
+    "peak_mV": 63.797758261455094,
+    "post_min_mV": -3.6943613055108955,
+    "post_100ms_min_mV": -3.6943613055108955,
+    "post_area_mVs": -0.1708757908912864,
+    "tail_delta_mV": -0.07467161197756411
+  }
+}

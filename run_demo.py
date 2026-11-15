@@ -30,6 +30,7 @@ def main():
     parser.add_argument('--waveform-v14', action='store_true', help='Explicit tested C08 + acid120 effective-gate scenario')
     parser.add_argument('--phase-v14', action='store_true', help='Explicit phase-tested scenario; legacy defaults remain')
     parser.add_argument('--pulse-duration-s', type=float, help='Override pulse duration; phase-tested durations are documented')
+    parser.add_argument('--redox-v15', action='store_true', help='Explicit 4503-state amino-acid/GSH recycling and NADPH supply scenario; fresh smoke or pulse only')
     parser.add_argument('--checkpoint', type=Path)
     parser.add_argument('--output', type=Path, required=True, help='A NEW directory, never an existing result directory')
     parser.add_argument('--full-trace', action='store_true', help='Also retain all states; can create large files')
@@ -38,6 +39,8 @@ def main():
     args = parser.parse_args()
     if args.phase_v14 and args.waveform_v14:parser.error('Choose either --phase-v14 or --waveform-v14')
     if args.pulse_duration_s is not None and (args.protocol!='pulse' or not 0<args.pulse_duration_s<float('inf')):parser.error('A finite positive pulse duration requires --protocol pulse')
+    if args.redox_v15 and (args.phase_v14 or args.waveform_v14 or args.acid_tau_s is not None or args.candidate!='C08' or args.checkpoint is not None or args.protocol not in ('smoke','pulse')):
+        parser.error('--redox-v15 is a fixed C08 scenario for fresh smoke/pulse runs; it sets acid removal and phase-tested kinetics itself. Long prepared runs are documented, not packaged')
     if args.check_restart and args.protocol!='smoke':parser.error('--check-restart requires smoke')
     if args.protocol=='load36' and args.checkpoint is None:parser.error('load36 requires a matching rest72 checkpoint')
     if args.protocol=='rest72' and args.checkpoint is not None:parser.error('rest72 starts a new preparation')
@@ -99,7 +102,22 @@ def main():
     else:
         sg=full.r.schedule([(t0+h*3600,t0+(h+1)*3600,args.opening if ((args.branch=='continuous' and h<6) or (args.branch=='repeated' and h in (0,4,8,12,16,20))) else 0.,1,0) for h in range(36)])
         kw.update(output_step_s=300,max_step_s=300,rtol=1e-7,atol=full.c.old.legacy.long_atol())
-    options,provenance=full.options(sg,args.profile,full.params(args.candidate))
+    if args.redox_v15:
+        stage=ROOT/'data/2026-11-15-aa-gsh-nadph'
+        sys.path.insert(0,str(ROOT/'data/neuron-model'));sys.path.insert(0,str(stage))
+        spec15=importlib.util.spec_from_file_location('publication_redox_runner',stage/'run.py')
+        redox=importlib.util.module_from_spec(spec15);sys.modules[spec15.name]=redox;spec15.loader.exec_module(redox)
+        if args.protocol=='pulse':
+            # Same construction as the validated initial electrical panel.
+            options=redox.prev.options(sg,args.profile,1,1)
+            options['shared_redox_parameters']=redox.shared.SupplyParameters();options['local_GAP43_turnover_multiplier']=1.
+        else:options=redox.options(sg,args.profile)
+        provenance=options.get('control_context')
+        # Options of this branch carry schedules tied to the time grid; rebuild them per schedule.
+        rebuild=lambda grid:redox.options(grid,args.profile)
+    else:
+        options,provenance=full.options(sg,args.profile,full.params(args.candidate))
+        rebuild=lambda grid:options
     if args.acid_tau_s is not None:
         options['acid_extrusion_parameters']=full.r.api.AcidExtrusionParameters(recovery_tau_s=args.acid_tau_s,buffer_mM_per_pH=args.acid_buffer,resting_pH=args.acid_resting_ph)
         if np.ndim(kw['atol']):kw['atol']=np.r_[kw['atol'],np.full(6,1e-8)]
@@ -111,7 +129,7 @@ def main():
         if args.candidate!='C08' or args.acid_tau_s!=120.:parser.error('--phase-v14 requires C08 and --acid-tau-s 120')
         options=full.r.api.apply_phase_kinetics(options)
         provenance=options['control_context']
-    expected_states=4431 if args.acid_tau_s is not None else 4425
+    expected_states=4503 if args.redox_v15 else 4431 if args.acid_tau_s is not None else 4425
     def observer(checkpoint,nfev):
         if args.protocol in ('rest72','load36'):
             # Recovery aid for this NEW output directory; packaged inputs stay read-only.
@@ -122,7 +140,7 @@ def main():
     print('Integrating full',expected_states,'states',args.candidate,args.profile,args.protocol,flush=True)
     result=full.r.api.run_integrated_neuron(sg,**options,checkpoint=cp,solver_observer=observer,**kw)
     checks={k:float(v) for k,v in result['checks'].items() if k!='minimum_state'}
-    summary=dict(phase_v14=args.phase_v14,pulse_duration_s=args.pulse_duration_s,waveform_v14=args.waveform_v14,acid_tau_s=args.acid_tau_s,protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
+    summary=dict(redox_v15=args.redox_v15,phase_v14=args.phase_v14,pulse_duration_s=args.pulse_duration_s,waveform_v14=args.waveform_v14,acid_tau_s=args.acid_tau_s,protocol=args.protocol,candidate=args.candidate,profile=args.profile,current_pA=args.current_pa if args.protocol=='pulse' else None,start_time_s=t0,states=result['state'].shape[1],
         samples=len(result['time_s']),all_finite=bool(np.isfinite(result['state']).all()),
         max_balance=max(abs(v) for v in checks.values()),checks=checks,nfev=result['nfev'],
         human_calibrated=False,elapsed_s=time.monotonic()-start,
@@ -132,8 +150,8 @@ def main():
     if args.check_restart:
         if cp is not None:parser.error('--check-restart requires a fresh smoke run')
         follow=full.r.schedule([(.02,.04,0,1,0)])
-        continued=full.r.api.run_integrated_neuron(follow,**options,checkpoint=result['checkpoint'],**kw)
-        whole=full.r.api.run_integrated_neuron(full.r.schedule([(0,.04,0,1,0)]),**options,**kw)
+        continued=full.r.api.run_integrated_neuron(follow,**rebuild(follow),checkpoint=result['checkpoint'],**kw)
+        whole_grid=full.r.schedule([(0,.04,0,1,0)]);whole=full.r.api.run_integrated_neuron(whole_grid,**rebuild(whole_grid),**kw)
         delta=float(np.max(abs(continued['state'][-1]-whole['state'][-1])))
         identical_start=bool(np.array_equal(continued['state'][0],result['state'][-1]))
         matched=bool(np.allclose(continued['state'][-1],whole['state'][-1],rtol=2e-6,atol=1e-7))

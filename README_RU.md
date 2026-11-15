@@ -1,4 +1,8 @@
-## Current version 0.6.0
+## Current version 0.7.0
+
+[Amino-acid/GSH recycling and NADPH supply, 4503 states](docs/REDOX_STAGE_0.7.0.md). Explicit opt-in: `--redox-v15` for fresh smoke/pulse runs. Earlier 4425/4431-state scenarios remain available. Conditional prototype: the initial GSH pool is not yet stationary, no development-plan item is closed by this snapshot, and human calibration remains open.
+
+## Previous stage 0.6.0
 
 [Stimulus offsets, recovery and expanded kinetic search](docs/PHASE_STAGE_0.6.0.md). Explicit opt-in: `--acid-tau-s 120 --phase-v14`, with 4431 states. Legacy defaults use 4425 states; prior scenarios remain available. Conditional prototype; human calibration remains open.
 
@@ -60,7 +64,7 @@ Smoke проверяет запуск всех состояний на 20 мс �
 
 Английский текст подготовлен для внешних коллег; часть исходных комментариев и параметрического реестра остаётся по-русски. Статусы реализации, подключения, численной проверки и человеческой калибровки разделены. Не все направления БАС и все исторические анализы включены в исполняемую часть.
 
-Версия снимка — **0.6.0** (2026-11-14), [Motoneuron Noncommercial Research License 1.0](LICENSE.txt); правообладатели — Максим Смирнов и Олег Смирнов. Численная модель и её ограничения сохранены. [Проверка выпуска](PUBLICATION_CHECKLIST.md), [сторонние права и прежняя AGPL](docs/LICENSE_SCOPE.md).
+Версия снимка — **0.7.0** (2026-11-15), [Motoneuron Noncommercial Research License 1.0](LICENSE.txt); правообладатели — Максим Смирнов и Олег Смирнов. Численная модель и её ограничения сохранены. [Проверка выпуска](PUBLICATION_CHECKLIST.md), [сторонние права и прежняя AGPL](docs/LICENSE_SCOPE.md).
 
 
 ## Acid-removal stage 0.3.0

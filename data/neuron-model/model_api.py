@@ -17,6 +17,19 @@ sys.path.insert(0,str(B))
 from model_contracts import load_module as _module, retire_limitations, revise_limitations
 RUNTIME_CONTRACT_REVISION='2026-11-03-review1'
 
+# [codex]2026-11-15: opt-in carbon owner in the full RHS; requires fixed reference.
+_carbon_coupled15 = _module(B.parent/'2026-11-15-carbon-coupling/coupling.py',
+                           '_stable_carbon_coupling15')
+CarbonCouplingParameters = _carbon_coupled15.CarbonCouplingParameters
+
+# [codex] 2026-11-15. Standalone donor carbon module; no full-neuron RHS change.
+_carbon15 = _module(B.parent/'2026-11-15-donor-carbon/carbon.py',
+                    '_stable_donor_carbon15')
+for _name in ('DonorCarbonParameters', 'run_donor_carbon_module',
+              'bluebrain_hexokinase', 'bluebrain_glucose_transport',
+              'donor_parameter_catalog'):
+    globals()[_name] = getattr(_carbon15, _name)
+
 # [codex]2026-11-03. Isolated source-assay probes; no connected ODE changes.
 _ion_sources03 = _module(B.parent/'2026-11-03-ion-pump-papers/ion_references.py',
                          '_stable_ion_source_probes03')
@@ -1273,3 +1286,41 @@ apply_phase_kinetics = _phase14.apply_phase_kinetics
 phase_kinetic_reference = _phase14.phase_kinetic_reference
 _phase_observer14 = _module(B.parent/'2026-11-14-phase-aware-waveform/observer.py', '_stable_phase_observer14')
 waveform_recovery_metrics = _phase_observer14.observe
+
+# [codex] 2026-11-14. Physical RP/GAP43 budgets; no state/rate correction.
+_rp_balance14 = _module(B.parent/'2026-11-14-ribosome-gap43-balance/balance_observer.py',
+                        '_stable_ribosome_gap43_balance14')
+ribosome_component_budget = _rp_balance14.observe
+ribosome_local_baseline_check = _rp_balance14.baseline_check
+gap43_turnover_scenarios = _rp_balance14.gap43_turnover_scenarios
+gap43_fixed_flux_projection = _rp_balance14.gap43_fixed_flux_projection
+gap43_apparent_half_to_parameter = _rp_balance14.gap43_apparent_half_to_parameter
+
+# shared15: finite common resources; translation/NDPK own GTP.
+_shared15=_module(B.parent/'2026-11-15-shared-redox-budget/shared_budget.py','_stable_shared_redox15')
+SharedRedoxParameters=_shared15.SharedRedoxParameters
+# agn15: opt-in AA/GSH recycling and explicit NADPH supply; external carbon boundary.
+_supply15=_module(B.parent/'2026-11-15-aa-gsh-nadph/supply.py','_stable_shared_supply15')
+RedoxSupplyParameters=_supply15.SupplyParameters
+
+# gcc14-redox-replay_codex
+# One-way resource-demand observer; no new default ODE feedback or duplicate debit.
+def replay_lipid_redox_resources(*args, **kwargs):
+    module = _module(B.parent/'2026-11-14-gap43-compensation/redox_adapter.py',
+                     '_stable_gcc14_redox_adapter')
+    return module.replay(*args, **kwargs)
+# gcc14-redox-replay_codex:end
+
+# gcc14-supply-observer_codex
+_gap_supply14 = _module(B.parent/'2026-11-14-gap43-compensation/compensation_observer.py',
+                        '_stable_gcc14_gap_supply')
+gap43_compensation_budget = _gap_supply14.observe
+gap43_supply_source_constraints = _gap_supply14.source_constraints
+# gcc14-supply-observer_codex:end
+
+# [codex] 2026-11-15. Read-only turnover accounting, not a new GSH loss rate.
+_gsh_turnover15 = _module(B.parent/'2026-11-15-gsh-turnover-review/turnover_observer.py',
+                          '_stable_gsh_turnover_observer15')
+gsh_turnover_budget = _gsh_turnover15.gsh_turnover_budget
+gsh_assay_total = _gsh_turnover15.gsh_assay_total
+gsh_turnover_sources = _gsh_turnover15.gsh_turnover_sources

@@ -1,0 +1,13 @@
+{
+  "profile": "Selvaraj-Con1",
+  "current_pA": 25,
+  "features": {
+    "spikes": 6,
+    "rest_mV": -60.49999786726303,
+    "peak_mV": -6.196790729005317,
+    "post_min_mV": -7.771424948043872,
+    "post_100ms_min_mV": -7.771424948043872,
+    "post_area_mVs": -1.4315302346581114,
+    "tail_delta_mV": -0.08555401224410275
+  }
+}

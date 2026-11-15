@@ -167,7 +167,7 @@ rmk_module=load_module(B.parent/'2026-11-03-rp-mrna-kinetics/kinetics.py','_RP_m
 def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycling_parameters=None,pathway_parameters=None,glycolysis_support=1.,oxidative_support=1., activity_parameters=None,entry_parameters=None, terminal_parameters=None,nmj_parameters=None,terminal_supply_support=1.,respiratory_reserve=2.,association_support=1.,initiation_support=1., work_parameters=None, processing_efficiency=1., ATPase_support=1., proteostasis_parameters=None, proteasome_support=1., folding_load=1., recovery_parameters=None, budget_parameters=None, alpha3_support=1., respiratory_support=1., mito_parameters=None, uptake_support=1., ion_parameters=None, pump_support=1., geometry, traffic_parameters, pump_kinetics,
         profile,profile_p,profile_c,coupling,injury_parameters,connected_parameters=None,electrical_schedule=None,window_s=None,
         spatial_schedule=None, memory_parameters, energy_parameters, checkpoint=None,
-        differential_KCNQ_activity_multiplier=None,etc_backpressure_exponent=None,
+        differential_KCNQ_activity_multiplier=None,etc_backpressure_exponent=None,local_GAP43_turnover_multiplier=None,
         output_step_s=300., max_step_s=300., rtol=1e-8, atol=1e-10,
         cargo_parameters=None, filling_support=1., uncoating_parameters=None, uncoating_support=1.,
         creatine_parameters=None,creatine_support=1.,creatine_activity_multiplier=(1.,1.,1.), rna_calcium_parameters=None,rna_ligand_schedule=None,
@@ -191,7 +191,11 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         raise ValueError('Diagnostic KCNQ multiplier [0,2] and ETC backpressure exponent [1,8] required')
     if cycle_parameters is None and differential_KCNQ_activity_multiplier!=1:
         raise ValueError('Differential KCNQ intervention requires the nuclear/cycle branch')
-    diagnostic_controls=dict(differential_KCNQ_activity_multiplier=float(differential_KCNQ_activity_multiplier),
+    # [codex] plg14: explicit no-reset GAP43 degradation sensitivity.
+    gap_turnover=load_module(B.parent/'2026-11-14-prepared-loads-gap43/turnover.py','_stable_gap_turnover14')
+    gap_turnover_multiplier=gap_turnover.resolve(local_GAP43_turnover_multiplier,checkpoint,local_mrna_parameters is not None)
+    diagnostic_controls=dict(local_GAP43_turnover_multiplier=gap_turnover_multiplier,
+        differential_KCNQ_activity_multiplier=float(differential_KCNQ_activity_multiplier),
         etc_backpressure_exponent=float(etc_backpressure_exponent))
     adp=adaptive_parameters or AdaptiveRecyclingParameters();adv=adp.vector()
     if adv[0] and not recv[0]:raise ValueError('Staged recycling requires RecyclingParameters(enabled=True)')
@@ -310,6 +314,20 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         if pump_leak_fraction is None:raise ValueError('Passive Cl requires explicit joint pump/passive-leak closure')
         chloride_module=load_module(B.parent/'2026-11-11-kcnq-passive/passive_chloride.py','_stable_passive_chloride11')
     # [claude] 2026-11-13: optional acid-extrusion closure for PMCA counter-protons (plan N05.1.4); default None leaves the model unchanged.
+    # shared15: explicit opt-in common-resource extension, default unchanged.
+    redox_parameters=kw.pop('shared_redox_parameters',None)
+    shared_controls=kw.pop('shared_redox_schedule',None)
+    shared_module=None;shared_context=None;shared_offset=None
+    if redox_parameters is not None:
+        redox_parameters.validate()
+        if ctv is None:raise ValueError('Shared redox requires species-resolved local amino acids')
+        if hasattr(redox_parameters,'carbon_enabled'):
+            shared_module=load_module(B.parent/'2026-11-15-carbon-coupling/coupling.py','_stable_carbon_coupling15')
+        elif hasattr(redox_parameters,'GSH_recovery_fraction'):
+            shared_module=load_module(B.parent/'2026-11-15-aa-gsh-nadph/supply.py','_stable_shared_supply15')
+        else:
+            shared_module=load_module(B.parent/'2026-11-15-shared-redox-budget/shared_budget.py','_stable_shared_redox15')
+    elif shared_controls is not None:raise ValueError('Redox controls need parameters')
     acid_parameters=kw.pop('acid_extrusion_parameters',None)
     acid_module=None;acid_ref=None;acid_offset=None
     if acid_parameters is not None:
@@ -410,6 +428,9 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
     if not np.isfinite([output_step_s,max_step_s,rtol]).all() or min(output_step_s,max_step_s,rtol)<=0:
         raise ValueError('Positive solver settings required')
     sg=np.asarray(segments,float)
+    if shared_module is not None:
+        shared_controls=np.c_[sg[:,:2],np.ones((len(sg),3))] if shared_controls is None else np.asarray(shared_controls,float)
+        if shared_controls.shape!=(len(sg),5) or not np.array_equal(shared_controls[:,:2],sg[:,:2]) or not np.isfinite(shared_controls).all() or np.any(shared_controls[:,2:]<0):raise ValueError('Shared redox schedule: start,end,Fe,H2O2 input,NADPH support')
     ncts=nct_module.controls(sg,nct_supplied) if nctv is not None else None
     if sg.ndim!=2 or sg.shape[1]!=34 or not len(sg) or not np.isfinite(sg).all() or np.any(sg<0) or np.any(sg[:,1]<=sg[:,0]) or np.any(sg[1:,0]!=sg[:-1,1]):
         raise ValueError('Contiguous finite 34-column schedule required')
@@ -695,6 +716,17 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         base,acid_ref=acid_module.prepare(base,np.array([pm0,pmp0]),ionvec,acid_parameters)
         config.update(acid_extrusion=asdict(acid_parameters),acid_extrusion_offset=acid_offset,acid_extrusion_version=acid_module.VERSION,
             acid_extrusion_reference=acid_ref.tolist(),topology=config['topology']+'_acidNaH13')
+    if shared_module is not None:
+        shared_offset=len(base)
+        if hasattr(redox_parameters,'carbon_enabled'):
+            if not bpv[0] or not pathv[0] or not tv[0]:raise ValueError('Carbon closure requires energy budget and terminal pathways')
+            if not np.allclose([bpv[6],bpv[7]],[redox_parameters.carbon_H_per_ATP,redox_parameters.carbon_H_per_O2],rtol=0,atol=1e-12):raise ValueError('Carbon/host proton stoichiometry mismatch')
+        water_ratio=(np.pi*g.process_radius_um**2*g.process_length_um*water_parameters.process_water_fraction/g.process_volume_um3) if water_parameters is not None else 1.
+        if hasattr(redox_parameters,'GSH_recovery_fraction'):
+            base,shared_context,shared_config=shared_module.prepare(base,redox_parameters,water_ratio,vs/vp,water_parameters.soma_water_to_reference_ratio if water_parameters is not None else 1.)
+        else:
+            base,shared_context,shared_config=shared_module.prepare(base,redox_parameters,water_ratio)
+        config.update(shared_redox=shared_config,topology=config['topology']+'_shared_redox15')
     def checked_cycle(z,initial):
         # [codex] 2026-11-14: legacy molecular positivity views exclude signed optional acid states.
         z=z[:,:acid_offset];initial=initial[:acid_offset]
@@ -714,6 +746,9 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         ch=shared_checks(zz,bb,nucv,biov,shv,shref)
         return rp_production.revise_shared(ch,actual_rpp,initial_rpp,biov[0],shref) if rppv is not None else ch
     def checked_recycling(z,initial):
+        physical_somatic=z
+        if shared_module is not None and hasattr(shared_module,'somatic_check_view'):
+            z,initial=shared_module.somatic_check_view(z,initial,shared_offset)
         # [codex] 2026-11-14: legacy molecular positivity views exclude signed optional acid states.
         z=z[:,:acid_offset];initial=initial[:acid_offset]
         actual=z
@@ -725,9 +760,11 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         # and subtract them from GDP. These accounting coordinates can become
         # negative even while every physical pool remains positive. Use them
         # for conservation only; positivity always refers to the actual state.
-        ch['substrate_nonnegative']=float(max(0.,-actual[:,497:513].min()))
+        ch['substrate_nonnegative']=float(max(0.,-physical_somatic[:,497:513].min()))
         return ch
     def checked_local(z,initial):
+        physical_local=z
+        if shared_module is not None:z,initial=shared_module.check_view(z,initial,shared_offset,shared_context[-1])
         # [codex] 2026-11-14: legacy molecular positivity views exclude signed optional acid states.
         z=z[:,:acid_offset];initial=initial[:acid_offset]
         actual=z;actual_initial=initial
@@ -757,10 +794,18 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         if nrtv is not None:
             extra.update(nrt_module.checks(actual,actual_initial,nrtv,nrtshape,nrt_offset,nct_offset,biov[0],lmrv))
             extra=nrt_module.revise_host_checks(extra,actual,actual_initial,nrtv,nrtshape,nrt_offset,lmrv)
+        if shared_module is not None and hasattr(shared_module,'somatic_check_view'):
+            # Accounting credits for external AA are signed; positivity concerns
+            # actual pools, never the counterfactual closed-budget coordinates.
+            for key,start,stop in (('local_translation_nonnegative',574,605),('mRNA_nonnegative',605,acid_offset),
+                    ('maintenance_nonnegative',640,acid_offset),('surplus_nonnegative',670,acid_offset),
+                    ('precursor_quality_nonnegative',692,acid_offset),('coupled_nonnegative',745,acid_offset)):
+                if key in extra:extra[key]=float(max(0.,-physical_local[:,start:stop].min()))
         return dict(local_ribo.checks(z,initial,lrv,biov[0],vs/vp),**extra)
     state_columns=old['columns']+EXTRA_NAMES+tuple('process_'+q for q in li['columns'])+tuple(k+'_'+q for k in ('soma','process') for q in ('voltage_mV','m','h','n','w','VG_gate','SK_gate'))+ION_NAMES+MITO_NAMES+BUDGET_NAMES+tuple(q.replace('TDP_UPS_ATP','UPS_pool_and_overhead_ATP') for q in PROTEOSTASIS_NAMES)+TERMINAL_NAMES+ACTIVITY_NAMES+tuple('terminal_internal_alkaline_quanta' if adv[0] and q=='terminal_maturation_queue_quanta' else q for q in RECYCLING_NAMES)+ADAPTIVE_NAMES+(CARGO_NAMES if cv is not None else ())+(UNCOATING_NAMES if uv is not None else ())+(CREATINE_NAMES if ckv is not None else ())+(RNA_CALCIUM_NAMES if rnav is not None else ())+(NUCLEUS_NAMES if nucv is not None else ())+(NUCLEAR_CYCLE_NAMES if cyc is not None else ())+(BIOGENESIS_NAMES if biov is not None else ())+(SHARED_NAMES if shv is not None else ())+(SUBSTRATE_NAMES if sub is not None else ())+(NUC_REC_NAMES if nrv is not None else ())+(isr_module.NAMES if isrv is not None else ())+(local_ribo.NAMES if lrv is not None else ())+(local_translation.NAMES if ltv is not None else ())+(local_mrna.NAMES if lmrv is not None else ())+(gap43_regrowth.NAMES if grv is not None else ())+(local_rqc.NAMES if rqv is not None else ())+(maintenance.NAMES if rmv is not None else ())+(renewal.NAMES if rnv is not None else ())+(surplus.NAMES if spv is not None else ())+(precursor_quality.NAMES if pqv is not None else ())+(rna_salvage.NAMES if rsv is not None else ())+(coupled_translation.NAMES if ctv is not None else ())+(individual_rp.NAMES if irates is not None else ())+(rp_production.NAMES if rppv is not None else ())+(nct_module.NAMES if nctv is not None else ())+(nrt_module.names(nrtshape) if nrtv is not None else ())
     if chloride_module is not None:state_columns+=chloride_module.NAMES
     if acid_module is not None:state_columns+=acid_module.NAMES  # [claude] 2026-11-13
+    if shared_module is not None:state_columns+=shared_module.NAMES
     if len(state_columns)!=len(base):raise ValueError('State labels and vector lengths differ')
     if water_module is not None:
         water_scale,water_config=water_module.prepare(water_parameters,g,len(base),chloride_offset if chloride_module is not None else None)
@@ -958,6 +1003,9 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
             result=local_mrna.extension(coarse,result,ltv,disabled,lmrv,lmrcontrol,lmrref,biov[0],vs/vp,nucv[8])
         elif lmrv is not None:result=local_mrna.extension(z,result,ltv,ltcontrol,lmrv,lmrcontrol,lmrref,biov[0],vs/vp,nucv[8])
         elif ltv is not None:result=local_translation.extension(z,result,ltv,ltcontrol,biov[0],vs/vp,nucv[8])
+        # plg14: existing removal and costs remain the single owners.
+        if ltv is not None and gap_turnover_multiplier!=1.:
+            result=gap_turnover.apply(z,result,ltv,nucv[8],gap_turnover_multiplier)
         if grv is not None:result=gap43_regrowth.extension(z,result,grv,grcontrol,grref)
         if ctv is not None:result=np.r_[result,np.zeros(20)]
         elif rqv is not None:result=local_rqc.extension(z,result,rqv,rqcontrol,ltv[0],biov[0],vs/vp,nucv[8],ltv[14])
@@ -992,6 +1040,9 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
                 result=absolute_module.finish_voltage_gates(z,result,current_kp,absolute_parameters.gate_on_s,absolute_parameters.gate_off_s,absolute_parameters.gate_low_voltage_mV,absolute_parameters.gate_high_voltage_mV)
             else:
                 result=absolute_module.finish_gates(z,result,current_kp,absolute_parameters.gate_on_s,absolute_parameters.gate_off_s)
+        if shared_module is not None:
+            redcontrol=redox_segment_control.copy();redcontrol[0]*=max(z[86],0.)/max(base[86],1e-30)
+            result=shared_module.finish(z,result,shared_offset,*shared_context,redcontrol)
         if water_scale is not None:result=result*water_scale
         return result
     ie=ion_extension(probe,fast,checkrow,es[0,2:],ss[0],electrical[0,2:],ctx,ionvec,ionbase,ioncv,pump_effective_support,g.connection_factor_um)
@@ -1022,6 +1073,7 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
     ts=[sg[0,:1]];zs=[y[None,:]];nfev=0;events_s=[];events_p=[];release_events=[];rate_diagnostics=[]
     armed=True if checkpoint is None else bool(checkpoint['terminal_armed'])
     for row_index,(row,srow,erow,elecrow) in enumerate(zip(sg,ss,es,electrical)):
+        redox_segment_control=shared_controls[row_index,2:] if shared_module is not None else np.ones(3)
         nctcontrol=ncts[row_index,2:].copy() if ncts is not None else np.ones(7)
         nrtcontrol=nrtcontrols[row_index,2:] if nrtcontrols is not None else np.ones(9)
         rmkcontrol=rmkcontrols[row_index,2:] if rmkcontrols is not None else np.ones(160)
@@ -1237,12 +1289,14 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         for j in range(2):cl_checks[f'chloride_{j}_negative_pool']=float(max(0.,-z[:,chloride_offset+6*j:chloride_offset+6*j+6].min()))
         checks.update(cl_checks)
     if acid_module is not None:checks.update(acid_module.checks(z,base,acid_ref,acid_offset,t-origin))  # [claude] 2026-11-13
+    if shared_module is not None:checks.update(shared_module.checks(z,base,shared_offset,shared_context))
     if not np.isfinite(z).all() or checks['minimum_state'] < -1e-7 or max(v for k,v in checks.items() if k!='minimum_state')>5e-5:raise ArithmeticError(str(checks))
     background_obs=ion_homeostasis.observe(z,ionvec,background_ref,background_parameters.passive_fraction) if background_ref is not None else None
     if water_module is not None:background_obs=water_module.background_observation(background_obs,config['mobile_water_volumes'])
     idx=np.clip(np.searchsorted(sg[:,0],t,side='right')-1,0,len(sg)-1)
     cpdict=dict(time_s=float(t[-1]),state=y.tolist(),baseline_state=base.tolist(),origin_time_s=origin,fingerprint=fingerprint,terminal_armed=armed,state_schema=schema,diagnostic_interventions=diagnostic_controls)
     return dict(time_s=t,state=z,columns=state_columns,
+        shared_redox_observation=shared_module.observe(z,base,shared_offset,shared_context) if shared_module is not None else None,
         isr_parameters=asdict(isr_parameters) if isrv is not None else None,isr_segments=isrcontrols,
         maturation_segments=latecontrols,
         local_ribosome_segments=lrcontrols,local_ribosome_observation=local_ribo.observe(z[:,:574],biov[0],vs/vp) if lrv is not None else None,
@@ -1285,7 +1339,8 @@ def run_adaptive_recycling_neuron(segments, *, adaptive_parameters=None, recycli
         CaV12_surface_fraction=z[:,318:320] if rnav is not None else None,
         creatine_parameters=asdict(creatine_parameters) if ckv is not None else None,creatine_support=creatine_support,
         creatine_activity_multiplier=ck_activity.tolist(),
-        diagnostic_interventions=dict(differential_KCNQ_activity_multiplier=float(differential_KCNQ_activity_multiplier),
+        diagnostic_interventions=dict(local_GAP43_turnover_multiplier=gap_turnover_multiplier,
+            differential_KCNQ_activity_multiplier=float(differential_KCNQ_activity_multiplier),
             etc_backpressure_exponent=float(etc_backpressure_exponent),
             pump_capacity_multiplier=float(pump_capacity_multiplier),
             scope='Explicit sensitivity controls; inherited from new checkpoints unless overridden. KCNQ changes only differential current, with the same charge in K/voltage ledgers. ETC changes feedback shape, not basal or maximal capacity. Not human calibration.'),

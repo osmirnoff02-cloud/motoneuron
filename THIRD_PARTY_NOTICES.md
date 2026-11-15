@@ -13,3 +13,8 @@ The user named Maxim Smirnov and Oleg Smirnov as project rightsholders. A comple
 ## Blue Brain / EPFL creatine-kinase adaptation
 
 The header of [creatine.py](data/2026-10-28-donor-energy-integration/creatine.py) attributes CKc_n to BlueBrain/metabolism-in-aging, commit1204a605a8d2397f2b78952f74d163df217ed2f9, Polina Shichkova, Copyright2023/2024 Blue Brain Project/EPFL. Its [Apache-2.0 license](data/2026-10-28-donor-energy-integration/LICENSE_BlueBrain.txt) and [adaptation notice](data/2026-10-28-donor-energy-integration/NOTICE.txt) are included unchanged from the source workspace. They were referenced in the code header but omitted from the 0.1.2 export; 0.2.0 restores these accompanying files. The new research license does not restrict the independently licensed Apache material.
+
+
+## Blue Brain / EPFL GLUT/HK adaptation (0.7.0)
+
+[carbon.py](data/2026-11-15-donor-carbon/carbon.py) adapts GLUT/HK expressions from BlueBrain/metabolism-in-aging, commit 1204a605a8d2397f2b78952f74d163df217ed2f9, Copyright 2024 Blue Brain Project/EPFL, Apache-2.0. The [license](data/2026-11-15-donor-carbon/LICENSE_BlueBrain.txt) and [adaptation notice](data/2026-11-15-donor-carbon/NOTICE.txt) accompany the code. The research license does not restrict this independently licensed material.

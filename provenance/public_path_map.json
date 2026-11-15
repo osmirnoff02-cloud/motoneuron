@@ -29,7 +29,7 @@
       "source_path": "CHANGELOG.md",
       "public_path": "CHANGELOG.md",
       "source_sha256": "40a342df7765d6d4e473be6002f2f98c711300847924ec733088bc0b72c71613",
-      "public_sha256": "e39ad46eebca3f66c2ee75de9bb4f379f00d74e5b1e8c690cd42d13c0de89a2f",
+      "public_sha256": "c63fc8580d764c8cb4071bedac8a11d2669b3a1c7f25a8f93c88a814f1afa575",
       "conversion_public_sha256": "bf019a1bf6c85694818ef4f95754d2c6a4410dfa7415db937e0d61def2f84606",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -47,7 +47,7 @@
       "source_path": "CITATION.cff",
       "public_path": "CITATION.cff",
       "source_sha256": "ed7c57425316e9e41c81243e7380eac5165a4bc99ffef2af09c0fb7eab25b99f",
-      "public_sha256": "5841d16db32a750d109e77933df45b7a301f1fec21e9a367507255987a0baa19",
+      "public_sha256": "e2d84f0605e06f9f434d2da3d8e4f4a56646c486cce3e53d7e43a884630437ba",
       "conversion_public_sha256": "ed7c57425316e9e41c81243e7380eac5165a4bc99ffef2af09c0fb7eab25b99f",
       "research_runtime_sha256": null,
       "transform": "filename only or unchanged",
@@ -138,7 +138,7 @@
       "source_path": "README.md",
       "public_path": "README.md",
       "source_sha256": "a379326053b8a46301507ad6d7d292649351f47281205f8f708a4b5f41aa2626",
-      "public_sha256": "756266bef464f0ea87c3dfd51d7163a017f320fbb46ae56f5be88dcb216a8f72",
+      "public_sha256": "9d1cedfac698e6b3593fa9df56cbf89e4850378b6bfbfcf78de94c9541643c7a",
       "conversion_public_sha256": "6295052a087ae0d9208953ba7e33d2ccd2409c69916643f319a95e9ef03513cd",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -156,7 +156,7 @@
       "source_path": "README_RU_codex.md",
       "public_path": "README_RU.md",
       "source_sha256": "98aef87d6c802574b36b75290703ebf175c89aee359d99ec3ab2fd84c5cd3c98",
-      "public_sha256": "edbca1a56a3aef450bec5fb82a44be87c11e3858eff54f6d09f1f2840035cd79",
+      "public_sha256": "6afcc3e7a8c3fcf32abd8085690e42c7b12499a9f5e14b83028843b6a2801505",
       "conversion_public_sha256": "ea9135762c28e564af33d8f6ab6b97882eab3555c5f0be55d60091ca8b6b89da",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -193,21 +193,15 @@
       "regenerated_manifest": false
     },
     {
-      "source_path": "run_demo_codex.py",
+      "source_path": "generated-for-redox07/run_demo.py",
       "public_path": "run_demo.py",
-      "source_sha256": "3c87191e72182fcd7d91c3d713fbbc00edc2520a493f23ed77537c94d47a5629",
-      "public_sha256": "ac4da6eb3b8b95de71052605f44b1e426d80b401d64ed000b25fb5fd6b8dea47",
-      "conversion_public_sha256": "361e3d8594a5b398e3cb225d36e8663a28bdcb514c88d1c767974b66527aae16",
-      "research_runtime_sha256": null,
-      "transform": "filename plus text import/path suffix substitution",
-      "historical_provenance_contents_retained": false,
-      "regenerated_manifest": false
+      "public_sha256": "dbb8a62d3ea24ad3cbe2237bc962d6869fc63503426246855eb79860600fc8c7"
     },
     {
       "source_path": "THIRD_PARTY_NOTICES_codex.md",
       "public_path": "THIRD_PARTY_NOTICES.md",
       "source_sha256": "361eaf3170122ac38077fef939d930f8b2998dc459b6a814851cd30fa166ca3f",
-      "public_sha256": "7374690def1e408656e4393aac51d5562154f2e4bc748be7444809a064b30878",
+      "public_sha256": "38fd84f8610582d25daa123fcb7ee840cda47e443f87b4e6f7534e250cb7b937",
       "conversion_public_sha256": "7374690def1e408656e4393aac51d5562154f2e4bc748be7444809a064b30878",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -229,7 +223,7 @@
       "source_path": ".github/README.md",
       "public_path": ".github/README.md",
       "source_sha256": "a6b5e61f5b3dc3348c19e095d852ca9b5eeba485a0bf2b39e8af819b34e726ff",
-      "public_sha256": "1b48632a05079b9faf6541e528d0159a362df8cc591939f16ba6122d75733343",
+      "public_sha256": "aafd3bc4776f863ac3047e63a98bf509af0c96cfc0d1d368132e63a767139c54",
       "conversion_public_sha256": "87f139fb1cbf76f7d24fb0597d7400aae63761ff7a760f88e9e938a9ab1c76d3",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -269,7 +263,7 @@
       "source_path": "docs/ASSUMPTIONS_codex.md",
       "public_path": "docs/ASSUMPTIONS.md",
       "source_sha256": "fca2f3eacb52864347ba80739bf30f7216fe86194933c3f69e129c3fc850b832",
-      "public_sha256": "4b031c2dac4f49427162d8c73031e41475cdedb88446c3131c47832993e612f3",
+      "public_sha256": "6857d98ed7568e2b2e707af395029336c7c6063eb2211737b2cf8e55b8ec3187",
       "conversion_public_sha256": "6af27ede0e1740d05a767808a05efff89dcdbda6d0573afb199e4f6f7150ea5d",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -338,7 +332,7 @@
       "source_path": "docs/RUNNING_codex.md",
       "public_path": "docs/RUNNING.md",
       "source_sha256": "021757d2fcf005a91a993dd3431248490c1edea5d7e4d27d811e499394793df5",
-      "public_sha256": "c663f62c6f1f0774fa68054097bdf4441eaac666e5af14a0825a0ac4f1561b8f",
+      "public_sha256": "237c8998cb3ed740f48cffe4792cf3225f3a2ff0c8c7c57ece238964cc4380e3",
       "conversion_public_sha256": "121670b0646f02d23236a9fc1600eedc8b583b06822068215ee4444a9e159ffc",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -367,7 +361,7 @@
       "source_path": "docs/VALIDATION_codex.md",
       "public_path": "docs/VALIDATION.md",
       "source_sha256": "e0d3b3ad8d922e95bfea18750fa7efb9e3b7c54ef6214aa14d5699b291bb93e7",
-      "public_sha256": "469c5b09c9a7ed24a25a14bc6e3f8e3d6de11bb21d335c3233957c94107e6bda",
+      "public_sha256": "9c083c48e43a23c90a0e47f01ef52b8ca290beb3c68fda1c07cc1cfb09625320",
       "conversion_public_sha256": "469c5b09c9a7ed24a25a14bc6e3f8e3d6de11bb21d335c3233957c94107e6bda",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -411,7 +405,7 @@
       "source_path": "parameters/README.md",
       "public_path": "parameters/README.md",
       "source_sha256": "fc0cc23bedc658a79ea065ceab8f8b417b1de857c3b079e12921a84348580c99",
-      "public_sha256": "f56daf5a9d80de75cfd987c734094dcd067f9aa0cac3587113e12b18d3b65ef7",
+      "public_sha256": "1bc91936cf695862c3399803be87f3b34dcb8d6d98ae1b571a860a282cbc8eaa",
       "conversion_public_sha256": "34177a3833873b9b27175f12f28436a2302681adf0dc281b1081894f159e4283",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -535,7 +529,7 @@
       "source_path": "provenance/package_manifest_codex.json",
       "public_path": "provenance/package_manifest.json",
       "source_sha256": "24bc115bb433da5448f80bfec4f6476390147e68fd04db174d39186c6a2b2f1d",
-      "public_sha256": "584a6bbfd3ef24184f4db8488bc0a4cf6d1886551e9508b42d5031085ce80365",
+      "public_sha256": "9b562accc5cead5eaff868a3984d90a65a27b11dd26633c625f7c1f3b9d19ea4",
       "conversion_public_sha256": "0e065aa84be248f8e34195281cb54327252e2ae349457eeb8ca2255e1746853a",
       "research_runtime_sha256": null,
       "transform": "filename plus text import/path suffix substitution",
@@ -2684,13 +2678,9 @@
     {
       "source_path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron_codex.py",
       "public_path": "data/2026-10-28-takeuchi-balaji/adaptive_recycling_neuron.py",
-      "source_sha256": "5932cb2655bdaa5eba362620b5df36ea7c1522c7b056b63c278130e1399d9ae4",
-      "public_sha256": "39a943f71a4fcdc7fcf3e22c643e3d2eeef4a302074ae707ed44d623525fe5b9",
-      "conversion_public_sha256": "39a943f71a4fcdc7fcf3e22c643e3d2eeef4a302074ae707ed44d623525fe5b9",
-      "research_runtime_sha256": "5932cb2655bdaa5eba362620b5df36ea7c1522c7b056b63c278130e1399d9ae4",
-      "transform": "filename plus text import/path suffix substitution",
-      "historical_provenance_contents_retained": false,
-      "regenerated_manifest": false
+      "source_sha256": "91ddc0cc255343355758693223241bffae0701d414747c7a72a944f5cdb2adb0",
+      "public_sha256": "d9ac148f30f3e71aaf6101498874804eec43cea5a152d475ffdb2074cce5b1fa",
+      "transform": "suffix normalization; three-way merge with the 0.6.0 public file"
     },
     {
       "source_path": "data/2026-10-28-takeuchi-balaji/README.md",
@@ -3157,13 +3147,9 @@
     {
       "source_path": "data/2026-11-02-local-mrna/local_mrna_codex.py",
       "public_path": "data/2026-11-02-local-mrna/local_mrna.py",
-      "source_sha256": "a09414c70e124cb9a3622e454c7040a336c687be524b2cd31a5f883ab9cd03a3",
-      "public_sha256": "41255c644383f3e0ba33a4d622e4575c938419b274d920a5c3974aaeb9bd3f72",
-      "conversion_public_sha256": "41255c644383f3e0ba33a4d622e4575c938419b274d920a5c3974aaeb9bd3f72",
-      "research_runtime_sha256": "a09414c70e124cb9a3622e454c7040a336c687be524b2cd31a5f883ab9cd03a3",
-      "transform": "filename plus text import/path suffix substitution",
-      "historical_provenance_contents_retained": false,
-      "regenerated_manifest": false
+      "source_sha256": "e2f9ddb2716dc10737bd201e1621e866d2d068cd3e64f254160c744419d9100e",
+      "public_sha256": "4bff4100fead96b1eb23d0d014bed2e549f43f30b6c0400f83292956afaa97c5",
+      "transform": "suffix normalization; three-way merge with the 0.6.0 public file"
     },
     {
       "source_path": "data/2026-11-02-local-mrna/README.md",
@@ -5318,31 +5304,23 @@
     {
       "source_path": "data/neuron-model/integrated_neuron_codex.py",
       "public_path": "data/neuron-model/integrated_neuron.py",
-      "source_sha256": "77fd68762b9329d99cd170eeea794b1d06947e74ed2750fae5240470a8065873",
-      "public_sha256": "97d616ba0ec49825610c940ae7be9ceba34166b824ad1212e5ffc4f7bee1368d",
-      "conversion_public_sha256": "97d616ba0ec49825610c940ae7be9ceba34166b824ad1212e5ffc4f7bee1368d",
-      "research_runtime_sha256": "77fd68762b9329d99cd170eeea794b1d06947e74ed2750fae5240470a8065873",
-      "transform": "filename plus text import/path suffix substitution",
-      "historical_provenance_contents_retained": false,
-      "regenerated_manifest": false
+      "source_sha256": "84c0d2e578cee4882bc24eed1dd7040f573567f01b680dcb3413cb63984fcb24",
+      "public_sha256": "8f14ba997f687ed93af384ff6f794c353483c623e099580aff9edc0fdce7a6f9",
+      "transform": "suffix normalization; three-way merge with the 0.6.0 public file"
     },
     {
       "source_path": "data/neuron-model/model_api_codex.py",
       "public_path": "data/neuron-model/model_api.py",
-      "source_sha256": "c5348ea420ddce842ab336e3c9976bb895cd7d266a2cccbdfc68ca9b8fcc8ec9",
-      "public_sha256": "684c9a4bf0c5dabed305d3fafda6cfa8f2a6c9715a5d89c17325c29e729ea45b",
-      "transform": "public filename/import suffix normalization"
+      "source_sha256": "55cbefac00a90ac5cbfd0aa9f129d031475af767d6e3b60868c152111d77f68c",
+      "public_sha256": "2eca504a47c27dfd0021210adf9103850ef3f0ef9f0eb22257d8c39c4ffb02ab",
+      "transform": "suffix normalization; three-way merge with the 0.6.0 public file"
     },
     {
       "source_path": "data/neuron-model/model_contracts_codex.py",
       "public_path": "data/neuron-model/model_contracts.py",
-      "source_sha256": "6a87cb42c987f3feb7e10bdcec51818a541cf9ae091b895d74f4d00e90406daf",
-      "public_sha256": "36b7143733411d93d6f2c377112d812405936f52be388bfe0f4848a232c16529",
-      "conversion_public_sha256": "36b7143733411d93d6f2c377112d812405936f52be388bfe0f4848a232c16529",
-      "research_runtime_sha256": "6a87cb42c987f3feb7e10bdcec51818a541cf9ae091b895d74f4d00e90406daf",
-      "transform": "filename plus text import/path suffix substitution",
-      "historical_provenance_contents_retained": false,
-      "regenerated_manifest": false
+      "source_sha256": "badf4401b976fa9695c6b0e0015a113c9322ac39a0745c187277185fe4d3afd2",
+      "public_sha256": "4bb314b717d788847374fd743de8d4805e209fc16b6ed5d2415a13f402adb7b5",
+      "transform": "suffix normalization; three-way merge with the 0.6.0 public file"
     },
     {
       "source_path": "data/neuron-model/README.md",
@@ -5358,13 +5336,9 @@
     {
       "source_path": "data/neuron-model/state_layout_v1_codex.json",
       "public_path": "data/neuron-model/state_layout_v1.json",
-      "source_sha256": "7fc519b8abed21776e67f4f3df79e53734545d325eec96d116200e8d4f1563ca",
-      "public_sha256": "4ae16122ba360135047c6539458c61ba832608b09a738c30540c318902d155be",
-      "conversion_public_sha256": "4ae16122ba360135047c6539458c61ba832608b09a738c30540c318902d155be",
-      "research_runtime_sha256": "7fc519b8abed21776e67f4f3df79e53734545d325eec96d116200e8d4f1563ca",
-      "transform": "filename plus text import/path suffix substitution",
-      "historical_provenance_contents_retained": false,
-      "regenerated_manifest": false
+      "source_sha256": "32f933a8fa9cb199e66811f7b68964ebf979488cf5d10604d58ab3025ff71c49",
+      "public_sha256": "96a2ec00ec5241b425255e5ede087337a75ad8e7d8b7abb492be2649be61800d",
+      "transform": "suffix normalization; three-way merge with the 0.6.0 public file"
     },
     {
       "source_path": "data/2026-11-14-phase-aware-waveform/kinetics_codex.py",
@@ -5487,6 +5461,270 @@
       "source_path": "generated-for-phase06/parameters/phase_ranges.json",
       "public_path": "parameters/phase_ranges.json",
       "public_sha256": "fc54fbd60514716dd34b9d651fb5dc0398b654bb564e375098ec10826e743fa2"
+    },
+    {
+      "source_path": "data/2026-11-14-acid-coupling/run_codex.py",
+      "public_path": "data/2026-11-14-acid-coupling/run.py",
+      "source_sha256": "6b133719006badb733e374814877ce9ecced6bd33e47bc0cfbcf4862125f78e9",
+      "public_sha256": "530fe2b914603f0105d1fc3eb7b732e0c3692a6ad37a297d6ca650b19e6defbf",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-gap43-compensation/compensation_observer_codex.py",
+      "public_path": "data/2026-11-14-gap43-compensation/compensation_observer.py",
+      "source_sha256": "62c49900d5b7ae2ecda883553fbc756bd934ba860cc5ccbdf40a591fd4cafe78",
+      "public_sha256": "62c49900d5b7ae2ecda883553fbc756bd934ba860cc5ccbdf40a591fd4cafe78",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-gap43-compensation/protocol_codex.json",
+      "public_path": "data/2026-11-14-gap43-compensation/protocol.json",
+      "source_sha256": "f8021e0e7c7a7329c6714a23a0ddc88a13e75a6f52eb1dbb1c40b17a787c7ac9",
+      "public_sha256": "c3ef23150e8ae032d0d7ac0daed587b6b8dc631c92d7700cd0f08f19e7a995f8",
+      "transform": "public filename/import suffix normalization; private absolute checkpoint path replaced by its package-relative name (checkpoint itself not distributed)"
+    },
+    {
+      "source_path": "data/2026-11-14-gap43-compensation/run_codex.py",
+      "public_path": "data/2026-11-14-gap43-compensation/run.py",
+      "source_sha256": "82022eedd2c368810c55cb574dba5773ed01dba03505d19742fef38911917ae3",
+      "public_sha256": "af0102166c2339fe7294ef858e5e0d03dc390a5f45b7e4887efbbcdc6cd3f496",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-lipid-redox/lipid_redox_claude.py",
+      "public_path": "data/2026-11-14-lipid-redox/lipid_redox.py",
+      "source_sha256": "c53737f4252d651e970cee809c617c27c50d64e89ac9bcf16525298fc2bb992d",
+      "public_sha256": "c53737f4252d651e970cee809c617c27c50d64e89ac9bcf16525298fc2bb992d",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-nadph-supply/nadph_supply_claude.py",
+      "public_path": "data/2026-11-14-nadph-supply/nadph_supply.py",
+      "source_sha256": "6b81bb7afc4c2cfc5c7b74bf18676619e8a1efe45bc7c48aed54501b0e6f0df8",
+      "public_sha256": "6b81bb7afc4c2cfc5c7b74bf18676619e8a1efe45bc7c48aed54501b0e6f0df8",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-peroxide/coupled_redox_claude.py",
+      "public_path": "data/2026-11-14-peroxide/coupled_redox.py",
+      "source_sha256": "cafb349b98276391dc44ecaa3aa248d10d1b30b5408eab737a01978ec90653ed",
+      "public_sha256": "4134483ec9e9a905e515355b2c169f834702bcf1c35e25f12a7e60ef99289aef",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-peroxide/peroxide_claude.py",
+      "public_path": "data/2026-11-14-peroxide/peroxide.py",
+      "source_sha256": "de306d5a4a9b4951608e6a481f1b917ba10769c208231cd725f22a2fb15e3367",
+      "public_sha256": "9bc5ef872e9f49e7deaa070fdeb93cc097062e85d629a2f58bd3f5280cb139c3",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-prepared-loads-gap43/protocol_codex.json",
+      "public_path": "data/2026-11-14-prepared-loads-gap43/protocol.json",
+      "source_sha256": "c3baca1229e20dbdb29fcf5d239b0c43bff6c7764ef67295a628a9730d94e8eb",
+      "public_sha256": "c3baca1229e20dbdb29fcf5d239b0c43bff6c7764ef67295a628a9730d94e8eb",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-prepared-loads-gap43/run_codex.py",
+      "public_path": "data/2026-11-14-prepared-loads-gap43/run.py",
+      "source_sha256": "60021703602df470d1534b79328c04557c7ba3070cc44096d70a09ad4bccfe7a",
+      "public_sha256": "eb79930f3f86bffd8b4426c49ae5c23085f51d59599827806bc7abd78a5694ce",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-prepared-loads-gap43/turnover_codex.py",
+      "public_path": "data/2026-11-14-prepared-loads-gap43/turnover.py",
+      "source_sha256": "a4fa715d52d4acf1bba7b432b95483aabf59943cbc95943d06785660e3f470bd",
+      "public_sha256": "a4fa715d52d4acf1bba7b432b95483aabf59943cbc95943d06785660e3f470bd",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-ribosome-gap43-balance/balance_observer_codex.py",
+      "public_path": "data/2026-11-14-ribosome-gap43-balance/balance_observer.py",
+      "source_sha256": "832e23e5c8bc3de26be8b94b0a8cf11e5b04862493172fdc31f57c181bfcf7c9",
+      "public_sha256": "832e23e5c8bc3de26be8b94b0a8cf11e5b04862493172fdc31f57c181bfcf7c9",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-14-ribosome-gap43-balance/run_codex.py",
+      "public_path": "data/2026-11-14-ribosome-gap43-balance/run.py",
+      "source_sha256": "6638234559dedfc41369952f4b6b80a7328dabb3f0c6bb5d3344e1219b00b756",
+      "public_sha256": "a7a22dc29e17470c9a9f3ddd788bc358878e1c8565b1496f520e9fa457b54e52",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/run_codex.py",
+      "public_path": "data/2026-11-15-aa-gsh-nadph/run.py",
+      "source_sha256": "b76c034c1c0b8a5eea0c5319f3e86a9ed41accbe82d5c731824e7f6c3a55414a",
+      "public_sha256": "c1d639668d74b6dad0d020db2db45470a167b853d02f147dadaf1eaa9b5154a4",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/supply_codex.py",
+      "public_path": "data/2026-11-15-aa-gsh-nadph/supply.py",
+      "source_sha256": "68be5d55867713a799d311459009fe96576d0e8fea75589d5b08b6d4e3b66581",
+      "public_sha256": "e88d9d2251a76194f38ad767cbec17b5c2be9072acaf6bd2dd953fd9155417a0",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-carbon-coupling/coupling_codex.py",
+      "public_path": "data/2026-11-15-carbon-coupling/coupling.py",
+      "source_sha256": "bead7c5a7f9261739b9b11368398e76afa904f48249885b61b1d84041954a2d0",
+      "public_sha256": "e06dded712ee56e6d3a0e73188bbd26293f5c3b1f19be5dfdaa506b32adda9f5",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-donor-carbon/carbon_codex.py",
+      "public_path": "data/2026-11-15-donor-carbon/carbon.py",
+      "source_sha256": "fe2ba98447c2395f8feecbbc50aa36a4698b42805a0310922db4046a9ff78359",
+      "public_sha256": "7d919c57370290fb7f6a6d81275a9ce43007f428e17d2c9a09e14a29565b8817",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-gsh-turnover-review/turnover_observer_codex.py",
+      "public_path": "data/2026-11-15-gsh-turnover-review/turnover_observer.py",
+      "source_sha256": "ce1d330ab5363ffec7a060d1fae11e884e783a346ecfb7cf1482b510c78ed016",
+      "public_sha256": "ce1d330ab5363ffec7a060d1fae11e884e783a346ecfb7cf1482b510c78ed016",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-shared-redox-budget/run_codex.py",
+      "public_path": "data/2026-11-15-shared-redox-budget/run.py",
+      "source_sha256": "be95dba908944b6c391fae2cda11d6b1c4e53cc643f4cc8624694ee76f4f4b44",
+      "public_sha256": "b22b6c375d2e6a84bcaaf3438b07ffe8829c69cfa9f3a5c0dc81d5e73cbac9e7",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-shared-redox-budget/shared_budget_codex.py",
+      "public_path": "data/2026-11-15-shared-redox-budget/shared_budget.py",
+      "source_sha256": "c6380ebe4098ea7261f6e91cfd4ddaf942bfa505d3ce55fbc0b0148cc626df3c",
+      "public_sha256": "1d0c771686bc681eb8f0dab9358ca5642c93954640ee57bfb03dd459128829b1",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-donor-carbon/LICENSE_BlueBrain.txt",
+      "public_path": "data/2026-11-15-donor-carbon/LICENSE_BlueBrain.txt",
+      "source_sha256": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe",
+      "public_sha256": "4bf96504d6e83ce5c6fc7167f1795d9ceaa68e70ab86bc5d08ab93184262bbbe",
+      "transform": "unchanged license text"
+    },
+    {
+      "source_path": "data/2026-11-15-donor-carbon/NOTICE_codex.txt",
+      "public_path": "data/2026-11-15-donor-carbon/NOTICE.txt",
+      "source_sha256": "241bd8f23e98ace3259d3bed53d009d34118863e62b07d436ba111e302b44444",
+      "public_sha256": "241bd8f23e98ace3259d3bed53d009d34118863e62b07d436ba111e302b44444",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/results_codex.json",
+      "public_path": "results/redox_results.json",
+      "source_sha256": "49f00b9cfa4932d3c157022625d3d8ad5f1a591d95dc9e6a26927fefc63174ad",
+      "public_sha256": "49f00b9cfa4932d3c157022625d3d8ad5f1a591d95dc9e6a26927fefc63174ad",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/verification_codex.json",
+      "public_path": "results/redox_verification.json",
+      "source_sha256": "f36d839c04992ba15edec70ad53382647f82b6efe76de3fb2872f88d9e8e44d9",
+      "public_sha256": "f36d839c04992ba15edec70ad53382647f82b6efe76de3fb2872f88d9e8e44d9",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/trajectories_codex.png",
+      "public_path": "results/redox_trajectories.png",
+      "source_sha256": "77d367a3bb1bfc97a871ba1f0134f85611327a802c7ac25ad6ca8a54b86932ee",
+      "public_sha256": "77d367a3bb1bfc97a871ba1f0134f85611327a802c7ac25ad6ca8a54b86932ee",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/unit_checks_codex.json",
+      "public_path": "results/redox_unit_checks.json",
+      "source_sha256": "0be25c8e654e0006be7c73778ab5892e2b8909190148b4dbffe1d07b1e7a801b",
+      "public_sha256": "0be25c8e654e0006be7c73778ab5892e2b8909190148b4dbffe1d07b1e7a801b",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Burley_15_features_codex.json",
+      "public_path": "results/redox_electric_Burley_15_features.json",
+      "source_sha256": "3457f033c70c5e69e215a5405be6e4f04613d296ba3c63beb50a98919f4455f6",
+      "public_sha256": "3457f033c70c5e69e215a5405be6e4f04613d296ba3c63beb50a98919f4455f6",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Burley_25_features_codex.json",
+      "public_path": "results/redox_electric_Burley_25_features.json",
+      "source_sha256": "d4b979624fbc3a8e68e7f7fff44a5f37cc6a0927edcc75fb405c8a5eeae742d3",
+      "public_sha256": "d4b979624fbc3a8e68e7f7fff44a5f37cc6a0927edcc75fb405c8a5eeae742d3",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Burley_50_features_codex.json",
+      "public_path": "results/redox_electric_Burley_50_features.json",
+      "source_sha256": "12ad6844fcb759bc2be08e1a24c199b7915d6f4ad9fa332c9a721684c4cd66db",
+      "public_sha256": "12ad6844fcb759bc2be08e1a24c199b7915d6f4ad9fa332c9a721684c4cd66db",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Selvaraj-Con1_15_features_codex.json",
+      "public_path": "results/redox_electric_Selvaraj-Con1_15_features.json",
+      "source_sha256": "5cdba36469ae037379c2bd16b8c1b490d092473cf31067b0e8dbd1cfa51544a9",
+      "public_sha256": "5cdba36469ae037379c2bd16b8c1b490d092473cf31067b0e8dbd1cfa51544a9",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Selvaraj-Con1_25_features_codex.json",
+      "public_path": "results/redox_electric_Selvaraj-Con1_25_features.json",
+      "source_sha256": "a6c85213cbbc9815091d3f0a57a7e4516314ad4a8c08e82e0d6dd3603e74dce5",
+      "public_sha256": "a6c85213cbbc9815091d3f0a57a7e4516314ad4a8c08e82e0d6dd3603e74dce5",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Selvaraj-Con1_50_features_codex.json",
+      "public_path": "results/redox_electric_Selvaraj-Con1_50_features.json",
+      "source_sha256": "1525e625ced6d19288c2fc687952525bc68a42f6da7704427ab4170c68e07d8b",
+      "public_sha256": "1525e625ced6d19288c2fc687952525bc68a42f6da7704427ab4170c68e07d8b",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Selvaraj-Con2_15_features_codex.json",
+      "public_path": "results/redox_electric_Selvaraj-Con2_15_features.json",
+      "source_sha256": "ecc3ba65c912f08f94912e439dd50cf397bbe7e086d3cda9e0c619213d2662eb",
+      "public_sha256": "ecc3ba65c912f08f94912e439dd50cf397bbe7e086d3cda9e0c619213d2662eb",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Selvaraj-Con2_25_features_codex.json",
+      "public_path": "results/redox_electric_Selvaraj-Con2_25_features.json",
+      "source_sha256": "4182599d9edc7502e41c0d12f033ac10463724992e87c54039ba069b52983326",
+      "public_sha256": "4182599d9edc7502e41c0d12f033ac10463724992e87c54039ba069b52983326",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/electric_Selvaraj-Con2_50_features_codex.json",
+      "public_path": "results/redox_electric_Selvaraj-Con2_50_features.json",
+      "source_sha256": "602ca34062212db64805ebae9f61fcc8de959080c47f2e76220b95701a6f947e",
+      "public_sha256": "602ca34062212db64805ebae9f61fcc8de959080c47f2e76220b95701a6f947e",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/runs_v2/post672_Burley_25_features_codex.json",
+      "public_path": "results/redox_post672_Burley_25_features.json",
+      "source_sha256": "e8f5aad57bb13bb491f05ff9651f53f3cb7549dd5e52aa586f80e2bec5770e48",
+      "public_sha256": "e8f5aad57bb13bb491f05ff9651f53f3cb7549dd5e52aa586f80e2bec5770e48",
+      "transform": "public filename/import suffix normalization"
+    },
+    {
+      "source_path": "data/2026-11-15-aa-gsh-nadph/assumptions_codex.json",
+      "public_path": "parameters/redox_assumptions.json",
+      "source_sha256": "a633e266475afacaa2f45362ba34d766546b53cd331dd01b8d341e51ea7fdbd2",
+      "public_sha256": "0ae543231fba50a02cc4cb3393a3a09fd54b0c1875076294fce646aa3ea0a892",
+      "transform": "public filename/import suffix normalization; correspondence-status and private source-note fields removed"
+    },
+    {
+      "source_path": "generated-for-redox07/docs/REDOX_STAGE_0.7.0.md",
+      "public_path": "docs/REDOX_STAGE_0.7.0.md",
+      "public_sha256": "9ed4bb6be0dcd784eb984d55b55d4c6f8354805f8ff0af2f13f0e322fade8a9d"
     }
   ],
   "workspace_sources_renamed": false,
@@ -5496,5 +5734,6 @@
   "scope": "Filename/import/path conversion, retaining author IDs and module aliases; no equation refit. License filenames updated, terms unchanged. Historical provenance retains original names; use this mapping for current locations.",
   "parallel_release_preserved": "de0e5f8d8b66d6ef3903e30d6c7e47c0e064e5a1",
   "final_hashes_after_validation": true,
-  "phase06_updated": true
+  "phase06_updated": true,
+  "redox07_updated": true
 }

@@ -75,6 +75,7 @@ def state_schema(columns, config):
     # [claude] 2026-11-13: optional six-state acid-extrusion block after passive Cl (plan N05.1.4).
     if 'acid_extrusion' in config:
         expected += manifest['acid_extrusion_claude']
+    if 'shared_redox' in config:expected += manifest[config['shared_redox'].get('schema_key','shared_redox15')]
     # Alternate names describe the same legacy slot, not an allowed permutation.
     for index, aliases in manifest['legacy_aliases'].items():
         index = int(index)

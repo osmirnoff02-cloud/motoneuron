@@ -1,0 +1,1737 @@
+{
+  "author": "codex",
+  "date": "2026-11-15",
+  "rows": [
+    {
+      "tag": "continuous_middle_72h",
+      "branch": "continuous",
+      "mode": "middle",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.405458343604,
+          "min": 2910.5237959876276,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9993334928622587,
+          "final_relative": 0.9999795649600638
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.352418275555,
+          "min": 2910.8234977194024,
+          "max": 2912.452580260338,
+          "min_relative": 0.9994406492479991,
+          "final_relative": 0.9999656090590241
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3642.7013935758105,
+          "min": 3357.510532646072,
+          "max": 3654.558963740425,
+          "min_relative": 0.9187183914552783,
+          "final_relative": 0.9967554032422894
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 363.75373767753666,
+          "min": 362.29255511811675,
+          "max": 363.9862613532739,
+          "min_relative": 0.9991366429533967,
+          "final_relative": 1.0031663173602718
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 364.7381208706742,
+          "min": 362.43041603370426,
+          "max": 364.9301786869643,
+          "min_relative": 0.9999845267188816,
+          "final_relative": 1.006351732745513
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 979.9653868646839,
+          "min": 979.8356932945529,
+          "max": 1116.201719769014,
+          "min_relative": 0.8778303024809166,
+          "final_relative": 0.8779464943554084
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 864.7980438032141,
+          "min": 864.7980438032141,
+          "max": 999.8024373638953,
+          "min_relative": 0.8649689293450442,
+          "final_relative": 0.8649689293450442
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 40.14609448367396,
+          "min": 33.31527571928794,
+          "max": 54.862664083406315,
+          "min_relative": 0.607248595668624,
+          "final_relative": 0.7317561980337097
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 41.122229247117815,
+          "min": 36.71109058849669,
+          "max": 58.24016248221813,
+          "min_relative": 0.6303397693937633,
+          "final_relative": 0.7060802630774466
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 40.46751894145325,
+          "min": 34.46526849635965,
+          "max": 56.006341748902116,
+          "min_relative": 0.6153815339498632,
+          "final_relative": 0.7225524409875695
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.0050363380019333446,
+          "min": 0.005025845563726666,
+          "max": 0.00507000234704754,
+          "min_relative": 0.9912905793137181,
+          "final_relative": 0.9933600927948684
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.00817065317496916,
+          "min": 0.008147475523649807,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9881991688175477,
+          "final_relative": 0.9910103629969526
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.3748930835658665,
+          "min": 0.2571208540868447,
+          "max": 0.3748930835658665,
+          "min_relative": 0.7724504907344724,
+          "final_relative": 1.1262654964408407
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1018.2831057512118,
+          "min": 1017.9980548301671,
+          "max": 2000.085970022251,
+          "min_relative": 0.5089990274150835,
+          "final_relative": 0.5091415528756059
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.520253358313596,
+          "min": 48.520236229181066,
+          "max": 49.0,
+          "min_relative": 0.9902089026363483,
+          "final_relative": 0.9902092522104815
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 834.6315242329649,
+          "min": 834.6315242329649,
+          "max": 2000.0,
+          "min_relative": 0.41731576211648247,
+          "final_relative": 0.41731576211648247
+        }
+      },
+      "K_final_uM": 139998.1532886028,
+      "Na_final_uM": 6251.429063631599,
+      "H2O2_peak_nM": 0.08321885658192964,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 259683.95364270313,
+        "AA_spent_each_reference_uM": 127138.70291658069,
+        "extra_ATP_axon_reference_uM": 381382.5778942753,
+        "extra_ATP_soma_reference_uM": 39676.237804823075,
+        "AA_returned_total_each_axon_reference_uM": 1693443.5703236277,
+        "AA_returned_axon_each_reference_uM": 49433.90735732978,
+        "AA_returned_soma_each_reference_uM": 5365.5820802367125,
+        "AA_delivered_each_reference_uM": 77693.61860742849,
+        "GSH_delivery_net_reference_uM": -65789.93055061961,
+        "NADPH_from_PPP_uM": 62975.31621622137,
+        "NADPH_from_other_uM": 26990.2769555751,
+        "PPP_opportunity_ATP_uM": 167934.17657659
+      },
+      "worst_balance": 1.430511474609375e-05,
+      "scenario_resource_screen": false,
+      "matched_control": true,
+      "paired_K_uM": -0.24108767564757727,
+      "paired_GAP43_final": 1.6300011423941996e-07
+    },
+    {
+      "tag": "control_high_72h",
+      "branch": "control",
+      "mode": "high",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.3564289281762,
+          "min": 2912.356328215244,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9999626960436006,
+          "final_relative": 0.999962730623564
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.3208962867598,
+          "min": 2912.293207436074,
+          "max": 2912.452580260338,
+          "min_relative": 0.9999452788260507,
+          "final_relative": 0.9999547858823623
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3632.9075713535494,
+          "min": 3632.9075713535494,
+          "max": 3654.558963740425,
+          "min_relative": 0.9940755115455258,
+          "final_relative": 0.9940755115455258
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 361.40316517941346,
+          "min": 361.37716168635075,
+          "max": 362.8065073213024,
+          "min_relative": 0.9966121551948831,
+          "final_relative": 0.9966838680755281
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 362.37615767496146,
+          "min": 362.2631383453637,
+          "max": 362.7628090331298,
+          "min_relative": 0.9995229895724234,
+          "final_relative": 0.9998348220672088
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 1106.3579793943188,
+          "min": 1106.301204165511,
+          "max": 1253.7842632625914,
+          "min_relative": 0.9911301734909065,
+          "final_relative": 0.9911810381579306
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 990.027925826259,
+          "min": 923.9457987702675,
+          "max": 1145.647132047613,
+          "min_relative": 0.9241283720075405,
+          "final_relative": 0.9902235570025134
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 79.60083869692983,
+          "min": 54.862664083406315,
+          "max": 92.42954309344313,
+          "min_relative": 1.0,
+          "final_relative": 1.4509109250676324
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 80.360393751618,
+          "min": 58.24016248221813,
+          "max": 96.52224519480187,
+          "min_relative": 1.0,
+          "final_relative": 1.3798106036560873
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 79.8488509224652,
+          "min": 56.006341748902116,
+          "max": 93.80031262827241,
+          "min_relative": 1.0,
+          "final_relative": 1.425710882536449
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.005067126705493687,
+          "min": 0.00506085582349187,
+          "max": 0.00507000234704754,
+          "min_relative": 0.9981959527965512,
+          "final_relative": 0.9994328125793616
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008239565995706731,
+          "min": 0.008230940773811223,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9983225856471218,
+          "final_relative": 0.9993687301962239
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.3745996313216978,
+          "min": 0.2571050210188302,
+          "max": 0.3745996313216978,
+          "min_relative": 0.7724029245376305,
+          "final_relative": 1.1253838980546644
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1001.4918603292333,
+          "min": 1001.4661803435024,
+          "max": 2004.0874363004389,
+          "min_relative": 0.5007330901717512,
+          "final_relative": 0.5007459301646167
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.520253522425065,
+          "min": 48.520236271698145,
+          "max": 49.0,
+          "min_relative": 0.9902089035040438,
+          "final_relative": 0.9902092555596952
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 919.9312646637914,
+          "min": 919.9295145627549,
+          "max": 2000.0,
+          "min_relative": 0.4599647572813774,
+          "final_relative": 0.4599656323318957
+        }
+      },
+      "K_final_uM": 139997.4140414501,
+      "Na_final_uM": 6251.38555847173,
+      "H2O2_peak_nM": 0.08321998981610548,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 474165.60460016545,
+        "AA_spent_each_reference_uM": 234379.48127670548,
+        "extra_ATP_axon_reference_uM": 703244.1709609133,
+        "extra_ATP_soma_reference_uM": 53181.45307741198,
+        "AA_returned_total_each_axon_reference_uM": 3307306.7499167575,
+        "AA_returned_axon_each_reference_uM": 68513.20249408294,
+        "AA_returned_soma_each_reference_uM": 10570.505156449102,
+        "AA_delivered_each_reference_uM": 165901.52115955472,
+        "GSH_delivery_net_reference_uM": -174305.3661746148,
+        "NADPH_from_PPP_uM": 62975.309763732206,
+        "NADPH_from_other_uM": 26990.274530569728,
+        "PPP_opportunity_ATP_uM": 167934.15936995242
+      },
+      "worst_balance": 1.3828277587890625e-05,
+      "scenario_resource_screen": true,
+      "matched_control": true,
+      "paired_K_uM": 0.0,
+      "paired_GAP43_final": 0.0
+    },
+    {
+      "tag": "control_middle_72h",
+      "branch": "control",
+      "mode": "middle",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.405424158976,
+          "min": 2912.4030865903223,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9999787506143799,
+          "final_relative": 0.9999795532227114
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.352422265813,
+          "min": 2912.3397007321464,
+          "max": 2912.452580260338,
+          "min_relative": 0.9999612424494199,
+          "final_relative": 0.999965610429092
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3642.6945191742934,
+          "min": 3642.6945191742934,
+          "max": 3654.558963740425,
+          "min_relative": 0.9967535221941013,
+          "final_relative": 0.9967535221941013
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 363.7527816549415,
+          "min": 362.5121012901343,
+          "max": 363.98967098786574,
+          "min_relative": 0.999742111164609,
+          "final_relative": 1.0031636808247073
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 364.7371679761665,
+          "min": 362.4359496905358,
+          "max": 364.93045781630184,
+          "min_relative": 0.9999997946736748,
+          "final_relative": 1.0063491036070047
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 979.9650781638207,
+          "min": 979.8344474735324,
+          "max": 1116.201719769014,
+          "min_relative": 0.8778291863555796,
+          "final_relative": 0.8779462177917213
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 864.7979044032083,
+          "min": 864.7979044032083,
+          "max": 999.8024373638953,
+          "min_relative": 0.8649687899174928,
+          "final_relative": 0.8649687899174928
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 40.146084489221174,
+          "min": 33.315298526309896,
+          "max": 54.862664083406315,
+          "min_relative": 0.6072490113797882,
+          "final_relative": 0.7317560158614992
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 41.12224912864003,
+          "min": 36.71111282058575,
+          "max": 58.24016248221813,
+          "min_relative": 0.6303401511249969,
+          "final_relative": 0.706080604448785
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 40.4675191660566,
+          "min": 34.46529110634789,
+          "max": 56.006341748902116,
+          "min_relative": 0.6153819376539356,
+          "final_relative": 0.7225524449978895
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.005036336955201056,
+          "min": 0.005025821448549991,
+          "max": 0.00507000234704754,
+          "min_relative": 0.9912858228708165,
+          "final_relative": 0.9933598863388913
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008170651231647322,
+          "min": 0.00814744951067044,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9881960137292611,
+          "final_relative": 0.9910101272933878
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.37489292056575224,
+          "min": 0.25712413328180417,
+          "max": 0.37489292056575224,
+          "min_relative": 0.7724603421942641,
+          "final_relative": 1.1262650067508126
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1018.2829402156781,
+          "min": 1017.9977567423322,
+          "max": 2000.086108988897,
+          "min_relative": 0.5089988783711661,
+          "final_relative": 0.5091414701078391
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.52025335853795,
+          "min": 48.52023630508158,
+          "max": 49.0,
+          "min_relative": 0.9902089041853384,
+          "final_relative": 0.9902092522150602
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 834.6314048000187,
+          "min": 834.6314048000187,
+          "max": 2000.0,
+          "min_relative": 0.41731570240000937,
+          "final_relative": 0.41731570240000937
+        }
+      },
+      "K_final_uM": 139998.39437627845,
+      "Na_final_uM": 6251.431631884864,
+      "H2O2_peak_nM": 0.08321885660204648,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 259685.84132410033,
+        "AA_spent_each_reference_uM": 127139.64676800263,
+        "extra_ATP_axon_reference_uM": 381385.40956364316,
+        "extra_ATP_soma_reference_uM": 39676.39578071073,
+        "AA_returned_total_each_axon_reference_uM": 1693451.451008441,
+        "AA_returned_axon_each_reference_uM": 49434.27976268896,
+        "AA_returned_soma_each_reference_uM": 5365.606585135065,
+        "AA_delivered_each_reference_uM": 77694.1900918587,
+        "GSH_delivery_net_reference_uM": -65790.5249291643,
+        "NADPH_from_PPP_uM": 62975.31621770534,
+        "NADPH_from_other_uM": 26990.276955861827,
+        "PPP_opportunity_ATP_uM": 167934.17658054773
+      },
+      "worst_balance": 1.3828277587890625e-05,
+      "scenario_resource_screen": false,
+      "matched_control": true,
+      "paired_K_uM": 0.0,
+      "paired_GAP43_final": 0.0
+    },
+    {
+      "tag": "control_soma_high_72h",
+      "branch": "control",
+      "mode": "soma_high",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.399091794924,
+          "min": 2912.399091794924,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9999773789943147,
+          "final_relative": 0.9999773789943147
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.2429591955483,
+          "min": 2912.2426992946307,
+          "max": 2912.452580260338,
+          "min_relative": 0.9999279366925561,
+          "final_relative": 0.9999280259303756
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3641.590107237798,
+          "min": 3641.590107237798,
+          "max": 3654.558963740425,
+          "min_relative": 0.9964513210400213,
+          "final_relative": 0.9964513210400213
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 367.5958595306163,
+          "min": 362.60325620488726,
+          "max": 368.0250145348607,
+          "min_relative": 0.9999934997571382,
+          "final_relative": 1.0137621871231828
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 368.5992460424993,
+          "min": 362.4358757583525,
+          "max": 368.7766056054189,
+          "min_relative": 0.9999995906868238,
+          "final_relative": 1.017004992672767
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 837.463681986721,
+          "min": 837.4502454171794,
+          "max": 1116.201719769014,
+          "min_relative": 0.7502678329419531,
+          "final_relative": 0.7502798707029632
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 724.8189084926094,
+          "min": 673.7678674888906,
+          "max": 999.8024373638953,
+          "min_relative": 0.6739010051479413,
+          "final_relative": 0.7249621339228632
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 54.0601005791287,
+          "min": 33.272349987460856,
+          "max": 54.862664083406315,
+          "min_relative": 0.6064661740975201,
+          "final_relative": 0.9853714084489682
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 54.41688148736646,
+          "min": 36.65994136407866,
+          "max": 59.0681771224233,
+          "min_relative": 0.6294615227983209,
+          "final_relative": 0.9343531880423754
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 54.17145218615804,
+          "min": 34.419558048549554,
+          "max": 56.11967644624038,
+          "min_relative": 0.6145653683803455,
+          "final_relative": 0.9672378251204018
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.004964129309500266,
+          "min": 0.0049349406898123,
+          "max": 0.00507000234704754,
+          "min_relative": 0.973360632206829,
+          "final_relative": 0.9791177537405031
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008006310427961252,
+          "min": 0.007974081217035337,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9671683465491359,
+          "final_relative": 0.9710773953528036
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.3753440910791323,
+          "min": 0.25728134563057625,
+          "max": 0.3753440910791323,
+          "min_relative": 0.7729326444366854,
+          "final_relative": 1.1276204272813763
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1780.3229434359257,
+          "min": 1779.732945148803,
+          "max": 2000.0904980197517,
+          "min_relative": 0.8898664725744015,
+          "final_relative": 0.8901614717179629
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.52024905359368,
+          "min": 48.52023597406319,
+          "max": 49.0,
+          "min_relative": 0.9902088974298611,
+          "final_relative": 0.9902091643590547
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 1699.7905470000903,
+          "min": 1699.7905470000903,
+          "max": 2000.0,
+          "min_relative": 0.8498952735000451,
+          "final_relative": 0.8498952735000451
+        }
+      },
+      "K_final_uM": 140000.06565036922,
+      "Na_final_uM": 6251.517159659824,
+      "H2O2_peak_nM": 0.08318886175437872,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 274459.16305375914,
+        "AA_spent_each_reference_uM": 134527.49545887273,
+        "extra_ATP_axon_reference_uM": 403627.9348893978,
+        "extra_ATP_soma_reference_uM": 81215.1671637134,
+        "AA_returned_total_each_axon_reference_uM": 3150543.170983243,
+        "AA_returned_axon_each_reference_uM": 64158.61073308422,
+        "AA_returned_soma_each_reference_uM": 10073.085373061464,
+        "AA_delivered_each_reference_uM": 70384.0342300483,
+        "GSH_delivery_net_reference_uM": -27824.734579360098,
+        "NADPH_from_PPP_uM": 62975.47556487751,
+        "NADPH_from_other_uM": 26990.33683581258,
+        "PPP_opportunity_ATP_uM": 167934.60150634017
+      },
+      "worst_balance": 1.33514404296875e-05,
+      "scenario_resource_screen": false,
+      "matched_control": true,
+      "paired_K_uM": 0.0,
+      "paired_GAP43_final": 0.0
+    },
+    {
+      "tag": "repeated_high_72h",
+      "branch": "repeated",
+      "mode": "high",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.356463469028,
+          "min": 2910.467974967888,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9993143266164068,
+          "final_relative": 0.9999627424832265
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.320892383493,
+          "min": 2910.79195640435,
+          "max": 2912.452580260338,
+          "min_relative": 0.9994298194356045,
+          "final_relative": 0.999954784542163
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3632.9143989642453,
+          "min": 3501.175580548077,
+          "max": 3654.558963740425,
+          "min_relative": 0.9580295776551486,
+          "final_relative": 0.9940773797903026
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 361.40521448787797,
+          "min": 361.2843009330245,
+          "max": 362.7324047547089,
+          "min_relative": 0.9963560622113818,
+          "final_relative": 0.9966895196936767
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 362.37820369983757,
+          "min": 362.14647996617066,
+          "max": 362.6891029245423,
+          "min_relative": 0.9992011165481287,
+          "final_relative": 0.9998404672700584
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 1106.3584143454502,
+          "min": 1106.3023060482749,
+          "max": 1253.781977988713,
+          "min_relative": 0.9911311606626195,
+          "final_relative": 0.9911814278286538
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 990.0281241298231,
+          "min": 923.8587264395351,
+          "max": 1145.6556922438106,
+          "min_relative": 0.9240412824711697,
+          "final_relative": 0.9902237553452627
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 79.60085761931718,
+          "min": 54.862664083406315,
+          "max": 92.42952983999382,
+          "min_relative": 1.0,
+          "final_relative": 1.4509112699722715
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 80.36037657125215,
+          "min": 58.24016248221813,
+          "max": 96.5221463973374,
+          "min_relative": 1.0,
+          "final_relative": 1.3798103086643645
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 79.84885750595232,
+          "min": 56.006341748902116,
+          "max": 93.80026304555925,
+          "min_relative": 1.0,
+          "final_relative": 1.4257110000854072
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.0050671268938372906,
+          "min": 0.005060831985994283,
+          "max": 0.00507000234704754,
+          "min_relative": 0.998191251122675,
+          "final_relative": 0.9994328497279841
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008239565587179767,
+          "min": 0.008230928443377151,
+          "max": 0.008244814245194526,
+          "min_relative": 0.9983210901010885,
+          "final_relative": 0.9993686806463964
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.37459974537168594,
+          "min": 0.2571044533907206,
+          "max": 0.37459974537168594,
+          "min_relative": 0.7724012192515564,
+          "final_relative": 1.1253842406871966
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1001.4920038755511,
+          "min": 1001.4663531709721,
+          "max": 2004.0934404868196,
+          "min_relative": 0.500733176585486,
+          "final_relative": 0.5007460019377755
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.52025352242385,
+          "min": 48.52023624291475,
+          "max": 49.0,
+          "min_relative": 0.9902089029166276,
+          "final_relative": 0.9902092555596704
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 919.9313933273022,
+          "min": 919.9296735475817,
+          "max": 2000.0,
+          "min_relative": 0.45996483677379085,
+          "final_relative": 0.4599656966636511
+        }
+      },
+      "K_final_uM": 139997.17139533308,
+      "Na_final_uM": 6251.382977800572,
+      "H2O2_peak_nM": 0.08321998980407128,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 474162.19551305805,
+        "AA_spent_each_reference_uM": 234377.77672176072,
+        "extra_ATP_axon_reference_uM": 703239.0575162907,
+        "extra_ATP_soma_reference_uM": 53181.20720700239,
+        "AA_returned_total_each_axon_reference_uM": 3307289.6097154757,
+        "AA_returned_axon_each_reference_uM": 68512.69657435165,
+        "AA_returned_soma_each_reference_uM": 10570.4508668637,
+        "AA_delivered_each_reference_uM": 165900.32259774525,
+        "GSH_delivery_net_reference_uM": -174304.00350258168,
+        "NADPH_from_PPP_uM": 62975.309761081444,
+        "NADPH_from_other_uM": 26990.274529833925,
+        "PPP_opportunity_ATP_uM": 167934.15936288424
+      },
+      "worst_balance": 1.430511474609375e-05,
+      "scenario_resource_screen": true,
+      "matched_control": true,
+      "paired_K_uM": -0.24264611702528782,
+      "paired_GAP43_final": 1.1404998812025724e-07
+    },
+    {
+      "tag": "repeated_middle_72h",
+      "branch": "repeated",
+      "mode": "middle",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.4054585439317,
+          "min": 2910.5259524101793,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9993342332737557,
+          "final_relative": 0.9999795650288467
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.3524183770464,
+          "min": 2910.8440192702915,
+          "max": 2912.452580260338,
+          "min_relative": 0.9994476953887769,
+          "final_relative": 0.9999656090938714
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3642.701345577464,
+          "min": 3511.1926486344173,
+          "max": 3654.558963740425,
+          "min_relative": 0.9607705563028396,
+          "final_relative": 0.996755390108462
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 363.7548474295717,
+          "min": 362.45120508420564,
+          "max": 363.96260352730104,
+          "min_relative": 0.9995741705599771,
+          "final_relative": 1.003169377853531
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 364.73923084719945,
+          "min": 362.43042358188546,
+          "max": 364.9102209168826,
+          "min_relative": 0.999984547545126,
+          "final_relative": 1.0063547952902143
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 979.9656161459268,
+          "min": 979.8357679877229,
+          "max": 1116.201719769014,
+          "min_relative": 0.8778303693981849,
+          "final_relative": 0.8779466997674221
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 864.7981934939074,
+          "min": 864.7981934939074,
+          "max": 999.8024373638953,
+          "min_relative": 0.8649690790653167,
+          "final_relative": 0.8649690790653167
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 40.14608859304987,
+          "min": 33.30018715879,
+          "max": 54.862664083406315,
+          "min_relative": 0.6069735714650053,
+          "final_relative": 0.7317560906633478
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 41.12225919247568,
+          "min": 36.69556542954557,
+          "max": 58.24016248221813,
+          "min_relative": 0.6300731980400887,
+          "final_relative": 0.7060807772476788
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 40.46752527065828,
+          "min": 34.45002982501127,
+          "max": 56.006341748902116,
+          "min_relative": 0.6151094456314242,
+          "final_relative": 0.7225525539962901
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.005036337472320659,
+          "min": 0.00502584229150938,
+          "max": 0.00507000234704754,
+          "min_relative": 0.9912899339062682,
+          "final_relative": 0.993359988334821
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008170651125938897,
+          "min": 0.0081475085585372,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9882031755860454,
+          "final_relative": 0.9910101144721185
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.3748930304498856,
+          "min": 0.25712350952449914,
+          "max": 0.3748930304498856,
+          "min_relative": 0.7724584682831102,
+          "final_relative": 1.1262653368681539
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1018.2831323336093,
+          "min": 1017.9973097101822,
+          "max": 2000.085970022251,
+          "min_relative": 0.5089986548550911,
+          "final_relative": 0.5091415661668046
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.52025335800039,
+          "min": 48.52023622871862,
+          "max": 49.0,
+          "min_relative": 0.9902089026269106,
+          "final_relative": 0.9902092522040896
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 834.6316058617914,
+          "min": 834.6316058617914,
+          "max": 2000.0,
+          "min_relative": 0.4173158029308957,
+          "final_relative": 0.4173158029308957
+        }
+      },
+      "K_final_uM": 139998.15173313022,
+      "Na_final_uM": 6251.429049735202,
+      "H2O2_peak_nM": 0.08321885663221461,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 259683.8674509825,
+        "AA_spent_each_reference_uM": 127138.65981314541,
+        "extra_ATP_axon_reference_uM": 381382.44860040693,
+        "extra_ATP_soma_reference_uM": 39676.22145553365,
+        "AA_returned_total_each_axon_reference_uM": 1693443.1227220937,
+        "AA_returned_axon_each_reference_uM": 49433.908411797864,
+        "AA_returned_soma_each_reference_uM": 5365.58061595055,
+        "AA_delivered_each_reference_uM": 77693.57445500408,
+        "GSH_delivery_net_reference_uM": -65789.9055787805,
+        "NADPH_from_PPP_uM": 62975.316216364,
+        "NADPH_from_other_uM": 26990.2769556287,
+        "PPP_opportunity_ATP_uM": 167934.17657697035
+      },
+      "worst_balance": 1.430511474609375e-05,
+      "scenario_resource_screen": false,
+      "matched_control": true,
+      "paired_K_uM": -0.24264314823085442,
+      "paired_GAP43_final": 1.0988413334800384e-07
+    },
+    {
+      "tag": "repeated_middle_72h_tight",
+      "branch": "repeated",
+      "mode": "middle",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.405458543943,
+          "min": 2910.5259523820687,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9993342332641039,
+          "final_relative": 0.9999795650288505
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.352418377036,
+          "min": 2910.8440192586763,
+          "max": 2912.452580260338,
+          "min_relative": 0.9994476953847887,
+          "final_relative": 0.9999656090938679
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3642.701345573968,
+          "min": 3511.192651024423,
+          "max": 3654.558963740425,
+          "min_relative": 0.9607705569568189,
+          "final_relative": 0.9967553901075054
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 363.75484745715016,
+          "min": 362.4512053839531,
+          "max": 363.9626034194526,
+          "min_relative": 0.9995741713866257,
+          "final_relative": 1.0031693779295874
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 364.73923087350255,
+          "min": 362.43042358537923,
+          "max": 364.9102207418118,
+          "min_relative": 0.9999845475547656,
+          "final_relative": 1.0063547953627874
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 979.9656162836571,
+          "min": 979.8357684912631,
+          "max": 1116.201719769014,
+          "min_relative": 0.8778303698493043,
+          "final_relative": 0.8779466998908141
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 864.7981934964668,
+          "min": 864.7981934964668,
+          "max": 999.8024373638953,
+          "min_relative": 0.8649690790678765,
+          "final_relative": 0.8649690790678765
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 40.146088572793225,
+          "min": 33.30024952193884,
+          "max": 54.862664083406315,
+          "min_relative": 0.606974708178832,
+          "final_relative": 0.7317560902941233
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 41.122259262100506,
+          "min": 36.695627798156934,
+          "max": 58.24016248221813,
+          "min_relative": 0.6300742689267192,
+          "final_relative": 0.7060807784431566
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 40.46752528133778,
+          "min": 34.45009219008968,
+          "max": 56.006341748902116,
+          "min_relative": 0.6151105591674356,
+          "final_relative": 0.722552554186974
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.005036337476261691,
+          "min": 0.005025842294927528,
+          "max": 0.00507000234704754,
+          "min_relative": 0.9912899345804587,
+          "final_relative": 0.9933599891121444
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008170651134952122,
+          "min": 0.008147508569968055,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9882031769724824,
+          "final_relative": 0.9910101155653235
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.3748930282240241,
+          "min": 0.25712350844924464,
+          "max": 0.3748930282240241,
+          "min_relative": 0.7724584650527971,
+          "final_relative": 1.1262653301811514
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1018.2831322198684,
+          "min": 1017.9973111849367,
+          "max": 2000.0859700163041,
+          "min_relative": 0.5089986555924684,
+          "final_relative": 0.5091415661099342
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.52025335800046,
+          "min": 48.520236217158406,
+          "max": 49.0,
+          "min_relative": 0.9902089023909879,
+          "final_relative": 0.9902092522040911
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 834.631605885297,
+          "min": 834.631605885297,
+          "max": 2000.0,
+          "min_relative": 0.4173158029426485,
+          "final_relative": 0.4173158029426485
+        }
+      },
+      "K_final_uM": 139998.15173316843,
+      "Na_final_uM": 6251.42904973733,
+      "H2O2_peak_nM": 0.08321885663211494,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 259683.8674804266,
+        "AA_spent_each_reference_uM": 127138.65982786861,
+        "extra_ATP_axon_reference_uM": 381382.4486444977,
+        "extra_ATP_soma_reference_uM": 39676.22148054579,
+        "AA_returned_total_each_axon_reference_uM": 1693443.123686898,
+        "AA_returned_axon_each_reference_uM": 49433.90840074011,
+        "AA_returned_soma_each_reference_uM": 5365.580619135497,
+        "AA_delivered_each_reference_uM": 77693.57448075913,
+        "GSH_delivery_net_reference_uM": -65789.90556526682,
+        "NADPH_from_PPP_uM": 62975.31621634269,
+        "NADPH_from_other_uM": 26990.276955651025,
+        "PPP_opportunity_ATP_uM": 167934.1765769132
+      },
+      "worst_balance": 1.52587890625e-05,
+      "scenario_resource_screen": false,
+      "matched_control": true,
+      "paired_K_uM": -0.24264311001752503,
+      "paired_GAP43_final": 1.0765827185288401e-07
+    },
+    {
+      "tag": "repeated_noPPP_72h",
+      "branch": "repeated",
+      "mode": "noPPP",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.405458590581,
+          "min": 2910.5259524285216,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9993342332800536,
+          "final_relative": 0.9999795650448637
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.352418377034,
+          "min": 2910.8440192506346,
+          "max": 2912.452580260338,
+          "min_relative": 0.9994476953820276,
+          "final_relative": 0.9999656090938672
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3642.7013549684275,
+          "min": 3511.192646610874,
+          "max": 3654.558963740425,
+          "min_relative": 0.9607705557491357,
+          "final_relative": 0.9967553926781191
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 363.7548474345519,
+          "min": 362.45120542910706,
+          "max": 363.9626037587119,
+          "min_relative": 0.9995741715111521,
+          "final_relative": 1.0031693778672655
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 364.7392308520601,
+          "min": 362.43042358245566,
+          "max": 364.910221073592,
+          "min_relative": 0.9999845475466992,
+          "final_relative": 1.0063547953036251
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 979.9656162299954,
+          "min": 979.8357679790693,
+          "max": 1116.201719769014,
+          "min_relative": 0.8778303693904321,
+          "final_relative": 0.8779466998427388
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 864.7981934899902,
+          "min": 864.7981934899902,
+          "max": 999.8024373638953,
+          "min_relative": 0.8649690790613987,
+          "final_relative": 0.8649690790613987
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 40.146088585275855,
+          "min": 33.300262287963996,
+          "max": 54.862664083406315,
+          "min_relative": 0.6069749408694126,
+          "final_relative": 0.7317560905216484
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 41.122259222531675,
+          "min": 36.6956405656847,
+          "max": 58.24016248221813,
+          "min_relative": 0.6300744881487684,
+          "final_relative": 0.7060807777637487
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 40.467525276117605,
+          "min": 34.45010495662923,
+          "max": 56.006341748902116,
+          "min_relative": 0.6151107871155422,
+          "final_relative": 0.7225525540937672
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.005036337474820534,
+          "min": 0.005025842286125876,
+          "max": 0.00507000234704754,
+          "min_relative": 0.9912899328444335,
+          "final_relative": 0.9933599888278927
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008170651131666862,
+          "min": 0.00814750854697156,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9882031741832604,
+          "final_relative": 0.9910101151668577
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.374893030302773,
+          "min": 0.2571235081884238,
+          "max": 0.374893030302773,
+          "min_relative": 0.7724584642692309,
+          "final_relative": 1.1262653364261936
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1018.2831323693007,
+          "min": 1017.9973094501394,
+          "max": 2000.0860231293834,
+          "min_relative": 0.5089986547250697,
+          "final_relative": 0.5091415661846503
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 49.00000355401052,
+          "min": 48.99999999591839,
+          "max": 49.00000355401052,
+          "min_relative": 0.9999999999167017,
+          "final_relative": 1.000000072530827
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 834.6316058646817,
+          "min": 834.6316058646817,
+          "max": 2000.0,
+          "min_relative": 0.41731580293234083,
+          "final_relative": 0.41731580293234083
+        }
+      },
+      "K_final_uM": 139998.15173315027,
+      "Na_final_uM": 6251.429049733447,
+      "H2O2_peak_nM": 0.08321885662886033,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 259683.36183384917,
+        "AA_spent_each_reference_uM": 127138.65982364336,
+        "extra_ATP_axon_reference_uM": 381382.44862805837,
+        "extra_ATP_soma_reference_uM": 39676.22148782797,
+        "AA_returned_total_each_axon_reference_uM": 1693443.1239911793,
+        "AA_returned_axon_each_reference_uM": 49433.908421384,
+        "AA_returned_soma_each_reference_uM": 5365.5806200612005,
+        "AA_delivered_each_reference_uM": 77693.57445463547,
+        "GSH_delivery_net_reference_uM": -65789.90581876459,
+        "NADPH_from_PPP_uM": 0.0,
+        "NADPH_from_other_uM": 0.0,
+        "PPP_opportunity_ATP_uM": 0.0
+      },
+      "worst_balance": 1.430511474609375e-05,
+      "scenario_resource_screen": false,
+      "matched_control": false
+    },
+    {
+      "tag": "repeated_soma_high_72h",
+      "branch": "repeated",
+      "mode": "soma_high",
+      "no_reset": true,
+      "states": 4503,
+      "pools": {
+        "ATP_axon": {
+          "initial": 2912.4649746816744,
+          "final": 2912.3991259399686,
+          "min": 2910.522500017037,
+          "max": 2912.4649746816744,
+          "min_relative": 0.9993330478884644,
+          "final_relative": 0.9999773907180761
+        },
+        "ATP_soma": {
+          "initial": 2912.452580260338,
+          "final": 2912.2429550389925,
+          "min": 2910.731170358916,
+          "max": 2912.452580260338,
+          "min_relative": 0.9994089483505795,
+          "final_relative": 0.9999280245032086
+        },
+        "PCr_axon": {
+          "initial": 3654.558963740425,
+          "final": 3641.596875850244,
+          "min": 3510.2601026085,
+          "max": 3654.558963740425,
+          "min_relative": 0.9605153829604008,
+          "final_relative": 0.9964531731410582
+        },
+        "GTP_axon": {
+          "initial": 362.6056132294363,
+          "final": 367.59798994157086,
+          "min": 362.59821862537854,
+          "max": 367.9839478593097,
+          "min_relative": 0.9999796070336807,
+          "final_relative": 1.0137680624071743
+        },
+        "GTP_soma": {
+          "initial": 362.4360241081927,
+          "final": 368.60137466165315,
+          "min": 362.4325812618864,
+          "max": 368.72516760599456,
+          "min_relative": 0.9999905008164827,
+          "final_relative": 1.0170108657621186
+        },
+        "AA_axon": {
+          "initial": 1116.201719769014,
+          "final": 837.463974920538,
+          "min": 837.4503756313511,
+          "max": 1116.201719769014,
+          "min_relative": 0.7502679496002321,
+          "final_relative": 0.7502801331410259
+        },
+        "AA_soma": {
+          "initial": 999.8024373638953,
+          "final": 724.8191376113188,
+          "min": 673.7807471687935,
+          "max": 999.8024373638953,
+          "min_relative": 0.6739138873728905,
+          "final_relative": 0.7249623630868469
+        },
+        "Cys": {
+          "initial": 54.862664083406315,
+          "final": 54.06011089518544,
+          "min": 33.25641537834348,
+          "max": 54.862664083406315,
+          "min_relative": 0.6061757286847135,
+          "final_relative": 0.9853715964831606
+        },
+        "Glu": {
+          "initial": 58.24016248221813,
+          "final": 54.41688556157932,
+          "min": 36.643943323257716,
+          "max": 59.0680929905165,
+          "min_relative": 0.6291868319296986,
+          "final_relative": 0.9343532579977583
+        },
+        "Gly": {
+          "initial": 56.006341748902116,
+          "final": 54.171460379846195,
+          "min": 34.40359970419472,
+          "max": 56.11977205774257,
+          "min_relative": 0.6142804302134075,
+          "final_relative": 0.9672379714196939
+        },
+        "ribosome40S": {
+          "initial": 0.00507000234704754,
+          "final": 0.004964146382207313,
+          "min": 0.00493491965929754,
+          "max": 0.00507000234704754,
+          "min_relative": 0.9733564841782245,
+          "final_relative": 0.9791211211367838
+        },
+        "ribosome60S": {
+          "initial": 0.008244770670470058,
+          "final": 0.008006349195718425,
+          "min": 0.007974051164278859,
+          "max": 0.008244770670470058,
+          "min_relative": 0.9671647014803185,
+          "final_relative": 0.9710820974553511
+        },
+        "GAP43": {
+          "initial": 0.3328638626954142,
+          "final": 0.37534419212875664,
+          "min": 0.2572808523782217,
+          "max": 0.37534419212875664,
+          "min_relative": 0.7729311625925748,
+          "final_relative": 1.12762073085781
+        },
+        "GSH_axon": {
+          "initial": 2000.0,
+          "final": 1780.3232830455356,
+          "min": 1779.7286231068247,
+          "max": 2000.090342317636,
+          "min_relative": 0.8898643115534124,
+          "final_relative": 0.8901616415227678
+        },
+        "NADPH": {
+          "initial": 49.0,
+          "final": 48.520249053633336,
+          "min": 48.52023622923147,
+          "max": 49.0,
+          "min_relative": 0.9902089026373769,
+          "final_relative": 0.990209164359864
+        },
+        "GSH_soma": {
+          "initial": 2000.0,
+          "final": 1699.7908943963232,
+          "min": 1699.7908943963232,
+          "max": 2000.0,
+          "min_relative": 0.8498954471981616,
+          "final_relative": 0.8498954471981616
+        }
+      },
+      "K_final_uM": 139999.8235350385,
+      "Na_final_uM": 6251.5145970996255,
+      "H2O2_peak_nM": 0.08318886185368068,
+      "lipid_damage_peak": 0.0002932300208716271,
+      "ledger": {
+        "parameters_vector": 0.1,
+        "ATP_spent_reference_uM": 274457.2146259133,
+        "AA_spent_each_reference_uM": 134526.5212665594,
+        "extra_ATP_axon_reference_uM": 403625.0124464124,
+        "extra_ATP_soma_reference_uM": 81214.78237635091,
+        "AA_returned_total_each_axon_reference_uM": 3150527.9705365584,
+        "AA_returned_axon_each_reference_uM": 64158.18257589587,
+        "AA_returned_soma_each_reference_uM": 10073.03716049094,
+        "AA_delivered_each_reference_uM": 70383.48823957481,
+        "GSH_delivery_net_reference_uM": -27824.314677711776,
+        "NADPH_from_PPP_uM": 62975.47555763131,
+        "NADPH_from_other_uM": 26990.336833586633,
+        "PPP_opportunity_ATP_uM": 167934.60148701715
+      },
+      "worst_balance": 1.3828277587890625e-05,
+      "scenario_resource_screen": false,
+      "matched_control": true,
+      "paired_K_uM": -0.2421153307077475,
+      "paired_GAP43_final": 1.0104962433477027e-07
+    }
+  ],
+  "electrical": [
+    {
+      "profile": "Burley",
+      "current": 15,
+      "old": {
+        "spikes": 3,
+        "rest_mV": -69.99999919051784,
+        "peak_mV": 60.802679356278574,
+        "post_min_mV": -5.255733829724818,
+        "post_100ms_min_mV": -5.255733829724818,
+        "post_area_mVs": -1.160816850797184,
+        "tail_delta_mV": -0.35494236668964163
+      },
+      "new": {
+        "spikes": 3,
+        "rest_mV": -69.99999701744422,
+        "peak_mV": 60.80268175416328,
+        "post_min_mV": -5.255725707324146,
+        "post_100ms_min_mV": -5.255725707324146,
+        "post_area_mVs": -1.1608098405559546,
+        "tail_delta_mV": -0.3549359628513997
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 2.173073625044708e-06,
+        "peak_mV": 2.397884706795139e-06,
+        "post_min_mV": 8.12240067205039e-06,
+        "post_100ms_min_mV": 8.12240067205039e-06,
+        "post_area_mVs": 7.010241229510328e-06,
+        "tail_delta_mV": 6.403838241908488e-06
+      }
+    },
+    {
+      "profile": "Burley",
+      "current": 25,
+      "old": {
+        "spikes": 4,
+        "rest_mV": -69.99999919051784,
+        "peak_mV": 62.016168357183794,
+        "post_min_mV": -5.816091036384165,
+        "post_100ms_min_mV": -5.816091036384165,
+        "post_area_mVs": -1.158421900811148,
+        "tail_delta_mV": -0.41214319553169787
+      },
+      "new": {
+        "spikes": 4,
+        "rest_mV": -69.99999701744422,
+        "peak_mV": 62.01617101301118,
+        "post_min_mV": -5.816091965631102,
+        "post_100ms_min_mV": -5.816091965631102,
+        "post_area_mVs": -1.1584170718989797,
+        "tail_delta_mV": -0.41213611335676603
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 2.173073625044708e-06,
+        "peak_mV": 2.655827387343379e-06,
+        "post_min_mV": -9.292469371757761e-07,
+        "post_100ms_min_mV": -9.292469371757761e-07,
+        "post_area_mVs": 4.828912168353128e-06,
+        "tail_delta_mV": 7.082174931838381e-06
+      }
+    },
+    {
+      "profile": "Burley",
+      "current": 50,
+      "old": {
+        "spikes": 3,
+        "rest_mV": -69.99999919051784,
+        "peak_mV": 63.79776139006715,
+        "post_min_mV": -3.694364566534034,
+        "post_100ms_min_mV": -3.694364566534034,
+        "post_area_mVs": -0.17088150253007078,
+        "tail_delta_mV": -0.07467801284894904
+      },
+      "new": {
+        "spikes": 3,
+        "rest_mV": -69.99999701744422,
+        "peak_mV": 63.797758261455094,
+        "post_min_mV": -3.6943613055108955,
+        "post_100ms_min_mV": -3.6943613055108955,
+        "post_area_mVs": -0.1708757908912864,
+        "tail_delta_mV": -0.07467161197756411
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 2.173073625044708e-06,
+        "peak_mV": -3.128612057423652e-06,
+        "post_min_mV": 3.2610231386343003e-06,
+        "post_100ms_min_mV": 3.2610231386343003e-06,
+        "post_area_mVs": 5.711638784378081e-06,
+        "tail_delta_mV": 6.400871384926177e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current": 15,
+      "old": {
+        "spikes": 5,
+        "rest_mV": -60.49999946697982,
+        "peak_mV": -8.261688395674916,
+        "post_min_mV": -3.772627319439785,
+        "post_100ms_min_mV": -3.772627319439785,
+        "post_area_mVs": -0.6500896106087517,
+        "tail_delta_mV": -0.050546385388329895
+      },
+      "new": {
+        "spikes": 5,
+        "rest_mV": -60.49999786726303,
+        "peak_mV": -8.261693075977414,
+        "post_min_mV": -3.772626200639138,
+        "post_100ms_min_mV": -3.772626200639138,
+        "post_area_mVs": -0.6500874508892501,
+        "tail_delta_mV": -0.050543808979909954
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.5997167892578545e-06,
+        "peak_mV": -4.680302497561684e-06,
+        "post_min_mV": 1.118800646793261e-06,
+        "post_100ms_min_mV": 1.118800646793261e-06,
+        "post_area_mVs": 2.1597195015710113e-06,
+        "tail_delta_mV": 2.57640841994089e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current": 25,
+      "old": {
+        "spikes": 6,
+        "rest_mV": -60.49999946697982,
+        "peak_mV": -6.196786551073678,
+        "post_min_mV": -7.771506980508313,
+        "post_100ms_min_mV": -7.771506980508313,
+        "post_area_mVs": -1.4315488189901475,
+        "tail_delta_mV": -0.08555715098250971
+      },
+      "new": {
+        "spikes": 6,
+        "rest_mV": -60.49999786726303,
+        "peak_mV": -6.196790729005317,
+        "post_min_mV": -7.771424948043872,
+        "post_100ms_min_mV": -7.771424948043872,
+        "post_area_mVs": -1.4315302346581114,
+        "tail_delta_mV": -0.08555401224410275
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.5997167892578545e-06,
+        "peak_mV": -4.177931638871257e-06,
+        "post_min_mV": 8.203246444082879e-05,
+        "post_100ms_min_mV": 8.203246444082879e-05,
+        "post_area_mVs": 1.8584332036164497e-05,
+        "tail_delta_mV": 3.1387384069603286e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con1",
+      "current": 50,
+      "old": {
+        "spikes": 4,
+        "rest_mV": -60.49999946697982,
+        "peak_mV": -3.5348233658679087,
+        "post_min_mV": -3.3036994238353685,
+        "post_100ms_min_mV": -3.3036994238353685,
+        "post_area_mVs": -0.20926386064138208,
+        "tail_delta_mV": 0.1526543658409807
+      },
+      "new": {
+        "spikes": 4,
+        "rest_mV": -60.49999786726303,
+        "peak_mV": -3.5348262065656217,
+        "post_min_mV": -3.3036981445672495,
+        "post_100ms_min_mV": -3.3036981445672495,
+        "post_area_mVs": -0.2092613484811295,
+        "tail_delta_mV": 0.1526572028250328
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.5997167892578545e-06,
+        "peak_mV": -2.840697713057949e-06,
+        "post_min_mV": 1.2792681189921495e-06,
+        "post_100ms_min_mV": 1.2792681189921495e-06,
+        "post_area_mVs": 2.5121602525712827e-06,
+        "tail_delta_mV": 2.8369840521236256e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current": 15,
+      "old": {
+        "spikes": 5,
+        "rest_mV": -59.09999938281186,
+        "peak_mV": -10.66911724875499,
+        "post_min_mV": -2.1313647067380472,
+        "post_100ms_min_mV": -2.1313647067380472,
+        "post_area_mVs": -0.21766535332974266,
+        "tail_delta_mV": -0.09285850272817697
+      },
+      "new": {
+        "spikes": 5,
+        "rest_mV": -59.09999768675813,
+        "peak_mV": -10.669121797520445,
+        "post_min_mV": -2.1313764152544152,
+        "post_100ms_min_mV": -2.1313764152544152,
+        "post_area_mVs": -0.2176695651534118,
+        "tail_delta_mV": -0.09285657314654117
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.6960537294608002e-06,
+        "peak_mV": -4.548765454970294e-06,
+        "post_min_mV": -1.1708516368003075e-05,
+        "post_100ms_min_mV": -1.1708516368003075e-05,
+        "post_area_mVs": -4.2118236691368605e-06,
+        "tail_delta_mV": 1.9295816358066986e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current": 25,
+      "old": {
+        "spikes": 6,
+        "rest_mV": -59.09999938281186,
+        "peak_mV": -8.131876451750344,
+        "post_min_mV": -5.891114191413109,
+        "post_100ms_min_mV": -5.891114191413109,
+        "post_area_mVs": -0.9533584948262039,
+        "tail_delta_mV": -0.14820232171920367
+      },
+      "new": {
+        "spikes": 6,
+        "rest_mV": -59.09999768675813,
+        "peak_mV": -8.131880613147217,
+        "post_min_mV": -5.891108679995654,
+        "post_100ms_min_mV": -5.891108679995654,
+        "post_area_mVs": -0.9533556329282945,
+        "tail_delta_mV": -0.148200303576985
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.6960537294608002e-06,
+        "peak_mV": -4.161396873314516e-06,
+        "post_min_mV": 5.511417455750234e-06,
+        "post_100ms_min_mV": 5.511417455750234e-06,
+        "post_area_mVs": 2.8618979094341412e-06,
+        "tail_delta_mV": 2.018142218673802e-06
+      }
+    },
+    {
+      "profile": "Selvaraj-Con2",
+      "current": 50,
+      "old": {
+        "spikes": 7,
+        "rest_mV": -59.09999938281186,
+        "peak_mV": -0.40753944118551333,
+        "post_min_mV": -14.738386026620162,
+        "post_100ms_min_mV": -14.738386026620162,
+        "post_area_mVs": -2.5822401422119157,
+        "tail_delta_mV": -0.2585431354167298
+      },
+      "new": {
+        "spikes": 7,
+        "rest_mV": -59.09999768675813,
+        "peak_mV": -0.4075782483739063,
+        "post_min_mV": -14.738405918510551,
+        "post_100ms_min_mV": -14.738405918510551,
+        "post_area_mVs": -2.5822419020417007,
+        "tail_delta_mV": -0.25854080090640963
+      },
+      "differences": {
+        "spikes": 0.0,
+        "rest_mV": 1.6960537294608002e-06,
+        "peak_mV": -3.880718839299746e-05,
+        "post_min_mV": -1.9891890389089895e-05,
+        "post_100ms_min_mV": -1.9891890389089895e-05,
+        "post_area_mVs": -1.7598297850085487e-06,
+        "tail_delta_mV": 2.3345103201677375e-06
+      }
+    }
+  ],
+  "completed": 9,
+  "human_calibrated": false,
+  "limitations": "Whole-cell glucose competition and antioxidant enzyme production remain open; noPPP comparison is model-source sensitivity, not causal human PPP intervention."
+}

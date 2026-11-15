@@ -1,0 +1,1 @@
+GLUT/HK adapted from BlueBrain/metabolism-in-aging, commit 1204a605a8d2397f2b78952f74d163df217ed2f9. Copyright 2024 Blue Brain Project/EPFL. Apache-2.0. Codex 2026-11-15 changes: uM units, finite pools, explicit energetic/material accounting. Simplified downstream closure is not the original NGV model.

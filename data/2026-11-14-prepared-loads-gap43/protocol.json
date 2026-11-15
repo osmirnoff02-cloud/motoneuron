@@ -1,0 +1,139 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "checkpoint_time_h": 600,
+  "states": 4431,
+  "turnover": {
+    "h6": {
+      "nominal_half_h": 6.0,
+      "multiplier": 4.0,
+      "status": "Scenario, not measured human interval"
+    },
+    "h24": {
+      "nominal_half_h": 24.0,
+      "multiplier": 1.0,
+      "status": "Scenario, not measured human interval"
+    },
+    "h72": {
+      "nominal_half_h": 72.0,
+      "multiplier": 0.3333333333333333,
+      "status": "Scenario, not measured human interval"
+    },
+    "human_transfer": {
+      "nominal_half_h": 85.5171568445194,
+      "multiplier": 0.2806454387116134,
+      "apparent_source_half_h": 100.198390368,
+      "ATP_reference_uM": 2912.4649746816744,
+      "ATP_gate_half_uM": 500,
+      "status": "Human whole-culture apparent turnover -> local scenario; compartment transfer unvalidated"
+    }
+  },
+  "branches": [
+    "control",
+    "continuous",
+    "repeated"
+  ],
+  "hours": 72,
+  "AMPA_mean_opening": 0.001,
+  "continuous_hours": [
+    0,
+    6
+  ],
+  "repeated_hours": [
+    [
+      0,
+      1
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      16,
+      17
+    ],
+    [
+      20,
+      21
+    ]
+  ],
+  "opening_integral_s": 21.6,
+  "equal_Ca_load": false,
+  "no_reset": true,
+  "whole_neuron_equilibrium": false,
+  "human_calibrated": false,
+  "interpretation": "Acute turnover changes at same600h state; each has its own control, not independently equilibrated healthy cells",
+  "recovery": {
+    "scope": "Conditional virtual-lesion readout, no physical growth or ATP debit",
+    "common_reference": "GAP43 and ATP at shared600h checkpoint; never re-normalize per variant",
+    "injury_per_h": 0.25,
+    "injury_hours": [
+      0,
+      1
+    ],
+    "repair_time_h": [
+      6,
+      24,
+      72
+    ],
+    "dependence": [
+      0,
+      0.5,
+      1
+    ],
+    "half_relative": [
+      0.25,
+      1,
+      4
+    ],
+    "hill": 2,
+    "ATP_half_uM": 500,
+    "justification": "Previously declared scenario ranges; lesion independent of AMPA",
+    "retained_untested_ranges": {
+      "hill": [
+        1,
+        2,
+        4
+      ],
+      "ATP_half_uM": [
+        100,
+        500,
+        2000
+      ],
+      "injury_per_h": [
+        0,
+        0.25,
+        1
+      ],
+      "permissive_support": [
+        0,
+        0.25,
+        1
+      ],
+      "initial_deficit": [
+        0,
+        0.25,
+        0.75
+      ],
+      "GAP43_function_support": [
+        0,
+        0.25,
+        1
+      ]
+    },
+    "range_scope": "27 tested combinations of repair_time/dependence/half; other inherited ranges retained, not screened here",
+    "fixed_in_this_screen": {
+      "initial_integrity": 1,
+      "permissive_support": 1,
+      "GAP43_function_support": 1
+    }
+  }
+}

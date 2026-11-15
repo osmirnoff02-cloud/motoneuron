@@ -1,0 +1,31 @@
+{
+  "author": "codex",
+  "date": "2026-11-14",
+  "hours": 72,
+  "checkpoint": "data/2026-11-14-ribosome-gap43-balance/RGB14_rest_Burley_312to600h_checkpoint.json",
+  "production": [
+    1,
+    2,
+    4
+  ],
+  "delivery": [
+    1,
+    2,
+    4
+  ],
+  "turnover_multiplier": 4,
+  "branches": [
+    "control",
+    "repeated"
+  ],
+  "no_reset": true,
+  "calibrated": false,
+  "scope": "Local synthesis from soma-produced/delivered mRNA; not transport of mature GAP43 protein; no shared ACTB/HuD transport competition",
+  "criteria": {
+    "GAP43_final_min_relative": 0.9,
+    "late_daily_drift_max_relative": 0.05,
+    "ATP_min_relative": 0.95,
+    "AA_GTP_min_relative": 0.8
+  },
+  "checkpoint_distributed": false
+}
