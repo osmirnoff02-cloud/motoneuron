@@ -40,13 +40,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4614,
-      "sha256": "64b262e348a1e6f7cc6159f444bbf50dd9aba1cc869bce5ba78cb7385711102d"
+      "bytes": 4592,
+      "sha256": "b5a2a482e4c51665c5591177f370bb39361be01142b9e674d0feeb086e3ca0c0"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 669,
-      "sha256": "055df68418cf46e1ff1a2ab908a11edc559e8745bf5ee5885c079a210c3d53f4"
+      "bytes": 710,
+      "sha256": "0c55068f92d1ff89c5a9c840240846323010a9ba42fa680925ac5d39bbcd98fb"
     },
     {
       "path": "CLAUDE.md",
@@ -2160,8 +2160,8 @@
     },
     {
       "path": "DATA_REQUESTS.md",
-      "bytes": 28221,
-      "sha256": "47000091085c3ce1bcf44b08b1a8a94b4dae5555346bacc047e56f9dbe9ef4c2"
+      "bytes": 29539,
+      "sha256": "871d251aa57bd6ed7b397881476215ac3c91cc2f756011f65e821b29128f7b63"
     },
     {
       "path": "docs/ACID_STAGE_0.3.0.md",
@@ -2252,11 +2252,6 @@
       "path": "LICENSE.txt",
       "bytes": 5752,
       "sha256": "56d48b76114afca62e18c4a8f465bc439f4adc9f02cd7ab4e6c0a291dc454983"
-    },
-    {
-      "path": "MISSION.md",
-      "bytes": 970,
-      "sha256": "b00a7db69d13b0f9a8b0c9d73764f06c6f5e72cb4e4870b4ad23009c0ed807c1"
     },
     {
       "path": "models/c08-burley-evaluation.md",
@@ -2374,6 +2369,11 @@
       "sha256": "a4a4dd0cae39c7fb5c301fc948d1adfd3bb0593333101b913ec557d8f53be060"
     },
     {
+      "path": "provenance/MISSION.md",
+      "bytes": 979,
+      "sha256": "9485b723d7547069e378afecd79db15453104a2b5e88d0b8ea3c2de4545f0f2e"
+    },
+    {
       "path": "provenance/parallel_release_merge.json",
       "bytes": 26386,
       "sha256": "001874ef068dad17940c0afa58eaf90c23b49197984174c3acab2c6f97040d35"
@@ -2394,14 +2394,19 @@
       "sha256": "66d93e95c13593d6dbdee767d29fc62c913e792d16166f33bcbaa4a69f8040d0"
     },
     {
+      "path": "provenance/PUBLICATION_CHECKLIST.md",
+      "bytes": 1855,
+      "sha256": "2c14636f499177e322d67c73ff9600cde1f664253dea291e5b581b8e6ceafa01"
+    },
+    {
       "path": "provenance/publication_path_map.json",
       "bytes": 171611,
       "sha256": "0af852de9f607dccda4673f2eefed3c5cdbd158cff253ca78bf8b7329b38c6c0"
     },
     {
       "path": "provenance/README.md",
-      "bytes": 1623,
-      "sha256": "b4a0a44fc86f8566efaf54e74f80607f6a9ace80d10a92660b0458941bbe1f87"
+      "bytes": 1739,
+      "sha256": "93111cb9cb4a60bba1a9a7271bb3f0b24e93c140108e975588ce080e20e6e38c"
     },
     {
       "path": "provenance/redox_release.json",
@@ -2439,19 +2444,14 @@
       "sha256": "e0eb466c64f70ba20748092c9311391dee64cbd1fd4a7bf89f507058c8b13a33"
     },
     {
-      "path": "PUBLICATION_CHECKLIST.md",
-      "bytes": 1843,
-      "sha256": "5b5d7fccf0653a8a3c85adcfac4031a0fc9ff9bca16454013d700c712493fbef"
-    },
-    {
       "path": "publication_optional_neuron.py",
       "bytes": 1013,
       "sha256": "42f4a070240dd418188351cea738b30e158eb627ad1951014d2d175e9d539610"
     },
     {
       "path": "README.md",
-      "bytes": 4746,
-      "sha256": "c567bec24ad1bc37229631b3ce20dfcc36d706f4d3a9a3a23af652e66dfdffa4"
+      "bytes": 5000,
+      "sha256": "137ccde1f9886b758e37421cfdafd66ee6585503cd1ef4c7d38c3764aa52d020"
     },
     {
       "path": "references/README.md",

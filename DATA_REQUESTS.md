@@ -1,7 +1,8 @@
 # Help constrain Motoneuron with experimental data
 
 **An invitation to researchers, laboratories and data custodians**  
-Registry snapshot: **2026-11-14** · Public package: **0.4.0**  
+Current release: **0.7.0** · The original 43 request groups come from the **2026-11-14** registry snapshot.
+
 [Project and quick start](README.md) · [Assumptions](docs/ASSUMPTIONS.md) · [Machine-readable request catalogue](parameters/data_requests.json)
 
 Motoneuron is a mechanistic research prototype for studying interactions among motor-neuron electrical activity, ion handling, energy supply and molecular maintenance. We invite you to help replace uncertain assumptions with traceable experimental constraints. A link to an existing dataset, a relevant supplementary table, a corrected interpretation or a negative result can be as valuable as a new experiment.
@@ -9,6 +10,16 @@ Motoneuron is a mechanistic research prototype for studying interactions among m
 Some quantities are currently explored as ranges, alternative fixed values or effective parameters because suitable measurements are unavailable to this project or cannot yet be transferred reliably to the modeled cell and protocol. **These choices are not measured healthy-human reference intervals.** The model is not yet calibrated as a complete human motor neuron and does not establish treatment efficacy.
 
 This document summarizes **43 request groups (U01–U43)** from our unknown-parameter registry. The accompanying catalogue preserves **1,044 numerical records**, including historical optimization bounds, protocol grids and variant values. Those records are not 1,044 independent missing biological constants. They span the wider research project, including branches and experiments outside this released runtime. A source-path match does not establish that a parameter is active in the selected example. The separately maintained [released-runtime inventory](parameters/README.md) has a narrower scope.
+
+## Measurements relevant to release 0.7.0
+
+Matched time series from human iPSC-derived motor neurons would help evaluate the opt-in redox scenario. If available, include unstimulated controls and measurements before, during, and after a defined stimulation protocol. The modeled GSH pool declines even without stimulation, so the controls can help assess baseline drift separately from the response to stimulation. [Redox scenario and limitations](docs/REDOX_STAGE_0.7.0.md)
+
+- **Amino-acid supply and GSH turnover.** Track labelled cysteine, glutamate, and glycine uptake and their incorporation into glutathione in pulse-chase experiments to constrain precursor delivery and recycling.
+- **Glutathione pools.** Measure reduced and oxidized glutathione (GSH and GSSG) in the soma and axon or neurites to constrain pool sizes and compartment-specific changes.
+- **NADPH supply.** Pair NADPH and NADP⁺ measurements with glucose uptake and pentose phosphate pathway flux estimates from the same culture to constrain NADPH supply. [Redox assumptions and scenario ranges](parameters/redox_assumptions.json)
+
+If you have one of these measurements, the [contribution guide below](#what-to-include-with-a-contribution) lists the context that will help interpret it.
 
 ## Where matched measurements would be especially useful
 

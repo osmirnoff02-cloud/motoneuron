@@ -2,6 +2,8 @@
 
 Motoneuron is a Python research model for studying how electrical activity and cellular maintenance interact in motor neurons in the context of amyotrophic lateral sclerosis (ALS). It couples membrane currents, calcium and potassium handling, and ATP supply with selected mechanisms for protein turnover, RNA processing, and translation. Researchers can compare modeled responses to current injection and AMPA receptor activation and identify measurements that would distinguish competing assumptions. [Model equations](docs/MODEL.md) · [Research scope](docs/SCOPE.md)
 
+The project aims to keep published model versions accessible for research into ALS and related neurological diseases and to support collaboration on prevention and treatment research. [Original mission statement](provenance/MISSION.md)
+
 Release **0.7.0** includes an opt-in scenario for amino-acid delivery, glutathione (GSH) recycling, and NADPH supply. The default model has 4,425 state variables and the redox scenario has 4,503, including bookkeeping counters. C08, the configuration used below, is a candidate from a parameter search. Human motor-neuron calibration is still open, and the redox scenario's initial GSH pool drifts even in unstimulated controls. The simulations cannot establish ALS causation or predict treatment efficacy. [Redox scenario and limitations](docs/REDOX_STAGE_0.7.0.md) · [Model assumptions](docs/ASSUMPTIONS.md)
 
 ## Quick start
@@ -52,7 +54,7 @@ Each run writes a summary, configuration, provenance, checkpoint, selected time 
 
 The project seeks experimental data for 43 groups of unresolved model questions. Matched measurements from human iPSC-derived motor neurons, including recording conditions, cell maturity, and morphology, can help constrain competing mechanisms. Model reviews and reproducibility reports are also welcome. [Experimental data requests](DATA_REQUESTS.md) · [Contributing](CONTRIBUTING.md) · [Issue templates](.github/ISSUE_TEMPLATE/README.md)
 
-Use the project citation when referencing this software. [Citation metadata](CITATION.cff) · [Project mission](MISSION.md)
+When citing Motoneuron, identify the version you used. Include the commit if you ran a different snapshot. [Citation metadata](CITATION.cff)
 
 ## License
 
