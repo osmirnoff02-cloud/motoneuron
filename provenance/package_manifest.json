@@ -35,13 +35,13 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 9997,
-      "sha256": "a4806add159b85de7a4a11d48df4c578969fb8a84a32e85118727698f966c999"
+      "bytes": 10637,
+      "sha256": "27c95b26fd7b19580308512cf0d7d4569be22ec184b657b5edfeeadd2d986882"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 4592,
-      "sha256": "b5a2a482e4c51665c5591177f370bb39361be01142b9e674d0feeb086e3ca0c0"
+      "bytes": 6144,
+      "sha256": "cf291fc3c3c0d7d2c5e93d475241acbf0821af6e735a0edcb6c2ffcc477b869a"
     },
     {
       "path": "CITATION.cff",
@@ -2220,8 +2220,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 4812,
-      "sha256": "71818c030c9450477e59395f3eecc17730e40bdc5a792c00010ee6df61ece513"
+      "bytes": 5018,
+      "sha256": "7476d7db6df69f07d75f6a3927db1b7d1b76e43e46857b425b2311bfa9b4b63e"
     },
     {
       "path": "docs/WAVEFORM_STAGE_0.5.0.md",
@@ -2231,12 +2231,12 @@
     {
       "path": "experiments/burley-pulse-25pa.json",
       "bytes": 2774,
-      "sha256": "2a76c21310a3dc2a52fb1459343630f30ca5b03a5920cbbfc234310ef70aa6c9"
+      "sha256": "c812887351ebcbd8056e61bec0f6ea6a24d0d9d7e482f211a2dec91f8520c415"
     },
     {
       "path": "experiments/default-smoke.json",
       "bytes": 2673,
-      "sha256": "04bf57edd652df6024313761478acd7aa893e447556fea292a91621f1028bf6e"
+      "sha256": "28235f5f4e9d78c07fbd23f20e3d9f3cbf2a5f5009f717ad5bd99b7e3b307fda"
     },
     {
       "path": "experiments/README.md",
@@ -2246,7 +2246,7 @@
     {
       "path": "experiments/redox-smoke.json",
       "bytes": 2931,
-      "sha256": "1dd6b2f68bd18f2c0cd0cb1073caf0241e0a74984990c19b9272f3c331d4dba6"
+      "sha256": "3e41a59cc2c143a14441952f87fe8661013dade9507ac1b9a8a9d1ddec8482fb"
     },
     {
       "path": "LICENSE.txt",
@@ -2266,12 +2266,12 @@
     {
       "path": "models/c08-burley-redox.json",
       "bytes": 1734,
-      "sha256": "82db54e699a9c5252911620336b0cdb283abcedc8d81836a8d222738c4248808"
+      "sha256": "ce77a9956e4dc877ada94480a502800051d0cba2a347c0236926cfea61cdcd54"
     },
     {
       "path": "models/c08-burley.json",
       "bytes": 1448,
-      "sha256": "8a9ecdcfd4380e578a6142e0ccc4dc46cc7c00609e649ded0106a0334dce65ea"
+      "sha256": "37f1a2ccead7ee6ef66b2d3fa14af2f5ca32d9cfb92b03f221f8784a66aed6db"
     },
     {
       "path": "models/README.md",
@@ -2364,6 +2364,11 @@
       "sha256": "d558ee15b84c527b0bc55409ffc3a8d2db1944fd1b79fd7052986f7cb94e04ab"
     },
     {
+      "path": "provenance/license_notice_2026-11-15.json",
+      "bytes": 1862,
+      "sha256": "c9d2ee8010cbc7314a2f7f2068466ae0c3a1a5761744cae0bdfdb6e9cc2dde45"
+    },
+    {
       "path": "provenance/license_transition_0.2.0.json",
       "bytes": 860,
       "sha256": "a4a4dd0cae39c7fb5c301fc948d1adfd3bb0593333101b913ec557d8f53be060"
@@ -2405,8 +2410,8 @@
     },
     {
       "path": "provenance/README.md",
-      "bytes": 1739,
-      "sha256": "93111cb9cb4a60bba1a9a7271bb3f0b24e93c140108e975588ce080e20e6e38c"
+      "bytes": 1922,
+      "sha256": "4435a52f8bc9e2eb35203bf1991e6f426891e01e66a71279cc3d8c6ff01d5d46"
     },
     {
       "path": "provenance/redox_release.json",
@@ -2705,13 +2710,18 @@
     },
     {
       "path": "run_demo.py",
-      "bytes": 14670,
-      "sha256": "dfdf4a036a93425c1e887934eab82e56a0b11d055bd767154a9d6f51a0f3f6ab"
+      "bytes": 14767,
+      "sha256": "5815f8a6e61e252dd79e820ab95c7008c414b593fd5207ab25383c3aafad2ee2"
+    },
+    {
+      "path": "tests/check_catalog.py",
+      "bytes": 3650,
+      "sha256": "73f4e7498f3017060e56983b6f3403b9308b5b26bbfba7b651f41232b2fac93b"
     },
     {
       "path": "tests/check_output.py",
-      "bytes": 7150,
-      "sha256": "cd3b56a290752da18fe1d1132e364319c50eb1879c71c0d695ff5d95393d55f2"
+      "bytes": 7890,
+      "sha256": "7739b64b0fabfa11cbef11f20145bc6dc931a3dfd90f71ca57a7e35e7b8fc749"
     },
     {
       "path": "tests/check_rejected_inputs.py",
@@ -2720,8 +2730,8 @@
     },
     {
       "path": "tests/README.md",
-      "bytes": 824,
-      "sha256": "e45de8eb6e783d0db9e6850cfac6c48ee365254e4ec4f24b65ee09ed160d33b2"
+      "bytes": 1060,
+      "sha256": "289989239e77b3b2278c3380d140bac667faf979dd749bfc050ba9aae9a92d1a"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

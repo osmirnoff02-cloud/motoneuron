@@ -4,6 +4,8 @@ The [experiment index](../experiments/README.md) gives the reference simulation 
 
 [GitHub Actions](../.github/workflows/verify.yml) runs package integrity, phase unit checks, candidate and checkpoint rejection tests, and both smoke experiments on Linux, Windows, and macOS. The longer Burley 25 pA pulse runs on Linux when a release is published or the workflow is started manually. Start the workflow manually to check the pulse before publishing a release.
 
+`python -I -B -X utf8 tests/check_catalog.py` checks that the [model manifests](../models/README.md) and experiment records agree with each other and that every file they name exists. It needs no dependencies and no simulation output.
+
 The local rejection checks use the completed default smoke output.
 
 ```bash

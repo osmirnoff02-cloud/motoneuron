@@ -70,6 +70,11 @@ def check_smoke(output, experiment, checkpoint, report):
         comparison='all_samples' if same_grid else 'endpoints',
         all_state_final_max_difference=float(np.max(np.abs(state[-1] - ref_state[-1]))),
     )
+    if not same_grid:
+        # Diagnostic only: solver sample times differ, so interior samples are not a pass criterion.
+        interpolated = np.column_stack([np.interp(time, ref_time, ref_state[:, index])
+                                        for index in range(count)])
+        report['interpolated_path_max_difference'] = float(np.max(np.abs(state - interpolated)))
 
 
 def check_pulse(summary, experiment, report):
@@ -113,11 +118,16 @@ def check_output(output, requested=None):
     if restart is not None:
         require(restart['exact_initial_state'] and restart['within_tolerance'],
                 'Checkpoint continuation failed its restart check.')
+        if experiment is not None and 'restart_rtol' in experiment['reference']:
+            reference = experiment['reference']
+            require(restart.get('rtol') == reference['restart_rtol']
+                    and restart.get('atol') == reference['restart_atol'],
+                    'Restart tolerances used by the run differ from the experiment record.')
         report['restart_passed'] = True
     if experiment is None:
         report['scope'] = 'Numerical checks only; no matching reference experiment.'
     else:
-        require(schema['sha256'] == experiment['model']['state_layout_sha256'],
+        require(schema['sha256'] == experiment['model']['state_schema_sha256'],
                 'Checkpoint state layout differs from the reference experiment.')
         report['experiment'] = experiment['id']
         if experiment['reference']['kind'] == 'full_state_smoke':

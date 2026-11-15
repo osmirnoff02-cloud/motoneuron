@@ -8,7 +8,7 @@
     "manifest": "models/c08-burley.json",
     "release": "0.7.0",
     "state_count": 4425,
-    "state_layout_sha256": "eb9a6e61808a699e5a27b84ba3b92cc8b9408b9aed3a860e0a5be9202726d107",
+    "state_schema_sha256": "eb9a6e61808a699e5a27b84ba3b92cc8b9408b9aed3a860e0a5be9202726d107",
     "parameter_sources": [
       "data/2026-11-13-joint-kcnq-pump-v2/declared_candidates.json",
       "data/2026-11-13-joint-kcnq-pump-v2/options.py"

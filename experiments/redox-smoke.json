@@ -8,7 +8,7 @@
     "manifest": "models/c08-burley-redox.json",
     "release": "0.7.0",
     "state_count": 4503,
-    "state_layout_sha256": "a29b420fa59261b64d5c3cc6dffe5769f3e48ac575d708fb8a7eb56dd9905632",
+    "state_schema_sha256": "a29b420fa59261b64d5c3cc6dffe5769f3e48ac575d708fb8a7eb56dd9905632",
     "parameter_sources": [
       "data/2026-11-13-joint-kcnq-pump-v2/declared_candidates.json",
       "data/2026-11-13-joint-kcnq-pump-v2/options.py",

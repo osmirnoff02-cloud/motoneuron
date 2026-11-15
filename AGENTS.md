@@ -40,6 +40,7 @@ There is no pytest suite. Verification is a set of scripts, mirrored in `.github
 1. `python -I -B -X utf8 verify_package.py` checks hashes, syntax, links, and sensitive patterns.
 2. A smoke run with `--check-restart`, then `tests/check_output.py OUTPUT --experiment ID`.
 3. `tests/check_rejected_inputs.py OUTPUT` for the rejection paths.
+4. `python -I -B -X utf8 tests/check_catalog.py` checks that `models/` and `experiments/` agree. Run it after editing either.
 
 Rules that follow from this:
 
@@ -56,6 +57,7 @@ Rules that follow from this:
 - Any edit to any listed file, including documentation, breaks verification until its manifest entry is updated. Update the entry in the same change.
 - Add an entry for every new file and remove the entry for every deleted one. Entries are sorted by path, ignoring case.
 - There is no generator script in the repository. Recompute `bytes` and `sha256` from the file on disk, and touch only the entries for files you changed.
+- If another agent has uncommitted manifest changes, commit only your own entries and leave theirs in the working tree.
 - Never edit a hash to hide a change you cannot explain. An unexpected mismatch means a file changed that should not have.
 - The manifest uses CRLF line endings and two-space indentation. Keep both.
 
@@ -99,13 +101,15 @@ Rules that follow from this:
 - Older documents carry stacked headers from past releases. For example, several open with "Current 0.3.0 stage", which is out of date. Check `CHANGELOG.md` and the newest stage note in `docs/` for the current release rather than trusting a heading.
 - Files in `provenance/` and the dated stage notes are historical records. Add a new record for new work; do not rewrite an old one to match the present.
 - Do not hand-edit `parameters/registry.csv` or `parameters/registry.json`. They are generated exports and must stay consistent with each other.
-- When behaviour changes, update the documents that describe it: the root README, `docs/RUNNING.md`, the experiment index, and the changelog.
+- When behaviour changes, update the documents that describe it: the root README, `docs/RUNNING.md`, the experiment index, the model catalog in `models/`, and the changelog. Changes made after a tagged release go under the "Unreleased" heading in `CHANGELOG.md`.
+- State counts and schema hashes appear in both `models/*.json` and `experiments/*.json`. Change them together.
 - Start commit subjects with `[claude]` or `[codex]` so the history records which agent made the change.
 
 ## Privacy and licensing
 
 - Never add patient records, correspondence, contact details, email addresses, or downloaded copies of journal articles.
 - Do not change `LICENSE.txt`, the preserved AGPL text, or third-party notices unless the owner asks. Do not invent prices or commercial terms.
+- The owner removed the licensors' personal names from the current files on purpose. Do not add them back to any file, and do not restore them in older records.
 - Do not import code whose licence conflicts with the Motoneuron Noncommercial Research License. Code adapted from Blue Brain Project/EPFL must keep its Apache-2.0 licence and notice files.
 - Keep generated trajectories, caches, and virtual environments out of Git. `outputs/` is ignored for this reason.
 

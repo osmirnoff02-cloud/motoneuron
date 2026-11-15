@@ -1,3 +1,15 @@
+# Unreleased — changes on main after 0.7.0
+
+These changes are on `main` and are not part of the `v0.7.0` tag. Model equations, parameter values and the existing numerical references are unchanged.
+
+- Licence notice: the copyright line naming individuals was removed from `LICENSE.txt` and the Licensors are now defined without names. The terms are otherwise unchanged and earlier releases keep their published text. [Record](provenance/license_notice_2026-11-15.json)
+- The repository is English-only. Parameter registry labels were translated; no numeric value changed.
+- Added [experiment records](experiments/README.md), a [model catalog](models/README.md), a redox smoke reference and a verification workflow that runs both smoke experiments on Linux, macOS and Windows.
+- `run_demo.py` accepts only declared candidate names such as `C08`; forms such as `C8` or `C-1` are rejected before an output directory is created. `summary.json` gains `checkpoint_used` and the restart tolerances that were applied.
+- `tests/check_output.py` takes `--experiment ID`, compares the initial baseline within a tolerance instead of bitwise, and requires the restart tolerances used by a run to equal the experiment record.
+- Experiment records and model manifests name the runtime state-schema hash `state_schema_sha256` (previously `state_layout_sha256`); it is not the hash of `state_layout_v1.json`. `tests/check_catalog.py` checks that the catalog and the records agree.
+- The mission statement and publication checklist moved to `provenance/`.
+
 # 0.7.0 — 2026-11-15
 
 Opt-in 4503-state branch: GAP43/ribosomal budgets, lipid and peroxide blocks, shared antioxidant budget, finite amino-acid/GSH recycling and explicit NADPH supply; new `--redox-v15` run option. Out-of-turn snapshot; open items and limits are listed in the [details](docs/REDOX_STAGE_0.7.0.md). Earlier scenarios, license terms and prior AGPL rights unchanged.

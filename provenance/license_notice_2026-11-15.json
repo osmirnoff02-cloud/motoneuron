@@ -1,0 +1,25 @@
+{
+  "author": "claude",
+  "date": "2026-11-15",
+  "subject": "LICENSE.txt notice change after release 0.7.0",
+  "license_name": "Motoneuron Noncommercial Research License 1.0",
+  "changed_in_commit": "5b0685dea211b27588029d29c4011b6075bfb7fe",
+  "license_sha256_before": "c633b71e0e61ca7074254d400445353cc6efe8966eb235589fdeec1340755540",
+  "license_sha256_after": "56d48b76114afca62e18c4a8f465bc439f4adc9f02cd7ab4e6c0a291dc454983",
+  "text_before_available_at": "https://github.com/osmirnoff02-cloud/motoneuron/blob/v0.7.0/LICENSE.txt",
+  "changes": [
+    "The copyright line naming two individuals was replaced by a definition of the Licensors as the two parties who originally offered their contributions under the license.",
+    "The sentence describing a Russian summary in docs/LICENSE_SCOPE.md was replaced, because that summary was removed."
+  ],
+  "unchanged": "Scope, grant, noncommercial restriction, commercial-agreement requirement, contribution terms, warranty and liability sections.",
+  "owner_decision": "On 2026-11-15 the project owner confirmed that personal names stay out of the current files. The removal is intentional.",
+  "related_edits_in_same_commit": [
+    "provenance/license_transition_0.2.0.json: the rightsholders field and one sentence of the authorization field were removed. The record as first published is in release v0.2.0 through v0.7.0.",
+    "CHANGELOG.md, COMMERCIAL_LICENSE.md, CITATION.cff and the publication checklist: the same names were removed."
+  ],
+  "consequences": [
+    "Releases v0.2.0 through v0.7.0 keep the license text they were published with, including the named notice.",
+    "The current files do not identify the Licensors. Commercial enquiries go to the contact address in LICENSE.txt and COMMERCIAL_LICENSE.md.",
+    "The license version label (1.0) and date were not changed by the edit."
+  ]
+}

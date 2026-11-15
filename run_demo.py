@@ -160,8 +160,9 @@ def main():
         whole_grid=full.r.schedule([(0,.04,0,1,0)]);whole=full.r.api.run_integrated_neuron(whole_grid,**rebuild(whole_grid),**kw)
         delta=float(np.max(abs(continued['state'][-1]-whole['state'][-1])))
         identical_start=bool(np.array_equal(continued['state'][0],result['state'][-1]))
-        matched=bool(np.allclose(continued['state'][-1],whole['state'][-1],rtol=2e-6,atol=1e-7))
-        summary['restart']=dict(exact_initial_state=identical_start,max_end_difference=delta,within_tolerance=matched)
+        restart_rtol,restart_atol=2e-6,1e-7
+        matched=bool(np.allclose(continued['state'][-1],whole['state'][-1],rtol=restart_rtol,atol=restart_atol))
+        summary['restart']=dict(exact_initial_state=identical_start,max_end_difference=delta,within_tolerance=matched,rtol=restart_rtol,atol=restart_atol)
         if not identical_start or not matched:raise AssertionError('Checkpoint restart disagrees with uninterrupted integration')
     if (summary['states'] != expected_states or not summary['all_finite']
             or not np.isfinite(list(checks.values())).all()

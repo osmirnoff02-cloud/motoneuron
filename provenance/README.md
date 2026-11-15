@@ -21,6 +21,7 @@ The [package manifest](package_manifest.json) lists the current files and checks
 - [Publication record and release checklist](PUBLICATION_CHECKLIST.md)
 
 - [license_transition_0.2.0.json](license_transition_0.2.0.json) — adoption of the research and commercial-use terms. Its license hash identifies the original 0.2.0 license file.
+- [license_notice_2026-11-15.json](license_notice_2026-11-15.json) — removal of the named copyright notice from the current license file after 0.7.0, with hashes before and after.
 - [AGPL-3.0-0.1.2.txt](AGPL-3.0-0.1.2.txt) — unchanged historical license.
 - `license_adoption.json` records the earlier 0.1.1 adoption event, not the current license or current rightsholder information.
 - `validation.json` records the older tested snapshot and its historical documentation metadata; consult the transition record for current licensing.

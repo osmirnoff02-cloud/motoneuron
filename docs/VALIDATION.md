@@ -38,7 +38,7 @@ Version **0.2.0** changes licensing/documentation and restores two third-party n
 
 - This is a computational reproduction check, not human calibration or proof of treatment efficacy.
 - Selected long-run and nine-condition panels remain **historical evidence**, not fresh tests of every release pathway.
-- Windows Python 3.12 is tested; other platforms are not certified.
+- The export validation above used Windows Python 3.12. Since 2026-11-15 the default and redox smoke experiments are also checked on Linux, macOS, and Windows by the [verification workflow](../.github/workflows/verify.yml). Other protocols are not checked across platforms.
 - The default quick example integrates a brief interval. It cannot establish long-term stability or fix the unresolved potassium/PMCA/pH issues.
 - Package scanning checks known sensitive patterns and excludes private source categories. It does not substitute for the owner's final authorship, rights and publication review.
 
