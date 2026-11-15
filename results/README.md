@@ -6,6 +6,8 @@ Codex, 2026-11-13. [Home](../README.md).
 
 [Validation report](../docs/VALIDATION.md) describes what was actually rerun using this export. `reference_smoke.npz` is the small full-state reference generated from the original project before packaging, with identical scenario and solver settings; `reference_smoke_summary.json` preserves its checks. See source hashes in provenance. This reference is for computational equivalence, not biological validation.
 
+The [redox smoke reference](redox_reference_smoke.npz) records a pre-refactor 4,503-state run on macOS ARM64 with Python 3.12 and pinned dependencies. The [redox experiment record](../experiments/redox-smoke.json) includes the source commit and tolerances.
+
 ## Historical candidate evidence
 
 - [Electrical summary](../data/2026-11-13-joint-kcnq-pump-v2/electrical_summary.json): original completed electrical rows, including their protocol time origin and regression targets.

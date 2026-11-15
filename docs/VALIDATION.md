@@ -42,7 +42,7 @@ Version **0.2.0** changes licensing/documentation and restores two third-party n
 - The default quick example integrates a brief interval. It cannot establish long-term stability or fix the unresolved potassium/PMCA/pH issues.
 - Package scanning checks known sensitive patterns and excludes private source categories. It does not substitute for the owner's final authorship, rights and publication review.
 
-Run `verify_package.py` for hashes, syntax and documentation links; run `tests/check_output.py OUTPUT_DIR` after a numerical example. The reference tolerances are numerical regression criteria, not biological confidence intervals.
+Run `verify_package.py` for hashes, syntax and documentation links. The [experiment index](../experiments/README.md) lists the current scenario-specific numerical reference checks and comparison tolerances.
 
 
 ## 0.7.0

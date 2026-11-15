@@ -4,15 +4,13 @@ Codex, 2026-11-13. [Home](../README.md).
 
 Use the root wrapper with Python 3.12 and `requirements-lock.txt`. Dependency installation uses the package index; the simulation itself requires no network. `-I` avoids inheriting workstation PYTHONPATH entries. Generated output directories must be new. The repository sources are protected against model writes; no cleanup is automatic.
 
-## Commands
+## Reference experiments
+
+See the [experiment index](../experiments/README.md) for exact commands, settings, and expected results for the default smoke, Burley 25 pA pulse, and redox smoke runs. Pulse profiles also include Selvaraj-Con1 and Selvaraj-Con2.
+
+## Long protocols
 
 ```powershell
-# Brief full-state calculation and restart verification
-.\.venv\Scripts\python.exe -I -B -X utf8 run_demo.py --protocol smoke --check-restart --output outputs/smoke-1
-
-# Current step; profiles: Burley, Selvaraj-Con1, Selvaraj-Con2
-.\.venv\Scripts\python.exe -I -B -X utf8 run_demo.py --protocol pulse --profile Burley --candidate C08 --current-pa 25 --output outputs/pulse-1
-
 # Long preparation (much more expensive; not part of the quick check)
 .\.venv\Scripts\python.exe -I -B -X utf8 run_demo.py --protocol rest72 --profile Selvaraj-Con2 --candidate C08 --output outputs/rest-C08
 

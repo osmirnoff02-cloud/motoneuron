@@ -24,6 +24,11 @@
       "sha256": "0a868cf671332cf06475bef8c7b649b0c2c0017789097a334166607d3641ffb7"
     },
     {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 2773,
+      "sha256": "462823ecc1658e334d7d3307ecc7ee6427b434ee3ce65e20898a8b95060b0fd9"
+    },
+    {
       "path": ".gitignore",
       "bytes": 133,
       "sha256": "9712c6e4ed74dd81c0332c512eddf7caa085ea9ad6bdb81a3d5c6d0483becb63"
@@ -1774,6 +1779,11 @@
       "sha256": "94d70357ae3d3db5698bcdc655841fc05040fa66a006073345b9bae3181c598e"
     },
     {
+      "path": "data/2026-11-13-joint-kcnq-pump-v2/candidate_parameters.py",
+      "bytes": 695,
+      "sha256": "f54239ff035d81b575622c4d4c9e072a197383ae3d1fa782762fa596348ba147"
+    },
+    {
       "path": "data/2026-11-13-joint-kcnq-pump-v2/capture.py",
       "bytes": 3902,
       "sha256": "48aa1ebca9444e183b78f052ec07a590f41c38f6e6da21a31901a2a0792e3c0e"
@@ -1800,8 +1810,8 @@
     },
     {
       "path": "data/2026-11-13-joint-kcnq-pump-v2/full.py",
-      "bytes": 4789,
-      "sha256": "a1252bb054fe2876168478b78a4b4a8289c10961491255477e2326afbf85b62f"
+      "bytes": 4633,
+      "sha256": "0e2549453d2fdaa6cb8829395e6d3931c1de62c8529d70dee1a149ada4a729d9"
     },
     {
       "path": "data/2026-11-13-joint-kcnq-pump-v2/J13_electric_C08_Burley_15_features.json",
@@ -2170,8 +2180,8 @@
     },
     {
       "path": "docs/MODEL.md",
-      "bytes": 3551,
-      "sha256": "fa44a469fe2558742faa21727b2be63fec526510eba0254335e63ee33acb0097"
+      "bytes": 7238,
+      "sha256": "e84515589d23c88eaeab6db48ac9844222f7041681cc0bea4bc9644e33e9f483"
     },
     {
       "path": "docs/PHASE_STAGE_0.6.0.md",
@@ -2180,8 +2190,8 @@
     },
     {
       "path": "docs/README.md",
-      "bytes": 617,
-      "sha256": "3086729ab5f3b1bb0cff32969c8279630d5b8bcaddc8d1b3881c945c6f4affa1"
+      "bytes": 693,
+      "sha256": "fe5f575d825f184814971f96831741b8134b4cf3f696e1b37f761d5d6319f2ce"
     },
     {
       "path": "docs/REDOX_STAGE_0.7.0.md",
@@ -2190,8 +2200,8 @@
     },
     {
       "path": "docs/RUNNING.md",
-      "bytes": 4192,
-      "sha256": "237c8998cb3ed740f48cffe4792cf3225f3a2ff0c8c7c57ece238964cc4380e3"
+      "bytes": 4077,
+      "sha256": "6011ae9c51cca69b61b143ebc4f2383a4ac021229c1d29bf78305729ee6a7751"
     },
     {
       "path": "docs/SCOPE.md",
@@ -2200,13 +2210,33 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 4836,
-      "sha256": "9c083c48e43a23c90a0e47f01ef52b8ca290beb3c68fda1c07cc1cfb09625320"
+      "bytes": 4812,
+      "sha256": "71818c030c9450477e59395f3eecc17730e40bdc5a792c00010ee6df61ece513"
     },
     {
       "path": "docs/WAVEFORM_STAGE_0.5.0.md",
       "bytes": 3829,
       "sha256": "fcb5c6e0ca85c6f27731aa3c57869a15fec581f13ad355180c254e9af586edee"
+    },
+    {
+      "path": "experiments/burley-pulse-25pa.json",
+      "bytes": 2708,
+      "sha256": "b479ae4c1ff2e1cc435d9366df938ef484276908a165c7d6004a716ef721dce8"
+    },
+    {
+      "path": "experiments/default-smoke.json",
+      "bytes": 2607,
+      "sha256": "452dde07d755cb5f24c40a72a75314e0d6bada37ca9a881626e0dc9adbd6aae1"
+    },
+    {
+      "path": "experiments/README.md",
+      "bytes": 3446,
+      "sha256": "c76151a52ebcdfd44541b9de426505245aee5bba59fab41eca42112a914d337a"
+    },
+    {
+      "path": "experiments/redox-smoke.json",
+      "bytes": 2853,
+      "sha256": "37e6c355e08552096e262eb9bd977c4e6401bdaf9280392a526b89dfd3e53245"
     },
     {
       "path": "LICENSE.txt",
@@ -2385,8 +2415,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5215,
-      "sha256": "446f279727021838ca73be262b570d3e32e05042813618ca6ad4f13799606dca"
+      "bytes": 4652,
+      "sha256": "069c02df42a6b3ef3af749c0412673ab9aac33f7137a02e9b870dac6880beed6"
     },
     {
       "path": "references/README.md",
@@ -2505,8 +2535,8 @@
     },
     {
       "path": "results/README.md",
-      "bytes": 2915,
-      "sha256": "efb3b16185990af2c76454114219ee9f8db23d0bdefaae0bfd26f523468c460e"
+      "bytes": 3173,
+      "sha256": "dcecaa767ee6dc3b1f38dcabdda9ed018cd0ce27e5c4a4a117f22fcae42bf900"
     },
     {
       "path": "results/redox_electric_Burley_15_features.json",
@@ -2557,6 +2587,11 @@
       "path": "results/redox_post672_Burley_25_features.json",
       "bytes": 428,
       "sha256": "e8f5aad57bb13bb491f05ff9651f53f3cb7549dd5e52aa586f80e2bec5770e48"
+    },
+    {
+      "path": "results/redox_reference_smoke.npz",
+      "bytes": 1690949,
+      "sha256": "9b7ca7ec1de84588d5d6412a867331f3dc5bf99ae200ebec6d84b724be4c7ab7"
     },
     {
       "path": "results/redox_results.json",
@@ -2635,18 +2670,23 @@
     },
     {
       "path": "run_demo.py",
-      "bytes": 14385,
-      "sha256": "dbb8a62d3ea24ad3cbe2237bc962d6869fc63503426246855eb79860600fc8c7"
+      "bytes": 14670,
+      "sha256": "dfdf4a036a93425c1e887934eab82e56a0b11d055bd767154a9d6f51a0f3f6ab"
     },
     {
       "path": "tests/check_output.py",
-      "bytes": 3165,
-      "sha256": "9fcfd21098eeaff667a49b563a15240fa93efd6d1ed79340ee4eb6adf7a13818"
+      "bytes": 7150,
+      "sha256": "cd3b56a290752da18fe1d1132e364319c50eb1879c71c0d695ff5d95393d55f2"
+    },
+    {
+      "path": "tests/check_rejected_inputs.py",
+      "bytes": 2150,
+      "sha256": "c259d5a4f28dff07e05dd5689fc778905825f97ab1f4794dc583ef39dd2d96cb"
     },
     {
       "path": "tests/README.md",
-      "bytes": 102,
-      "sha256": "df11760fcffe93d2194910404c0bf93a64fdd1bfdb62d46d14bb3c30fe558cea"
+      "bytes": 824,
+      "sha256": "e45de8eb6e783d0db9e6850cfac6c48ee365254e4ec4f24b65ee09ed160d33b2"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

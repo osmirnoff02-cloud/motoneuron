@@ -1,43 +1,144 @@
-"""Codex 2026-11-13: compare a real run with the packaged numerical reference."""
+"""Verify a public simulation output against its experiment record."""
+
+import argparse
+import json
 from pathlib import Path
-import argparse, json, sys
+
 import numpy as np
 
-ROOT=Path(__file__).resolve().parents[1]
-p=argparse.ArgumentParser(description=__doc__)
-p.add_argument('output',type=Path)
-a=p.parse_args()
-s=json.loads((a.output/'summary.json').read_text(encoding='utf-8'))
-assert s['states']==4425 and s['all_finite'] and s['no_reset']
-assert all(np.isfinite(v) and abs(v)<3e-5 for v in s['checks'].values())
-assert s['human_calibrated'] is False
-assert (a.output/'figure.png').is_file() and (a.output/'checkpoint.json').is_file()
-report={'protocol':s['protocol'],'state_count':s['states'],'balances_passed':True}
-if s['protocol']=='smoke' and s['profile']=='Burley' and s['candidate']=='C08':
-    with np.load(a.output/'trace.npz',allow_pickle=False) as got, np.load(ROOT/'results/reference_smoke.npz',allow_pickle=False) as ref:
-        # Materialize compressed arrays once; repeated NPZ indexing decompresses each time.
-        got={key:got[key] for key in got.files}
-        ref={key:ref[key] for key in ref.files}
-        assert np.array_equal(got['baseline'],ref['baseline']), 'Baseline changed'
-        assert np.allclose(got['time_s'][[0,-1]],ref['time_s'][[0,-1]],rtol=0,atol=1e-12)
-        # Solver-internal sampling can differ between supported library builds.
-        expected=np.column_stack([np.interp(got['time_s'],ref['time_s'],ref['state'][:,i]) for i in range(4425)])
-        exact_grid=np.array_equal(got['time_s'],ref['time_s'])
-        if exact_grid:
-            assert np.allclose(got['state'],ref['state'],rtol=2e-7,atol=1e-8), 'Full-state regression failed'
+
+ROOT = Path(__file__).resolve().parents[1]
+EXPERIMENTS = ROOT / 'experiments'
+
+
+def read_json(path):
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
+def require(condition, message):
+    if not condition:
+        raise ValueError(message)
+
+
+def find_experiment(summary, requested):
+    if summary.get('checkpoint_used', False):
+        require(requested is None, 'Reference experiments require a fresh run.')
+        return None
+    duration = summary.get('pulse_duration_s')
+    if summary['protocol'] == 'pulse' and duration is None:
+        duration = 0.5 if summary['profile'] == 'Burley' else 1.0
+    settings = dict(summary, pulse_duration_s=duration)
+    for path in sorted(EXPERIMENTS.glob('*.json')):
+        record = read_json(path)
+        if requested is None or record['id'] == requested:
+            if all(settings.get(key) == value for key, value in record['scenario'].items()):
+                return record
+    require(requested is None, f'Output does not match the {requested!r} experiment record.')
+    return None
+
+
+def check_smoke(output, experiment, checkpoint, report):
+    reference = experiment['reference']
+    count = experiment['model']['state_count']
+    end = experiment['stimulus']['interval_s'][1]
+    with np.load(output / 'trace.npz', allow_pickle=False) as trace:
+        time, state, baseline = (trace[key] for key in ('time_s', 'state', 'baseline'))
+    with np.load(ROOT / reference['path'], allow_pickle=False) as trace:
+        ref_time, ref_state, ref_baseline = (trace[key] for key in ('time_s', 'state', 'baseline'))
+
+    require(time.ndim == 1 and len(time) >= 2 and state.shape == (len(time), count)
+            and baseline.shape == (count,), 'Smoke trace shape differs from the experiment.')
+    require(np.isfinite(time).all() and np.isfinite(state).all()
+            and np.isfinite(baseline).all(), 'Smoke trace contains nonfinite values.')
+    require((np.diff(time) >= 0).all(), 'Smoke trace time moves backwards.')
+    require(np.array_equal(state[-1], checkpoint['state'])
+            and np.array_equal(baseline, checkpoint['baseline_state']),
+            'Saved trace and checkpoint disagree.')
+    require(np.allclose(baseline, ref_baseline, rtol=reference['initial_rtol'],
+                        atol=reference['initial_atol']), 'Initial baseline differs from the reference.')
+    require(np.allclose(time[[0, -1]], [0, end], rtol=0, atol=reference['time_atol_s'])
+            and np.allclose(time[[0, -1]], ref_time[[0, -1]], rtol=0, atol=reference['time_atol_s']),
+            'Smoke trace does not cover the reference interval.')
+
+    same_grid = np.array_equal(time, ref_time)
+    actual = state if same_grid else state[[0, -1]]
+    expected = ref_state if same_grid else ref_state[[0, -1]]
+    require(np.allclose(actual, expected, rtol=reference['rtol'], atol=reference['atol']),
+            'All-state smoke comparison failed.')
+    report.update(
+        reference=reference['path'],
+        comparison='all_samples' if same_grid else 'endpoints',
+        all_state_final_max_difference=float(np.max(np.abs(state[-1] - ref_state[-1]))),
+    )
+
+
+def check_pulse(summary, experiment, report):
+    reference = experiment['reference']
+    target = next(
+        row for row in read_json(ROOT / reference['path'])['rows']
+        if row['candidate'] == summary['candidate'] and row['profile'] == summary['profile']
+        and row['pA'] == summary['current_pA'] and row['start_s'] == summary['start_time_s']
+    )
+    features = summary['features']
+    require(features['spikes'] == target['features']['spikes'] == reference['spikes_during_step'],
+            'Spike count during the current step differs from the reference.')
+    peak_difference = abs(features['peak_mV'] - target['features']['peak_mV'])
+    require(peak_difference < reference['peak_voltage_atol_mV'],
+            'Peak voltage differs from the reference.')
+    report.update(reference=reference['path'], spikes_during_step=features['spikes'],
+                  peak_mV=features['peak_mV'], peak_voltage_abs_difference_mV=peak_difference)
+
+
+def check_output(output, requested=None):
+    summary = read_json(output / 'summary.json')
+    experiment = find_experiment(summary, requested)
+    expected_states = 4503 if summary.get('redox_v15') else 4431 if summary.get('acid_tau_s') is not None else 4425
+    require(summary['states'] == expected_states, 'Unexpected state count for the model configuration.')
+    require(summary['all_finite'] and summary['no_reset'] and summary['human_calibrated'] is False,
+            'Simulation reported nonfinite states, a reset, or unexpected calibration metadata.')
+    limit = experiment['reference']['balance_atol'] if experiment else 3e-5
+    balances = list(summary['checks'].values())
+    require(balances and np.isfinite(balances).all() and np.max(np.abs(balances)) < limit,
+            'One or more numerical balances exceed the output-check tolerance.')
+    checkpoint = read_json(output / 'checkpoint.json')
+    schema = checkpoint['state_schema']
+    require(schema['count'] == expected_states and len(checkpoint['state']) == expected_states
+            and np.isfinite(checkpoint['state']).all(), 'Invalid output checkpoint or state layout.')
+    require((output / 'figure.png').is_file(), 'Missing output figure.')
+    report = {'protocol': summary['protocol'], 'state_count': expected_states, 'balances_passed': True}
+
+    restart = summary.get('restart')
+    if requested and experiment['reference']['kind'] == 'full_state_smoke':
+        require(restart is not None, 'Run this reference experiment with --check-restart.')
+    if restart is not None:
+        require(restart['exact_initial_state'] and restart['within_tolerance'],
+                'Checkpoint continuation failed its restart check.')
+        report['restart_passed'] = True
+    if experiment is None:
+        report['scope'] = 'Numerical checks only; no matching reference experiment.'
+    else:
+        require(schema['sha256'] == experiment['model']['state_layout_sha256'],
+                'Checkpoint state layout differs from the reference experiment.')
+        report['experiment'] = experiment['id']
+        if experiment['reference']['kind'] == 'full_state_smoke':
+            check_smoke(output, experiment, checkpoint, report)
         else:
-            # Endpoints are directly comparable; interpolated paths are diagnostic only.
-            assert np.allclose(got['state'][[0,-1]],ref['state'][[0,-1]],rtol=2e-7,atol=1e-8), 'Endpoint regression failed'
-        report.update(exact_time_grid=exact_grid,all_state_final_max_difference=float(np.max(abs(got['state'][-1]-ref['state'][-1]))),interpolated_path_max_difference=float(np.max(abs(got['state']-expected))))
-    if 'restart' in s:assert s['restart']['exact_initial_state'] and s['restart']['within_tolerance']
-elif s['protocol']=='pulse' and s['profile']=='Burley' and s['candidate']=='C08' and s.get('current_pA',25)==25 and s.get('start_time_s',0)==0:
-    config=json.loads((a.output/'config.json').read_text(encoding='utf-8'))
-    # Only the documented 25-pA fresh-start demo is covered by this golden row.
-    rows=json.loads((ROOT/'data/2026-11-13-joint-kcnq-pump-v2/electrical_summary.json').read_text())['rows']
-    target=next(x for x in rows if x['candidate']=='C08' and x['profile']=='Burley' and x['pA']==25 and x['start_s']==0)
-    assert s['features']['spikes']==target['features']['spikes']==4, 'Documented 25-pA pulse count changed'
-    assert abs(s['features']['peak_mV']-target['features']['peak_mV'])<.25, 'Pulse peak differs from historical reference'
-    report['spikes_during_step']=s['features']['spikes']
-else:
-    report['scope']='Numerical checks only; no golden scientific target for this configuration'
-print(json.dumps(report,indent=2))
+            check_pulse(summary, experiment, report)
+    return report
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('output', type=Path)
+    parser.add_argument('--experiment', choices=sorted(path.stem for path in EXPERIMENTS.glob('*.json')),
+                        help='Require the output to match this reference experiment.')
+    args = parser.parse_args()
+    try:
+        report = check_output(args.output, args.experiment)
+    except (ValueError, OSError, KeyError, StopIteration) as error:
+        parser.exit(1, f'Output verification failed: {error}\n')
+    print(json.dumps(report, indent=2))
+
+
+if __name__ == '__main__':
+    main()

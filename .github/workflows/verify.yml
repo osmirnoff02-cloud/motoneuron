@@ -1,0 +1,75 @@
+name: Verify research experiments
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  smoke:
+    name: Smoke and restart (${{ matrix.os }})
+    if: github.event_name != 'release'
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Verify the package
+        run: python -I -B -X utf8 verify_package.py
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Check phase kinetics and the recovery observer
+        run: |
+          python -B -X utf8 data/2026-11-14-phase-aware-waveform/test_kinetics.py
+          python -B -X utf8 data/2026-11-14-phase-aware-waveform/test_observer.py
+      - name: Verify the default scenario and invalid-input handling
+        run: |
+          python -I -B -X utf8 run_demo.py --protocol smoke --profile Burley --candidate C08 --check-restart --output outputs/default-smoke
+          python -I -B -X utf8 tests/check_output.py outputs/default-smoke --experiment default-smoke
+          python -I -B -X utf8 tests/check_rejected_inputs.py outputs/default-smoke
+      - name: Verify the redox scenario
+        run: |
+          python -I -B -X utf8 run_demo.py --protocol smoke --profile Burley --candidate C08 --redox-v15 --check-restart --output outputs/redox-smoke
+          python -I -B -X utf8 tests/check_output.py outputs/redox-smoke --experiment redox-smoke
+
+  release-pulse:
+    name: Burley 25 pA reference pulse
+    if: github.event_name == 'release' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Install pinned dependencies
+        run: python -m pip install -r requirements-lock.txt
+      - name: Verify the release pulse
+        run: |
+          python -I -B -X utf8 verify_package.py
+          python -I -B -X utf8 run_demo.py --protocol pulse --profile Burley --candidate C08 --current-pa 25 --output outputs/burley-pulse-25pa
+          python -I -B -X utf8 tests/check_output.py outputs/burley-pulse-25pa --experiment burley-pulse-25pa

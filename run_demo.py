@@ -41,17 +41,14 @@ def main():
     if args.pulse_duration_s is not None and (args.protocol!='pulse' or not 0<args.pulse_duration_s<float('inf')):parser.error('A finite positive pulse duration requires --protocol pulse')
     if args.redox_v15 and (args.phase_v14 or args.waveform_v14 or args.acid_tau_s is not None or args.candidate!='C08' or args.checkpoint is not None or args.protocol not in ('smoke','pulse')):
         parser.error('--redox-v15 is a fixed C08 scenario for fresh smoke/pulse runs; it sets acid removal and phase-tested kinetics itself. Long prepared runs are documented, not packaged')
-    if args.check_restart and args.protocol!='smoke':parser.error('--check-restart requires smoke')
+    if args.check_restart and (args.protocol != 'smoke' or args.checkpoint is not None):
+        parser.error('--check-restart requires a fresh smoke run')
     if args.protocol=='load36' and args.checkpoint is None:parser.error('load36 requires a matching rest72 checkpoint')
     if args.protocol=='rest72' and args.checkpoint is not None:parser.error('rest72 starts a new preparation')
     if args.protocol in ('rest72','load36') and args.profile!='Selvaraj-Con2' and not args.phase_v14:parser.error('legacy long protocol uses Selvaraj-Con2; see phase validation for other profiles')
     out=args.output.expanduser().resolve()
     if out==ROOT or (out.is_relative_to(ROOT) and not out.is_relative_to(ROOT/'outputs')):
         parser.error('Inside the repository, output must be a new directory below outputs/')
-    out.mkdir(parents=True,exist_ok=False)
-    os.environ.setdefault('NUMBA_CACHE_DIR',str(out.parent/'numba-cache'))
-    os.environ.setdefault('MPLCONFIGDIR',str(out.parent/'matplotlib-cache'))
-    os.environ.setdefault('OMP_NUM_THREADS','1')
     sys.dont_write_bytecode=True
     forbidden=[x.resolve() for x in args.forbid_root]
     busy=False
@@ -74,12 +71,21 @@ def main():
                 if path.is_file() and path.suffix not in ('.pyc','.nbc','.nbi'):reads.add(path.relative_to(ROOT).as_posix())
         finally:busy=False
     sys.addaudithook(audit)
+    folder = ROOT / 'data/2026-11-13-joint-kcnq-pump-v2'
+    sys.path.insert(0, str(folder))
+    from candidate_parameters import params
+    try:
+        candidate_parameters = params(args.candidate)
+    except ValueError as error:
+        parser.error(str(error))
+    out.mkdir(parents=True, exist_ok=False)
+    os.environ.setdefault('NUMBA_CACHE_DIR', str(out.parent / 'numba-cache'))
+    os.environ.setdefault('MPLCONFIGDIR', str(out.parent / 'matplotlib-cache'))
+    os.environ.setdefault('OMP_NUM_THREADS', '1')
     import numpy as np
     from threadpoolctl import threadpool_limits
     limits=threadpool_limits(limits=1)
     start=time.monotonic()
-    folder=ROOT/'data/2026-11-13-joint-kcnq-pump-v2'
-    sys.path.insert(0,str(folder))
     spec=importlib.util.spec_from_file_location('publication_full_runner',folder/'full.py')
     full=importlib.util.module_from_spec(spec);sys.modules[spec.name]=full;spec.loader.exec_module(full)
     cp=None if args.checkpoint is None else json.loads(args.checkpoint.read_text(encoding='utf-8'))
@@ -116,7 +122,7 @@ def main():
         # Options of this branch carry schedules tied to the time grid; rebuild them per schedule.
         rebuild=lambda grid:redox.options(grid,args.profile)
     else:
-        options,provenance=full.options(sg,args.profile,full.params(args.candidate))
+        options,provenance=full.options(sg, args.profile, candidate_parameters)
         rebuild=lambda grid:options
     if args.acid_tau_s is not None:
         options['acid_extrusion_parameters']=full.r.api.AcidExtrusionParameters(recovery_tau_s=args.acid_tau_s,buffer_mM_per_pH=args.acid_buffer,resting_pH=args.acid_resting_ph)
@@ -145,10 +151,10 @@ def main():
         max_balance=max(abs(v) for v in checks.values()),checks=checks,nfev=result['nfev'],
         human_calibrated=False,elapsed_s=time.monotonic()-start,
         final_voltage_mV=float(result['state'][-1,185]),no_reset=bool(cp is None or np.array_equal(result['state'][0],cp['state'])))
+    summary['checkpoint_used'] = cp is not None
     if args.protocol=='pulse':summary['features']=full.r.features_mod.features(result,on,off,args.profile)
     if args.protocol=='pulse':summary['recovery']=full.r.api.waveform_recovery_metrics(result['time_s']-t0,result['state'][:,185],off-t0)
     if args.check_restart:
-        if cp is not None:parser.error('--check-restart requires a fresh smoke run')
         follow=full.r.schedule([(.02,.04,0,1,0)])
         continued=full.r.api.run_integrated_neuron(follow,**rebuild(follow),checkpoint=result['checkpoint'],**kw)
         whole_grid=full.r.schedule([(0,.04,0,1,0)]);whole=full.r.api.run_integrated_neuron(whole_grid,**rebuild(whole_grid),**kw)
@@ -157,7 +163,9 @@ def main():
         matched=bool(np.allclose(continued['state'][-1],whole['state'][-1],rtol=2e-6,atol=1e-7))
         summary['restart']=dict(exact_initial_state=identical_start,max_end_difference=delta,within_tolerance=matched)
         if not identical_start or not matched:raise AssertionError('Checkpoint restart disagrees with uninterrupted integration')
-    if summary['states']!=expected_states or not summary['all_finite'] or summary['max_balance']>=5e-5 or not summary['no_reset']:
+    if (summary['states'] != expected_states or not summary['all_finite']
+            or not np.isfinite(list(checks.values())).all()
+            or summary['max_balance'] >= 5e-5 or not summary['no_reset']):
         raise AssertionError('Numerical validation failed: '+json.dumps(summary))
     def encode(x):
         if isinstance(x,np.ndarray):return x.tolist()

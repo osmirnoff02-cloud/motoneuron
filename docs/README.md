@@ -7,6 +7,7 @@
 - [LICENSE_SCOPE.md](LICENSE_SCOPE.md)
 - [MODEL.md](MODEL.md)
 - [RUNNING.md](RUNNING.md)
+- [Reference experiments and historical studies](../experiments/README.md)
 - [SCOPE.md](SCOPE.md)
 
 <!-- publication-file-index_codex -->

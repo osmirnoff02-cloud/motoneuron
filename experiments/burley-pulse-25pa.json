@@ -1,0 +1,86 @@
+{
+  "id": "burley-pulse-25pa",
+  "title": "Burley 25 pA current step",
+  "status": "runnable",
+  "question": "Does the fresh C08/Burley simulation retain the historical spike count and peak voltage during this current step?",
+  "model": {
+    "release": "0.7.0",
+    "state_count": 4425,
+    "state_layout_sha256": "eb9a6e61808a699e5a27b84ba3b92cc8b9408b9aed3a860e0a5be9202726d107",
+    "parameter_sources": [
+      "data/2026-11-13-joint-kcnq-pump-v2/declared_candidates.json",
+      "data/2026-11-13-joint-kcnq-pump-v2/options.py"
+    ],
+    "scenario": "C08 declaration at index 8, legacy default with acid removal disabled"
+  },
+  "scenario": {
+    "protocol": "pulse",
+    "profile": "Burley",
+    "candidate": "C08",
+    "start_time_s": 0.0,
+    "redox_v15": false,
+    "acid_tau_s": null,
+    "phase_v14": false,
+    "waveform_v14": false,
+    "current_pA": 25.0,
+    "pulse_duration_s": 0.5
+  },
+  "initial_state": "Fresh baseline constructed by run_demo.py for the declared model, profile, and candidate. No input checkpoint.",
+  "stimulus": {
+    "AMPA_opening": 0,
+    "current_steps": [
+      {
+        "start_s": 0,
+        "end_s": 0.2,
+        "pA": 0
+      },
+      {
+        "start_s": 0.2,
+        "end_s": 0.7,
+        "pA": 25
+      },
+      {
+        "start_s": 0.7,
+        "end_s": 1.7,
+        "pA": 0
+      }
+    ]
+  },
+  "solver": {
+    "method": "SciPy BDF",
+    "jacobian": "sparse numerical",
+    "centered_coordinates": true,
+    "rtol": 1e-08,
+    "atol": 1e-10,
+    "max_step_s": 0.0025,
+    "output_step_s": 0.0002
+  },
+  "environment": {
+    "python": "3.12",
+    "dependencies": "requirements-lock.txt"
+  },
+  "run": "python -I -B -X utf8 run_demo.py --protocol pulse --profile Burley --candidate C08 --current-pa 25 --output outputs/burley-pulse-25pa",
+  "verify": "python -I -B -X utf8 tests/check_output.py outputs/burley-pulse-25pa --experiment burley-pulse-25pa",
+  "outputs": [
+    "summary.json",
+    "config.json",
+    "provenance.json",
+    "columns.json",
+    "checkpoint.json",
+    "runtime_reads.json",
+    "timeseries.csv",
+    "figure.png"
+  ],
+  "reference": {
+    "kind": "pulse_features",
+    "path": "data/2026-11-13-joint-kcnq-pump-v2/electrical_summary.json",
+    "spikes_during_step": 4,
+    "peak_voltage_atol_mV": 0.25,
+    "balance_atol": 3e-05
+  },
+  "interpretation_limit": "The spike count is a historical computational regression target. This run does not independently validate human waveforms.",
+  "output_processing": {
+    "implementation": "data/2026-10-26-nak-source-calibration/validate_model.py",
+    "metrics": "Count recorded somatic voltage crossings during the step. Measure peak soma voltage on the interpolated 0.1 ms grid."
+  }
+}

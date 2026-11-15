@@ -7,12 +7,9 @@ from pathlib import Path
 import sys,json,numpy as np
 import capture as c
 from options import options
+from candidate_parameters import params
 B=Path(__file__).resolve().parent
 r=c.old.r;r.B=B;r.PREFIX='J13_';r.SPARSE=True
-
-def params(name):
-    if name.startswith('C'):return json.loads((B/'declared_candidates.json').read_text())[int(name[1:])]
-    return json.loads((B/'selected_parameters.json').read_text())[name]
 
 def capture(tag,sg,o,**kw):
     result=r.run(tag,sg,o,retain_dense_solver_output=False,center_solver_coordinates=True,**kw)

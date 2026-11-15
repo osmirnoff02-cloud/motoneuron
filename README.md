@@ -22,19 +22,15 @@ From the repository directory, run:
 ```bash
 python -m pip install -r requirements-lock.txt
 python -I -B -X utf8 verify_package.py
-python -I -B -X utf8 run_demo.py --protocol smoke --check-restart --output outputs/smoke
+python -I -B -X utf8 run_demo.py --protocol smoke --profile Burley --candidate C08 --check-restart --output outputs/default-smoke
+python -I -B -X utf8 tests/check_output.py outputs/default-smoke --experiment default-smoke
 ```
 
-The smoke test integrates all default states for 20 ms, checks numerical balances, and verifies checkpoint continuation against uninterrupted integration. Each run needs a new output directory. On the Windows reference platform, also run `python -I -B -X utf8 tests/check_output.py outputs/smoke` to compare against the bundled numerical reference. The checker requires bitwise equality of the initial baseline. On macOS ARM64, the smoke run and restart passed, while few-bit differences in the baseline tripped that check.
+The default smoke test integrates all 4,425 states for 20 ms, checks numerical balances, and verifies checkpoint continuation. Choose a new output directory for each run.
 
 ## Run an experiment
 
-```bash
-python -I -B -X utf8 run_demo.py --protocol pulse --profile Burley --candidate C08 --current-pa 25 --output outputs/pulse25
-python -I -B -X utf8 run_demo.py --protocol smoke --redox-v15 --check-restart --output outputs/redox-smoke
-```
-
-The 25 pA pulse has a historical regression target of four spikes during the current step. The redox option selects the fixed C08 parameterization and supports fresh smoke and pulse runs. The prepared checkpoint for the published long redox runs is outside this package. For the earlier model, `rest72` prepares a checkpoint and `load36` compares control, continuous, and repeated AMPA activation schedules from matching checkpoints. [Protocol options and commands](docs/RUNNING.md)
+The experiment index lists runnable reference scenarios, their expected outputs, and the status of historical studies. Start there for the Burley 25 pA pulse or the 4,503-state redox smoke test. [Experiment index](experiments/README.md) · [Extended protocols](docs/RUNNING.md)
 
 Each run writes a summary, configuration, provenance, checkpoint, selected time series, and a figure. Smoke runs also save a full-state trace. Use `--full-trace` to save one for another protocol. [Output formats](docs/RUNNING.md#files-written) · [Bundled results](results/README.md)
 
@@ -42,6 +38,7 @@ Each run writes a summary, configuration, provenance, checkpoint, selected time 
 
 | Path | Contents |
 | --- | --- |
+| [experiments](experiments/README.md) | Reference protocols, expected results, and reproduction status |
 | [run_demo.py](run_demo.py) | Supported entry point for simulations |
 | [data/neuron-model](data/neuron-model/README.md) | Integrated model, interface, and state layout |
 | [data](data/README.md) | Dated model components and source-linked inputs |
