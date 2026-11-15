@@ -16,6 +16,14 @@ C08 initially matched nine historical spike-count targets. This does not establi
 
 These are dated historical results. Their original row-level evidence is included with the result bundle where available. They are not represented as fresh full-panel/72-hour tests of this export. Negative findings and limitations must accompany positive numerical checks.
 
+## Release figures
+
+The English figures use the bundled data for the corresponding model runs.
+
+- [Stimulus offset and recovery](phase_comparison.png) uses the [phase comparison rows](phase_phase_summary.json). [Burley candidate acceptance](candidate_phase_Burley.png) uses the [paired candidate results](phase_candidate_phase_acceptance.json).
+- [Waveform refinement](waveform_comparison.png) shows changes in recovery metrics from the [acceptance results](waveform_acceptance_results.json). [Potassium and energy](potassium_energy.png) plots endpoints and pool minima from the [long-run summary](waveform_summary.json).
+- [Redox supply scenarios](redox_summary.png) shows initial, minimum, and final values where applicable, drawn from the [72-hour scenario summaries](redox_results.json).
+
 <!-- publication-file-index_codex -->
 
 ## Files

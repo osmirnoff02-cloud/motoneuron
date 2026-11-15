@@ -3,11 +3,7 @@
   "date": "2026-11-14",
   "version": "0.2.0",
   "license_name": "Motoneuron Noncommercial Research License 1.0",
-  "rightsholders": [
-    "Максим Смирнов",
-    "Олег Смирнов"
-  ],
-  "authorization": "Explicit user instruction: free noncommercial scientific research, commercial use by separate agreement; update future versions on GitHub. Latest instruction names both rightsholders.",
+  "authorization": "Explicit user instruction: free noncommercial scientific research, commercial use by separate agreement; update future versions on GitHub.",
   "prior_version": "0.1.2",
   "prior_commit": "bfd151cb24cc057af04efe7ea8c6aed129729385",
   "prior_license": "AGPL-3.0-only",

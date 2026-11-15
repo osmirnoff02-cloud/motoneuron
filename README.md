@@ -1,105 +1,61 @@
-## Current version 0.7.0
+# Motoneuron
 
-[Amino-acid/GSH recycling and NADPH supply, 4503 states](docs/REDOX_STAGE_0.7.0.md). Explicit opt-in: `--redox-v15` for fresh smoke/pulse runs. Earlier 4425/4431-state scenarios remain available. Conditional prototype: the initial GSH pool is not yet stationary, no development-plan item is closed by this snapshot, and human calibration remains open.
+Motoneuron is a Python research model for studying how electrical activity and cellular maintenance interact in motor neurons in the context of amyotrophic lateral sclerosis (ALS). It couples membrane currents, calcium and potassium handling, and ATP supply with selected mechanisms for protein turnover, RNA processing, and translation. Researchers can compare modeled responses to current injection and AMPA receptor activation and identify measurements that would distinguish competing assumptions. [Model equations](docs/MODEL.md) · [Research scope](docs/SCOPE.md)
 
-## Previous stage 0.6.0
-
-[Stimulus offsets, recovery and expanded kinetic search](docs/PHASE_STAGE_0.6.0.md). Explicit opt-in: `--acid-tau-s 120 --phase-v14`, with 4431 states. Legacy defaults use 4425 states; prior scenarios remain available. Conditional prototype; human calibration remains open.
-
-## Previous stage 0.5.0
-
-[Waveform and voltage recovery stage](docs/WAVEFORM_STAGE_0.5.0.md). Includes the 0.4.0 data requests and filename migration. Conditional research prototype; human calibration remains open.
-
-# Motoneuron / Мотонейрон
-
-**[Help improve the model: experimental data requests (U01–U43)](DATA_REQUESTS.md)** — share measurements, dataset links or corrections for unresolved parameters.
-
-**Research snapshot 0.7.0, 2026-11-15. Research prototype; not a calibrated human motor neuron or a predictor of treatment efficacy.**
-
-This repository makes a selected computational branch of the ALS research project inspectable and reproducible. It contains the full coupled neuron model used by the included examples, its actual runtime inputs, a parameter inventory, selected historical results and an explicit account of limitations. It is not the complete private research archive.
-
-[Русская инструкция](README_RU.md) · [Scope](docs/SCOPE.md) · [Scientific model](docs/MODEL.md) · [Assumptions](docs/ASSUMPTIONS.md) · [Validation](docs/VALIDATION.md)
-
-## Mission
-
-The mission of Motoneuron is to keep the model open and accessible for research into ALS and related neurological diseases, and to support collaborative development of methods for their prevention and treatment. Achieving this goal should not end the availability of published versions.
-
-[Approved mission in Russian and English](MISSION.md). This statement does not add conditions to the license.
-
-## Research question
-
-How do membrane currents, ion transport, energy supply, protein/RNA maintenance and nuclear transport interact in conditional motor-neuron scenarios? Which missing measurements most constrain these mechanisms? Current examples examine joint KCNQ/passive-current/Na-K-pump configurations. They do not establish ALS causation or therapeutic benefit.
-
-The integrated numerical model has **4425 state variables, including bookkeeping counters and projections**. This is not 4425 experimentally measured independent biological quantities. The documented example uses candidate **C08**, which is an explicit experimental configuration, not an accepted healthy default. The wider project also investigates TDP-43, TMEM106B/lysosomes, iron/GPX4, microglia, membranes and resistant/vulnerable motor-neuron populations; these directions are not all implemented in this executable model. See [scope](docs/SCOPE.md).
-
-## License and commercial use
-
-**Free for noncommercial scientific research; commercial use requires a separate written agreement.** Licensors: **Максим Смирнов (Maxim Smirnov) and Олег Смирнов (Oleg Smirnov)**. The custom [research license](LICENSE.txt) permits research use, modification and sharing. See [commercial enquiries](COMMERCIAL_LICENSE.md). This is source-available software, not OSI open source.
-
-The new terms start with **0.2.0** and later releases expressly carrying them. **[0.1.2 remains AGPL-3.0-only](https://github.com/osmirnoff02-cloud/motoneuron/tree/bfd151cb24cc057af04efe7ea8c6aed129729385)**; existing rights cannot be withdrawn. Release 0.2.0 changed licensing/documentation only; code already released in 0.1.2 remains available there under AGPL, including for compliant commercial use. Later original additions are governed by their stated terms. [Version boundary and third-party scope](docs/LICENSE_SCOPE.md).
+Release **0.7.0** includes an opt-in scenario for amino-acid delivery, glutathione (GSH) recycling, and NADPH supply. The default model has 4,425 state variables and the redox scenario has 4,503, including bookkeeping counters. C08, the configuration used below, is a candidate from a parameter search. Human motor-neuron calibration is still open, and the redox scenario's initial GSH pool drifts even in unstimulated controls. The simulations cannot establish ALS causation or predict treatment efficacy. [Redox scenario and limitations](docs/REDOX_STAGE_0.7.0.md) · [Model assumptions](docs/ASSUMPTIONS.md)
 
 ## Quick start
 
-Get the code from [GitHub](https://github.com/osmirnoff02-cloud/motoneuron) using **Code → Download ZIP**, then extract it, or run:
+Clone the repository and create a Python **3.12** virtual environment. Installation uses the pinned dependencies. The simulations run locally.
 
 ```bash
 git clone https://github.com/osmirnoff02-cloud/motoneuron.git
 cd motoneuron
+python3.12 -m venv .venv
+source .venv/bin/activate
 ```
 
-Use Python **3.12**. The tested system and measured runtime are recorded in [validation](docs/VALIDATION.md). Run from the repository directory.
+On Windows PowerShell, use `py -3.12 -m venv .venv` followed by `.\.venv\Scripts\Activate.ps1` for the environment setup. The original export validation used Windows. [Validation record](docs/VALIDATION.md)
 
-Windows PowerShell:
-
-```powershell
-py -3.12 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
-.\.venv\Scripts\python.exe -I -B -X utf8 verify_package.py
-.\.venv\Scripts\python.exe -I -B -X utf8 run_demo.py --protocol smoke --check-restart --output outputs/smoke
-.\.venv\Scripts\python.exe -I -B -X utf8 tests/check_output.py outputs/smoke
-```
-
-Python-venv equivalent for Linux/macOS (not platform-validated by this release):
+From the repository directory, run:
 
 ```bash
-python3.12 -m venv .venv
-.venv/bin/python -m pip install -r requirements-lock.txt
-.venv/bin/python -I -B verify_package.py
-.venv/bin/python -I -B run_demo.py --protocol smoke --check-restart --output outputs/smoke
-.venv/bin/python -I -B tests/check_output.py outputs/smoke
+python -m pip install -r requirements-lock.txt
+python -I -B -X utf8 verify_package.py
+python -I -B -X utf8 run_demo.py --protocol smoke --check-restart --output outputs/smoke
 ```
 
-The smoke example integrates **all states for 20 ms**, checks numerical balances and optionally compares checkpoint continuation with an uninterrupted 40-ms calculation. It is an installation/regression check, not a long-term biological validation. Initial imports and Numba compilation can take minutes. A reused output directory is rejected; choose a new name for each run. Nothing is automatically deleted.
+The smoke test integrates all default states for 20 ms, checks numerical balances, and verifies checkpoint continuation against uninterrupted integration. Each run needs a new output directory. On the Windows reference platform, also run `python -I -B -X utf8 tests/check_output.py outputs/smoke` to compare against the bundled numerical reference. The checker requires bitwise equality of the initial baseline. On macOS ARM64, the smoke run and restart passed, while few-bit differences in the baseline tripped that check.
 
-## An electrical example
+## Run an experiment
 
-```powershell
-.\.venv\Scripts\python.exe -I -B -X utf8 run_demo.py --protocol pulse --profile Burley --candidate C08 --current-pa 25 --output outputs/pulse25
-.\.venv\Scripts\python.exe -I -B -X utf8 tests/check_output.py outputs/pulse25
+```bash
+python -I -B -X utf8 run_demo.py --protocol pulse --profile Burley --candidate C08 --current-pa 25 --output outputs/pulse25
+python -I -B -X utf8 run_demo.py --protocol smoke --redox-v15 --check-restart --output outputs/redox-smoke
 ```
 
-This is a 25-pA step from 0.2 to 0.7 s, followed by 1 s recovery. The historical model regression target is **4 spikes during the step**. It is not a new independent human measurement. The example writes `figure.png`, `timeseries.csv`, numerical checks, configuration, provenance and the complete final checkpoint. Full trajectories are saved for the smoke test; add `--full-trace` for other protocols if needed. Large generated files stay under ignored `outputs/`.
+The 25 pA pulse has a historical regression target of four spikes during the current step. The redox option selects the fixed C08 parameterization and supports fresh smoke and pulse runs. The prepared checkpoint for the published long redox runs is outside this package. For the earlier model, `rest72` prepares a checkpoint and `load36` compares control, continuous, and repeated AMPA activation schedules from matching checkpoints. [Protocol options and commands](docs/RUNNING.md)
 
-[Extended protocols and outputs](docs/RUNNING.md) · [Selected historical results](results/README.md) · [Parameter inventory](parameters/README.md) · [Data availability](docs/DATA.md)
+Each run writes a summary, configuration, provenance, checkpoint, selected time series, and a figure. Smoke runs also save a full-state trace. Use `--full-trace` to save one for another protocol. [Output formats](docs/RUNNING.md#files-written) · [Bundled results](results/README.md)
 
-## What would help
+## Explore the repository
 
-- Review the equations, units, state ownership and conservation accounting.
-- Supply or identify matched human iPSC-MN KCNQ activation/deactivation, passive Na/K/Cl and pump/recovery measurements, with recording solutions, temperature, cell maturity and morphology.
-- Propose independent protocols that distinguish competing mechanisms and falsify model assumptions.
-- Check reproducibility and report problems using the issue templates; preserve the exact candidate, configuration and version.
+| Path | Contents |
+| --- | --- |
+| [run_demo.py](run_demo.py) | Supported entry point for simulations |
+| [data/neuron-model](data/neuron-model/README.md) | Integrated model, interface, and state layout |
+| [data](data/README.md) | Dated model components and source-linked inputs |
+| [parameters](parameters/README.md) | Parameter inventory, scenario settings, and experimental data catalog |
+| [docs](docs/README.md) | Model documentation, assumptions, and validation |
+| [provenance](provenance/README.md) | Package checksums, source records, and release verification |
+| [CHANGELOG.md](CHANGELOG.md) | Release history |
 
-Core limitations include unresolved long-duration potassium recovery, incomplete PMCA/proton/pH coupling, uncertain absolute molecular pools and rates, and incomplete human calibration. A numerical pass does not remove these limitations. Negative historical outcomes are included.
+## Contribute or cite
 
-## Provenance and reuse
+The project seeks experimental data for 43 groups of unresolved model questions. Matched measurements from human iPSC-derived motor neurons, including recording conditions, cell maturity, and morphology, can help constrain competing mechanisms. Model reviews and reproducibility reports are also welcome. [Experimental data requests](DATA_REQUESTS.md) · [Contributing](CONTRIBUTING.md) · [Issue templates](.github/ISSUE_TEMPLATE/README.md)
 
-The computational source layout retains dated directories to preserve path-based imports. [The source manifest](provenance/source_manifest.json) identifies each original relative path and both source/export SHA-256 values. Two legacy import paths were made lazy to avoid loading NEURON for a SciPy/Numba calculation; equations and numerical parameter values were not changed. The original private Git history, correspondence, patient records, downloaded papers and software installations are not included.
+Use the project citation when referencing this software. [Citation metadata](CITATION.cff) · [Project mission](MISSION.md)
 
-Original project material in this release is offered under **Motoneuron Noncommercial Research License 1.0**, subject to the prior-license and third-party exceptions described above. The [mission](MISSION.md) is a statement of purpose, not an extra license condition. Third-party software and data retain their own terms; [AGPL for 0.1.2 is preserved](provenance/AGPL-3.0-0.1.2.txt).
+## License
 
-Repository: [https://github.com/osmirnoff02-cloud/motoneuron](https://github.com/osmirnoff02-cloud/motoneuron). Maintained through the `osmirnoff02-cloud` account. Citation uses project-level attribution; a complete list of human contributors has not been supplied. This snapshot does not include later development in the private workspace. See [third-party notes](THIRD_PARTY_NOTICES.md), [citation](CITATION.cff) and [release checklist](PUBLICATION_CHECKLIST.md). Computational code was developed with AI assistance.
-
-
-## Acid-removal stage 0.3.0
-
-[New optional 4431-state scenario, results and commands](docs/ACID_STAGE_0.3.0.md). Prior 4425-state demo remains available with acid disabled. Human calibration and waveform limitations remain.
+The Motoneuron Noncommercial Research License 1.0 permits noncommercial scientific research. Commercial use of material offered only under these terms requires a separate written agreement. Version 0.1.2 remains available under AGPL-3.0-only, and separately licensed third-party material retains its terms. [License](LICENSE.txt) · [Commercial enquiries](COMMERCIAL_LICENSE.md) · [License scope](docs/LICENSE_SCOPE.md) · [Third-party notices](THIRD_PARTY_NOTICES.md)

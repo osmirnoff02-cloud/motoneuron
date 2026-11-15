@@ -2,10 +2,9 @@ MOTONEURON NONCOMMERCIAL RESEARCH LICENSE 1.0
 Effective for release 0.2.0 and later releases expressly carrying this license.
 Date: 2026-11-14
 
-Copyright (c) 2026 Максим Смирнов (Maxim Smirnov) and
-Олег Смирнов (Oleg Smirnov), for their original contributions.
-Together, the "Licensors". All rights reserved except as expressly granted below
-or under an independently applicable license.
+The "Licensors" are the two parties who originally offered their respective
+contributions under this license. All rights reserved except as expressly granted
+below or under an independently applicable license.
 Commercial licensing enquiries: osmirnoff02@gmail.com
 
 1. Scope and prior versions
@@ -102,6 +101,5 @@ permissions already granted for a received version.
 
 This is a custom source-available research license, not the GNU AGPL and not
 an OSI-approved open-source license. It is not a completed commercial contract.
-The English text in this file states these terms; the Russian explanation in
-docs/LICENSE_SCOPE.md is a summary. A separate commercial agreement may
+This file states the license terms. A separate commercial agreement may
 specify its own language and governing law. Mandatory applicable law prevails.

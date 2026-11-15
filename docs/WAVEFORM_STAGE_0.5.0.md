@@ -21,7 +21,7 @@ Fresh 72-hour preparation plus paired 36-hour continuous/repeated/control protoc
 
 Historical 23°C / external Na145mM conditions remain; publication baths, absolute waveform/Na currents, molecular stationarity and human calibration are still open. Burley50 rest-referenced half-height width decreased, Con2 15/25 widths increased slightly, and Burley spike height increased. The main gain is post-discharge recovery, not a demonstrated global waveform fit. Long potassium recovery does not establish these. The approximate search contains a frozen-molecular correction, but that correction is absent from the full accepted simulations and public model. No ion resets or extra restoring fluxes were added.
 
-[Acceptance](../results/waveform_acceptance_results.json) · [Numerical refinement](../results/waveform_refinement.json) · [Parameters](../parameters/waveform_selected.json) · [Ranges](../parameters/waveform_ranges.json).
+[Acceptance](../results/waveform_acceptance_results.json) · [Waveform metrics figure](../results/waveform_comparison.png) · [Potassium and energy figure](../results/potassium_energy.png) · [Numerical refinement](../results/waveform_refinement.json) · [Parameters](../parameters/waveform_selected.json) · [Ranges](../parameters/waveform_ranges.json).
 
 Existing noncommercial research license and prior AGPL rights retained. No primary downloaded data, private Git history, correspondence or environments included.
 

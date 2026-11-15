@@ -54,7 +54,7 @@ Checks in the working project: all 9 historical initial Burley/Selvaraj protocol
 - The package also contains later, **dormant** opt-in code that the current model interface imports: a standalone donor GLUT/HK–carbon module, a carbon-coupling adapter and a GSH-turnover observer. They are off by default, are not part of the validated 4503-state runs and are work in progress.
 - Long AMPA protocols are average-opening schedules, not continuous action-potential firing. Historical spike counts are regression targets, not independent human measurements.
 
-[Results](../results/redox_results.json) · [Verification](../results/redox_verification.json) · [Unit checks](../results/redox_unit_checks.json) · [Trajectories](../results/redox_trajectories.png) · [Assumptions and ranges](../parameters/redox_assumptions.json).
+[Results](../results/redox_results.json) · [Verification](../results/redox_verification.json) · [Unit checks](../results/redox_unit_checks.json) · [Scenario summary figure](../results/redox_summary.png) · [Assumptions and ranges](../parameters/redox_assumptions.json).
 
 GLUT/HK code in `data/2026-11-15-donor-carbon` is adapted from Blue Brain Project/EPFL material under Apache-2.0; its [license](../data/2026-11-15-donor-carbon/LICENSE_BlueBrain.txt) and [notice](../data/2026-11-15-donor-carbon/NOTICE.txt) are included. The existing noncommercial research license and prior AGPL rights are retained. No correspondence, primary article downloads, personal data or private Git history are included.
 

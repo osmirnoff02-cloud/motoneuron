@@ -29,7 +29,7 @@ Later fitting bounds can differ from these initial-screen choices. The catalogue
 
 ## Complete request list
 
-Each stable U identifier can be used in an issue, dataset description or correspondence. The numerical entries linked to a group are in [parameters/data_requests.json](parameters/data_requests.json), under `records` filtered by `question_id`. Original units, source notes and classification text are retained in their source language to avoid silently changing their meaning; the English descriptions below explain the requested measurements. Units inferred only from field names remain provisional. An unresolved unit is a request for clarification, not permission to assume one.
+Each stable U identifier can be used in an issue, dataset description or correspondence. The numerical entries linked to a group are in [parameters/data_requests.json](parameters/data_requests.json), under `records` filtered by `question_id`. The catalogue presents units, source notes, and classifications in English. The descriptions below explain the requested measurements. Units inferred only from field names remain provisional. An unresolved unit is a request for clarification, not permission to assume one.
 
 ### U01 — Electrical properties and soma–neurite geometry
 

@@ -6,9 +6,9 @@ Python packages are installed as dependencies; their source distributions, binar
 
 The copied scientific code retains original author annotations and paths. Some inputs encode numbers or derived recipes from published work; those annotations, URLs and source limitations are retained. The source-link index is not a legal clearance statement. Review attribution and redistribution terms of derived third-party data and any adapted equations/code before public release. No publisher PDFs or software installers are bundled.
 
-On 2026-11-14, after publishing 0.1.2 under AGPL-3.0-only, the user selected noncommercial-research/commercial-agreement terms for releases from 0.2.0 and named Maxim Smirnov and Oleg Smirnov as rightsholders. Neither decision relicenses third-party materials or withdraws prior AGPL permissions. See [licensing scope](docs/LICENSE_SCOPE.md).
+On 2026-11-14, after publishing 0.1.2 under AGPL-3.0-only, the user selected noncommercial-research/commercial-agreement terms for releases from 0.2.0. Third-party licenses and prior AGPL permissions continue to apply. See [licensing scope](docs/LICENSE_SCOPE.md).
 
-The user named Maxim Smirnov and Oleg Smirnov as project rightsholders. A complete scientific contributor list has not been asserted. Code was developed with AI assistance. Do not list Codex or Claude as human scientific authors, and do not infer collaborator consent from a name in a cited paper.
+A complete scientific contributor list has not been asserted. Code was developed with AI assistance. Do not list Codex or Claude as human scientific authors, and do not infer collaborator consent from a name in a cited paper.
 
 ## Blue Brain / EPFL creatine-kinase adaptation
 
